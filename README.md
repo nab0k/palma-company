@@ -14,6 +14,6 @@ DNS records for GitHub Pages:
 | A | @ | 185.199.109.153 |
 | A | @ | 185.199.110.153 |
 | A | @ | 185.199.111.153 |
-| CNAME | www | USERNAME.github.io |
+| CNAME | www | nab0k.github.io |
 
 Keep the existing `MX` record if mailbox hosting should continue working.
