@@ -1,24 +1,161 @@
-<!doctype html>
-<html lang="uk">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Palma Company</title>
-    <meta
-      name="description"
-      content="Palma Company website is getting ready."
-    >
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <main class="page">
-      <section class="intro" aria-label="Palma Company">
-        <p class="eyebrow">palma.company</p>
-        <h1>Palma Company</h1>
-        <p class="lead">
-          Сайт готується до запуску. Незабаром тут з'явиться повна версія.
-        </p>
-      </section>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palma - Strategy studio, Lisbon</title>
+<meta name="description" content="Palma. Strategy without the agency tax. A one-strategist studio for startups that need senior thinking. Coming soon.">
+<style>
+  :root{
+    --ink:#1c2620;
+    --cream:#faf6ee;
+    --green:#2f4a3c;
+    --green-deep:#1c2f26;
+    --gold:#c8a15a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;}
+  body{
+    font-family:'Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif;
+    background:radial-gradient(120% 120% at 15% 10%, #24382e 0%, var(--green-deep) 45%, var(--ink) 100%);
+    color:var(--cream);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:6vw 6vw;
+    position:relative;
+    overflow:hidden;
+  }
+  body::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(200,161,90,0.10), transparent 45%),
+      radial-gradient(circle at 10% 90%, rgba(200,161,90,0.06), transparent 40%);
+    pointer-events:none;
+  }
+  .wrap{
+    max-width:640px;
+    width:100%;
+    position:relative;
+    z-index:1;
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:0.28em;
+    font-size:0.72rem;
+    color:var(--gold);
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    margin-bottom:2rem;
+    opacity:0.9;
+  }
+  h1{
+    font-size:clamp(2.4rem, 6vw, 4rem);
+    font-weight:400;
+    line-height:1.05;
+    letter-spacing:0;
+    margin-bottom:0.4rem;
+  }
+  h1 .accent{
+    font-style:italic;
+    color:var(--gold);
+  }
+  .tagline{
+    font-size:clamp(1.05rem, 2.2vw, 1.3rem);
+    line-height:1.5;
+    color:rgba(250,246,238,0.85);
+    max-width:34ch;
+    margin:1.6rem 0 2.6rem;
+    font-style:italic;
+  }
+  .word{
+    border-top:1px solid rgba(200,161,90,0.35);
+    padding-top:1.8rem;
+    margin-bottom:2.6rem;
+  }
+  .word .ipa{
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:0.85rem;
+    letter-spacing:0.05em;
+    color:rgba(250,246,238,0.55);
+    margin-bottom:0.9rem;
+  }
+  .word ol{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:0.65rem;
+  }
+  .word li{
+    font-size:0.98rem;
+    line-height:1.5;
+    color:rgba(250,246,238,0.8);
+  }
+  .word li b{
+    color:var(--cream);
+    font-weight:600;
+  }
+  .status{
+    display:flex;
+    align-items:center;
+    gap:0.6rem;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:0.78rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:rgba(250,246,238,0.6);
+    margin-bottom:1.4rem;
+  }
+  .dot{
+    width:7px;height:7px;border-radius:50%;
+    background:var(--gold);
+    box-shadow:0 0 0 4px rgba(200,161,90,0.15);
+  }
+  .contact{
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:1rem;
+  }
+  .contact a{
+    color:var(--cream);
+    text-decoration:none;
+    border-bottom:1px solid var(--gold);
+    padding-bottom:2px;
+    transition:opacity 0.2s ease;
+  }
+  .contact a:hover{opacity:0.75;}
+  footer{
+    margin-top:3.2rem;
+    font-family:'Helvetica Neue',Arial,sans-serif;
+    font-size:0.78rem;
+    color:rgba(250,246,238,0.4);
+    letter-spacing:0.03em;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Palma &nbsp;·&nbsp; Strategy Studio</div>
+
+    <h1>Strategy without<br>the <span class="accent">agency tax.</span></h1>
+
+    <p class="tagline">A one-strategist studio for startups that need senior thinking - not an org chart.</p>
+
+    <div class="word">
+      <div class="ipa">palma /'paɫ.mɐ/ - noun, Portuguese</div>
+      <ol>
+        <li><b>1. The palm of a hand.</b> To know something completely.</li>
+        <li><b>2. Applause.</b> The sound a crowd makes when something deserves it.</li>
+        <li><b>3. The victor's palm.</b> What ideas are for.</li>
+      </ol>
+    </div>
+
+    <div class="status"><span class="dot"></span> Site under construction</div>
+
+    <p class="contact">In the meantime, say hello: <a href="mailto:nabok@palma.company">nabok@palma.company</a></p>
+
+    <footer>Born in Kyiv. Based in Lisbon. Working worldwide.</footer>
+  </div>
+</body>
 </html>
