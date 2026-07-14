@@ -239,7 +239,16 @@
       border-bottom: 1px solid var(--ink);
     }
 
-    .request-label { align-self: flex-start; margin-top: 10px; font: 400 10px/1.2 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .request-label {
+      align-self: flex-start;
+      margin-top: 10px;
+      padding: 9px 12px 8px;
+      background: var(--ink);
+      color: var(--paper);
+      font: 400 10px/1.2 var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
     .request-copy { font-family: var(--serif); font-size: clamp(48px, 7vw, 112px); line-height: .92; letter-spacing: -.055em; }
     .request-copy span { position: relative; color: var(--signal); font-style: italic; white-space: nowrap; }
     .request-copy span::after {
@@ -291,9 +300,11 @@
     }
 
     .actual-label {
-      display: block;
+      display: inline-block;
       margin-bottom: 34px;
-      color: var(--muted);
+      padding: 9px 12px 8px;
+      background: var(--signal);
+      color: var(--paper);
       font: 400 10px/1.2 var(--mono);
       letter-spacing: .12em;
       text-transform: uppercase;
@@ -831,12 +842,12 @@
         { opacity: 0, transform: 'translateY(-12px)' },
         { opacity: 0, transform: 'translateY(12px)' },
         { opacity: 1, transform: 'translateY(0)' }
-      ], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)' }));
+      ], { duration: 820, easing: 'cubic-bezier(.2,.8,.2,1)' }));
       setTimeout(() => {
         requestWord.textContent = requests[requestIndex].request;
         actualTaskCopy.textContent = requests[requestIndex].task;
-      }, 300);
-    }, 2600);
+      }, 400);
+    }, 4200);
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
