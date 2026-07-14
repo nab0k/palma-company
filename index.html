@@ -259,7 +259,7 @@
 
     .question-pivot {
       position: relative;
-      padding: 90px 0 110px 12%;
+      padding: 78px 0 110px 12%;
     }
 
     .question-pivot::before {
@@ -273,24 +273,37 @@
 
     .question-pivot h3 {
       margin: 0;
-      max-width: 810px;
+      max-width: 640px;
       font-family: var(--serif);
-      font-size: clamp(48px, 6.7vw, 106px);
+      font-size: clamp(34px, 4.2vw, 66px);
       font-weight: 300;
-      line-height: .93;
-      letter-spacing: -.055em;
+      line-height: .98;
+      letter-spacing: -.045em;
     }
 
     .question-pivot h3 em { font-weight: 500; color: var(--signal); }
 
-    .question-pivot p { max-width: 540px; margin: 32px 0 0; font-size: 17px; }
+    .actual-task {
+      max-width: 860px;
+      margin-top: 58px;
+      padding-top: 22px;
+      border-top: 1px solid var(--ink);
+    }
 
-    .question-pivot .stakes {
-      max-width: 650px;
-      margin-top: 48px;
+    .actual-label {
+      display: block;
+      margin-bottom: 34px;
+      color: var(--muted);
+      font: 400 10px/1.2 var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .actual-copy {
+      margin: 0;
       color: var(--signal);
-      font: 400 clamp(22px, 2.2vw, 34px)/1.08 var(--serif);
-      letter-spacing: -.025em;
+      font: 400 clamp(42px, 5.4vw, 84px)/.95 var(--serif);
+      letter-spacing: -.05em;
     }
 
     .method-intro {
@@ -687,14 +700,16 @@
 
       <div class="task-stage">
         <div class="request observe">
-          <span class="request-label">The stated request</span>
+          <span class="request-label">What the owner asks for</span>
           <div class="request-copy">“We need a <span id="request-word">video</span>.”</div>
         </div>
 
         <div class="question-pivot">
           <h3>What must this make <em>possible?</em></h3>
-          <p>A film may be useful. So may PR, a new identity or a LinkedIn strategy. First we need to know which door should open, whose mind should change, or what the audience should actually do.</p>
-          <p class="stakes">If nothing changes, attention stays attention. Banks stay cautious. The next market stays closed.</p>
+          <div class="actual-task">
+            <span class="actual-label">What the business may need</span>
+            <p class="actual-copy" id="actual-task-copy">Help partners understand what the company has become.</p>
+          </div>
         </div>
 
         <div class="method-intro">
@@ -800,18 +815,27 @@
       root.style.setProperty('--my', ((event.clientY / innerHeight) - .5).toFixed(3));
     }, { passive: true });
 
-    const requestWords = ['video', 'PR campaign', 'LinkedIn strategy', 'community'];
+    const requests = [
+      { request: 'video', task: 'Help partners understand what the company has become.' },
+      { request: 'PR campaign', task: 'Build a working relationship with the people whose decisions matter.' },
+      { request: 'LinkedIn strategy', task: 'Turn an existing audience into conversations about a clear offer.' },
+      { request: 'community', task: 'Give people a reason to participate, return and bring others in.' }
+    ];
     const requestWord = document.getElementById('request-word');
+    const actualTaskCopy = document.getElementById('actual-task-copy');
     let requestIndex = 0;
     setInterval(() => {
-      requestIndex = (requestIndex + 1) % requestWords.length;
-      requestWord.animate([
+      requestIndex = (requestIndex + 1) % requests.length;
+      [requestWord, actualTaskCopy].forEach((node) => node.animate([
         { opacity: 1, transform: 'translateY(0)' },
         { opacity: 0, transform: 'translateY(-12px)' },
         { opacity: 0, transform: 'translateY(12px)' },
         { opacity: 1, transform: 'translateY(0)' }
-      ], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)' });
-      setTimeout(() => { requestWord.textContent = requestWords[requestIndex]; }, 300);
+      ], { duration: 620, easing: 'cubic-bezier(.2,.8,.2,1)' }));
+      setTimeout(() => {
+        requestWord.textContent = requests[requestIndex].request;
+        actualTaskCopy.textContent = requests[requestIndex].task;
+      }, 300);
     }, 2600);
 
     const observer = new IntersectionObserver((entries) => {
