@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1713">
+  <title>Palma Test — Read the relationship</title>
+  <meta name="description" content="Read the relationship around your work through six questions — and find the next decision it can support.">
+  <link rel="canonical" href="https://palma.company/test/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://palma.company/test/">
+  <meta property="og:title" content="Palma Test — Read the relationship">
+  <meta property="og:description" content="Six questions. A relationship reading. One next decision.">
+  <meta property="og:image" content="https://palma.company/og-image-v3.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="wordmark" href="https://palma.company">Palma<i>.</i></a>
+    <span>Read the lines · Visual prototype 01</span>
+    <a href="https://palma.company/#test">About Palma ↗</a>
+  </header>
+
+  <main>
+    <section class="test-block" id="diagnostic" aria-labelledby="block-title">
+      <svg class="background-line" viewBox="0 0 900 900" aria-hidden="true">
+        <path d="M126 748C225 621 249 478 213 321C199 260 211 160 260 108M213 322C307 342 358 412 363 521M363 521C414 373 447 209 520 112M363 521C477 439 567 353 633 220M363 521C518 507 650 463 765 376M363 521C497 571 611 662 704 789"/>
+        <path d="M199 584C346 526 500 532 680 596M240 676C370 608 514 613 638 671"/>
+      </svg>
+
+      <div class="block-intro">
+        <p class="section-id">03 / Palma Test</p>
+        <h1 id="block-title">See what the relationship can <em>actually support.</em></h1>
+        <p>Palma Test is a guided diagnostic for owners, founders and advisers who have people around their work, but are unsure what kind of relationship exists — and what it can make possible.</p>
+        <div class="six-lines" aria-label="Six Palma Test lenses">
+          <span>Reciprocity</span><span>Belonging</span><span>Agency</span>
+          <span>Rhythm</span><span>Dissent</span><span>Mutual value</span>
+        </div>
+      </div>
+
+      <article class="dialog" aria-label="Palma Test conversation">
+        <header class="dialog-head">
+          <div><i></i><span>Palma Test</span></div>
+          <span id="step-label">Before we begin</span>
+        </header>
+
+        <div class="dialog-body" id="dialog-body" aria-live="polite">
+          <div class="intro-view" id="intro-view">
+            <p class="intro-label">A guided relationship diagnostic</p>
+            <h2>Is this an audience, a network, a customer base, a membership — or a community?</h2>
+            <p class="intro-copy">Palma Test reads six dimensions of the relationship between your work and the people around it. It uses evidence from your answers, leaves missing information open and avoids turning everything into a score.</p>
+            <div class="method-preview">
+              <div><b>01</b><span>Six questions</span><small>Reciprocity, belonging, agency, rhythm, dissent and mutual value.</small></div>
+              <div><b>02</b><span>A relationship reading</span><small>What kind of relationship exists now — and why.</small></div>
+              <div><b>03</b><span>A next decision</span><small>One decision and one 30-day experiment to produce evidence.</small></div>
+            </div>
+            <button class="begin-button" id="begin-button" type="button">Begin the Palma Test <b>↗</b></button>
+            <small class="time-note">Six answers · approximately 7 minutes · no score</small>
+          </div>
+
+          <div class="question-view" id="question-view" hidden>
+            <div class="palma-note" id="palma-note"></div>
+            <h2 id="dialog-question"></h2>
+            <p class="answer-hint" id="answer-hint"></p>
+
+            <form class="answer-form" id="answer-form">
+              <label for="answer">Your answer</label>
+              <textarea id="answer" required maxlength="4000"></textarea>
+              <div class="answer-meta">
+                <span><b id="answer-count">0</b> / <span id="answer-limit">4000</span></span>
+                <button type="submit">Continue <b>↗</b></button>
+              </div>
+              <p class="inline-error" id="inline-error" role="alert" hidden></p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="dialog-foot">
+          <button type="button" id="back-button" hidden>← Previous</button>
+          <span>Readings are retained for seven days, then deleted.</span>
+        </footer>
+      </article>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

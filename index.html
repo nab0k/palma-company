@@ -390,6 +390,27 @@
     .test-intro-copy p { max-width: 490px; margin: 0 0 26px; font-size: 18px; }
     .test-intro-copy .note { color: rgba(11, 23, 19, .68); }
 
+    .test-launch {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 48px;
+      min-width: min(100%, 360px);
+      margin-top: 18px;
+      padding: 17px 19px;
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--paper);
+      text-decoration: none;
+      font: 500 10px/1 var(--mono);
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      transition: background .25s, color .25s, transform .25s;
+    }
+
+    .test-launch span { color: var(--signal); }
+    .test-launch:hover { background: var(--paper); color: var(--ink); transform: translateY(-3px); }
+
     .questions { counter-reset: q; }
 
     .question {
@@ -683,7 +704,7 @@
   <nav class="nav" aria-label="Main navigation">
     <a class="wordmark" href="#top">Palma<i>.</i></a>
     <span class="nav-center">Read the lines · Palma</span>
-    <a class="nav-link" href="#test">Palma Test</a>
+    <a class="nav-link" href="/test/">Palma Test</a>
   </nav>
 
   <main id="top">
@@ -751,6 +772,7 @@
           <p>Here is what this way of working looks like in practice.</p>
           <p>A client says, “We need a community.” That can mean customers, followers, members, partners — or simply people receiving the same newsletter. Before deciding what to build, I ask six questions about the relationship already there.</p>
           <p class="note">Those questions became the Palma Test.</p>
+          <a class="test-launch" href="/test/">Take the Palma Test <span>↗</span></a>
         </div>
       </div>
 
