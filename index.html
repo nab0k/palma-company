@@ -702,6 +702,20 @@
   <style>
     body > .nav{display:none}
     .approved-hero,.approved-hero iframe{display:block;width:100%;height:100svh;border:0;background:#f2eee6}
+    .task-stage{background-image:linear-gradient(rgba(11,25,20,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(11,25,20,.05) 1px,transparent 1px)}
+    .request{min-height:34svh;border-bottom:0;padding-bottom:62px}
+    .method-intro{margin-top:0;padding-top:68px}
+    .method-intro p{max-width:560px;color:rgba(11,25,20,.84);font-size:17px;line-height:1.5}
+    .method-step{opacity:1}
+    .method-step p{color:rgba(11,25,20,.76);font-size:15px;line-height:1.45}
+    .credentials{grid-template-columns:repeat(3,1fr)}
+    .founder-lead{color:rgba(240,237,229,.92);font-size:clamp(18px,1.6vw,22px);line-height:1.5}
+    .credential p{color:rgba(240,237,229,.86);font-size:15px;line-height:1.45}
+    .assembly-head{min-height:70svh}
+    .assembly-copy aside p{color:rgba(11,25,20,.78);font-size:16px;line-height:1.5}
+    .end-actions{display:flex;gap:18px;align-items:center}
+    .circle-link-test{border-color:var(--acid);color:var(--acid)}
+    @media(max-width:880px){.credentials{grid-template-columns:1fr}.method-intro p,.method-step p{color:rgba(11,25,20,.86)}.founder-lead{color:rgba(240,237,229,.94)}.end-actions{flex-wrap:wrap}}
   </style>
 </head>
 <body>
@@ -718,7 +732,7 @@
 
     <section class="real-task" id="real-task" aria-labelledby="task-title">
       <aside class="task-aside">
-        <div class="section-id">02 / The transition</div>
+        <div class="section-id">01 / The transition</div>
         <h2 id="task-title">Community is the <span>entry point.</span> The transition is the task.</h2>
         <p class="note">The brief tells us where to look. Rarely where to build.</p>
       </aside>
@@ -729,17 +743,9 @@
           <div class="request-copy">“We need a <span id="request-word">video</span>.”</div>
         </div>
 
-        <div class="question-pivot">
-          <h3>What must this make <em>possible?</em></h3>
-          <div class="actual-task">
-            <span class="actual-label">What the business may need</span>
-            <p class="actual-copy" id="actual-task-copy">Help partners understand what the company has become.</p>
-          </div>
-        </div>
-
         <div class="method-intro">
           <div>
-            <div class="section-id">03 / Palma Method</div>
+            <div class="section-id">02 / Palma Method</div>
             <h4>Five questions before anything gets made.</h4>
           </div>
           <p>Palma helps founders, owners and leaders entering a new market, launching a new offer or changing direction. We define the decision, the people and the relationship before choosing the communications.</p>
@@ -755,34 +761,10 @@
       </div>
     </section>
 
-    <section class="test-scene" id="test" aria-labelledby="test-title">
-      <div class="test-intro">
-        <div>
-          <div class="section-id">01 / Palma Test</div>
-          <h2 id="test-title">See what the relationship can <em>actually support.</em></h2>
-        </div>
-        <div class="test-intro-copy">
-          <p>Reach tells you how many people are there. The test shows whether they can respond, participate, return and bring others in.</p>
-          <p>Six questions reveal whether you have an audience, a network or the beginnings of a community — and what to build next.</p>
-          <p class="note">About seven minutes. No score. A strategic reading.</p>
-          <a class="test-launch" href="/test/">Take the Palma Test <span>↗</span></a>
-        </div>
-      </div>
-
-      <div class="questions">
-        <article class="question"><h3>Does it <em>clap back?</em></h3><p>What do people receive in return for their participation?</p></article>
-        <article class="question"><h3>Who gets to say <em>“we”?</em></h3><p>Is there a real inside — a place where people can belong without becoming identical?</p></article>
-        <article class="question"><h3>Can people change what <em>happens?</em></h3><p>Can members contribute, lead and influence the system?</p></article>
-        <article class="question"><h3>What happens again and <em>again?</em></h3><p>Is there a rhythm, ritual or shared practice people can rely on?</p></article>
-        <article class="question"><h3>Can disagreement <em>survive?</em></h3><p>Can people challenge the organisation and still belong?</p></article>
-        <article class="question"><h3>Would both sides <em>miss it?</em></h3><p>If the relationship disappeared, would both sides lose something that matters?</p></article>
-      </div>
-    </section>
-
     <section class="founder" id="serhii" aria-labelledby="founder-title">
       <div class="founder-head">
         <div>
-          <div class="section-id">04 / Serhii Nabok</div>
+          <div class="section-id">03 / Serhii Nabok</div>
           <h2 id="founder-title">Built where communication changes <em>what happens next.</em></h2>
         </div>
         <div class="founder-person">
@@ -794,25 +776,23 @@
       </div>
 
       <div class="credentials" aria-label="Selected experience">
-        <article class="credential"><small>01</small><b>Wartime strategic communication</b><p>Adviser to Ukraine’s Ministry of Defence, helping connect the Ministry, General Staff and security institutions.</p></article>
-        <article class="credential"><small>02</small><b>International institutions</b><p>Founder of a nationally recognised think tank whose clients included NATO, EU4PAR and WHO.</p></article>
-        <article class="credential"><small>03</small><b>Business and media</b><p>Former publishing CEO and editor-in-chief of a business publication.</p></article>
-        <article class="credential"><small>04</small><b>Advocacy and systems</b><p>Built platforms connecting government, industry and public stakeholders around complex reforms.</p></article>
-        <article class="credential"><small>05</small><b>Teaching the craft</b><p>Twelve years teaching communication at the Institute of International Relations.</p></article>
+        <article class="credential"><small>01</small><b>Defence and public affairs</b><p>Adviser to Ukraine’s Ministry of Defence; strategic communication under wartime pressure.</p></article>
+        <article class="credential"><small>02</small><b>Institutions and policy</b><p>Founder of a think tank trusted by NATO, EU4PAR and WHO.</p></article>
+        <article class="credential"><small>03</small><b>Business and media</b><p>Former publishing CEO, editor-in-chief and builder of advocacy platforms.</p></article>
       </div>
     </section>
 
     <section class="assembly" id="assembly" aria-labelledby="assembly-title">
       <div class="assembly-head">
-        <div class="assembly-kicker section-id">05 / Palma Assembly</div>
-        <h2 id="assembly-title">Strategy first. Then the team the decision <em>requires.</em></h2>
+        <div class="assembly-kicker section-id">04 / How Palma works</div>
+        <h2 id="assembly-title">One decision. The right specialists. <em>No agency theatre.</em></h2>
       </div>
 
       <div class="assembly-copy">
-        <p>Research, writing, identity, film, digital products, PR or community — the task decides the team.</p>
+        <p>I stay accountable for the whole engagement. The team expands only where the task requires it.</p>
         <aside>
-          <p>A senior, modular team assembled around the decision — without the overhead of a conventional agency.</p>
-          <p>I lead the work from the first conversation to delivery.</p>
+          <p>You work with one strategic lead. I bring in senior specialists for research, narrative, identity, film, digital, PR or community.</p>
+          <p>No standing team to feed. No predetermined deliverable to sell.</p>
           <div class="disciplines" aria-label="Production capabilities">
             <span>Research</span><span>Strategy</span><span>Writing</span><span>Identity</span><span>Film</span><span>Digital</span><span>PR</span><span>Community</span><span>Campaigns</span>
           </div>
@@ -820,8 +800,8 @@
       </div>
 
       <div class="assembly-rule">
-        <div><small>First</small><p>Make the right decision.</p></div>
-        <div><small>Then</small><p>Make it real.</p></div>
+        <div><small>01 / Diagnose</small><p>Make the transition and the people around it clear.</p></div>
+        <div><small>02 / Deliver</small><p>Build only what can move the relationship forward.</p></div>
       </div>
     </section>
 
@@ -829,15 +809,15 @@
       <h2>Make the next move <em>clear.</em></h2>
       <div>
         <p>Take the test if community is the question. Book a call if the transition is already clear.</p>
-        <a class="circle-link" href="https://calendly.com/serhii-nabok/30min" target="_blank" rel="noopener">Start a<br>conversation<br>↗</a>
+        <div class="end-actions">
+          <a class="circle-link circle-link-test" href="/test/">Take the<br>Palma Test<br>↗</a>
+          <a class="circle-link" href="https://calendly.com/serhii-nabok/30min" target="_blank" rel="noopener">Start a<br>conversation<br>↗</a>
+        </div>
       </div>
     </section>
   </main>
 
   <script>
-    const pageMain = document.querySelector('main');
-    pageMain.insertBefore(document.querySelector('.test-scene'), document.querySelector('.real-task'));
-
     const root = document.documentElement;
     window.addEventListener('pointermove', (event) => {
       root.style.setProperty('--mx', ((event.clientX / innerWidth) - .5).toFixed(3));
@@ -851,11 +831,10 @@
       { request: 'community', task: 'Give people a reason to participate, return and bring others in.' }
     ];
     const requestWord = document.getElementById('request-word');
-    const actualTaskCopy = document.getElementById('actual-task-copy');
     let requestIndex = 0;
     setInterval(() => {
       requestIndex = (requestIndex + 1) % requests.length;
-      [requestWord, actualTaskCopy].forEach((node) => node.animate([
+      [requestWord].forEach((node) => node.animate([
         { opacity: 1, transform: 'translateY(0)' },
         { opacity: 0, transform: 'translateY(-12px)' },
         { opacity: 0, transform: 'translateY(12px)' },
@@ -863,7 +842,6 @@
       ], { duration: 820, easing: 'cubic-bezier(.2,.8,.2,1)' }));
       setTimeout(() => {
         requestWord.textContent = requests[requestIndex].request;
-        actualTaskCopy.textContent = requests[requestIndex].task;
       }, 400);
     }, 4200);
 
