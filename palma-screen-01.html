@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palma — Screen 01</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink:#081712;
+      --paper:#f2eee5;
+      --orange:#f04c2a;
+      --acid:#d9ef4b;
+      --blue:#18b5cf;
+      --serif:"Fraunces",Georgia,serif;
+      --sans:"Manrope",Arial,sans-serif;
+      --mono:"DM Mono",monospace;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:var(--ink);color:var(--ink)}
+    body{font-family:var(--sans)}
+    a{color:inherit}
+    ::selection{background:var(--acid);color:var(--ink)}
+
+    .screen{
+      height:100svh;
+      min-height:100svh;
+      display:grid;
+      grid-template-columns:minmax(300px,20fr) minmax(0,45fr);
+      grid-template-rows:72fr 28fr;
+      gap:1px;
+      background:var(--ink);
+      border:1px solid var(--ink);
+    }
+
+    .film{
+      position:relative;
+      overflow:hidden;
+      background:
+        radial-gradient(circle at 62% 47%,rgba(24,181,207,.13),transparent 24%),
+        linear-gradient(135deg,#0e261f 0%,var(--ink) 62%);
+      color:var(--paper);
+    }
+
+    .film:after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background-image:
+        linear-gradient(rgba(242,238,229,.07) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(242,238,229,.07) 1px,transparent 1px);
+      background-size:76px 76px;
+      mask-image:linear-gradient(110deg,transparent 0,#000 34%,#000 100%);
+    }
+
+    .wordmark{
+      position:absolute;
+      z-index:4;
+      top:28px;
+      left:34px;
+      margin:0;
+      font:600 30px/1 var(--serif);
+      letter-spacing:-.055em;
+    }
+
+    .wordmark i{color:var(--orange);font-style:normal}
+
+    .film-status,
+    .eyebrow,
+    .test-meta,
+    .statement-meta{
+      font:500 10px/1.35 var(--mono);
+      letter-spacing:.13em;
+      text-transform:uppercase;
+    }
+
+    .film-status{position:absolute;z-index:4;left:34px;bottom:30px;color:var(--acid);opacity:0;animation:label-cycle 15s cubic-bezier(.4,0,.2,1) 12.5s infinite}
+
+    .film-placeholder{position:absolute;z-index:2;inset:0;overflow:hidden;background:#04100d}
+    .palm-image{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(.76) contrast(1.12) saturate(.8)}
+    .palm-notes{position:absolute;z-index:3;inset:0;pointer-events:none}
+    .palm-note{
+      position:absolute;
+      inset:0;
+      color:var(--paper);
+      opacity:0;
+      animation:label-cycle 15s cubic-bezier(.4,0,.2,1) infinite;
+    }
+    .palm-note span{
+      position:absolute;
+      max-width:145px;
+      font:400 clamp(11px,.9vw,14px)/1.08 "Bradley Hand","Marker Felt","Comic Sans MS",cursive;
+      letter-spacing:.025em;
+      text-shadow:0 2px 8px #000;
+    }
+    .palm-note svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 4px #000)}
+    .palm-note svg path{vector-effect:non-scaling-stroke;stroke-dasharray:100;stroke-dashoffset:100;animation:arrow-cycle 15s cubic-bezier(.4,0,.2,1) infinite}
+    .note-product,.note-product svg path{animation-delay:0s}
+    .note-marketer,.note-marketer svg path{animation-delay:2.5s}
+    .note-dashboard,.note-dashboard svg path{animation-delay:5s}
+    .note-people,.note-people svg path{animation-delay:7.5s}
+    .note-community,.note-community svg path{animation-delay:10s}
+    .note-product span{left:4%;top:48%;transform:rotate(-4deg)}
+    .note-marketer{color:var(--acid)}.note-marketer span{right:4%;top:27%;text-align:right;transform:rotate(3deg)}
+    .note-dashboard span{right:3%;top:57%;text-align:right;transform:rotate(-2deg)}
+    .note-people{color:var(--acid)}.note-people span{left:4%;top:35%;transform:rotate(-3deg)}
+    .note-community span{right:3%;top:58%;text-align:right;transform:rotate(3deg)}
+
+    @keyframes label-cycle{
+      0%,100%{opacity:0;transform:translateY(4px)}
+      3%,16.667%{opacity:1;transform:translateY(0)}
+      19.5%,99%{opacity:0;transform:translateY(-3px)}
+    }
+    @keyframes arrow-cycle{
+      0%,100%{stroke-dashoffset:100;opacity:0}
+      2%{stroke-dashoffset:100;opacity:1}
+      7%,16.667%{stroke-dashoffset:0;opacity:1}
+      19.5%,99%{stroke-dashoffset:100;opacity:0}
+    }
+
+    .test-card{
+      display:grid;
+      grid-template-rows:auto 1fr auto;
+      padding:32px clamp(28px,3vw,54px) 38px;
+      background:var(--orange);
+    }
+
+    .test-top{display:flex;align-items:center}
+    .eyebrow{color:var(--ink)}
+
+    .test-copy{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(230px,.65fr);gap:5vw;align-items:end;margin:auto 0}
+    .test-card h2{
+      margin:28px 0 18px;
+      max-width:680px;
+      font:300 clamp(46px,4.2vw,76px)/.94 var(--serif);
+      letter-spacing:-.055em;
+    }
+    .test-card h2 em{color:var(--paper);font-weight:500}
+    .test-card p{max-width:360px;margin:0 0 24px;font-size:16px;line-height:1.52}
+
+    .test-bottom{display:grid;grid-template-columns:1fr minmax(280px,360px);gap:28px;align-items:center;padding-top:20px;border-top:1px solid var(--ink)}
+    .test-meta{margin:0}
+    .test-link{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      width:100%;
+      padding:17px 18px;
+      background:var(--ink);
+      color:var(--paper);
+      text-decoration:none;
+      font:500 10px/1 var(--mono);
+      letter-spacing:.11em;
+      text-transform:uppercase;
+      transition:transform .2s,box-shadow .2s;
+    }
+    .test-link:hover{transform:translateY(-3px);box-shadow:0 7px 0 var(--acid)}
+    .test-link span{color:var(--orange)}
+
+    .statement{
+      grid-column:1/-1;
+      display:grid;
+      grid-template-columns:minmax(0,1.62fr) minmax(260px,.38fr);
+      gap:5vw;
+      align-items:end;
+      padding:26px 4vw 28px;
+      background:var(--paper);
+    }
+
+    .statement h1{
+      margin:0;
+      max-width:1500px;
+      font:300 clamp(40px,4.2vw,78px)/.93 var(--serif);
+      letter-spacing:-.055em;
+    }
+    .statement h1 em{color:var(--orange);font-weight:500}
+    .statement-side{align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;border-left:1px solid rgba(8,23,18,.28);padding-left:24px}
+    .statement-side p{margin:0;max-width:360px;font-size:14px;line-height:1.55;color:#66706a}
+    .statement-meta{color:var(--orange)}
+
+    @media(max-width:900px){
+      .screen{display:block;height:auto;border:0}
+      .film{min-height:58svh;border-bottom:1px solid var(--ink)}
+      .wordmark{top:22px;left:20px}.film-status{left:20px;bottom:20px}
+      .film-placeholder{inset:0}.palm-image{object-position:center top}
+      .test-card{display:flex;min-height:560px;padding:27px 22px 30px}.test-copy{display:block;margin:auto 0}.test-card h2{font-size:clamp(48px,14vw,68px)}.test-card p{margin-bottom:0}.test-bottom{display:block}.test-meta{margin-bottom:14px}
+      .statement{display:block;padding:65px 22px 60px}.statement h1{font-size:clamp(43px,12.5vw,62px)}
+      .statement-side{margin-top:45px;padding:22px 0 0;border-left:0;border-top:1px solid rgba(8,23,18,.28);gap:30px}
+    }
+
+    @media(prefers-reduced-motion:reduce){.palm-note{animation:none;opacity:0}.palm-note svg path{animation:none}.note-product{opacity:1;transform:none}.note-product svg path{stroke-dashoffset:0;opacity:1}.film-status{animation:none;opacity:0}}
+  </style>
+</head>
+<body>
+  <main class="screen">
+    <section class="film" aria-label="Palma hero image">
+      <div class="wordmark">Palma<i>.</i></div>
+      <div class="film-status">Read the relationship</div>
+      <div class="film-placeholder" aria-hidden="true">
+        <img class="palm-image" src="assets/palma-hand-negative.jpg" alt="">
+        <div class="palm-notes">
+          <div class="palm-note note-product" data-target-x="560" data-target-y="760"><span>your product’s<br>lifeline</span><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="100"/></svg></div>
+          <div class="palm-note note-marketer" data-target-x="700" data-target-y="735"><span>your marketer’s<br>head line</span><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="100"/></svg></div>
+          <div class="palm-note note-dashboard" data-target-x="635" data-target-y="860"><span>the line your<br>dashboard missed</span><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="100"/></svg></div>
+          <div class="palm-note note-people" data-target-x="720" data-target-y="650"><span>people start<br>talking back here</span><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="100"/></svg></div>
+          <div class="palm-note note-community" data-target-x="805" data-target-y="700"><span>possible community.<br>needs evidence.</span><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="100"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="test-card">
+      <div class="test-top"><div class="eyebrow">Why community matters</div></div>
+      <div class="test-copy">
+        <h2>Attention can announce the move. <em>Participation</em> can help make it happen.</h2>
+        <p>Not every business needs a community. The Palma Test shows what kind of relationship exists around yours, what it can support — and whether community is the right next move.</p>
+      </div>
+      <div class="test-bottom">
+        <div class="test-meta">6 questions · About 7 minutes</div>
+        <a class="test-link" href="/test/">Take the Palma Test <span>↗</span></a>
+      </div>
+    </aside>
+
+    <section class="statement">
+      <h1>Palma helps businesses in transition make the next move clear — and bring the <em>right people</em> with it.</h1>
+      <div class="statement-side">
+        <div class="statement-meta">Palma.company · Lisbon</div>
+        <p>Strategic communication advisory for founders, owners and business leaders entering a new market, launching a new offer or changing direction.</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    (() => {
+      const frame = document.querySelector('.film-placeholder');
+      const image = document.querySelector('.palm-image');
+      const notes = [...document.querySelectorAll('.palm-note')];
+      const sourceWidth = 1120;
+      const sourceHeight = 1400;
+
+      const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+      const point = (x, y, width, height) => `${(x / width * 100).toFixed(2)} ${(y / height * 100).toFixed(2)}`;
+
+      function updateArrows() {
+        const frameRect = frame.getBoundingClientRect();
+        if (!frameRect.width || !frameRect.height) return;
+
+        const scale = Math.max(frameRect.width / sourceWidth, frameRect.height / sourceHeight);
+        const renderedWidth = sourceWidth * scale;
+        const renderedHeight = sourceHeight * scale;
+        const offsetX = (frameRect.width - renderedWidth) / 2;
+        const offsetY = matchMedia('(max-width:900px)').matches ? 0 : (frameRect.height - renderedHeight) / 2;
+
+        notes.forEach(note => {
+          const label = note.querySelector('span');
+          const path = note.querySelector('path');
+          const labelRect = label.getBoundingClientRect();
+          const targetX = Number(note.dataset.targetX) * scale + offsetX;
+          const targetY = Number(note.dataset.targetY) * scale + offsetY;
+          const left = labelRect.left - frameRect.left;
+          const right = labelRect.right - frameRect.left;
+          const top = labelRect.top - frameRect.top;
+          const bottom = labelRect.bottom - frameRect.top;
+          const gap = 11;
+
+          let startX;
+          let startY;
+          if (targetX < left - gap) {
+            startX = left - gap;
+            startY = clamp(targetY, top + 4, bottom - 4);
+          } else if (targetX > right + gap) {
+            startX = right + gap;
+            startY = clamp(targetY, top + 4, bottom - 4);
+          } else if (targetY < top) {
+            startX = clamp(targetX, left + 5, right - 5);
+            startY = top - gap;
+          } else {
+            startX = clamp(targetX, left + 5, right - 5);
+            startY = bottom + gap;
+          }
+
+          const dx = targetX - startX;
+          const dy = targetY - startY;
+          const c1x = startX + dx * .34;
+          const c1y = startY + dy * .08;
+          const c2x = startX + dx * .76;
+          const c2y = targetY - dy * .08;
+          const length = Math.hypot(targetX - c2x, targetY - c2y) || 1;
+          const ux = (targetX - c2x) / length;
+          const uy = (targetY - c2y) / length;
+          const arrowLength = 9;
+          const wing = 5;
+          const baseX = targetX - ux * arrowLength;
+          const baseY = targetY - uy * arrowLength;
+          const leftWingX = baseX - uy * wing;
+          const leftWingY = baseY + ux * wing;
+          const rightWingX = baseX + uy * wing;
+          const rightWingY = baseY - ux * wing;
+
+          path.setAttribute('d', [
+            `M${point(startX, startY, frameRect.width, frameRect.height)}`,
+            `C${point(c1x, c1y, frameRect.width, frameRect.height)} ${point(c2x, c2y, frameRect.width, frameRect.height)} ${point(targetX, targetY, frameRect.width, frameRect.height)}`,
+            `M${point(leftWingX, leftWingY, frameRect.width, frameRect.height)}`,
+            `L${point(targetX, targetY, frameRect.width, frameRect.height)}`,
+            `L${point(rightWingX, rightWingY, frameRect.width, frameRect.height)}`
+          ].join(' '));
+        });
+      }
+
+      image.addEventListener('load', updateArrows, {once:true});
+      if (image.complete) updateArrows();
+      new ResizeObserver(updateArrows).observe(frame);
+      addEventListener('resize', updateArrows, {passive:true});
+    })();
+  </script>
+</body>
+</html>
