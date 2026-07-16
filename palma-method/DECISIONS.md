@@ -2,6 +2,21 @@
 
 Major editorial, ethical, methodological, and production decisions are recorded here. Newest entries go first.
 
+## 2026-07-16 — Palma Knowledge OS v1 approved
+
+```yaml
+date: 2026-07-16
+decision: Implement Palma Knowledge OS v1 as an operational Notion layer inside the existing Palma hub while keeping GitHub canonical.
+reason: The book sprint needs visible operational state, current drafts, research coordination, and task tracking without migrating or redesigning accepted project infrastructure.
+alternatives:
+  - Keep the workflow entirely in GitHub.
+  - Replace the existing Notion hub.
+impact: Adds a Project Ledger, Chapters, Research, Tasks, and Dashboard layer; preserves all existing GitHub and Notion artifacts.
+owner: Serhii Nabok
+status: accepted
+source: governance/DECISION_0002_PALMA_KNOWLEDGE_OS_V1.md
+```
+
 ## 2026-07-16 — Repository location
 
 ```yaml
