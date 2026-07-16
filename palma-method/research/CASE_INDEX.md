@@ -2,6 +2,8 @@
 
 Cases must demonstrate a mechanism, not merely popularity or group size.
 
+Current status: no case cards were included in the Claude theoretical and Anti-Palma research package. Source cards and synthesis artifacts must not be reclassified as business cases.
+
 | ID | Organization | Period | Case type | Relationship mechanism | Chapters | Evidence quality | Status |
 |---|---|---|---|---|---|---|---|
 
