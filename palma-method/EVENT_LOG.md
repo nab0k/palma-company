@@ -76,3 +76,42 @@ artifacts:
   - https://github.com/nab0k/palma-company/pull/1
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0007
+occurred_at: 2026-07-16
+actor: Serhii Nabok
+event_type: decision
+title: Palma Knowledge OS v1 implementation scope approved
+status: accepted
+artifacts:
+  - palma-method/governance/DECISION_0002_PALMA_KNOWLEDGE_OS_V1.md
+reviewer: ChatGPT
+```
+
+```yaml
+event_id: EVT-0008
+occurred_at: 2026-07-16
+actor: Codex
+event_type: operational_system_implementation
+title: Palma Knowledge OS v1 implemented in Notion
+status: delivered
+result: Project Ledger, Dashboard, three databases, 50 records, and 10 views created
+artifacts:
+  - https://app.notion.com/p/39fc42d0b11b8145bbf5ea16d6279748
+  - palma-method/governance/IMPLEMENTATION_REPORT_TASK_CODEX_0005.md
+reviewer: ChatGPT
+```
+
+```yaml
+event_id: EVT-0009
+occurred_at: 2026-07-16
+actor: Codex
+event_type: pull_request_opened
+title: Palma Knowledge OS v1 repository mirror pull request opened
+status: awaiting_editorial_review
+result: Stacked draft pull request opened against codex/integrate-claude-research-001
+artifacts:
+  - https://github.com/nab0k/palma-company/pull/2
+reviewer: ChatGPT
+```

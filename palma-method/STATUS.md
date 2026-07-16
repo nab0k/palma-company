@@ -4,7 +4,7 @@ Last updated: 2026-07-16
 
 ## Current phase
 
-Phase 1 — research integration complete; awaiting ChatGPT editorial review.
+Phase 1 — research integration complete; Palma Knowledge OS v1 operational; awaiting ChatGPT editorial review.
 
 ## Completed
 
@@ -19,6 +19,12 @@ Phase 1 — research integration complete; awaiting ChatGPT editorial review.
 - [x] Artifacts registered with status `review`.
 - [x] Four verification restrictions preserved.
 - [x] Confidentiality inspection passed for the imported package.
+- [x] Palma Knowledge OS created inside the existing Notion hub.
+- [x] Project Ledger, Chapters, Research, Tasks, and Dashboard implemented.
+- [x] Twenty-three chapter units imported as operational Notion pages.
+- [x] Seventeen source cards and eight registered artifacts imported as operational research records.
+- [x] Ten operational database and Dashboard views created.
+- [x] Draft PR #2 opened for the Knowledge OS v1 repository mirror.
 
 ## Editorial state
 
@@ -31,7 +37,7 @@ Phase 1 — research integration complete; awaiting ChatGPT editorial review.
 
 ## Next gate
 
-ChatGPT editorial review of canonical repository artifacts.
+ChatGPT editorial review of Draft PR #1 and stacked Draft PR #2 for Knowledge OS v1.
 
 ## Next priorities after review
 
@@ -40,6 +46,7 @@ ChatGPT editorial review of canonical repository artifacts.
 - [ ] Assign primary-source verification for VI-001 through VI-003.
 - [ ] Trace or remove the VI-002 statistic.
 - [ ] Authorize manuscript integration only after evidence decisions are logged.
+- [ ] After Draft PR #1 merges, update existing Notion records to point to `main` without duplicating them.
 
 ## Risks
 
@@ -47,3 +54,4 @@ ChatGPT editorial review of canonical repository artifacts.
 - The parent worktree contains unrelated local files and must continue to use strict path-based staging.
 - Claude's verification labels describe research state but do not constitute editorial approval.
 - The original Codex YAML template and Claude fenced-YAML Markdown convention now coexist and require the correct validator.
+- Notion relations use explicit text references in v1; relational rollups are deferred until the core workflow is accepted.
