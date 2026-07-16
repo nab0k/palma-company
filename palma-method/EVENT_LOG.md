@@ -63,3 +63,16 @@ artifacts:
   - palma-method/research/ARTIFACT_INDEX.md
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0006
+occurred_at: 2026-07-16
+actor: Codex
+event_type: pull_request_opened
+title: Claude research integration pull request opened
+status: awaiting_editorial_review
+result: Draft pull request opened against main; automatic merge not performed
+artifacts:
+  - https://github.com/nab0k/palma-company/pull/1
+reviewer: ChatGPT
+```
