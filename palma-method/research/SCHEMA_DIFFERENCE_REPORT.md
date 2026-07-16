@@ -39,3 +39,17 @@ Claude's README and migration report refer to `missing-theories-and-conflicting-
 `palma-method/research/syntheses/missing-theories-and-conflicting-definitions.md`
 
 The historical migration report is preserved as delivered. This report documents the final canonical mapping.
+
+## Verification-issue ID discrepancy
+
+Claude's delivered `research/verification/claims-ledger.md` assigns:
+
+- `VI-002` to the scale-free-network limitation;
+- `VI-004` to the 50/76/40 percent trust statistic.
+
+The later approved project review and `TASK_CODEX_0003` assign those two controls in the opposite order:
+
+- `VI-002` to the 50/76/40 percent trust statistic;
+- `VI-004` to the scale-free-network limitation.
+
+The delivered Claude ledger is preserved unchanged as historical research content. The canonical operational controls in `research/verification/VERIFICATION_ISSUES.md`, the root claims ledger, and project status follow `TASK_CODEX_0003`. No verification issue has been marked resolved.
