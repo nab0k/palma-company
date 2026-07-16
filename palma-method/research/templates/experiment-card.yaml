@@ -1,0 +1,17 @@
+id: EXP-YYYYMMDD-NN
+title: ""
+date_started: YYYY-MM-DD
+owner: ""
+relationship_gap: ""
+hypothesis: ""
+intervention: ""
+participants: ""
+consent_and_ethics: []
+expected_response: ""
+signals_to_observe: []
+baseline: ""
+result: ""
+unexpected_behavior: []
+limitations: []
+decision: continue | adapt | stop | pending
+manuscript_use: ""
