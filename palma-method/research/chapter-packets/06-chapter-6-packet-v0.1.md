@@ -1,0 +1,69 @@
+# Chapter Packet v0.1: Chapter 6 — Relationship Capital
+
+```yaml
+packet_id: PKT-06
+chapter: "Chapter 6 — Relationship Capital"
+version: "0.1"
+status: draft_for_editorial_review
+owner: Claude (Research Synthesizer role)
+created_date: "2026-07-16"
+word_count_target: "1200-2000"
+word_count_actual: 1261
+```
+
+## A. Chapter Brief
+
+**Central question:** What exactly is "Relationship Capital," and why should a leader treat it as a real, manageable asset rather than a soft metaphor?
+
+**Reader problem:** "Relationship capital" gets used loosely in business writing - sometimes as a synonym for reputation, sometimes for network size, sometimes for goodwill - without a working definition precise enough to design around or measure against.
+
+**Working claim:** Relationship Capital is Palma's own applied, managerial term for a specific, buildable asset: the stock of trusted, reciprocal relationships an organization holds with its stakeholders, grounded in (but distinct from) decades of academic research on social capital, trust, and stakeholder theory. It is not, and should not be presented as, an established academic discipline in its own right.
+
+**Chapter argument:** The chapter does three things in sequence: it distinguishes Relationship Capital from its nearest academic and institutional relatives (social capital, relational capital, stakeholder capital); it states plainly that Relationship Capital is Palma's applied term, not a borrowed academic one, closing the definitional gap flagged in earlier editorial review (R-001); and it explains why this distinction matters practically - because each of the nearby terms carries assumptions (unit of analysis, measurability, intent) that would mislead a reader who assumed they were interchangeable.
+
+**Expected reader takeaway:** Relationship Capital is a company-specific, designable, and at least partially measurable asset - closer in spirit to how a CFO thinks about working capital than to how a PR team thinks about reputation - and this chapter gives the reader the vocabulary to start treating it that way.
+
+## B. Evidence Map
+
+**Relevant source cards:** SC-001 (Bourdieu), SC-002 (Coleman), SC-003 (Putnam), SC-010 (Freeman - stakeholder theory), SC-019 (IIRC Six Capitals Framework - "Social and Relationship Capital"), ART-004 (comparison table, this task's companion deliverable).
+
+**Established evidence:** The three canonical academic definitions of social capital (Bourdieu, Coleman, Putnam) are well-established and genuinely different from each other in unit of analysis and normative framing (private advantage vs. public good vs. community-level trust). The IIRC's Six Capitals framework is a real, adopted (though voluntary) corporate-reporting standard in use since 2013, and its "Social and Relationship Capital" category is the closest existing institutional cousin to Palma's term.
+
+**Supported interpretations:** That Relationship Capital should be positioned as Palma's applied managerial synthesis of this literature - not as an independent academic tradition - is the editorial decision already reached in REVIEW_CLAUDE_0001 ("Relationship Capital is treated as a Palma managerial concept... approved") and is treated here as settled, not open, per that review's Editorial Decisions section.
+
+**Unresolved claims:** "Relational capital" as used in intellectual-capital accounting literature (Edvinsson & Malone and related sources) was referenced but not directly source-carded in this research pass - flagged as Missing Evidence below.
+
+**Verification issues:** None new to this chapter; OQ-003 (Relationship Capital's definitional lineage) is now substantially - though not completely - addressed by SC-019 and this chapter's explicit framing; it should be marked "addressed" rather than "resolved" in the open-questions log, since no single external authority formally validates the term.
+
+## C. Draft v0.1
+
+Every management book eventually has to answer for its own vocabulary, and this one is no exception. "Relationship Capital" sounds established - the phrasing borrows the authority of "human capital" and "intellectual capital," terms that genuinely do have decades of academic grounding and standardized accounting treatment behind them. It would be easy, and dishonest, to let readers assume Relationship Capital carries the same pedigree. It doesn't, and this chapter is where that gets said plainly rather than left to imply itself.
+
+Relationship Capital, as used in this book, is Palma's own applied term. It is not a direct import from sociology, and it is not a formally standardized accounting category. It is grounded in real, well-established research - social capital theory, trust research, stakeholder theory, network science, and the study of communities of practice - but it is a synthesis built for a specific purpose: giving leaders a concept precise enough to diagnose, design, and (within limits) measure, rather than a concept precise enough to publish in a sociology journal. Both kinds of precision are real. They are not the same kind.
+
+To use the term responsibly, it helps to see exactly what it borrows from and what it doesn't. Social capital - the academic tradition running through Pierre Bourdieu, James Coleman, and Robert Putnam - is the deepest well this book draws from, and the three founding thinkers do not agree with each other about what social capital even is. Bourdieu treated it as an individual or family-level asset, convertible into economic advantage and unevenly distributed - social capital, in his framing, is fundamentally about who gets ahead. Coleman treated it functionally, as something that inheres in a relationship or structure rather than in either party alone - closer to a public good that benefits everyone embedded in it. Putnam scaled the concept up again, to the level of whole communities and societies, and gave the field its most usable practical vocabulary: bonding capital (the "sociological superglue" that holds a tight group together) and bridging capital (the "sociological WD-40" that connects a group to opportunity outside itself). Relationship Capital borrows from all three registers - it can operate at the level of an individual leader's network, a specific stakeholder relationship, or an organization's whole external ecosystem - without claiming to resolve the underlying academic disagreement about which level is the "real" one. That disagreement is not this book's fight to settle.
+
+The nearest institutional cousin to Palma's term is not academic at all - it comes from corporate accounting. Since 2013, the International <IR> Framework for integrated reporting has recognized six forms of capital that a business draws on and creates value from: financial, manufactured, intellectual, human, natural, and - the one that matters here - "Social and Relationship Capital," defined as the relationships an organization builds within and between communities, stakeholder groups, and networks, and their ability to exchange information in ways that enhance individual and collective well-being. This is a genuinely useful anchor: it means a version of this idea already has a foothold in how large companies disclose value to investors, which gives Relationship Capital a business-recognizable frame rather than a purely rhetorical one. It's worth being precise about what this anchor does and doesn't prove, though - the IIRC treats social and relationship capital as one *combined* category, not two separable ones, which is actually a mild argument against treating "Relationship Capital" as its own clean, independent academic term. Palma's version is narrower and more operational than the IIRC's reporting category - built for diagnosis and design inside a specific organization, not for standardized investor disclosure across an entire economy - but the kinship is real and worth naming to the reader directly.
+
+A third neighboring term, "relational capital," shows up in a smaller, more specialized literature on intellectual-capital accounting, usually as one of three components alongside human capital and structural capital. This book treats it as adjacent rather than identical - useful confirmation that businesses have tried to name and measure this territory before, not a direct source for Palma's own definition. And a fourth term worth naming and then setting aside, "stakeholder capital," does not have a standard academic definition at all; its nearest real grounding is Edward Freeman's stakeholder theory, which argues persuasively that a company's obligations extend beyond shareholders to the full set of groups it affects and is affected by - but Freeman never coined a measurable "capital" built on top of that argument, and this book won't invent one on his behalf.
+
+Put plainly, for the reader who wants the working definition in one sentence: Relationship Capital is the stock of trusted, reciprocal relationships an organization has built with the specific people and groups it depends on, drawn from established research on social capital, trust, reciprocity, stakeholder theory, network science, and communities of practice - not a synonym for reputation, not a formally standardized accounting line, and not, yet, an established academic field in its own right. It is closer to a working hypothesis this book will spend the rest of its pages trying to make operational: what would it actually look like to map it, design for it, activate it, and measure it, on purpose, the way a company already manages its financial or human capital.
+
+It also matters why this book bothers to define its central term this carefully, rather than simply using "Relationship Capital" the way most business writing uses "synergy" or "culture" - confidently, and without much interrogation. A term used loosely eventually gets used dishonestly, even by people with good intentions, because nobody has agreed on what would count as evidence for or against a claim made using it. If Relationship Capital is going to carry real weight in how a company allocates budget, structures a client engagement, or reports progress to a board, it needs the same discipline any other capital category gets: a stated definition, a stated set of things that count as building it and things that count as depleting it, and an honest acknowledgment of what currently can and cannot be measured. This chapter is the place that discipline starts, not because precision is an academic virtue for its own sake, but because vague capital is not manageable capital - a leader cannot design toward, invest in, or report progress against a term nobody has actually defined.
+
+There's a final distinction worth making before moving on, because it will matter for how the book handles measurement later: Relationship Capital is not the same claim as "relationships are valuable," which is close to a truism nobody needs a book to argue for. The specific claim is narrower and more useful - that this value is a *stock*, not just a *flow*. A single successful client interaction, one well-received campaign, one good hire is a flow event; it happens and then it's over. Relationship Capital is the accumulated, standing balance those flow events leave behind - the reason a former client picks up the phone again three years later, the reason an employee who left still refers candidates back, the reason a stakeholder gives a company the benefit of the doubt during a difficult quarter. Treating it as a stock, the way a CFO treats retained earnings rather than a single month's revenue, is what makes the rest of this book's Map, Design, Activate, and Measure framework possible at all - you cannot design a system to grow something you have only ever thought of as a series of disconnected, one-off events.
+
+That is the project the next four chapters take up directly.
+
+## D. Missing Evidence
+
+- A direct source card for "relational capital" in the intellectual-capital accounting literature (e.g., Edvinsson & Malone's Skandia Navigator work) - currently referenced only secondhand via the literature map's discussion of OQ-003; needed if Chapter 6's final draft wants to cite this lineage with a direct quotation rather than a general reference.
+- A worked example (even hypothetical, clearly labeled as illustrative rather than a real case) showing what "measuring Relationship Capital" could concretely look like for one stakeholder group, to ground the chapter's closing claim that it is "within limits" measurable.
+- Confirmation of whether ChatGPT/editorial wants the working one-sentence definition in this draft formally adopted as final wording, or held as v0.1 pending the "dedicated decision memo" referenced in REVIEW_CLAUDE_0001 (R-001) - this chapter currently assumes the memo's likely direction rather than waiting for it, per TASK_CLAUDE_0004's authorization to proceed with drafting.
+
+## E. Reusable Assets
+
+- **LinkedIn post idea:** "Relationship Capital isn't an academic discipline. It's closer to working capital - a real, buildable asset most companies have never put on a management dashboard, let alone a balance sheet."
+- **Website idea:** A short "Six Capitals" explainer page positioning Relationship Capital next to the IIRC's five other recognized forms of capital, making the business case that this is a familiar category, not a new invention.
+- **Diagram idea:** A "lineage map" showing Relationship Capital in the center with four labeled arrows pointing in from Social Capital (Bourdieu/Coleman/Putnam), Trust research, Stakeholder Theory (Freeman), and Network Science (Granovetter/Burt) - visually reinforcing "grounded in, not equal to."
+- **Client-diagnostic question:** "If you had to report your Relationship Capital to your board the way you report financial capital, what would you actually be able to show them today?"

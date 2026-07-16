@@ -1,14 +1,14 @@
 # Claude Research Package — Structural Validation
 
 Report ID: `VAL-CLAUDE-001`  
-Generated: 2026-07-16T18:11:56Z  
+Generated: 2026-07-16T23:34:04Z
 Status: **PASS**
 
 ## Result
 
-- Source cards found: 17
-- Source cards parsed: 17
-- Unique source-card IDs: 17
+- Source cards found: 23
+- Source cards parsed: 23
+- Unique source-card IDs: 23
 - Errors: 0
 - Warnings: 0
 

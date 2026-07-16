@@ -1,6 +1,6 @@
 # Source Index
 
-Seventeen source cards were imported from Claude's first theoretical and Anti-Palma research package. Every entry has passed structural validation and remains subject to ChatGPT editorial review.
+Twenty-three source cards are registered across Claude's theoretical, Anti-Palma, first drafting-wave, and Relationship Capital packages. Structural validation does not itself authorize manuscript use.
 
 | ID | Author / organization | Year | Short title | Track | Chapters | Verification status | Confidence | Card |
 |---|---|---|---|---|---|---|---|---|
@@ -21,17 +21,23 @@ Seventeen source cards were imported from Claude's first theoretical and Anti-Pa
 | SC-015 | McKinsey and Harvard Business Review | 2024–2025 | CEO Stakeholder Relationships and Trust | B | 4, 9 | verified_via_publisher_pages_summary_only | medium | `source-cards/mckinsey-hbr-2024-2025-ceo-stakeholder-trust.md` |
 | SC-016 | Alejandro Portes | 1996–2000 | The Downside of Social Capital | H | 10 | verified_via_primary_source_pdf_and_secondary_summaries | high | `source-cards/portes-1998-downside-of-social-capital.md` |
 | SC-017 | Brian Uzzi | 1997 | The Paradox of Embeddedness | H | 7, 10 | verified_via_secondary_academic_summaries_cross-checked | high | `source-cards/uzzi-1997-paradox-of-embeddedness.md` |
+| SC-018 | Paul J. Zak | 2017 | The Neuroscience of Trust | B follow-up | Intro, 8 | verified_via_primary_publisher_article | high | `source-cards/zak-2017-neuroscience-of-trust.md` |
+| SC-019 | International Integrated Reporting Council | 2013 | International IR Framework — Six Capitals | A follow-up | 6 | verified_via_primary_and_secondary_institutional_sources | high | `source-cards/iirc-2013-six-capitals-framework.md` |
+| SC-020 | Google re:Work | 2015 | Understand Team Effectiveness / Project Aristotle | B follow-up | 8 | verified_via_primary_publisher_page | high | `source-cards/google-rework-2015-2016-project-aristotle.md` |
+| SC-021 | Susan Fournier and Lara Lee | 2009 | Getting Brand Communities Right | G case | 1, 2 | checked | medium | `source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md` |
+| SC-022 | Boston Consulting Group | 2024 | From Crisis to Comeback | G case | 8 | checked | medium | `source-cards/bcg-2024-rebuilding-corporate-trust.md` |
+| SC-023 | John Urry | 2007 | Mobilities / Network Capital | A follow-up | 6 | checked | medium | `source-cards/urry-2007-network-capital.md` |
 
 ## Restrictions
 
-Structural validation does not approve evidence for manuscript use. Consult `verification/VERIFICATION_ISSUES.md` and `verification/claims-ledger.md` before using SC-006, SC-012, SC-013, or SC-015.
+Structural validation does not approve evidence for manuscript use. Consult `verification/VERIFICATION_ISSUES.md` before use. SC-018 and SC-020 resolve two source-tracing gaps only under explicit scope limits; SC-006 and SC-012 remain restricted. SC-021, SC-022, and SC-023 retain medium-confidence review status.
 
 ## Priority source queue
 
 | Priority | Question | Preferred evidence | Owner | Status |
 |---:|---|---|---|---|
-| 1 | Is Relationship Capital academically established or a Palma managerial category? | Relational-capital and intellectual-capital primary literature | ChatGPT / Claude | awaiting editorial decision |
+| 1 | Relationship Capital architecture | DECISION_0003 | Serhii | approved as Palma Method synthesis |
 | 2 | Can Ostrom's principles be page-verified? | Original 1990 text | Claude | blocked by VI-001 |
-| 3 | What is the original context for the 50/76/40 statistic? | Primary study | Claude | blocked by VI-002 |
-| 4 | Can Project Aristotle be verified from Google primary material? | Google re:Work | Claude | blocked by VI-003 |
+| 3 | What is the original context for the 50/76/40 statistic? | SC-018 / HBR publisher article | ChatGPT | resolved with correlational and self-report qualification |
+| 4 | Can Project Aristotle be verified from Google primary material? | SC-020 / Google re:Work | ChatGPT | resolved with team-effectiveness scope limit |
 | 5 | How should scale-free language be bounded? | Direct measurement or qualified use | ChatGPT | VI-004 contextual limit |
