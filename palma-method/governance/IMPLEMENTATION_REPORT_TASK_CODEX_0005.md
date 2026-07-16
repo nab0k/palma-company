@@ -16,6 +16,12 @@ Date: 2026-07-16
 - 10 views created across the databases and Dashboard.
 - GitHub and Draft PR #1 provenance attached to imported records.
 
+## Pull request
+
+- [Draft PR #2 — Implement Palma Knowledge OS v1](https://github.com/nab0k/palma-company/pull/2)
+- Base: `codex/integrate-claude-research-001`
+- Head: `codex/implement-knowledge-os-v1`
+
 ## Continuity preserved
 
 - No existing Notion page was replaced or redesigned.

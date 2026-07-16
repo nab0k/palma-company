@@ -15,6 +15,10 @@ Palma Knowledge OS v1 extends the existing Notion hub without replacing or modif
 - [Research](https://app.notion.com/p/30ceff0f30d44718a1f8d39d442e8904) — 17 source cards and 8 registered artifacts
 - [Tasks](https://app.notion.com/p/3bcaabd6f634473985339776f099d8de) — active and recently delivered authorized tasks
 
+## Delivery
+
+- [Draft PR #2 — Implement Palma Knowledge OS v1](https://github.com/nab0k/palma-company/pull/2)
+
 ## Synchronization rule
 
 GitHub remains canonical for accepted chapter snapshots, full research cards, decisions, status history, and event history. Notion is operational for current drafts and workflow state.

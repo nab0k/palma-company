@@ -102,3 +102,16 @@ artifacts:
   - palma-method/governance/IMPLEMENTATION_REPORT_TASK_CODEX_0005.md
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0009
+occurred_at: 2026-07-16
+actor: Codex
+event_type: pull_request_opened
+title: Palma Knowledge OS v1 repository mirror pull request opened
+status: awaiting_editorial_review
+result: Stacked draft pull request opened against codex/integrate-claude-research-001
+artifacts:
+  - https://github.com/nab0k/palma-company/pull/2
+reviewer: ChatGPT
+```

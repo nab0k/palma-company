@@ -24,6 +24,7 @@ Phase 1 — research integration complete; Palma Knowledge OS v1 operational; aw
 - [x] Twenty-three chapter units imported as operational Notion pages.
 - [x] Seventeen source cards and eight registered artifacts imported as operational research records.
 - [x] Ten operational database and Dashboard views created.
+- [x] Draft PR #2 opened for the Knowledge OS v1 repository mirror.
 
 ## Editorial state
 
@@ -36,7 +37,7 @@ Phase 1 — research integration complete; Palma Knowledge OS v1 operational; aw
 
 ## Next gate
 
-ChatGPT editorial review of canonical repository artifacts and Knowledge OS v1 delivery.
+ChatGPT editorial review of Draft PR #1 and stacked Draft PR #2 for Knowledge OS v1.
 
 ## Next priorities after review
 
