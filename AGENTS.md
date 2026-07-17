@@ -25,6 +25,15 @@ GitHub is canonical. Markdown in this repository is the primary working format.
 Notion is a downstream operational mirror: GitHub → Notion only. Never treat a
 Notion edit as canonical or implement bidirectional synchronization.
 
+Before asking the user to upload or resend a file, search the repository by
+name and content. A file already present in this working copy or in committed
+GitHub history must be referenced by repository, branch, commit SHA, and path;
+it must not be passed manually between agents.
+
+The local repository is the shared working copy for Claude and Codex. ChatGPT
+reviews the committed GitHub state. Uncommitted local files are not visible to
+ChatGPT and are never canonical.
+
 ## Repository map
 
 - `palma-method/governance/`: tasks, decisions, reviews, protocols, schemas, reports.
@@ -50,6 +59,31 @@ authority.
 - Do not change repository architecture, dependencies, external systems, or
   workflows silently. Record the gap and request approval first.
 - Stage only files in the active task. Never include unrelated working-tree changes.
+- Do not work directly on `main`. Use a task branch and deliver changes through
+  a pull request unless the Founder explicitly authorizes another route.
+- Do not create convenience copies named `final`, `final2`, `new`, `latest`, or
+  similar. Use stable IDs, declared versions, and append-only lineage.
+
+## Start and finish protocol
+
+Before starting a task:
+
+1. Search the repository for every named input before requesting it again.
+2. Read the active TASK, Project Ledger, relevant decisions, and local rules.
+3. Record the base branch, base commit SHA, working branch, input paths, and
+   output paths in the TASK.
+4. Inspect `git status`, fetch remote state, and compare the working branch with
+   its base. If the worktree is clean and the branch can advance without a
+   merge, update with fast-forward-only behavior. Otherwise stop and preserve
+   the existing work.
+
+After finishing a task:
+
+1. Validate only the authorized scope and review the exact diff.
+2. Commit only task files and push the task branch.
+3. Open a pull request and report repository, base branch, working branch,
+   final commit SHA, and changed paths.
+4. Other agents receive those coordinates instead of copied files.
 
 ## Privacy and evidence
 
@@ -75,6 +109,10 @@ assumptions. Do not begin a later phase without authorization.
 
 Chapter versions are append-only. A higher accepted semantic version is current;
 never overwrite an accepted version or hand-edit a generated “latest” pointer.
+
+Every TASK must state its stable task ID, assigned agent, objective, base branch,
+base commit SHA, working branch, exact input and output paths, allowed and
+forbidden changes, acceptance criteria, completion report, and final commit SHA.
 
 ## Validation and delivery
 

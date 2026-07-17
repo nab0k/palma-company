@@ -2,6 +2,20 @@
 
 Major editorial, ethical, methodological, and production decisions are recorded here. Newest entries go first.
 
+## 2026-07-17 — GitHub canonical; Notion interface only
+
+```yaml
+date: 2026-07-17
+decision: GitHub contains the single canonical committed state; Notion is a downstream interface, index, or dashboard only.
+reason: Claude, Codex, and ChatGPT need one traceable file chain without manual file transfers or parallel document versions.
+alternatives:
+  - Keep operational drafts as separate Notion versions.
+impact: Replaces only the operational-draft clause in DECISION_0002; preserves the remaining Knowledge OS scope and all existing artifacts.
+owner: Serhii Nabok
+status: accepted
+source: governance/DECISION_0004_GITHUB_CANONICAL_NOTION_INTERFACE.md
+```
+
 ## 2026-07-16 — Relationship Capital architecture approved
 
 ```yaml
