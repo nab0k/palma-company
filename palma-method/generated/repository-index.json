@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "507a04d389069462c790222567566a58409b1062ea33b95b654d9b2abef7159e",
+  "source_fingerprint": "4c46062b8fab32b58a1c91e75378a7559c3807eead5a015d2b2f1dc71b9d8479",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 117,
-    "current": 37,
-    "legacy": 57,
+    "records": 141,
+    "current": 46,
+    "legacy": 72,
     "ambiguous": 23,
-    "non_chapter_current": 26,
-    "non_chapter_legacy": 44,
+    "non_chapter_current": 29,
+    "non_chapter_legacy": 59,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 87
+    "validation_warnings": 101
   },
   "catalog": {
     "current": [
@@ -392,6 +392,24 @@
         }
       },
       {
+        "id": "TASK_CLAUDE_0011",
+        "canonical_id": "TASK_CLAUDE_0011",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0011 recovery record",
+        "path": "governance/TASK_CLAUDE_0011_RECOVERY_RECORD.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "related_to": [
+            "TASK_CODEX_0012"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0012",
         "canonical_id": "TASK_CLAUDE_0012",
         "type": "task",
@@ -405,10 +423,30 @@
         "privacy_level": "internal",
         "relationships": {
           "depends_on": [
+            "TASK_CLAUDE_0011",
             "TASK_CODEX_0009"
           ],
           "related_to": [
             "TASK_CODEX_0011"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CLAUDE_0013",
+        "canonical_id": "TASK_CLAUDE_0013",
+        "type": "task",
+        "status": "authorized",
+        "title": "TASK_CLAUDE_0013 — Sociology of Microcommunities Research v0.1",
+        "path": "governance/TASK_CLAUDE_0013_SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CLAUDE_0011",
+            "TASK_CODEX_0012"
           ]
         }
       },
@@ -499,6 +537,24 @@
         "relationships": {
           "depends_on": [
             "TASK_CODEX_0009"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0012",
+        "canonical_id": "TASK_CODEX_0012",
+        "type": "task",
+        "status": "in_progress",
+        "title": "TASK_CODEX_0012 — Recover Wave 3 inputs",
+        "path": "governance/TASK_CODEX_0012_RECOVER_WAVE_3_INPUTS.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0011"
           ]
         }
       }
@@ -1168,6 +1224,165 @@
         }
       },
       {
+        "id": "SC-029",
+        "canonical_id": "SC-029",
+        "type": "source_card",
+        "status": "checked_via_abstract_and_multiple_secondary_summaries_not_full_primary_text_read",
+        "title": "Organizational Listening: Addressing a Major Gap in Public Relations Theory and Practice",
+        "path": "research/source-cards/macnamara-2016-organizational-listening.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-013",
+            "SC-010",
+            "SC-036"
+          ]
+        }
+      },
+      {
+        "id": "SC-030",
+        "canonical_id": "SC-030",
+        "type": "source_card",
+        "status": "checked_via_multiple_secondary_summaries_and_widely_reproduced_quotations_original_journal_text_not_independently_page-verified",
+        "title": "A Ladder of Citizen Participation",
+        "path": "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-006",
+            "SC-029"
+          ]
+        }
+      },
+      {
+        "id": "SC-031",
+        "canonical_id": "SC-031",
+        "type": "source_card",
+        "status": "checked_via_hbr_listing_and_multiple_secondary_summaries_full_original_article_not_independently_re-read_in_this_pass",
+        "title": "Informal Networks: The Company Behind the Chart",
+        "path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-005",
+            "SC-004",
+            "SC-002"
+          ]
+        }
+      },
+      {
+        "id": "SC-032",
+        "canonical_id": "SC-032",
+        "type": "source_card",
+        "status": "checked_via_hbr_listing_wikipedia_and_multiple_secondary_summaries_full_original_article_not_independently_re-read_in_this_pass",
+        "title": "A Leader's Framework for Decision Making",
+        "path": "research/source-cards/snowden-boone-2007-cynefin.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-006"
+          ]
+        }
+      },
+      {
+        "id": "SC-033",
+        "canonical_id": "SC-033",
+        "type": "source_card",
+        "status": "checked_via_multiple_secondary_summaries_and_widely_reproduced_framework_description_original_book_not_independently_page-verified_in_this_pass",
+        "title": "Diffusion of Innovations",
+        "path": "research/source-cards/rogers-1962-diffusion-of-innovations.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-005",
+            "SC-004"
+          ]
+        }
+      },
+      {
+        "id": "SC-034",
+        "canonical_id": "SC-034",
+        "type": "source_card",
+        "status": "checked_via_amec_org_listing_and_multiple_secondary_summaries_primary_document_text_not_independently_re-read_in_this_pass",
+        "title": "Barcelona Principles 3.0",
+        "path": "research/source-cards/amec-2020-barcelona-principles.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-019"
+          ]
+        }
+      },
+      {
+        "id": "SC-035",
+        "canonical_id": "SC-035",
+        "type": "source_card",
+        "status": "checked_via_multiple_secondary_summaries_and_widely_reproduced_quotations_original_chapter_not_independently_page-verified_in_this_pass",
+        "title": "Nothing as Practical as Good Theory: Exploring Theory-Based Evaluation for Comprehensive Community Initiatives for Children and Families",
+        "path": "research/source-cards/weiss-1995-theory-of-change.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-006"
+          ]
+        }
+      },
+      {
+        "id": "SC-036",
+        "canonical_id": "SC-036",
+        "type": "source_card",
+        "status": "checked_via_abstract_and_multiple_secondary_summaries_not_full_primary_text_read",
+        "title": "Employee Voice and Silence",
+        "path": "research/source-cards/morrison-2014-employee-voice-and-silence.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-013",
+            "SC-029"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -1309,6 +1524,132 @@
         "relationships": {
           "affects": [
             "SC-012"
+          ]
+        }
+      },
+      {
+        "id": "VI-005",
+        "canonical_id": "VI-005",
+        "type": "verification_issue",
+        "status": "needs_primary_source",
+        "title": "Macnamara listening-resource figures require primary-text checking",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-029"
+          ]
+        }
+      },
+      {
+        "id": "VI-006",
+        "canonical_id": "VI-006",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Arnstein participation ladder has a public-to-private transfer limit",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-030"
+          ]
+        }
+      },
+      {
+        "id": "VI-007",
+        "canonical_id": "VI-007",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Advice trust and communication networks are an applied mapping method not an exhaustive taxonomy",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-031"
+          ]
+        }
+      },
+      {
+        "id": "VI-008",
+        "canonical_id": "VI-008",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Cynefin domains are a bounded sensemaking framework not empirically fixed categories",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-032"
+          ]
+        }
+      },
+      {
+        "id": "VI-009",
+        "canonical_id": "VI-009",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Rogers adopter percentages do not predict a specific organization",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-033"
+          ]
+        }
+      },
+      {
+        "id": "VI-010",
+        "canonical_id": "VI-010",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Barcelona Principles are a professional consensus standard not a causal model",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-034"
+          ]
+        }
+      },
+      {
+        "id": "VI-011",
+        "canonical_id": "VI-011",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Theory of change is methodological guidance not a validated predictive model",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-035"
           ]
         }
       }
@@ -2265,9 +2606,38 @@
     },
     {
       "canonical_id": "CHAPTER_11",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-11",
+          "canonical_id": "CHAPTER_11",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 11 — Listen",
+          "path": "research/chapter-packets/CHAPTER_11_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 11,
+          "relationships": {
+            "supported_by": [
+              "SC-010",
+              "SC-013",
+              "SC-029",
+              "SC-030",
+              "SC-036"
+            ],
+            "verifies": [
+              "VI-005",
+              "VI-006"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_11",
           "canonical_id": "CHAPTER_11",
@@ -2289,9 +2659,41 @@
     },
     {
       "canonical_id": "CHAPTER_12",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-12",
+          "canonical_id": "CHAPTER_12",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 12 — Map",
+          "path": "research/chapter-packets/CHAPTER_12_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 12,
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-010",
+              "SC-012",
+              "SC-028",
+              "SC-031"
+            ],
+            "verifies": [
+              "VI-002",
+              "VI-004",
+              "VI-007"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_12",
           "canonical_id": "CHAPTER_12",
@@ -2313,9 +2715,39 @@
     },
     {
       "canonical_id": "CHAPTER_13",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-13",
+          "canonical_id": "CHAPTER_13",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 13 — Design",
+          "path": "research/chapter-packets/CHAPTER_13_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 13,
+          "relationships": {
+            "supported_by": [
+              "SC-006",
+              "SC-009",
+              "SC-013",
+              "SC-027",
+              "SC-030",
+              "SC-035"
+            ],
+            "verifies": [
+              "VI-001",
+              "VI-011"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_13",
           "canonical_id": "CHAPTER_13",
@@ -2337,9 +2769,38 @@
     },
     {
       "canonical_id": "CHAPTER_14",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-14",
+          "canonical_id": "CHAPTER_14",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 14 — Activate",
+          "path": "research/chapter-packets/CHAPTER_14_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 14,
+          "relationships": {
+            "supported_by": [
+              "SC-005",
+              "SC-013",
+              "SC-032",
+              "SC-033",
+              "SC-036"
+            ],
+            "verifies": [
+              "VI-008",
+              "VI-009"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_14",
           "canonical_id": "CHAPTER_14",
@@ -2361,9 +2822,41 @@
     },
     {
       "canonical_id": "CHAPTER_15",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-15",
+          "canonical_id": "CHAPTER_15",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 15 — Measure",
+          "path": "research/chapter-packets/CHAPTER_15_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 15,
+          "relationships": {
+            "supported_by": [
+              "SC-014",
+              "SC-018",
+              "SC-019",
+              "SC-026",
+              "SC-034",
+              "SC-035"
+            ],
+            "verifies": [
+              "VI-002",
+              "VI-004",
+              "VI-010",
+              "VI-011"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_15",
           "canonical_id": "CHAPTER_15",
@@ -2385,9 +2878,41 @@
     },
     {
       "canonical_id": "CHAPTER_16",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-16",
+          "canonical_id": "CHAPTER_16",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.1: Chapter 16 — Connect Communication and Community",
+          "path": "research/chapter-packets/CHAPTER_16_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 16,
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-012",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-025",
+              "SC-028",
+              "SC-029"
+            ],
+            "verifies": [
+              "VI-005"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_16",
           "canonical_id": "CHAPTER_16",
@@ -3514,6 +4039,318 @@
       "source_path": "research/chapter-packets/CHAPTER_10_v0.3.md"
     },
     {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-030",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-036",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
+      "to": "VI-006",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-031",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-007",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-006",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-030",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-035",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
+      "to": "VI-001",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
+      "to": "VI-011",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-032",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-033",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-036",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-008",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-009",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-019",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-026",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-034",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-035",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-002",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-010",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-011",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
       "from": "DECISION_0004",
       "relation": "related_to",
       "to": "DECISION_0002",
@@ -4084,10 +4921,112 @@
       "source_path": "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md"
     },
     {
+      "from": "SC-029",
+      "relation": "related_to",
+      "to": "SC-010",
+      "source_path": "research/source-cards/macnamara-2016-organizational-listening.md"
+    },
+    {
+      "from": "SC-029",
+      "relation": "related_to",
+      "to": "SC-013",
+      "source_path": "research/source-cards/macnamara-2016-organizational-listening.md"
+    },
+    {
+      "from": "SC-029",
+      "relation": "related_to",
+      "to": "SC-036",
+      "source_path": "research/source-cards/macnamara-2016-organizational-listening.md"
+    },
+    {
+      "from": "SC-030",
+      "relation": "related_to",
+      "to": "SC-006",
+      "source_path": "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md"
+    },
+    {
+      "from": "SC-030",
+      "relation": "related_to",
+      "to": "SC-029",
+      "source_path": "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md"
+    },
+    {
+      "from": "SC-031",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-031",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-031",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-032",
+      "relation": "related_to",
+      "to": "SC-006",
+      "source_path": "research/source-cards/snowden-boone-2007-cynefin.md"
+    },
+    {
+      "from": "SC-033",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/rogers-1962-diffusion-of-innovations.md"
+    },
+    {
+      "from": "SC-033",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/rogers-1962-diffusion-of-innovations.md"
+    },
+    {
+      "from": "SC-034",
+      "relation": "related_to",
+      "to": "SC-019",
+      "source_path": "research/source-cards/amec-2020-barcelona-principles.md"
+    },
+    {
+      "from": "SC-035",
+      "relation": "related_to",
+      "to": "SC-006",
+      "source_path": "research/source-cards/weiss-1995-theory-of-change.md"
+    },
+    {
+      "from": "SC-036",
+      "relation": "related_to",
+      "to": "SC-013",
+      "source_path": "research/source-cards/morrison-2014-employee-voice-and-silence.md"
+    },
+    {
+      "from": "SC-036",
+      "relation": "related_to",
+      "to": "SC-029",
+      "source_path": "research/source-cards/morrison-2014-employee-voice-and-silence.md"
+    },
+    {
       "from": "TASK_CLAUDE_0007",
       "relation": "depends_on",
       "to": "DECISION_0003",
       "source_path": "governance/TASK_CLAUDE_0007_REVISE_RELATIONSHIP_CAPITAL_CHAPTERS.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0011",
+      "relation": "related_to",
+      "to": "TASK_CODEX_0012",
+      "source_path": "governance/TASK_CLAUDE_0011_RECOVERY_RECORD.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0012",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0011",
+      "source_path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md"
     },
     {
       "from": "TASK_CLAUDE_0012",
@@ -4100,6 +5039,18 @@
       "relation": "related_to",
       "to": "TASK_CODEX_0011",
       "source_path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0013",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0011",
+      "source_path": "governance/TASK_CLAUDE_0013_SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0013",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0012",
+      "source_path": "governance/TASK_CLAUDE_0013_SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH.md"
     },
     {
       "from": "TASK_CODEX_0006",
@@ -4138,6 +5089,12 @@
       "source_path": "governance/TASK_CODEX_0011_RECOVER_EDITORIAL_PIPELINE.md"
     },
     {
+      "from": "TASK_CODEX_0012",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0011",
+      "source_path": "governance/TASK_CODEX_0012_RECOVER_WAVE_3_INPUTS.md"
+    },
+    {
       "from": "VI-001",
       "relation": "affects",
       "to": "SC-006",
@@ -4159,6 +5116,48 @@
       "from": "VI-004",
       "relation": "affects",
       "to": "SC-012",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-005",
+      "relation": "affects",
+      "to": "SC-029",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-006",
+      "relation": "affects",
+      "to": "SC-030",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-007",
+      "relation": "affects",
+      "to": "SC-031",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-008",
+      "relation": "affects",
+      "to": "SC-032",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-009",
+      "relation": "affects",
+      "to": "SC-033",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-010",
+      "relation": "affects",
+      "to": "SC-034",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-011",
+      "relation": "affects",
+      "to": "SC-035",
       "source_path": "research/verification/VERIFICATION_ISSUES.md"
     }
   ]

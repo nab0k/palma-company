@@ -14,6 +14,7 @@ scope:
   - part-iii-framing
   - part-iii-to-part-iv-transition
 depends_on:
+  - TASK_CLAUDE_0011
   - TASK_CODEX_0009
 related_to:
   - TASK_CODEX_0011
@@ -40,10 +41,7 @@ Drafting**. The source role is **Research Synthesizer and Developmental
 Editor**.
 
 The source-declared dependencies are `TASK_CLAUDE_0011` and
-`TASK_CODEX_0009`. Only TASK_CODEX_0009 appears in machine-readable
-`depends_on` above because TASK_CLAUDE_0011 does not yet have a canonical
-repository record; the missing reference is preserved here rather than
-fabricated.
+`TASK_CODEX_0009`. Both now have canonical repository records.
 
 ## Exact primary objective
 

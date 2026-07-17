@@ -28,10 +28,13 @@ SOURCE_TYPES = [
   "journal_article",
   "peer_reviewed_journal_article",
   "peer_reviewed_practitioner_journal_article",
+  "practitioner_journal_article",
   "practitioner_analysis",
   "industry_report",
+  "industry_standard_framework",
   "institutional_primary_report",
   "institutional_framework_report",
+  "academic_book",
   "academic_monograph",
   "book + journal_article",
   "journal_article + book",
@@ -56,7 +59,13 @@ RESEARCH_TRACKS = [
   "TASK_CLAUDE_0008 - Wave 2, Chapter 3 grounding",
   "TASK_CLAUDE_0008 - Wave 2, Chapter 4 grounding",
   "TASK_CLAUDE_0008 - Wave 2, Chapter 5 grounding",
-  "TASK_CLAUDE_0008 - Wave 2, Chapter 9 grounding"
+  "TASK_CLAUDE_0008 - Wave 2, Chapter 9 grounding",
+  "Track G - Wave 3: Listen",
+  "Track G - Wave 3: Listen/Design",
+  "Track G - Wave 3: Map",
+  "Track G - Wave 3: Activate",
+  "Track G - Wave 3: Measure",
+  "Track G - Wave 3: Design/Measure"
 ].freeze
 
 SUPPORTING_DOCUMENTS = [
