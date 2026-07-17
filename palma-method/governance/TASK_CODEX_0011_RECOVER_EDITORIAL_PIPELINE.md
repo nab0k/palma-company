@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0011
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-17

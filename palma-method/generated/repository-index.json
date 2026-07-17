@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "a8e30ead94541428ef7b01a7286d17165e38ba48206b961a601c48cf4bffa809",
+  "source_fingerprint": "507a04d389069462c790222567566a58409b1062ea33b95b654d9b2abef7159e",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 115,
-    "current": 35,
+    "records": 117,
+    "current": 37,
     "legacy": 57,
     "ambiguous": 23,
-    "non_chapter_current": 24,
+    "non_chapter_current": 26,
     "non_chapter_legacy": 44,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -255,6 +255,26 @@
         }
       },
       {
+        "id": "REPORT_TASK_CODEX_0011",
+        "canonical_id": "REPORT_TASK_CODEX_0011",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0011 — Completion report",
+        "path": "governance/TASK_CODEX_0011_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0011",
+            "TASK_CLAUDE_0007",
+            "TASK_CLAUDE_0012"
+          ]
+        }
+      },
+      {
         "id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "canonical_id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "type": "contract",
@@ -372,6 +392,27 @@
         }
       },
       {
+        "id": "TASK_CLAUDE_0012",
+        "canonical_id": "TASK_CLAUDE_0012",
+        "type": "task",
+        "status": "blocked",
+        "title": "TASK_CLAUDE_0012 recovery record",
+        "path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0009"
+          ],
+          "related_to": [
+            "TASK_CODEX_0011"
+          ]
+        }
+      },
+      {
         "id": "TASK_CODEX_0007",
         "canonical_id": "TASK_CODEX_0007",
         "type": "task",
@@ -447,7 +488,7 @@
         "id": "TASK_CODEX_0011",
         "canonical_id": "TASK_CODEX_0011",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CODEX_0011 — Recover the Editorial Pipeline",
         "path": "governance/TASK_CODEX_0011_RECOVER_EDITORIAL_PIPELINE.md",
         "metadata_format": "frontmatter",
@@ -3593,6 +3634,24 @@
       "source_path": "governance/TASK_CODEX_0010_COMPLETION_REPORT.md"
     },
     {
+      "from": "REPORT_TASK_CODEX_0011",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0007",
+      "source_path": "governance/TASK_CODEX_0011_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0011",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0012",
+      "source_path": "governance/TASK_CODEX_0011_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0011",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0011",
+      "source_path": "governance/TASK_CODEX_0011_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REVIEW_CODEX_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -4029,6 +4088,18 @@
       "relation": "depends_on",
       "to": "DECISION_0003",
       "source_path": "governance/TASK_CLAUDE_0007_REVISE_RELATIONSHIP_CAPITAL_CHAPTERS.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0012",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0009",
+      "source_path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0012",
+      "relation": "related_to",
+      "to": "TASK_CODEX_0011",
+      "source_path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md"
     },
     {
       "from": "TASK_CODEX_0006",
