@@ -22,7 +22,8 @@ related_cards:
   - "SC-014 (Edelman 2026 Trust Barometer - complementary current macro-trust evidence)"
 core_claim: >
   This is the primary source for the "50/76/40%" statistic previously flagged as unresolved
-  (VI-004). Zak's survey-based research on oxytocin and trust found that, compared with people at
+  (canonical VI-002; historical TASK_CLAUDE_0004 ID: VI-004). Zak's survey-based research on
+  oxytocin and trust found that, compared with people at
   low-trust companies, people at high-trust companies report: 74% less stress, 106% more energy at
   work, 50% higher productivity, 13% fewer sick days, 76% more engagement, 29% more satisfaction
   with their lives, and 40% less burnout. The three numbers previously circulating in secondary
@@ -71,7 +72,7 @@ counterarguments: >
   should be explicitly justified.
 business_implication: >
   This is now the confirmed, traceable primary source for what was previously an unverified,
-  high-severity blocking claim (VI-004). It is appropriate for manuscript use in Chapter 8 and the
+  high-severity blocking claim (canonical VI-002). It is appropriate for manuscript use in Chapter 8 and the
   Introduction, provided it is (a) attributed specifically to Zak's 2017 HBR article, (b) presented
   as self-reported/correlational rather than causal, and (c) either quoted with all seven figures
   or explicitly noted as a partial subset if only some are used.
@@ -86,13 +87,16 @@ potential_linkedin_post: >
 confidence_level: high
 verification_status: verified_via_primary_publisher_article
 notes: >
-  RESOLVES VI-004 (previously high severity / blocking). The primary source has been located and
+  RESOLVES canonical VI-002 (historical TASK_CLAUDE_0004 ID: VI-004; previously high severity /
+  blocking). The primary source has been located and
   read directly (hbr.org/2017/01/the-neuroscience-of-trust). Confidence is high for the existence
   and exact wording of the statistic; confidence is medium for the underlying methodology's rigor,
   since the HBR article itself does not disclose full sample size or statistical testing detail -
   this should be noted in the manuscript as "self-reported survey research" rather than presented
-  as clinical-trial-grade evidence. The claims-ledger entry VI-004 should be updated to
+  as clinical-trial-grade evidence. The canonical claims-ledger entry VI-002 should be updated to
   status: verified with this card as the citation, and the recommendation to use only "directionally
   supported" claims can now be relaxed to allow direct citation of the seven-statistic set with
-  appropriate framing.
+  appropriate framing. Historical-to-canonical mapping: TASK_CLAUDE_0004 VI-004 (trust statistic)
+  maps to canonical VI-002; TASK_CLAUDE_0004 VI-002 (scale-free network limitation) maps to
+  canonical VI-004.
 ```

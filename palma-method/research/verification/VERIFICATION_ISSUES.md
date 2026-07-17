@@ -2,6 +2,19 @@
 
 These normalized restrictions preserve the four unresolved issues delivered by Claude. They do not replace the detailed analysis in `claims-ledger.md`.
 
+## Historical-to-canonical identifier mapping
+
+Canonical IDs in this file govern all current tasks, source cards, indexes, and manuscript controls. Historical TASK_CLAUDE_0004 artifacts retain their original task-specific IDs for provenance and must be read through this mapping:
+
+| Historical TASK_CLAUDE_0004 ID | Historical subject | Canonical ID |
+|---|---|---|
+| VI-001 | Ostrom page-level verification | VI-001 |
+| VI-002 | Scale-free network limitation | VI-004 |
+| VI-003 | Google Project Aristotle | VI-003 |
+| VI-004 | 50/76/40 trust statistic | VI-002 |
+
+Historical IDs do not override the canonical assignments below.
+
 ```yaml
 id: VI-001
 title: Ostrom eight design principles require page-level primary verification

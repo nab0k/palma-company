@@ -52,7 +52,7 @@ Do not present institutional reach or status as settled core dimensions.
 ## Work package
 
 ### A. Chapter 6 v0.3
-Make it the canonical conceptual chapter. Introduce the definition early, distinguish capital from reputation, audience, contacts, and personality, explain dyadic and portfolio levels, explain mobilizability, and introduce institutionalization using the Ankit / Adshot / Palma and Blitz-Inform / Fozzy patterns where useful.
+Make it the canonical conceptual chapter. Introduce the definition early, distinguish capital from reputation, audience, contacts, and personality, explain dyadic and portfolio levels, explain mobilizability, and introduce institutionalization using published evidence, abstract non-identifying examples, or editorial placeholders.
 
 ### B. Chapter 8 v0.2
 Keep trust and reciprocity distinct, remove status from the core, discuss “us/them” dynamics as both mechanism and risk, and separate relational value from reputation effects.
@@ -77,3 +77,4 @@ Resolve or flag unsupported Facebook metrics, the unsupported Millington example
 - Do not invent new core dimensions.
 - Do not confuse Palma’s synthesis with universal scholarly consensus.
 - Preserve readable human prose.
+- Personal stories from conversations are unavailable for manuscript or agent use unless the author explicitly approves them. Use published evidence, abstract non-identifying examples, or editorial placeholders instead.

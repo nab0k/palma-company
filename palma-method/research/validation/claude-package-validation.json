@@ -1,6 +1,6 @@
 {
   "report_id": "VAL-CLAUDE-001",
-  "generated_at": "2026-07-16T23:34:04Z",
+  "generated_at": "2026-07-17T00:26:50Z",
   "repository_root": "/Users/serhiinabok/Documents/Adshot Europe/palma-method",
   "source_card_count": 23,
   "parsed_source_card_count": 23,
@@ -77,6 +77,6 @@
     "research/source-cards/urry-2007-network-capital.md": "e2092310d4ff41cacabfb8844606444b153f9c298fee3e690ec3405244c3de84",
     "research/source-cards/uzzi-1997-paradox-of-embeddedness.md": "17097e67a488390b378c9fc5b193ec6b4844330ab1626fc911063e084519f7cc",
     "research/source-cards/wenger-1991-1998-communities-of-practice.md": "996e3b7acbe12c15538f8ade784b515e0b1634a78c19f06461082fb4de5d95d2",
-    "research/source-cards/zak-2017-neuroscience-of-trust.md": "39988800ec017e5f669812970985b3da41d2e54465671ee6b753c157d31f5053"
+    "research/source-cards/zak-2017-neuroscience-of-trust.md": "d0bd21fda7cd0b148dde1021b40b5899271ff3825f1c7c11aac81e103a7251ed"
   }
 }
