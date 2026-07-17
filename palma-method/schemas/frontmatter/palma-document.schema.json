@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://palma.company/schemas/frontmatter/palma-document.schema.json",
+  "title": "Palma structured document metadata",
+  "description": "Phase 1 design fixture. Approval and validator integration are deferred.",
+  "type": "object",
+  "required": ["id", "type", "status", "owner", "created", "privacy_level"],
+  "properties": {
+    "id": {"type": "string", "minLength": 3},
+    "type": {
+      "enum": [
+        "task", "decision", "review", "chapter", "source_card",
+        "verification_issue", "completion_report", "research_gap",
+        "change_map", "specification", "policy", "architecture", "contract"
+      ]
+    },
+    "status": {"type": "string", "minLength": 2},
+    "owner": {"type": "string", "minLength": 2},
+    "reviewer": {"type": "string"},
+    "created": {"type": "string", "format": "date"},
+    "updated": {"type": "string", "format": "date"},
+    "privacy_level": {
+      "enum": ["public", "internal", "restricted", "confidential"]
+    },
+    "title": {"type": "string"},
+    "project": {"type": "string"},
+    "priority": {"enum": ["low", "normal", "high", "critical"]},
+    "phase": {"oneOf": [{"type": "integer", "minimum": 1}, {"type": "string"}]},
+    "scope": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "task_id": {"type": "string"},
+    "authority": {"type": "string"},
+    "effective_date": {"type": "string", "format": "date"},
+    "subject_refs": {"$ref": "#/$defs/id_list"},
+    "depends_on": {"$ref": "#/$defs/id_list"},
+    "related_to": {"$ref": "#/$defs/id_list"},
+    "decision_refs": {"$ref": "#/$defs/id_list"},
+    "source_refs": {"$ref": "#/$defs/id_list"},
+    "verification_refs": {"$ref": "#/$defs/id_list"},
+    "chapter_refs": {"$ref": "#/$defs/id_list"},
+    "supersedes": {"$ref": "#/$defs/id_list"},
+    "canonical_path": {"type": "string", "pattern": "^[^/].*"},
+    "chapter_number": {"type": "integer", "minimum": 0},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+(?:\\.[0-9]+)?$"},
+    "version_status": {"$ref": "#/$defs/chapter_status"},
+    "verification_status": {"type": "string"},
+    "source_kind": {"type": "string"},
+    "citation": {"type": "string"},
+    "claim": {"type": "string"},
+    "research_status": {"type": "string"},
+    "question": {"type": "string"},
+    "change_scope": {"type": "string"},
+    "historical_ids": {"$ref": "#/$defs/id_list"},
+    "canonical_id": {"type": "string"},
+    "personal_story_use": {
+      "enum": ["prohibited", "pending_author_approval", "approved"]
+    },
+    "author_approval_ref": {"type": "string"},
+    "fixture": {"type": "boolean"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"type": {"const": "task"}}},
+      "then": {
+        "required": ["reviewer", "project", "priority", "scope"],
+        "properties": {
+          "id": {"pattern": "^TASK_[A-Z0-9-]+_[0-9]{4}$"},
+          "status": {"$ref": "#/$defs/task_status"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "decision"}}},
+      "then": {
+        "required": ["authority", "effective_date"],
+        "properties": {
+          "id": {"pattern": "^DECISION_[0-9]{4}$"},
+          "status": {"enum": ["proposed", "approved", "superseded"]}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "review"}}},
+      "then": {
+        "required": ["reviewer", "subject_refs"],
+        "properties": {
+          "id": {"pattern": "^REVIEW_[A-Z0-9-]+_[0-9]{4}$"},
+          "status": {
+            "enum": ["draft", "accepted", "accepted_with_conditions", "changes_requested", "rejected"]
+          }
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "chapter"}}},
+      "then": {
+        "required": ["chapter_number", "version", "version_status"],
+        "properties": {
+          "id": {"pattern": "^CHAPTER_[0-9]{2}$"},
+          "status": {"$ref": "#/$defs/chapter_status"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "source_card"}}},
+      "then": {
+        "required": ["verification_status", "source_kind", "citation"],
+        "properties": {
+          "id": {"pattern": "^SC-[0-9]{3}$"},
+          "status": {"enum": ["discovery", "pending", "checked", "verified", "restricted", "rejected"]},
+          "verification_status": {"enum": ["discovery", "pending", "checked", "verified", "restricted", "rejected"]}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "verification_issue"}}},
+      "then": {
+        "required": ["verification_status", "claim"],
+        "properties": {
+          "id": {"pattern": "^VI-[0-9]{3}$"},
+          "status": {"$ref": "#/$defs/verification_issue_status"},
+          "verification_status": {"$ref": "#/$defs/verification_issue_status"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "completion_report"}}},
+      "then": {
+        "required": ["task_id", "subject_refs"],
+        "properties": {
+          "id": {"pattern": "^REPORT_TASK_[A-Z0-9-]+_[0-9]{4}$"},
+          "status": {"enum": ["delivered", "review", "changes_requested", "accepted"]}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "research_gap"}}},
+      "then": {
+        "required": ["research_status", "question"],
+        "properties": {
+          "id": {"pattern": "^RG-[0-9]{3}$"},
+          "status": {"$ref": "#/$defs/research_gap_status"},
+          "research_status": {"$ref": "#/$defs/research_gap_status"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"type": {"const": "change_map"}}},
+      "then": {
+        "required": ["subject_refs", "change_scope"],
+        "properties": {
+          "id": {"pattern": "^CHANGE_MAP_[A-Z0-9_-]+$"},
+          "status": {"enum": ["draft", "review", "accepted", "superseded"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {"enum": ["specification", "policy", "architecture", "contract"]}
+        }
+      },
+      "then": {
+        "properties": {
+          "status": {"enum": ["draft_for_editorial_review", "approved", "superseded"]}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"personal_story_use": {"const": "approved"}}, "required": ["personal_story_use"]},
+      "then": {"required": ["author_approval_ref"]}
+    },
+    {
+      "if": {"required": ["historical_ids"]},
+      "then": {"required": ["canonical_id"]}
+    }
+  ],
+  "$defs": {
+    "id_list": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 3},
+      "uniqueItems": true
+    },
+    "task_status": {
+      "enum": [
+        "proposed", "authorized", "authorized_phase_1", "in_progress", "blocked",
+        "delivered", "review", "changes_requested", "accepted", "completed", "cancelled"
+      ]
+    },
+    "chapter_status": {
+      "enum": ["skeleton", "researching", "drafting", "revision", "review", "accepted", "locked", "published"]
+    },
+    "verification_issue_status": {
+      "enum": [
+        "open", "needs_primary_source", "resolved_with_conditions",
+        "resolved_with_scope_limit", "contextual_limit", "resolved"
+      ]
+    },
+    "research_gap_status": {
+      "enum": ["open", "investigating", "blocked", "resolved", "deferred"]
+    }
+  },
+  "additionalProperties": false
+}
