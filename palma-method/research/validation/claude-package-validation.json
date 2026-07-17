@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
-  "generated_at": "2026-07-17T00:26:50Z",
-  "repository_root": "/Users/serhiinabok/Documents/Adshot Europe/palma-method",
+  "validator_version": "legacy-compatible-2",
+  "source_fingerprint": "64dccf23e82d34af6135df3e2e827b61ebc4ac7f5ddd5d98a9481b8f8bfdcc4c",
   "source_card_count": 23,
   "parsed_source_card_count": 23,
   "unique_source_card_ids": 23,

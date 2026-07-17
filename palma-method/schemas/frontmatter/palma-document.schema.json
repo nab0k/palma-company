@@ -182,7 +182,8 @@
     },
     "task_status": {
       "enum": [
-        "proposed", "authorized", "authorized_phase_1", "in_progress", "blocked",
+        "proposed", "authorized", "authorized_phase_1", "authorized_phase_2a_2b",
+        "in_progress", "blocked",
         "delivered", "review", "changes_requested", "accepted", "completed", "cancelled"
       ]
     },

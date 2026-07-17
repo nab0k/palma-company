@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0007
 type: task
-status: authorized_phase_1
+status: authorized_phase_2a_2b
 owner: codex
 reviewer: chief_editor
 project: palma-method
@@ -27,6 +27,11 @@ add governance documents, schema fixtures, research reviews, and implementation
 plans. It must not modify manuscript files, approved decisions, Notion, the
 ingestion implementation, or production validator/index behavior. Phase 2
 requires separate explicit approval.
+
+Phase 2A and 2B were authorized by the Founder on 2026-07-17: read-only metadata
+validation, tests, and deterministic repository-index generation only. Ingestion,
+Notion synchronization implementation, prose diagnostics, manuscript files, and
+approved decision documents remain outside the authorized scope.
 
 ## Objective
 

@@ -89,3 +89,19 @@ The actual command name and runtime are not approved in Phase 1.
 2. Approve the chapter “current” rule and transition fallback to filenames.
 3. Decide which legacy artifact families are mandatory index inputs first.
 4. Approve whether warnings may pass a pull request during transition.
+
+## Phase 2B implementation
+
+Authorized on 2026-07-17. The committed index is regenerated and checked with:
+
+```sh
+ruby palma-method/scripts/generate_repository_index.rb
+ruby palma-method/scripts/generate_repository_index.rb --check
+```
+
+The generator classifies canonical frontmatter as `current`, accepted
+transition metadata as `legacy`, and collisions or unresolved chapter-version
+selection as `ambiguous`. For chapter packets, one uniquely highest semantic
+version is marked `current`; lower versions are `legacy`; unversioned
+manuscript records remain `ambiguous` without reading meaning into filenames.
+The source fingerprint replaces wall-clock generation time.

@@ -98,3 +98,18 @@ for legacy formats one family at a time. Integrate index checks last.
 Approve status vocabularies, legacy warning policy, privacy marker list,
 dependency-cycle severity, and whether an additional schema dependency is
 acceptable.
+
+## Phase 2A implementation
+
+Authorized on 2026-07-17. The implementation uses the Ruby standard library and
+adds no dependency:
+
+```sh
+ruby palma-method/scripts/validate_metadata.rb
+ruby palma-method/scripts/validate_metadata.rb --format json
+```
+
+The validator never writes files. Legacy label, fenced-YAML, filename-derived,
+`SC-NNN`, and `SRC-YYYY-NNN` records remain warnings unless they create a
+collision or unsafe ambiguity. JSON and text output omit timestamps and absolute
+paths.

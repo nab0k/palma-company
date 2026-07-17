@@ -49,7 +49,7 @@ CARD_TYPES = {
 
 KEY_PATTERN = re.compile(r"^([A-Za-z_][A-Za-z0-9_-]*):(?:\s|$)")
 ID_PATTERNS = {
-    "source-cards": re.compile(r"^SRC-\d{4}-\d{3}$"),
+    "source-cards": re.compile(r"^(?:SC-\d{3}|SRC-\d{4}-\d{3})$"),
     "case-cards": re.compile(r"^CASE-\d{4}-\d{3}$"),
 }
 

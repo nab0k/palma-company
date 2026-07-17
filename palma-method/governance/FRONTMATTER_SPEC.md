@@ -76,7 +76,8 @@ workflow is editorial rather than manuscript lifecycle.
 
 ## Status vocabularies
 
-- Task: `proposed`, `authorized`, `authorized_phase_1`, `in_progress`,
+- Task: `proposed`, `authorized`, `authorized_phase_1`,
+  `authorized_phase_2a_2b`, `in_progress`,
   `blocked`, `delivered`, `review`, `changes_requested`, `accepted`,
   `completed`, `cancelled`.
 - Decision: `proposed`, `approved`, `superseded`.
@@ -112,6 +113,12 @@ approval record explicitly covers that use.
 Source cards use `verification_status`; verification issues use both
 `verification_status` and canonical `VI-NNN` IDs. Historical issue IDs are
 kept in `historical_ids` and require a `canonical_id`.
+
+The canonical source-card ID is `SC-NNN`. The older `SRC-YYYY-NNN` form is
+accepted as a legacy alias and normalizes to `SC-NNN` using its final numeric
+component. The original ID and year remain in index metadata. If two files
+normalize to the same canonical ID, validation reports a collision and the
+index classifies both records as `ambiguous`.
 
 Chapter `version` uses `major.minor` or `major.minor.patch`. The current
 version is derived from accepted versions, never declared by a handwritten

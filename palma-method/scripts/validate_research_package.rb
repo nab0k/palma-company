@@ -74,6 +74,14 @@ def empty_value?(value)
     (value.is_a?(String) && value.strip.empty?)
 end
 
+def canonical_source_card_id(value)
+  id = value.to_s
+  return id if id.match?(/\ASC-\d{3}\z/)
+
+  match = id.match(/\ASRC-\d{4}-(\d{3})\z/)
+  match ? "SC-#{match[1]}" : nil
+end
+
 errors = []
 warnings = []
 cards = []
@@ -109,7 +117,7 @@ cards.each do |card|
   end
 
   id = data["id"].to_s
-  unless id.match?(/\ASC-\d{3}\z/)
+  unless id.match?(/\A(?:SC-\d{3}|SRC-\d{4}-\d{3})\z/)
     errors << { check: "id_format", file: file, message: "invalid source-card ID: #{id}" }
   end
 
@@ -136,7 +144,7 @@ cards.each do |card|
   end
 end
 
-ids = cards.map { |card| card[:data]["id"].to_s }
+ids = cards.map { |card| canonical_source_card_id(card[:data]["id"]) || card[:data]["id"].to_s }
 ids.group_by(&:itself).each do |id, occurrences|
   next if id.empty? || occurrences.length == 1
 
@@ -145,12 +153,13 @@ end
 
 cards.each do |card|
   Array(card[:data]["related_cards"]).each do |reference|
-    referenced_ids = reference.to_s.scan(/SC-\d{3}/)
+    referenced_ids = reference.to_s.scan(/(?:SC-\d{3}|SRC-\d{4}-\d{3})/)
     if referenced_ids.empty?
       warnings << { check: "related_card_reference", file: card[:file], message: "related-card entry has no SC ID: #{reference}" }
     end
     referenced_ids.each do |referenced_id|
-      next if ids.include?(referenced_id)
+      normalized_id = canonical_source_card_id(referenced_id) || referenced_id
+      next if ids.include?(normalized_id)
 
       errors << { check: "related_card_reference", file: card[:file], message: "unknown related card: #{referenced_id}" }
     end
@@ -219,10 +228,19 @@ file_hashes = cards.to_h do |card|
   [card[:file], Digest::SHA256.file(path).hexdigest]
 end
 
+fingerprint_files = Dir[ROOT.join("research/**/*.md").to_s]
+                    .reject { |path| Pathname.new(path).relative_path_from(ROOT).to_s.start_with?("research/validation/") }
+                    .sort
+input_digest = Digest::SHA256.new
+fingerprint_files.each do |path|
+  relative = Pathname.new(path).relative_path_from(ROOT).to_s
+  input_digest << relative << "\0" << File.read(path, encoding: "UTF-8") << "\0"
+end
+
 report = {
   report_id: "VAL-CLAUDE-001",
-  generated_at: Time.now.utc.iso8601,
-  repository_root: ROOT.to_s,
+  validator_version: "legacy-compatible-2",
+  source_fingerprint: input_digest.hexdigest,
   source_card_count: card_files.length,
   parsed_source_card_count: cards.length,
   unique_source_card_ids: ids.uniq.length,
@@ -257,7 +275,7 @@ human = <<~MARKDOWN
   # Claude Research Package — Structural Validation
 
   Report ID: `VAL-CLAUDE-001`  
-  Generated: #{report[:generated_at]}  
+  Source fingerprint: `#{report[:source_fingerprint]}`
   Status: **#{report[:status].upcase}**
 
   ## Result
