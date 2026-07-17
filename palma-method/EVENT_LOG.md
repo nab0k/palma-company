@@ -245,6 +245,7 @@ title: Shared file workflow for Palma agents delivered
 status: delivered
 result: Agent rules, task and handoff templates, README workflow, and local-file safeguards implemented
 artifacts:
+  - https://github.com/nab0k/palma-company/pull/4
   - palma-method/governance/TASK_CODEX_0010_COMPLETION_REPORT.md
 reviewer: ChatGPT
 ```

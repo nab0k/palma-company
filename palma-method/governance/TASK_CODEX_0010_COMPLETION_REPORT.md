@@ -21,6 +21,7 @@ subject_refs:
 - Base commit: `e554d828a5e3e562970b4b193b20a5ca0d6fca6c`.
 - Working branch: `codex/shared-file-system-v1`.
 - Pull request target: `main`.
+- Draft pull request: `https://github.com/nab0k/palma-company/pull/4`.
 - Implementation commit:
   `17f9b0b7355be014615646142c3f66bab957c1bb`.
 
@@ -100,12 +101,14 @@ research-package validator parsed all 28 Markdown source cards successfully.
 ## Verification state
 
 - Local-file-to-commit: verified by implementation commit `17f9b0b`.
-- Commit-to-GitHub: pending branch push.
-- GitHub-to-local: remote metadata fetch was verified during the audit; a
-  post-push branch fetch remains pending.
+- Commit-to-GitHub: verified by pushing `codex/shared-file-system-v1` and
+  establishing its `origin` tracking branch.
+- GitHub-to-local: remote metadata fetch was verified during the audit; the
+  pushed branch is tracked locally and its final SHA is checked in the handoff.
 - Claude and Codex shared-folder access: the common repository path is recorded,
   but no separate Claude runtime was available for an end-to-end execution.
-- ChatGPT GitHub read: pending successful push and remote file read.
+- ChatGPT/GitHub connector read: verified by reading `DECISION_0004` from the
+  pushed branch.
 - Notion: no write performed; downstream synchronization remains a separate,
   explicitly controlled operation.
 
@@ -114,9 +117,9 @@ research-package validator parsed all 28 Markdown source cards successfully.
 - `origin/main` still lacks the existing Palma Method commit chain. A PR from
   this branch to `main` therefore contains the earlier 14 editorial commits as
   well as TASK_CODEX_0010 unless those commits are merged first.
-- GitHub CLI was not authenticated during the audit. Push may work through the
-  configured Git credential helper, but PR creation requires working GitHub
-  authentication.
+- GitHub CLI was not authenticated. The push succeeded through the configured
+  Git credential helper, and draft PR #4 was created through the authenticated
+  GitHub browser session after the connector's write permission returned 403.
 - Humans still approve decisions, review pull requests, resolve branch
   divergence, and decide whether private or binary artifacts belong in Git.
 
