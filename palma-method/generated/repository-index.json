@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "39014ca43f26e221be29d3dd5a69e6b9d8ca0cfdcb2eae53662bb207fe8e51c2",
+  "source_fingerprint": "e018d76eee3f9718b719cb8514a2cc2e7d3e0d67b116fba049ed9155d2c3150d",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 110,
-    "current": 33,
+    "records": 111,
+    "current": 34,
     "legacy": 54,
     "ambiguous": 23,
-    "non_chapter_current": 22,
+    "non_chapter_current": 23,
     "non_chapter_legacy": 44,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -236,6 +236,25 @@
         }
       },
       {
+        "id": "REPORT_TASK_CODEX_0010",
+        "canonical_id": "REPORT_TASK_CODEX_0010",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0010 — Completion report",
+        "path": "governance/TASK_CODEX_0010_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0010",
+            "DECISION_0004"
+          ]
+        }
+      },
+      {
         "id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "canonical_id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "type": "contract",
@@ -410,7 +429,7 @@
         "id": "TASK_CODEX_0010",
         "canonical_id": "TASK_CODEX_0010",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CODEX_0010 — Build shared file system for Palma agents",
         "path": "governance/TASK_CODEX_0010_BUILD_SHARED_FILE_SYSTEM.md",
         "metadata_format": "frontmatter",
@@ -3367,6 +3386,18 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0009",
       "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0010",
+      "relation": "reviews",
+      "to": "DECISION_0004",
+      "source_path": "governance/TASK_CODEX_0010_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0010",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0010",
+      "source_path": "governance/TASK_CODEX_0010_COMPLETION_REPORT.md"
     },
     {
       "from": "REVIEW_CODEX_0007",

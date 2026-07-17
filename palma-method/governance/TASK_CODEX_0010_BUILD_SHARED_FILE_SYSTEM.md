@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0010
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-17
@@ -33,10 +33,11 @@ through GitHub, and Notion remains a downstream interface.
 
 ## Git coordinates
 
-- Base branch for delivery: `main`.
+- Base branch: `codex/reconcile-editorial-state-0009`.
 - Base commit used to create the working branch:
   `e554d828a5e3e562970b4b193b20a5ca0d6fca6c`.
 - Working branch: `codex/shared-file-system-v1`.
+- Pull request target: `main`.
 
 ## Input paths
 
@@ -97,4 +98,8 @@ To be delivered as
 
 ## Final commit SHA
 
-Pending delivery.
+Implementation commit:
+`17f9b0b7355be014615646142c3f66bab957c1bb`.
+
+The following completion-report commit is identified in the final handoff
+because a commit cannot contain its own SHA.

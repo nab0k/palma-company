@@ -222,3 +222,29 @@ artifacts:
   - palma-method/governance/IMPLEMENTATION_REPORT_TASK_CODEX_0006.md
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0018
+occurred_at: 2026-07-17
+actor: Serhii Nabok
+event_type: decision
+title: GitHub established as the single canonical project state
+status: accepted
+result: Notion is limited to a downstream interface, index, or dashboard
+artifacts:
+  - palma-method/governance/DECISION_0004_GITHUB_CANONICAL_NOTION_INTERFACE.md
+reviewer: ChatGPT
+```
+
+```yaml
+event_id: EVT-0019
+occurred_at: 2026-07-17
+actor: Codex
+event_type: repository_workflow_delivery
+title: Shared file workflow for Palma agents delivered
+status: delivered
+result: Agent rules, task and handoff templates, README workflow, and local-file safeguards implemented
+artifacts:
+  - palma-method/governance/TASK_CODEX_0010_COMPLETION_REPORT.md
+reviewer: ChatGPT
+```
