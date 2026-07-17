@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "e018d76eee3f9718b719cb8514a2cc2e7d3e0d67b116fba049ed9155d2c3150d",
+  "source_fingerprint": "a8e30ead94541428ef7b01a7286d17165e38ba48206b961a601c48cf4bffa809",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 111,
-    "current": 34,
-    "legacy": 54,
+    "records": 115,
+    "current": 35,
+    "legacy": 57,
     "ambiguous": 23,
-    "non_chapter_current": 23,
+    "non_chapter_current": 24,
     "non_chapter_legacy": 44,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 84
+    "validation_warnings": 87
   },
   "catalog": {
     "current": [
@@ -440,6 +440,24 @@
         "relationships": {
           "depends_on": [
             "DECISION_0004"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0011",
+        "canonical_id": "TASK_CODEX_0011",
+        "type": "task",
+        "status": "in_progress",
+        "title": "TASK_CODEX_0011 — Recover the Editorial Pipeline",
+        "path": "governance/TASK_CODEX_0011_RECOVER_EDITORIAL_PIPELINE.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0009"
           ]
         }
       }
@@ -1318,6 +1336,32 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-01-v0.2",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 1 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-003",
+              "SC-009",
+              "SC-014",
+              "SC-021",
+              "SC-024"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
           "id": "PKT-01",
           "canonical_id": "CHAPTER_01",
           "type": "chapter",
@@ -1339,7 +1383,7 @@
               "SC-021"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_01",
@@ -1812,6 +1856,25 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-07-v0.2",
+          "canonical_id": "CHAPTER_07",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 7 — Strong Ties, Weak Ties, and Bridges",
+          "path": "research/chapter-packets/07-chapter-7-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 7,
+          "supersedes_declaration": "07-chapter-7-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+          },
+          "index_state": "current"
+        },
+        {
           "id": "PKT-07",
           "canonical_id": "CHAPTER_07",
           "type": "chapter",
@@ -1836,7 +1899,7 @@
               "VI-002"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_07",
@@ -1862,6 +1925,40 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-08-v0.2",
+          "canonical_id": "CHAPTER_08",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 8 — Trust, Status, and Reciprocity",
+          "path": "research/chapter-packets/CHAPTER_08_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 8,
+          "supersedes_declaration": "08-chapter-8-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-008",
+              "SC-009",
+              "SC-013",
+              "SC-014",
+              "SC-016",
+              "SC-018",
+              "SC-020",
+              "SC-022"
+            ],
+            "verifies": [
+              "VI-003",
+              "VI-004"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-08",
           "canonical_id": "CHAPTER_08",
@@ -1891,7 +1988,7 @@
               "VI-004"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_08",
@@ -2538,8 +2635,20 @@
     {
       "from": "CHAPTER_01",
       "relation": "supported_by",
+      "to": "SC-003",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
       "to": "SC-009",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
     },
     {
       "from": "CHAPTER_01",
@@ -2550,8 +2659,26 @@
     {
       "from": "CHAPTER_01",
       "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
     },
     {
       "from": "CHAPTER_02",
@@ -3054,8 +3181,20 @@
     {
       "from": "CHAPTER_08",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
       "to": "SC-008",
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
     },
     {
       "from": "CHAPTER_08",
@@ -3066,8 +3205,20 @@
     {
       "from": "CHAPTER_08",
       "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
     },
     {
       "from": "CHAPTER_08",
@@ -3078,8 +3229,26 @@
     {
       "from": "CHAPTER_08",
       "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
       "to": "SC-018",
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
     },
     {
       "from": "CHAPTER_08",
@@ -3090,8 +3259,20 @@
     {
       "from": "CHAPTER_08",
       "relation": "supported_by",
+      "to": "SC-020",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
       "to": "SC-022",
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "supported_by",
+      "to": "SC-022",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
     },
     {
       "from": "CHAPTER_08",
@@ -3102,8 +3283,20 @@
     {
       "from": "CHAPTER_08",
       "relation": "verifies",
+      "to": "VI-003",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "verifies",
       "to": "VI-004",
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_08",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_08_v0.2.md"
     },
     {
       "from": "CHAPTER_09",
@@ -3866,6 +4059,12 @@
       "relation": "depends_on",
       "to": "DECISION_0004",
       "source_path": "governance/TASK_CODEX_0010_BUILD_SHARED_FILE_SYSTEM.md"
+    },
+    {
+      "from": "TASK_CODEX_0011",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0009",
+      "source_path": "governance/TASK_CODEX_0011_RECOVER_EDITORIAL_PIPELINE.md"
     },
     {
       "from": "VI-001",

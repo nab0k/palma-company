@@ -1,0 +1,87 @@
+# Chapter Packet v0.2: Chapter 8 — Trust, Status, and Reciprocity
+
+```yaml
+packet_id: PKT-08-v0.2
+chapter: "Chapter 8 — Trust, Status, and Reciprocity"
+version: "0.2"
+status: draft_for_editorial_review
+owner: Claude (Research Synthesizer role)
+created_date: "2026-07-16"
+supersedes_for_review_purposes: "08-chapter-8-packet-v0.1.md (preserved unmodified, not deleted or overwritten)"
+task_reference: TASK_CLAUDE_0007_REVISE_RELATIONSHIP_CAPITAL_CHAPTERS.md
+word_count_target: "1200-2000 (carried over from TASK_CLAUDE_0004)"
+word_count_actual: 1409
+title_note: "Title unchanged pending approval; status is no longer treated as a core Relationship Capital dimension - see Editorial Caveats."
+```
+
+**Editorial note:** v0.1 is preserved unchanged at `08-chapter-8-packet-v0.1.md`. This revision applies DECISION_0003's five-dimension model, separates trust from reciprocity and from psychological safety more explicitly than v0.1 did, removes status from the core dimension set while still discussing it, and adds a new section on "us/them" dynamics as both a mechanism and a risk.
+
+## A. Chapter Brief
+
+**Central question:** What is trust, specifically, how does it differ from reciprocity and from status, and what does the same closure that builds trust inside a group do to people outside it?
+
+**Reader problem:** "Build trust" is common, vague management advice; trust, reciprocity, and status also get casually merged with each other and with psychological safety, making it hard to diagnose what is actually missing in a given relationship or team.
+
+**Working claim:** Trust (a belief about ability, benevolence, and integrity) and reciprocity (a pattern of exchange) are two of Relationship Capital's five core dimensions and must be kept distinct from each other, from status (which is not a core dimension), and from psychological safety (a related but separate, team-level construct). The same in-group closure that builds trust and reciprocity within a group is also the mechanism that produces "us/them" exclusion - a single mechanism with two faces, not two unrelated phenomena.
+
+**Chapter argument:** The chapter defines trust and reciprocity as distinct dimensions using the ABI model and Gouldner's reciprocity norm, addresses status directly as a related-but-non-core concept, separates psychological safety from trust explicitly, introduces "us/them" dynamics as the mechanism-and-risk pairing built into closure itself, and closes by separating relational value (what this chapter is about) from reputation effects (a broader, one-directional perception, per Chapter 6's distinction).
+
+**Expected reader takeaway:** When trust is missing, ask specifically whether it's an ability, benevolence, or integrity problem; when reciprocity is missing, ask whether the exchange norm was ever actually established; and treat status and group cohesion as separate levers from either - each with its own risks, including the risk that strengthening one weakens outsiders' access to the group.
+
+## B. Argument Map
+
+1. Trust and reciprocity are both core Relationship Capital dimensions, but they are not the same thing, and treating them as interchangeable obscures which one is actually broken in a given relationship.
+2. Status is not a core dimension under DECISION_0003; it functions instead as a contextual resource, a signal affecting trust and legitimacy, or an outcome relationship systems can produce - this chapter treats it accordingly rather than forcing it into the five-dimension model.
+3. Psychological safety is a related, team-level construct, not a synonym for trust, and Google's Project Aristotle findings should be cited as team-effectiveness evidence, not as direct evidence about Relationship Capital generally.
+4. The mechanism that builds trust and reciprocity within a group - closure - is the same mechanism that produces "us/them" exclusion; this is not a separate topic from trust-building, it is trust-building's other face.
+5. Relational value (the subject of this chapter) must not be conflated with reputation effects (a broader, one-directional perception, per Chapter 6) - a well-known company is not automatically a trusted one.
+
+## C. Evidence Map
+
+**Relevant source cards:** SC-008 (Mayer, Davis & Schoorman - trust/ABI), SC-009 (Gouldner - reciprocity), SC-013 (Edmondson - psychological safety, kept distinct from trust), SC-020 (Google re:Work/Project Aristotle - team effectiveness, not general Relationship Capital evidence), SC-018 (Zak - trust/productivity), SC-014 (Edelman 2026 Trust Barometer), SC-002 (Coleman - closure, the shared mechanism underlying both trust-building and exclusion), SC-016 (Portes - documented negative consequences of social capital, including exclusion and in-group favoritism), SC-022 (BCG - Volkswagen/CrowdStrike trust-repair cases).
+
+**Established evidence:** The ABI model, Gouldner's reciprocity norm, Coleman's closure mechanism, and Portes's catalog of social capital's negative consequences are all independently well-established within their own literatures - see individual source cards for verification status.
+
+**Supported interpretations:** Framing "us/them" dynamics as closure's other face, rather than a separate topic, is Palma's own synthesis - directly supported by Coleman's and Portes's findings taken together, but not a direct quotation from either.
+
+**Unresolved claims:** None new to this chapter; status's classification as a non-core, contextual concept follows DECISION_0003 and REVIEW_CLAUDE_0003 directly.
+
+**Verification issues:** None open for this chapter's core claims; VI-003 (Project Aristotle) and VI-004 (Zak statistic) remain resolved per the TASK_CLAUDE_0004 verification report.
+
+## D. Draft v0.2
+
+Trust and reciprocity get used almost interchangeably in everyday management language, and treating them as the same thing is one of the most common ways a relationship diagnosis goes wrong. They are not the same. Trust, in the field's dominant operational definition, is a belief one party holds about another - specifically, about that party's ability, benevolence, and integrity, the ABI model developed by organizational researchers Roger Mayer, James Davis, and F. David Schoorman. Reciprocity is a different kind of thing entirely: not a belief, but a pattern, whether an expectation of mutual exchange is actually active in a relationship or has quietly gone dormant. A relationship can be high on one and low on the other. A long-standing supplier might be deeply trusted (you believe they're competent, well-intentioned, and consistent) while the reciprocity norm has eroded (neither side has actually exchanged anything meaningful in a long time, and the relationship runs on inertia rather than active mutual obligation). Naming which one is actually missing turns "we need to rebuild the relationship" from a mood into a diagnosis.
+
+The ABI model is worth pausing on a moment longer, because its real value is diagnostic, not descriptive. When trust is reported as low in a specific relationship, the three components rarely fail together - one is usually doing most of the damage. A relationship might score well on ability (everyone agrees the other party is competent) and poorly on benevolence (there's a real doubt about whether they're acting in your interest, not just their own). A different relationship might score well on integrity in the abstract (nobody doubts their principles) and poorly on ability (real doubt about whether they can actually deliver). Each of these calls for a different response: a benevolence problem is not fixed by demonstrating more competence, and an ability problem is not fixed by expressions of good intent. The same diagnostic discipline applies to reciprocity, in its own way - a reciprocity gap can come from one side simply forgetting an obligation, or from a more serious asymmetry where one party has quietly stopped expecting anything back at all. Treating "low trust" or "weak reciprocity" as a single undifferentiated problem, rather than asking which specific component is actually short, is one of the most common and most avoidable diagnostic errors this chapter is trying to correct.
+
+It is also worth naming a measurement caution here that echoes one already raised for mobilizability in Chapter 6: asking someone directly how much they trust you, or how reciprocal they feel a relationship is, can itself change the answer, and sometimes the relationship. A trust survey administered clumsily can introduce doubt where none previously existed, simply by raising the question. This does not mean trust and reciprocity shouldn't be assessed - it means the assessment method matters as much as the result, and behavioral indicators (did they actually follow through, did they actually respond) should be weighted at least as heavily as self-reported belief when the two are available.
+
+Status belongs in this chapter's title but not in Relationship Capital's core measurement model, and it is worth being precise about why. Status - social standing, prestige, recognized seniority - is real and consequential, but it does not behave the way trust, reciprocity, access, relationship strength, and network structure behave: it is not a property of a specific dyadic relationship or portfolio structure in the same directly observable way. Status functions better as a contextual resource that influences access (a high-status introduction opens doors a low-status one doesn't), a signal that affects how quickly trust and legitimacy get extended, or an outcome that a well-built relationship system can produce over time, rather than as a sixth core dimension alongside the other five. This is a deliberate, current-evidence-based decision, not a claim that status is unimportant - it simply doesn't yet meet the bar for inclusion in the frozen dimension set, and the chapter treats it as an important related concept rather than force-fitting it into the model.
+
+A closely related distinction, and one worth making explicitly rather than leaving implicit: trust, as defined above, is not the same thing as psychological safety. Trust is a belief one party holds about another - it describes a relationship. Psychological safety, as Harvard researcher Amy Edmondson defined it and as Google's own internal Project Aristotle research later confirmed at scale, is a property of a team or group - a shared belief that the group itself is safe for interpersonal risk-taking. The two are related (teams whose members trust each other tend to have higher psychological safety, and the reverse) but they are not interchangeable, and Google's finding specifically concerned team effectiveness - it should be cited as evidence about what predicts strong teams, not treated as direct evidence about Relationship Capital in the broader stakeholder sense this book uses elsewhere. Keeping this boundary clean avoids quietly importing a team-level research finding into a claim about dyadic or portfolio-level relational value it wasn't actually measuring.
+
+There is a mechanism worth naming directly that connects trust-building to a real risk, rather than treating the two as separate topics. James Coleman's closure research - dense, mutually connected networks that let trust and norm enforcement operate reliably, because everyone can see and vouch for everyone else - is the same mechanism the sociologist Alejandro Portes later catalogued as producing exclusion of outsiders, excessive claims on group members, and in-group favoritism, once a closed group matures. This is not two unrelated findings sitting near each other in the literature. It is one mechanism with two faces: the closure that lets a team, a client circle, or a founding group trust each other quickly and reliably is the same closure that makes it harder for anyone outside that circle to be let in, understood, or extended the same benefit of the doubt. Call this dynamic "us/them," and treat it as both a mechanism and a risk at the same time, not a mechanism first and a risk discovered later. A tightly trusted internal team, a strong client inner circle, or a closely bonded community are all, by the same structural logic that makes them valuable, also systems that will tend to treat outsiders with more suspicion and less patience than insiders receive - and that tendency shows up automatically, as a byproduct of the same closure a leader deliberately built, not as a separate failure requiring a separate explanation. A leader building trust and reciprocity inside any group should assume, by default, that this trade-off is active, and should ask directly who is currently being treated as "them" as a result - rather than being surprised by it later, in Chapter 10's fuller discussion of exclusion and its remedies.
+
+Finally, this chapter's subject - relational value, built through trust and reciprocity - must not be confused with reputation effects, a distinction Chapter 6 already establishes and this chapter depends on directly. Reputation is broad and often one-directional: a large number of people can hold a positive general impression of an organization without any of them having an identifiable relationship with it at all. Trust and reciprocity, by contrast, only exist within specific, identifiable relationships - they cannot be broadcast the way reputation can. This has a direct practical consequence worth stating plainly: a company can spend heavily on reputation-building activity (advertising, PR, visible corporate social responsibility) and see its general standing improve, while its actual, dyadic-level trust and reciprocity with the specific stakeholders it depends on remain unchanged, because reputation campaigns and relationship-building activity are not the same intervention and do not automatically produce each other. The corporate trust-repair research already discussed elsewhere in this project - Volkswagen's years-long recovery after a deliberate integrity breach, CrowdStrike's faster recovery after a transparent, rapid response to an operational failure - illustrates this precisely: what moved the needle in each case was direct, credible action toward the specific parties affected, not general reputation management aimed at the broader public.
+
+Trust, reciprocity, status, psychological safety, and reputation are five different things this chapter has now deliberately kept apart. That precision is the point. A leader who conflates them will reach for the wrong fix - more visibility when the problem is actually broken reciprocity, a team-building offsite when the problem is actually low dyadic trust with one key stakeholder, a PR campaign when the problem is actually an in-group that has quietly become closed to the people it most needs to reach.
+
+## E. Missing Evidence
+
+- A dedicated source card grounding "us/them" dynamics more directly (e.g., social identity theory, Tajfel and Turner's foundational work on in-group/out-group formation) would strengthen this chapter beyond the Coleman/Portes grounding currently used - flagged as a priority gap if a future research wave is authorized.
+- A concrete, published, verifiable example of a company successfully managing the trust-versus-exclusion trade-off (deliberately keeping a close internal or client circle trusted while remaining genuinely open to outsiders) would strengthen the "us/them" section considerably; none has been invented for this draft.
+- Direct primary-source confirmation of the specific ABI-model wording used in this chapter (currently relying on SC-008's existing secondary-verified summary), consistent with the same gap flagged in the v0.1 packet.
+
+## F. Editorial Caveats
+
+- The chapter title retains "Status" for continuity, but status is explicitly not a core Relationship Capital dimension in this revision - ChatGPT and Serhii may wish to revisit the title once the broader manuscript structure is finalized; no title change has been made here, per the standing constraint against finalizing chapter titles without approval.
+- Google's Project Aristotle finding is now explicitly scoped to "team effectiveness evidence," not general Relationship Capital evidence, correcting the broader framing in v0.1.
+- The Coleman/Portes "us/them" argument is Palma's own synthesis of two independently established findings, not a direct joint finding from either source - labeled as such in the draft above.
+- This draft has not received Serhii's final sign-off on wording.
+
+## G. Reusable Assets
+
+- **LinkedIn post idea:** "The same thing that makes your inner circle trust each other fast is the same thing that makes outsiders wait longer to be let in. That's not a bug in trust-building. It's how trust-building works."
+- **Website idea:** A short "Trust vs. Reciprocity vs. Status" explainer distinguishing the three with a simple self-assessment: rate a specific relationship on each of the three separately, rather than giving it one overall "how's this relationship going" score.
+- **Diagram idea:** A closure diagram showing a dense internal cluster (labeled "trust and reciprocity build here") with a visibly thinner boundary around it (labeled "and the same boundary slows access here") - one image making both the benefit and the risk visible at once.
+- **Client-diagnostic question:** "Who is currently treated as 'them' by your most trusted internal circle - and was that decision made on purpose?"
