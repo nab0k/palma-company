@@ -83,6 +83,7 @@ Run the validators relevant to the touched files. Existing commands are:
 ```sh
 ruby palma-method/scripts/validate_metadata.rb
 ruby palma-method/scripts/generate_repository_index.rb --check
+ruby palma-method/scripts/generate_book_dashboard.rb --check
 ruby palma-method/scripts/validate_research_package.rb
 python3 palma-method/scripts/validate_cards.py
 ```
