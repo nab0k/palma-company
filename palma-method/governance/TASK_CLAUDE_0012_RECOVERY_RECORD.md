@@ -1,7 +1,7 @@
 ---
 id: TASK_CLAUDE_0012
 type: task
-status: blocked
+status: in_progress
 owner: claude
 reviewer: chief_editor
 created: 2026-07-17
@@ -42,6 +42,15 @@ Editor**.
 
 The source-declared dependencies are `TASK_CLAUDE_0011` and
 `TASK_CODEX_0009`. Both now have canonical repository records.
+
+## Resume record
+
+TASK_CLAUDE_0012 resumed in the same local Claude book session on 2026-07-17
+after the Wave 3 package and sociology brief became canonical on branch
+`codex/recover-wave3-inputs-0012` at commit `dc7f24a`. The fresh instruction
+preserved the exact recovered scope, outputs, version rules, and exclusions.
+Claude acknowledged the instruction by starting work; no readiness question or
+scope expansion was introduced.
 
 ## Exact primary objective
 
@@ -159,27 +168,20 @@ Relationship Capital score.
 - The current dashboard and repository index exist.
 - The six accepted working chapter versions named by the task exist.
 
-### Recoverable but not canonical
+### Satisfied by TASK_CODEX_0012
 
 The six `CHAPTER_11_v0.1.md` through `CHAPTER_16_v0.1.md` packets,
 `WAVE_3_EVIDENCE_GAP_LOG.md`, `WAVE_3_CROSS_CHAPTER_MAP.md`, and
-`TASK_CLAUDE_0011_COMPLETION_REPORT.md` exist in the local Claude session
-output folder. They are absent from the Git repository and from the supplied
-`Log Palma Book` archive. Under DECISION_0004 they cannot be treated as the
-canonical committed state until separately recovered, validated, and integrated.
+`TASK_CLAUDE_0011_COMPLETION_REPORT.md` were recovered, validated, and made
+canonical by TASK_CODEX_0012.
 
-### Blocking
+### Satisfied by TASK_CLAUDE_0013 and TASK_CODEX_0013
 
-`SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1` does not exist as a standalone
-artifact in the repository, the supplied archive, or the inspected local Claude
-session outputs. Related microcommunities text embedded in a draft Palma Method
-architecture document is not the required brief and cannot substitute for it.
-
-Therefore Claude must not resume TASK_CLAUDE_0012 yet. The next authorized work
-must first recover and integrate the TASK_CLAUDE_0011 package and create or
-recover the named sociology brief. After those inputs are visible in the
-canonical repository, the Founder must be shown the final launch package before
-any message is sent to Claude.
+`SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1` and its traceable source package
+were created under TASK_CLAUDE_0013 and integrated under TASK_CODEX_0013. The
+previous blocking condition is resolved. This recovery record does not accept
+the brief as final theoretical authority; it remains corrective research with
+the registered VI-012 and VI-013 restrictions.
 
 ## Definition of done preserved from the source
 

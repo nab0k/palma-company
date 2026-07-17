@@ -3,7 +3,7 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "ce0f9a2778abc41cbe089b50974d66f8feee5cdbeb7673dbe4cec9530c28f24c",
+  "source_fingerprint": "51443236356ab4bdf4da190735ae8b9a4770b6df44edb1a852d62a9366974c2c",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
@@ -453,7 +453,7 @@
         "id": "TASK_CLAUDE_0012",
         "canonical_id": "TASK_CLAUDE_0012",
         "type": "task",
-        "status": "blocked",
+        "status": "in_progress",
         "title": "TASK_CLAUDE_0012 recovery record",
         "path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md",
         "metadata_format": "frontmatter",
