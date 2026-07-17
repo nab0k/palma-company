@@ -27,6 +27,9 @@ SOURCE_TYPES = [
   "book_chapter",
   "journal_article",
   "industry_report",
+  "institutional_primary_report",
+  "institutional_framework_report",
+  "academic_monograph",
   "book + journal_article",
   "journal_article + book",
   "industry_research + magazine_article"
@@ -40,7 +43,12 @@ RESEARCH_TRACKS = [
   "Track E - Communication Failures",
   "Track F - Measurement",
   "Track G - Methods",
-  "Track H - Anti-Palma"
+  "Track H - Anti-Palma",
+  "Track B - Modern Business Evidence / Verification Follow-up (TASK_CLAUDE_0004, item 2)",
+  "Track A follow-up - Relationship Capital definitional research (TASK_CLAUDE_0004, item 1)",
+  "Track B follow-up - Google Project Aristotle primary verification (TASK_CLAUDE_0004, item 4)",
+  "Track G - Business case per active chapter (TASK_CLAUDE_0004, item 5)",
+  "TASK_CLAUDE_0005 - Relationship Capital decision memo, comparison term (Network Capital)"
 ].freeze
 
 SUPPORTING_DOCUMENTS = [
@@ -119,6 +127,8 @@ cards.each do |card|
   end
 
   Array(data["book_chapters"]).each do |chapter|
+    next if chapter.to_s.start_with?("Introduction")
+
     number = chapter.to_s[/Chapter\s+(\d+)/, 1]
     if number.nil? || !(1..21).cover?(number.to_i)
       errors << { check: "chapter_reference", file: file, message: "invalid chapter reference: #{chapter}" }

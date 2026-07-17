@@ -22,8 +22,8 @@ A manuscript sentence must not blur categories. Quantitative claims require orig
 | Issue | Affected claim | Card | Manuscript treatment |
 |---|---|---|---|
 | VI-001 | Ostrom's eight design principles | SC-006 | Prohibited until primary page-level verification |
-| VI-002 | 50/76/40 percent high-trust-organization statistic | SC-015 | Prohibited until primary source is traced; blocking |
-| VI-003 | Google Project Aristotle claim | SC-013 | Restricted pending primary verification |
+| VI-002 | 50/76/40 percent high-trust-organization statistic | SC-018 | Primary publisher article traced; qualified use only with self-report and correlational framing |
+| VI-003 | Google Project Aristotle claim | SC-020 | Primary Google re:Work material traced; use only for team effectiveness and psychological safety |
 | VI-004 | Literal scale-free structure in small client networks | SC-012 | Qualified use only without direct measurement |
 
-These remain unverified or contextually restricted claims, not sourced facts. Detailed records are in `verification/claims-ledger.md` and normalized controls are in `verification/VERIFICATION_ISSUES.md`.
+VI-001 and VI-004 remain unresolved or contextually restricted. VI-002 and VI-003 are resolved with explicit scope conditions, not approved for unqualified generalization. Historical and incoming ledgers are preserved separately; normalized controls are in `verification/VERIFICATION_ISSUES.md`.
