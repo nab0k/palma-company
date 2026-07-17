@@ -26,6 +26,9 @@ SOURCE_TYPES = [
   "book",
   "book_chapter",
   "journal_article",
+  "peer_reviewed_journal_article",
+  "peer_reviewed_practitioner_journal_article",
+  "practitioner_analysis",
   "industry_report",
   "institutional_primary_report",
   "institutional_framework_report",
@@ -48,7 +51,12 @@ RESEARCH_TRACKS = [
   "Track A follow-up - Relationship Capital definitional research (TASK_CLAUDE_0004, item 1)",
   "Track B follow-up - Google Project Aristotle primary verification (TASK_CLAUDE_0004, item 4)",
   "Track G - Business case per active chapter (TASK_CLAUDE_0004, item 5)",
-  "TASK_CLAUDE_0005 - Relationship Capital decision memo, comparison term (Network Capital)"
+  "TASK_CLAUDE_0005 - Relationship Capital decision memo, comparison term (Network Capital)",
+  "Evidence repair - TASK_CLAUDE_0007",
+  "TASK_CLAUDE_0008 - Wave 2, Chapter 3 grounding",
+  "TASK_CLAUDE_0008 - Wave 2, Chapter 4 grounding",
+  "TASK_CLAUDE_0008 - Wave 2, Chapter 5 grounding",
+  "TASK_CLAUDE_0008 - Wave 2, Chapter 9 grounding"
 ].freeze
 
 SUPPORTING_DOCUMENTS = [
@@ -130,7 +138,7 @@ cards.each do |card|
   end
 
   status = data["verification_status"].to_s
-  unless status.match?(/\A(?:verified|checked|discovery|pending|unverified|needs_primary_source|restricted)(?:_[a-z0-9_-]+)*\z/)
+  unless status.match?(/\A(?:verified|partially_verified|checked|discovery|pending|unverified|needs_primary_source|restricted)(?:_[a-z0-9_-]+)*\z/)
     errors << { check: "verification_status", file: file, message: "unrecognized verification status: #{status}" }
   end
 

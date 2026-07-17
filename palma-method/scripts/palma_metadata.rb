@@ -7,7 +7,7 @@ require "pathname"
 require "yaml"
 
 module PalmaKnowledgeOS
-  VERSION = "1.0.0"
+  VERSION = "1.1.0"
 
   COMMON_REQUIRED = %w[id type status owner created privacy_level].freeze
   TYPE_REQUIRED = {
@@ -154,6 +154,9 @@ module PalmaKnowledgeOS
         "research/source-cards/*.{md,yaml,yml}",
         "research/verification/*.md",
         "research/chapter-packets/*.md",
+        "research/decision-memos/*.md",
+        "research/open-questions/*.md",
+        "research/reports/*.md",
         "manuscript/01-introduction.md",
         "manuscript/99-conclusion.md",
         "manuscript/part-*/*.md"
@@ -175,6 +178,8 @@ module PalmaKnowledgeOS
         parse_source_card(path, text)
       elsif relative(path).start_with?("research/chapter-packets/")
         parse_chapter_packet(path, text)
+      elsif relative(path).match?(%r{\Aresearch/(?:decision-memos|open-questions|reports)/})
+        parse_structured_research_document(path, text)
       elsif relative(path).start_with?("manuscript/")
         parse_manuscript(path, text)
       else
@@ -215,6 +220,11 @@ module PalmaKnowledgeOS
         "title" => first_heading(text)
       }.compact
       add_record(path, data, "legacy_labels", text)
+    end
+
+    def parse_structured_research_document(path, text)
+      data = frontmatter(text)
+      add_record(path, data, "frontmatter", text) if data
     end
 
     def parse_source_card(path, text)
@@ -309,6 +319,9 @@ module PalmaKnowledgeOS
         values = Array(data[field]).flat_map { |value| extract_ids(value) }
         relationships[relation] = values unless values.empty?
       end
+      if data["type"] == "chapter" && data["supersedes"].to_s.end_with?(".md")
+        relationships.delete("supersedes")
+      end
 
       if data["type"] == "source_card"
         related = Array(data["related_cards"]).flat_map { |value| extract_source_ids(value) }
@@ -335,6 +348,10 @@ module PalmaKnowledgeOS
         "created" => data["created"],
         "privacy_level" => data["privacy_level"],
         "version" => data["version"]&.to_s,
+        "editorial_scope" => data["editorial_scope"],
+        "publication_status" => data["publication_status"],
+        "acceptance_reference" => data["acceptance_reference"],
+        "supersedes_declaration" => data["supersedes"] || data["supersedes_for_review_purposes"],
         "chapter_number" => data["chapter_number"],
         "source_id_format" => source_id_format(id, data["type"]),
         "legacy_year" => PalmaKnowledgeOS.source_card_year(id),
@@ -552,7 +569,7 @@ module PalmaKnowledgeOS
         "source_of_truth" => "GitHub repository metadata",
         "source_fingerprint" => @result.source_fingerprint,
         "classification" => {
-          "current" => "canonical metadata or a uniquely selected highest chapter version",
+          "current" => "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
           "legacy" => "accepted transition format or a superseded lower chapter version",
           "ambiguous" => "missing/conflicting identity or version; no silent choice was made"
         },
@@ -587,19 +604,19 @@ module PalmaKnowledgeOS
         "",
         "## Classification",
         "",
-        "- **current** — canonical metadata or a uniquely selected highest chapter version.",
+        "- **current** — canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version.",
         "- **legacy** — accepted transition format or a superseded lower chapter version.",
         "- **ambiguous** — identity/version is missing or conflicts; the generator made no silent choice.",
         "",
         "## Chapters",
         "",
-        "| Chapter | Selection | Current path | Version | Legacy versions | Ambiguous records |",
-        "|---|---|---|---|---:|---:|"
+        "| Chapter | Selection | Basis | Current path | Version | Legacy versions | Ambiguous records |",
+        "|---|---|---|---|---|---:|---:|"
       ]
 
       index["chapters"].each do |chapter|
         current = chapter["records"].find { |record| record["index_state"] == "current" }
-        lines << "| #{chapter['canonical_id']} | #{chapter['selection_state']} | #{current&.dig('path') || '—'} | #{current&.dig('version') || '—'} | #{chapter['records'].count { |r| r['index_state'] == 'legacy' }} | #{chapter['records'].count { |r| r['index_state'] == 'ambiguous' }} |"
+        lines << "| #{chapter['canonical_id']} | #{chapter['selection_state']} | #{chapter['selection_basis']} | #{current&.dig('path') || '—'} | #{current&.dig('version') || '—'} | #{chapter['records'].count { |r| r['index_state'] == 'legacy' }} | #{chapter['records'].count { |r| r['index_state'] == 'ambiguous' }} |"
       end
 
       %w[current legacy ambiguous].each do |state|
@@ -623,39 +640,62 @@ module PalmaKnowledgeOS
       records.group_by { |record| record["canonical_id"] }.sort.map do |canonical_id, group|
         copies = group.map { |record| public_record(record) }
         versioned = copies.select { |record| semantic_version(record["version"]) }
+        accepted = versioned.select { |record| record["status"] == "accepted" }
 
-        selection_state =
+        selection_state, selection_basis =
           if versioned.empty?
             copies.each { |record| record["index_state"] = "ambiguous" }
-            "ambiguous"
+            ["ambiguous", "no_explicit_version"]
+          elsif accepted.length == 1
+            select_current(copies, accepted.first)
+            ["current", "explicit_editorial_acceptance"]
+          elsif accepted.length > 1
+            copies.each do |record|
+              record["index_state"] =
+                if accepted.include?(record)
+                  "ambiguous"
+                elsif semantic_version(record["version"])
+                  "legacy"
+                else
+                  "ambiguous"
+                end
+            end
+            ["ambiguous", "conflicting_editorial_acceptance"]
           else
             highest = versioned.map { |record| semantic_version(record["version"]) }.max
             winners = versioned.select { |record| semantic_version(record["version"]) == highest }
             if winners.length == 1
-              copies.each do |record|
-                record["index_state"] =
-                  if record.equal?(winners.first)
-                    "current"
-                  elsif semantic_version(record["version"])
-                    "legacy"
-                  else
-                    "ambiguous"
-                  end
-              end
-              "current"
+              select_current(copies, winners.first)
+              ["current", "highest_observed_version"]
             else
               copies.each do |record|
                 record["index_state"] = semantic_version(record["version"]) == highest ? "ambiguous" : "legacy"
               end
-              "ambiguous"
+              ["ambiguous", "duplicate_highest_version"]
             end
           end
 
         {
           "canonical_id" => canonical_id,
           "selection_state" => selection_state,
+          "selection_basis" => selection_basis,
           "records" => copies.sort_by { |record| [state_order(record["index_state"]), semantic_version(record["version"]) || [], record["path"]] }
         }
+      end
+    end
+
+    def select_current(records, winner)
+      winner_version = semantic_version(winner["version"])
+      records.each do |record|
+        version = semantic_version(record["version"])
+        record["index_state"] =
+          if record.equal?(winner)
+            "current"
+          elsif version && (version <=> winner_version) <= 0
+            "legacy"
+          else
+            "ambiguous"
+          end
       end
     end
 
@@ -678,6 +718,7 @@ module PalmaKnowledgeOS
       %w[
         id canonical_id type status title path metadata_format record_state owner
         created privacy_level version chapter_number source_id_format legacy_year
+        editorial_scope publication_status acceptance_reference supersedes_declaration
         relationships
       ].to_h { |key| [key, record[key]] }.reject { |_key, value| value.nil? }
     end

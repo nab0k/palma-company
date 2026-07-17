@@ -24,9 +24,35 @@ class RepositoryIndexTest < Minitest::Test
     by_path = chapter.fetch("records").to_h { |record| [record["path"], record] }
 
     assert_equal "current", chapter.fetch("selection_state")
+    assert_equal "highest_observed_version", chapter.fetch("selection_basis")
     assert_equal "legacy", by_path.fetch("research/chapter-packets/06-chapter-6-packet-v0.1.md").fetch("index_state")
     assert_equal "current", by_path.fetch("research/chapter-packets/06-chapter-6-packet-v0.2.md").fetch("index_state")
     assert_equal "ambiguous", by_path.fetch("manuscript/part-2/06-fixture.md").fetch("index_state")
+  end
+
+  def test_explicit_editorial_acceptance_selects_current_working_version
+    Dir.mktmpdir do |directory|
+      FileUtils.cp_r("#{FIXTURE_ROOT}/.", directory)
+      path = File.join(directory, "research/chapter-packets/06-chapter-6-packet-v0.2.md")
+      File.write(
+        path,
+        File.read(path, encoding: "UTF-8").sub(
+          "status: draft_for_editorial_review",
+          "status: accepted\neditorial_scope: accepted_current_working_version\npublication_status: not_final"
+        ),
+        encoding: "UTF-8"
+      )
+
+      result = PalmaKnowledgeOS::Scanner.new(directory).scan
+      index = PalmaKnowledgeOS::IndexBuilder.new(result).build
+      chapter = index.fetch("chapters").find { |item| item["canonical_id"] == "CHAPTER_06" }
+      current = chapter.fetch("records").find { |record| record["index_state"] == "current" }
+
+      assert_equal "explicit_editorial_acceptance", chapter.fetch("selection_basis")
+      assert_equal "0.2", current.fetch("version")
+      assert_equal "accepted_current_working_version", current.fetch("editorial_scope")
+      assert_equal "not_final", current.fetch("publication_status")
+    end
   end
 
   def test_catalog_distinguishes_current_and_legacy_metadata

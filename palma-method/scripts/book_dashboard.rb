@@ -6,7 +6,7 @@ require "open3"
 require "pathname"
 
 module PalmaBookDashboard
-  VERSION = "1.0.0"
+  VERSION = "1.1.0"
 
   Unit = Struct.new(:canonical_id, :part, :number, :title, :path, keyword_init: true)
 
@@ -152,14 +152,17 @@ module PalmaBookDashboard
           "working_packets" => packet_count,
           "editorially_accepted" => rows.count { |row| ACCEPTED_STATUSES.include?(row["editorial_status"]) },
           "under_revision" => rows.count { |row| REVISION_STATUSES.include?(row["editorial_status"]) },
-          "not_started" => rows.count { |row| row["draft_status"] == "missing" },
+          "not_started" => rows.count do |row|
+            row["research_packet_status"] == "missing" && %w[missing unknown].include?(row["draft_status"])
+          end,
           "current_records" => index.dig("summary", "current") || 0,
           "legacy_records" => index.dig("summary", "legacy") || 0,
           "ambiguous_records" => index.dig("summary", "ambiguous") || 0,
           "packet_coverage_percentage" => rows.empty? ? 0.0 : ((packet_count * 100.0) / rows.length).round(1)
         },
         "rows" => rows,
-        "ambiguities" => ambiguity_rows
+        "ambiguities" => ambiguity_rows,
+        "unresolved_manuscript_relationships" => unresolved_manuscript_relationships
       }
     end
 
@@ -175,6 +178,7 @@ module PalmaBookDashboard
         "- Repository index: `generated/repository-index.json`",
         "- Dashboard fingerprint: `#{dashboard['dashboard_fingerprint']}`",
         "- Metadata mode: `legacy_warning`",
+        "- Editorial meaning of `accepted`: current working version accepted for continued manuscript development; not final publication copy.",
         "",
         "## Summary",
         "",
@@ -192,14 +196,15 @@ module PalmaBookDashboard
         "",
         "## Manuscript units",
         "",
-        "| Part | No. | Title | Current version | Repository | Research packet | Draft | Editorial | Next action | Last modified |",
-        "|---|---:|---|---|---|---|---|---|---|---|"
+        "| Part | No. | Title | Current working chapter | Repository | Research packet | Accepted working version | Legacy versions | Ambiguous files | Draft | Editorial | Next action | Last modified |",
+        "|---|---:|---|---|---|---|---|---|---|---|---|---|---|"
       ]
 
       dashboard["rows"].each do |row|
         lines << [
-          row["part"], row["number"], row["title"], row["current_version"],
-          row["repository_status"], row["research_packet_status"], row["draft_status"],
+          row["part"], row["number"], row["title"], row["current_working_chapter"],
+          row["repository_status"], row["research_packet_status"], row["accepted_working_version"],
+          row["legacy_versions"], row["ambiguous_files"], row["draft_status"],
           row["editorial_status"], row["next_action"], row["last_modified"]
         ].map { |value| escape_table(value) }.join(" | ").then { |body| "| #{body} |" }
       end
@@ -230,6 +235,21 @@ module PalmaBookDashboard
         end
       end
 
+      lines.concat([
+        "",
+        "## Unresolved manuscript-to-packet relationships",
+        "",
+        "These unversioned manuscript files remain traceable but are not promoted over a versioned current packet.",
+        ""
+      ])
+      if dashboard["unresolved_manuscript_relationships"].empty?
+        lines << "No unresolved manuscript-to-packet relationships."
+      else
+        dashboard["unresolved_manuscript_relationships"].each do |item|
+          lines << "- `#{item['canonical_id']}`: `#{item['manuscript_path']}` remains ambiguous relative to `#{item['current_packet_path']}` (v#{item['current_version']}); smallest action: record explicit manuscript-to-packet lineage metadata."
+        end
+      end
+
       lines.join("\n").rstrip + "\n"
     end
 
@@ -246,6 +266,13 @@ module PalmaBookDashboard
       draft_status = explicit_status(manuscript_record)
       draft_status = "missing" unless manuscript_record
       editorial_status = editorial_status(group, current_record, manuscript_record)
+      accepted_working_version = accepted_working_version(current_record)
+      legacy_versions = packet_records.select { |record| record["index_state"] == "legacy" }
+                                      .sort_by { |record| semantic_version(record["version"]) || [] }
+                                      .map { |record| "v#{record['version']} — `#{record['path']}`" }
+      ambiguous_files = records.select { |record| record["index_state"] == "ambiguous" }
+                               .sort_by { |record| record["path"] }
+                               .map { |record| "`#{record['path']}`" }
 
       {
         "canonical_id" => unit.canonical_id,
@@ -254,11 +281,15 @@ module PalmaBookDashboard
         "title" => unit.title,
         "path" => unit.path,
         "current_version" => current_record&.dig("version") || "unknown",
+        "current_working_chapter" => current_record ? "v#{current_record['version']} — `#{current_record['path']}`" : "unknown",
         "repository_status" => repository_status,
         "research_packet_status" => packet_status,
+        "accepted_working_version" => accepted_working_version,
+        "legacy_versions" => legacy_versions.empty? ? "none" : legacy_versions.join("; "),
+        "ambiguous_files" => ambiguous_files.empty? ? "none" : ambiguous_files.join("; "),
         "draft_status" => draft_status,
         "editorial_status" => editorial_status,
-        "next_action" => next_action(repository_status, packet_status, draft_status, editorial_status),
+        "next_action" => next_action(repository_status, packet_status, draft_status, editorial_status, current_record),
         "last_modified" => latest_date(([unit.path] + records.map { |record| record["path"] }).compact)
       }
     end
@@ -293,6 +324,15 @@ module PalmaBookDashboard
       explicit || "needs editorial classification"
     end
 
+    def accepted_working_version(record)
+      return "unknown" unless record
+      return "unknown" unless record["status"] == "accepted"
+      return "unknown" unless record["editorial_scope"] == "accepted_current_working_version"
+
+      finality = record["publication_status"] == "not_final" ? "not final" : "publication status unknown"
+      "v#{record['version']} — accepted working version (#{finality})"
+    end
+
     def editorial_status_value?(status)
       ACCEPTED_STATUSES.include?(status) ||
         REVISION_STATUSES.include?(status) ||
@@ -304,7 +344,7 @@ module PalmaBookDashboard
       value.nil? || value.empty? || value == "unknown" ? "unknown" : value
     end
 
-    def next_action(repository_status, packet_status, draft_status, editorial_status)
+    def next_action(repository_status, packet_status, draft_status, editorial_status, current_record)
       return "register manuscript unit in repository index" if repository_status == "missing"
       return "add explicit version and lifecycle metadata" if repository_status == "ambiguous"
       return "create or register research packet" if packet_status == "missing"
@@ -312,7 +352,11 @@ module PalmaBookDashboard
       return "classify editorial status" if editorial_status == "needs editorial classification"
       return "complete editorial review" if %w[draft_for_editorial_review review needs_editorial_review].include?(editorial_status)
       return "complete revision" if REVISION_STATUSES.include?(editorial_status)
-      return "none" if ACCEPTED_STATUSES.include?(editorial_status)
+      if ACCEPTED_STATUSES.include?(editorial_status)
+        return "continue manuscript development; later authorial and line editing" if current_record&.dig("editorial_scope") == "accepted_current_working_version"
+
+        return "none"
+      end
 
       "review metadata"
     end
@@ -354,6 +398,28 @@ module PalmaBookDashboard
               "index_state" => record["index_state"] || "ambiguous"
             }
           end
+        }
+      end
+    end
+
+    def unresolved_manuscript_relationships
+      units.each_with_object([]) do |unit, items|
+        group = chapter_groups[unit.canonical_id]
+        next unless group && group["selection_state"] == "current"
+
+        current = group.fetch("records", []).find do |record|
+          record["index_state"] == "current" && packet?(record)
+        end
+        manuscript = group.fetch("records", []).find do |record|
+          record["path"] == unit.path && record["index_state"] == "ambiguous"
+        end
+        next unless current && manuscript
+
+        items << {
+          "canonical_id" => unit.canonical_id,
+          "manuscript_path" => manuscript["path"],
+          "current_packet_path" => current["path"],
+          "current_version" => current["version"]
         }
       end
     end

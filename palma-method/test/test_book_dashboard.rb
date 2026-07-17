@@ -66,7 +66,7 @@ class BookDashboardTest < Minitest::Test
   end
 
   def packet(id, version, status, index_state)
-    {
+    record = {
       "id" => "PKT-#{id}",
       "canonical_id" => id,
       "type" => "chapter",
@@ -76,6 +76,11 @@ class BookDashboardTest < Minitest::Test
       "record_state" => "legacy",
       "index_state" => index_state
     }
+    if status == "accepted"
+      record["editorial_scope"] = "accepted_current_working_version"
+      record["publication_status"] = "not_final"
+    end
+    record
   end
 
   def manuscript(id)
@@ -125,6 +130,22 @@ class BookDashboardTest < Minitest::Test
     assert_equal 1, summary.fetch("under_revision")
     assert_equal 2, summary.fetch("not_started")
     assert_equal 60.0, summary.fetch("packet_coverage_percentage")
+  end
+
+  def test_accepted_working_version_is_explicitly_not_final
+    row = builder.data.fetch("rows").find { |item| item["canonical_id"] == "CHAPTER_00" }
+
+    assert_equal "v0.2 — accepted working version (not final)", row.fetch("accepted_working_version")
+    assert_match(/continue manuscript development/, row.fetch("next_action"))
+    assert_match(/manuscript\/chapter_00\.md/, row.fetch("ambiguous_files"))
+  end
+
+  def test_unversioned_manuscript_relationship_remains_unresolved
+    items = builder.data.fetch("unresolved_manuscript_relationships")
+    introduction = items.find { |item| item["canonical_id"] == "CHAPTER_00" }
+
+    refute_nil introduction
+    assert_equal "0.2", introduction.fetch("current_version")
   end
 
   def test_ambiguity_report_explains_unversioned_manuscript

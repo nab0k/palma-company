@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generator_version": "1.0.0",
+  "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "2bfe3a92382ee60856ffee8c489cf4820b7a44ef7430a92617563310d043f08c",
+  "source_fingerprint": "c256f57664d6063270ca5b5f465a89c1f568b64aa2cf1b2aab56e53edd18f59a",
   "classification": {
-    "current": "canonical metadata or a uniquely selected highest chapter version",
+    "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 82,
-    "current": 19,
-    "legacy": 40,
+    "records": 107,
+    "current": 30,
+    "legacy": 54,
     "ambiguous": 23,
-    "non_chapter_current": 12,
-    "non_chapter_legacy": 39,
+    "non_chapter_current": 19,
+    "non_chapter_legacy": 44,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 66
+    "validation_warnings": 84
   },
   "catalog": {
     "current": [
@@ -51,6 +51,110 @@
         "created": "2026-07-17",
         "privacy_level": "internal",
         "relationships": {
+        }
+      },
+      {
+        "id": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+        "canonical_id": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+        "type": "change_map",
+        "status": "review",
+        "title": "Cross-Chapter Sync Change Log",
+        "path": "research/decision-memos/CROSS_CHAPTER_SYNC_CHANGE_LOG.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_03",
+            "CHAPTER_06",
+            "CHAPTER_09",
+            "CHAPTER_10"
+          ]
+        }
+      },
+      {
+        "id": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+        "canonical_id": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+        "type": "change_map",
+        "status": "review",
+        "title": "Wave 2 Corrective Change Log",
+        "path": "research/decision-memos/WAVE_2_CORRECTIVE_CHANGE_LOG.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_09"
+          ]
+        }
+      },
+      {
+        "id": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+        "canonical_id": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+        "type": "change_map",
+        "status": "review",
+        "title": "Wave 2 Cross-Chapter Map",
+        "path": "research/decision-memos/WAVE_2_CROSS_CHAPTER_MAP.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_09"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0009",
+        "canonical_id": "REPORT_TASK_CLAUDE_0009",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0009 — Completion Report",
+        "path": "research/reports/TASK_CLAUDE_0009_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_09"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0010",
+        "canonical_id": "REPORT_TASK_CLAUDE_0010",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0010 — Completion Report",
+        "path": "research/reports/TASK_CLAUDE_0010_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_06",
+            "CHAPTER_09",
+            "CHAPTER_10"
+          ]
         }
       },
       {
@@ -138,6 +242,27 @@
         }
       },
       {
+        "id": "RG-001",
+        "canonical_id": "RG-001",
+        "type": "research_gap",
+        "status": "open",
+        "title": "Wave 2 Evidence Gap Log",
+        "path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_09"
+          ]
+        }
+      },
+      {
         "id": "REVIEW_CODEX_0007",
         "canonical_id": "REVIEW_CODEX_0007",
         "type": "review",
@@ -218,6 +343,24 @@
         "relationships": {
           "depends_on": [
             "TASK_CODEX_0007"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0009",
+        "canonical_id": "TASK_CODEX_0009",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0009 — Reconcile Editorial State and Dashboard",
+        "path": "governance/TASK_CODEX_0009_RECONCILE_EDITORIAL_STATE.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0008"
           ]
         }
       }
@@ -787,6 +930,106 @@
         }
       },
       {
+        "id": "SC-024",
+        "canonical_id": "SC-024",
+        "type": "source_card",
+        "status": "partially_verified_primary_source_confirmation_required",
+        "title": "Why Almost Every Branded Community Fails",
+        "path": "research/source-cards/millington-feverbee-branded-community-failure.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-16",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-007",
+            "SC-021"
+          ]
+        }
+      },
+      {
+        "id": "SC-025",
+        "canonical_id": "SC-025",
+        "type": "source_card",
+        "status": "verified_via_primary_publisher_record",
+        "title": "Managing Legitimacy: Strategic and Institutional Approaches",
+        "path": "research/source-cards/suchman-1995-managing-legitimacy.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-010",
+            "SC-014"
+          ]
+        }
+      },
+      {
+        "id": "SC-026",
+        "canonical_id": "SC-026",
+        "type": "source_card",
+        "status": "verified_via_primary_publisher_record",
+        "title": "Zero Defections: Quality Comes to Services",
+        "path": "research/source-cards/reichheld-sasser-1990-zero-defections.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-009",
+            "SC-018"
+          ]
+        }
+      },
+      {
+        "id": "SC-027",
+        "canonical_id": "SC-027",
+        "type": "source_card",
+        "status": "checked",
+        "title": "Interaction Ritual Chains",
+        "path": "research/source-cards/collins-2004-interaction-ritual-chains.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-007",
+            "SC-021"
+          ]
+        }
+      },
+      {
+        "id": "SC-028",
+        "canonical_id": "SC-028",
+        "type": "source_card",
+        "status": "verified_via_primary_publisher_record",
+        "title": "Error and Attack Tolerance of Complex Networks",
+        "path": "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-012",
+            "SC-017"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -940,6 +1183,7 @@
     {
       "canonical_id": "CHAPTER_00",
       "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
         {
           "id": "PKT-00",
@@ -992,6 +1236,7 @@
     {
       "canonical_id": "CHAPTER_01",
       "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
         {
           "id": "PKT-01",
@@ -1039,6 +1284,7 @@
     {
       "canonical_id": "CHAPTER_02",
       "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
         {
           "id": "PKT-02",
@@ -1085,8 +1331,61 @@
     },
     {
       "canonical_id": "CHAPTER_03",
-      "selection_state": "ambiguous",
+      "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
+        {
+          "id": "PKT-03-v0.2",
+          "canonical_id": "CHAPTER_03",
+          "type": "chapter",
+          "status": "accepted",
+          "title": "Chapter Packet v0.2: Chapter 3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/CHAPTER_03_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 3,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_03_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-008",
+              "SC-014",
+              "SC-015",
+              "SC-025"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
+          "id": "PKT-03-v0.1",
+          "canonical_id": "CHAPTER_03",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.1: Chapter 3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/CHAPTER_03_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 3,
+          "relationships": {
+            "supported_by": [
+              "SC-008",
+              "SC-014",
+              "SC-015",
+              "SC-025"
+            ]
+          },
+          "index_state": "legacy"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_03",
           "canonical_id": "CHAPTER_03",
@@ -1108,8 +1407,73 @@
     },
     {
       "canonical_id": "CHAPTER_04",
-      "selection_state": "ambiguous",
+      "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
+        {
+          "id": "PKT-04-v0.2",
+          "canonical_id": "CHAPTER_04",
+          "type": "chapter",
+          "status": "accepted",
+          "title": "Chapter Packet v0.2: Chapter 4 — The Cost of Weak Relationships",
+          "path": "research/chapter-packets/CHAPTER_04_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 4,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_04_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-004",
+              "SC-005",
+              "SC-009",
+              "SC-018",
+              "SC-022",
+              "SC-026",
+              "SC-028"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
+          "id": "PKT-04-v0.1",
+          "canonical_id": "CHAPTER_04",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.1: Chapter 4 — The Cost of Weak Relationships",
+          "path": "research/chapter-packets/CHAPTER_04_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 4,
+          "relationships": {
+            "supported_by": [
+              "SC-004",
+              "SC-005",
+              "SC-009",
+              "SC-018",
+              "SC-022",
+              "SC-026",
+              "SC-028"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "legacy"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_04",
           "canonical_id": "CHAPTER_04",
@@ -1131,8 +1495,59 @@
     },
     {
       "canonical_id": "CHAPTER_05",
-      "selection_state": "ambiguous",
+      "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
+        {
+          "id": "PKT-05-v0.2",
+          "canonical_id": "CHAPTER_05",
+          "type": "chapter",
+          "status": "accepted",
+          "title": "Chapter Packet v0.2: Chapter 5 — Events Are Not Infrastructure",
+          "path": "research/chapter-packets/CHAPTER_05_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 5,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_05_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-007",
+              "SC-021",
+              "SC-027"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
+          "id": "PKT-05-v0.1",
+          "canonical_id": "CHAPTER_05",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.1: Chapter 5 — Events Are Not Infrastructure",
+          "path": "research/chapter-packets/CHAPTER_05_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 5,
+          "relationships": {
+            "supported_by": [
+              "SC-007",
+              "SC-021",
+              "SC-027"
+            ]
+          },
+          "index_state": "legacy"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_05",
           "canonical_id": "CHAPTER_05",
@@ -1155,21 +1570,26 @@
     {
       "canonical_id": "CHAPTER_06",
       "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
         {
-          "id": "PKT-06-v0.2",
+          "id": "PKT-06-v0.4",
           "canonical_id": "CHAPTER_06",
           "type": "chapter",
-          "status": "draft_for_editorial_review",
-          "title": "Chapter Packet v0.2: Chapter 6 — Relationship Capital",
-          "path": "research/chapter-packets/06-chapter-6-packet-v0.2.md",
+          "status": "accepted",
+          "title": "Chapter Packet v0.4: Chapter 6 — Relationship Capital (Canonical)",
+          "path": "research/chapter-packets/CHAPTER_06_v0.4.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
           "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-16",
+          "created": "2026-07-17",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.4",
           "chapter_number": 6,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "06-chapter-6-packet-v0.1.md, 06-chapter-6-packet-v0.2.md, and CHAPTER_06_v0.3.md (all preserved unmodified, not deleted or overwritten)",
           "relationships": {
             "supported_by": [
               "SC-001",
@@ -1186,7 +1606,7 @@
               "SC-023"
             ],
             "verifies": [
-              "VI-002"
+              "VI-004"
             ]
           },
           "index_state": "current"
@@ -1217,6 +1637,78 @@
           "index_state": "legacy"
         },
         {
+          "id": "PKT-06-v0.2",
+          "canonical_id": "CHAPTER_06",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 6 — Relationship Capital",
+          "path": "research/chapter-packets/06-chapter-6-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 6,
+          "supersedes_declaration": "06-chapter-6-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-001",
+              "SC-002",
+              "SC-003",
+              "SC-004",
+              "SC-005",
+              "SC-008",
+              "SC-009",
+              "SC-010",
+              "SC-012",
+              "SC-018",
+              "SC-019",
+              "SC-023"
+            ],
+            "verifies": [
+              "VI-002"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-06-v0.3",
+          "canonical_id": "CHAPTER_06",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.3: Chapter 6 — Relationship Capital (Canonical)",
+          "path": "research/chapter-packets/CHAPTER_06_v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 6,
+          "supersedes_declaration": "06-chapter-6-packet-v0.1.md and 06-chapter-6-packet-v0.2.md (both preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-001",
+              "SC-002",
+              "SC-003",
+              "SC-004",
+              "SC-005",
+              "SC-008",
+              "SC-009",
+              "SC-010",
+              "SC-012",
+              "SC-018",
+              "SC-019",
+              "SC-023"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
           "id": "MANUSCRIPT_CHAPTER_06",
           "canonical_id": "CHAPTER_06",
           "type": "chapter",
@@ -1238,6 +1730,7 @@
     {
       "canonical_id": "CHAPTER_07",
       "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
         {
           "id": "PKT-07",
@@ -1288,6 +1781,7 @@
     {
       "canonical_id": "CHAPTER_08",
       "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
         {
           "id": "PKT-08",
@@ -1341,8 +1835,101 @@
     },
     {
       "canonical_id": "CHAPTER_09",
-      "selection_state": "ambiguous",
+      "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
+        {
+          "id": "PKT-09-v0.3",
+          "canonical_id": "CHAPTER_09",
+          "type": "chapter",
+          "status": "accepted",
+          "title": "Chapter Packet v0.3: Chapter 9 — Networks, Groups, and Structural Advantage",
+          "path": "research/chapter-packets/CHAPTER_09_v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 9,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_09_v0.2.md",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-012",
+              "SC-017",
+              "SC-028"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
+          "id": "PKT-09-v0.1",
+          "canonical_id": "CHAPTER_09",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.1: Chapter 9 — Networks, Groups, and Structural Advantage",
+          "path": "research/chapter-packets/CHAPTER_09_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 9,
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-012",
+              "SC-017",
+              "SC-028"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-09-v0.2",
+          "canonical_id": "CHAPTER_09",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 9 — Networks, Groups, and Structural Advantage",
+          "path": "research/chapter-packets/CHAPTER_09_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 9,
+          "supersedes_declaration": "CHAPTER_09_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-012",
+              "SC-017",
+              "SC-028"
+            ],
+            "verifies": [
+              "VI-004"
+            ]
+          },
+          "index_state": "legacy"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_09",
           "canonical_id": "CHAPTER_09",
@@ -1365,7 +1952,34 @@
     {
       "canonical_id": "CHAPTER_10",
       "selection_state": "current",
+      "selection_basis": "explicit_editorial_acceptance",
       "records": [
+        {
+          "id": "PKT-10-v0.3",
+          "canonical_id": "CHAPTER_10",
+          "type": "chapter",
+          "status": "accepted",
+          "title": "Chapter Packet v0.3: Chapter 10 — The Dark Side of Social Capital",
+          "path": "research/chapter-packets/CHAPTER_10_v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 10,
+          "editorial_scope": "accepted_current_working_version",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "10-chapter-10-packet-v0.1.md and 10-chapter-10-packet-v0.2.md (both preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "verifies": [
+              "VI-002",
+              "VI-004"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-10",
           "canonical_id": "CHAPTER_10",
@@ -1392,7 +2006,26 @@
               "VI-002"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-10-v0.2",
+          "canonical_id": "CHAPTER_10",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 10 — The Dark Side of Social Capital",
+          "path": "research/chapter-packets/10-chapter-10-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 10,
+          "supersedes_declaration": "10-chapter-10-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+          },
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_10",
@@ -1416,6 +2049,7 @@
     {
       "canonical_id": "CHAPTER_11",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_11",
@@ -1439,6 +2073,7 @@
     {
       "canonical_id": "CHAPTER_12",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_12",
@@ -1462,6 +2097,7 @@
     {
       "canonical_id": "CHAPTER_13",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_13",
@@ -1485,6 +2121,7 @@
     {
       "canonical_id": "CHAPTER_14",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_14",
@@ -1508,6 +2145,7 @@
     {
       "canonical_id": "CHAPTER_15",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_15",
@@ -1531,6 +2169,7 @@
     {
       "canonical_id": "CHAPTER_16",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_16",
@@ -1554,6 +2193,7 @@
     {
       "canonical_id": "CHAPTER_17",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_17",
@@ -1577,6 +2217,7 @@
     {
       "canonical_id": "CHAPTER_18",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_18",
@@ -1600,6 +2241,7 @@
     {
       "canonical_id": "CHAPTER_19",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_19",
@@ -1623,6 +2265,7 @@
     {
       "canonical_id": "CHAPTER_20",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_20",
@@ -1646,6 +2289,7 @@
     {
       "canonical_id": "CHAPTER_21",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_21",
@@ -1669,6 +2313,7 @@
     {
       "canonical_id": "CHAPTER_99",
       "selection_state": "ambiguous",
+      "selection_basis": "no_explicit_version",
       "records": [
         {
           "id": "MANUSCRIPT_CHAPTER_99",
@@ -1691,6 +2336,78 @@
     }
   ],
   "edges": [
+    {
+      "from": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_03",
+      "source_path": "research/decision-memos/CROSS_CHAPTER_SYNC_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_06",
+      "source_path": "research/decision-memos/CROSS_CHAPTER_SYNC_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "research/decision-memos/CROSS_CHAPTER_SYNC_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_10",
+      "source_path": "research/decision-memos/CROSS_CHAPTER_SYNC_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+      "relation": "reviews",
+      "to": "CHAPTER_03",
+      "source_path": "research/decision-memos/WAVE_2_CORRECTIVE_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+      "relation": "reviews",
+      "to": "CHAPTER_04",
+      "source_path": "research/decision-memos/WAVE_2_CORRECTIVE_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+      "relation": "reviews",
+      "to": "CHAPTER_05",
+      "source_path": "research/decision-memos/WAVE_2_CORRECTIVE_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CORRECTIVE",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "research/decision-memos/WAVE_2_CORRECTIVE_CHANGE_LOG.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+      "relation": "reviews",
+      "to": "CHAPTER_03",
+      "source_path": "research/decision-memos/WAVE_2_CROSS_CHAPTER_MAP.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+      "relation": "reviews",
+      "to": "CHAPTER_04",
+      "source_path": "research/decision-memos/WAVE_2_CROSS_CHAPTER_MAP.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+      "relation": "reviews",
+      "to": "CHAPTER_05",
+      "source_path": "research/decision-memos/WAVE_2_CROSS_CHAPTER_MAP.md"
+    },
+    {
+      "from": "CHANGE_MAP_WAVE_2_CROSS_CHAPTER",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "research/decision-memos/WAVE_2_CROSS_CHAPTER_MAP.md"
+    },
     {
       "from": "CHAPTER_00",
       "relation": "supported_by",
@@ -1782,6 +2499,186 @@
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
     },
     {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-015",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-015",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-022",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-022",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-026",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-026",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_04",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_04_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_05",
+      "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/CHAPTER_05_v0.2.md"
+    },
+    {
       "from": "CHAPTER_06",
       "relation": "supported_by",
       "to": "SC-001",
@@ -1792,6 +2689,18 @@
       "relation": "supported_by",
       "to": "SC-001",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-001",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-001",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1808,6 +2717,18 @@
     {
       "from": "CHAPTER_06",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
       "to": "SC-003",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.1.md"
     },
@@ -1816,6 +2737,18 @@
       "relation": "supported_by",
       "to": "SC-003",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-003",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-003",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1826,8 +2759,32 @@
     {
       "from": "CHAPTER_06",
       "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
       "to": "SC-005",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1838,8 +2795,32 @@
     {
       "from": "CHAPTER_06",
       "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
       "to": "SC-009",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1852,6 +2833,18 @@
       "relation": "supported_by",
       "to": "SC-010",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1862,8 +2855,32 @@
     {
       "from": "CHAPTER_06",
       "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
       "to": "SC-018",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
@@ -1880,14 +2897,50 @@
     {
       "from": "CHAPTER_06",
       "relation": "supported_by",
+      "to": "SC-019",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-019",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
       "to": "SC-023",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-023",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "supported_by",
+      "to": "SC-023",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_06",
       "relation": "verifies",
       "to": "VI-002",
       "source_path": "research/chapter-packets/06-chapter-6-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_06",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_06_v0.4.md"
     },
     {
       "from": "CHAPTER_07",
@@ -1974,6 +3027,132 @@
       "source_path": "research/chapter-packets/08-chapter-8-packet-v0.1.md"
     },
     {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-017",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-017",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-017",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_09_v0.3.md"
+    },
+    {
       "from": "CHAPTER_10",
       "relation": "supported_by",
       "to": "SC-001",
@@ -2010,6 +3189,60 @@
       "source_path": "research/chapter-packets/10-chapter-10-packet-v0.1.md"
     },
     {
+      "from": "CHAPTER_10",
+      "relation": "verifies",
+      "to": "VI-002",
+      "source_path": "research/chapter-packets/CHAPTER_10_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_10",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_10_v0.3.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_03",
+      "source_path": "research/reports/TASK_CLAUDE_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_04",
+      "source_path": "research/reports/TASK_CLAUDE_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_05",
+      "source_path": "research/reports/TASK_CLAUDE_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "research/reports/TASK_CLAUDE_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_06",
+      "source_path": "research/reports/TASK_CLAUDE_0010_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "research/reports/TASK_CLAUDE_0010_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0010",
+      "relation": "reviews",
+      "to": "CHAPTER_10",
+      "source_path": "research/reports/TASK_CLAUDE_0010_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REPORT_TASK_CODEX-2A2B_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -2032,6 +3265,30 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
       "source_path": "governance/TASK_CODEX_0007_PHASE_1_GAP_REPORT.md"
+    },
+    {
+      "from": "RG-001",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md"
+    },
+    {
+      "from": "RG-001",
+      "relation": "affects",
+      "to": "CHAPTER_04",
+      "source_path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md"
+    },
+    {
+      "from": "RG-001",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md"
+    },
+    {
+      "from": "RG-001",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md"
     },
     {
       "from": "SC-001",
@@ -2376,6 +3633,66 @@
       "source_path": "research/source-cards/urry-2007-network-capital.md"
     },
     {
+      "from": "SC-024",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/millington-feverbee-branded-community-failure.md"
+    },
+    {
+      "from": "SC-024",
+      "relation": "related_to",
+      "to": "SC-021",
+      "source_path": "research/source-cards/millington-feverbee-branded-community-failure.md"
+    },
+    {
+      "from": "SC-025",
+      "relation": "related_to",
+      "to": "SC-010",
+      "source_path": "research/source-cards/suchman-1995-managing-legitimacy.md"
+    },
+    {
+      "from": "SC-025",
+      "relation": "related_to",
+      "to": "SC-014",
+      "source_path": "research/source-cards/suchman-1995-managing-legitimacy.md"
+    },
+    {
+      "from": "SC-026",
+      "relation": "related_to",
+      "to": "SC-009",
+      "source_path": "research/source-cards/reichheld-sasser-1990-zero-defections.md"
+    },
+    {
+      "from": "SC-026",
+      "relation": "related_to",
+      "to": "SC-018",
+      "source_path": "research/source-cards/reichheld-sasser-1990-zero-defections.md"
+    },
+    {
+      "from": "SC-027",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/collins-2004-interaction-ritual-chains.md"
+    },
+    {
+      "from": "SC-027",
+      "relation": "related_to",
+      "to": "SC-021",
+      "source_path": "research/source-cards/collins-2004-interaction-ritual-chains.md"
+    },
+    {
+      "from": "SC-028",
+      "relation": "related_to",
+      "to": "SC-012",
+      "source_path": "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md"
+    },
+    {
+      "from": "SC-028",
+      "relation": "related_to",
+      "to": "SC-017",
+      "source_path": "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md"
+    },
+    {
       "from": "TASK_CLAUDE_0007",
       "relation": "depends_on",
       "to": "DECISION_0003",
@@ -2398,6 +3715,12 @@
       "relation": "depends_on",
       "to": "TASK_CODEX_0007",
       "source_path": "governance/TASK_CODEX_0008_BUILD_BOOK_DASHBOARD.md"
+    },
+    {
+      "from": "TASK_CODEX_0009",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0008",
+      "source_path": "governance/TASK_CODEX_0009_RECONCILE_EDITORIAL_STATE.md"
     },
     {
       "from": "VI-001",
