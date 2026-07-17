@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "c256f57664d6063270ca5b5f465a89c1f568b64aa2cf1b2aab56e53edd18f59a",
+  "source_fingerprint": "082cf441844b6f7163a682a5a4bdb0bc03508608cba1abae0f3e1d5e10d5add0",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 107,
-    "current": 30,
+    "records": 108,
+    "current": 31,
     "legacy": 54,
     "ambiguous": 23,
-    "non_chapter_current": 19,
+    "non_chapter_current": 20,
     "non_chapter_legacy": 44,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -208,6 +208,30 @@
         "relationships": {
           "reviews": [
             "TASK_CODEX_0008"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0009",
+        "canonical_id": "REPORT_TASK_CODEX_0009",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0009 — Completion Report",
+        "path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0009",
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_06",
+            "CHAPTER_09",
+            "CHAPTER_10"
           ]
         }
       },
@@ -3259,6 +3283,48 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0008",
       "source_path": "governance/TASK_CODEX_0008_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_03",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_04",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_05",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_06",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_09",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "CHAPTER_10",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0009",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0009",
+      "source_path": "governance/TASK_CODEX_0009_COMPLETION_REPORT.md"
     },
     {
       "from": "REVIEW_CODEX_0007",
