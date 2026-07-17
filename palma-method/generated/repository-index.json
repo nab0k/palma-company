@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "4c46062b8fab32b58a1c91e75378a7559c3807eead5a015d2b2f1dc71b9d8479",
+  "source_fingerprint": "ce0f9a2778abc41cbe089b50974d66f8feee5cdbeb7673dbe4cec9530c28f24c",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 141,
-    "current": 46,
-    "legacy": 72,
+    "records": 152,
+    "current": 49,
+    "legacy": 80,
     "ambiguous": 23,
-    "non_chapter_current": 29,
-    "non_chapter_legacy": 59,
+    "non_chapter_current": 32,
+    "non_chapter_legacy": 67,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 101
+    "validation_warnings": 107
   },
   "catalog": {
     "current": [
@@ -270,6 +270,46 @@
           "reviews": [
             "TASK_CODEX_0011",
             "TASK_CLAUDE_0007",
+            "TASK_CLAUDE_0012"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0012",
+        "canonical_id": "REPORT_TASK_CODEX_0012",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0012 — Completion report",
+        "path": "governance/TASK_CODEX_0012_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0012",
+            "TASK_CLAUDE_0011",
+            "TASK_CLAUDE_0013"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0013",
+        "canonical_id": "REPORT_TASK_CODEX_0013",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0013 — Completion report",
+        "path": "governance/TASK_CODEX_0013_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0013",
+            "TASK_CLAUDE_0013",
             "TASK_CLAUDE_0012"
           ]
         }
@@ -544,7 +584,7 @@
         "id": "TASK_CODEX_0012",
         "canonical_id": "TASK_CODEX_0012",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CODEX_0012 — Recover Wave 3 inputs",
         "path": "governance/TASK_CODEX_0012_RECOVER_WAVE_3_INPUTS.md",
         "metadata_format": "frontmatter",
@@ -555,6 +595,25 @@
         "relationships": {
           "depends_on": [
             "TASK_CODEX_0011"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0013",
+        "canonical_id": "TASK_CODEX_0013",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0013 — Integrate sociology research",
+        "path": "governance/TASK_CODEX_0013_INTEGRATE_SOCIOLOGY_RESEARCH.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0012",
+            "TASK_CLAUDE_0013"
           ]
         }
       }
@@ -1383,6 +1442,126 @@
         }
       },
       {
+        "id": "SC-037",
+        "canonical_id": "SC-037",
+        "type": "source_card",
+        "status": "checked_via_secondary_summaries_and_widely_reproduced_definitions_original_text_not_independently_page-verified_in_this_pass",
+        "title": "Behavior in Public Places: Notes on the Social Organization of Gatherings (1963); Relations in Public: Microstudies of the Public Order (1971)",
+        "path": "research/source-cards/goffman-1963-behavior-in-public-places.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-027",
+            "SC-013"
+          ]
+        }
+      },
+      {
+        "id": "SC-038",
+        "canonical_id": "SC-038",
+        "type": "source_card",
+        "status": "checked_via_secondary_summaries_and_widely_reproduced_definitional_quote_original_article_not_independently_full-text_read_in_this_pass",
+        "title": "Small Groups and Culture Creation: The Idioculture of Little League Baseball Teams",
+        "path": "research/source-cards/fine-1979-idioculture-little-league.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-007",
+            "SC-039"
+          ]
+        }
+      },
+      {
+        "id": "SC-039",
+        "canonical_id": "SC-039",
+        "type": "source_card",
+        "status": "checked_via_abstract_and_secondary_summaries_full_original_article_not_independently_read_in_this_pass",
+        "title": "Wispy Communities: Transient Gathering and Imagined Micro-Communities",
+        "path": "research/source-cards/fine-vandenscott-2011-wispy-communities.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-038",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-040",
+        "canonical_id": "SC-040",
+        "type": "source_card",
+        "status": "checked_via_abstract_and_widely_reproduced_secondary_summaries_full_original_article_not_independently_read_in_this_pass",
+        "title": "Neighborhoods and Violent Crime: A Multilevel Study of Collective Efficacy",
+        "path": "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-006",
+            "SC-013"
+          ]
+        }
+      },
+      {
+        "id": "SC-041",
+        "canonical_id": "SC-041",
+        "type": "source_card",
+        "status": "checked_via_abstract_and_widely_reproduced_secondary_summaries_full_original_article_not_independently_read_in_this_pass",
+        "title": "The Study of Boundaries in the Social Sciences",
+        "path": "research/source-cards/lamont-molnar-2002-study-of-boundaries.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-005",
+            "SC-016"
+          ]
+        }
+      },
+      {
+        "id": "SC-042",
+        "canonical_id": "SC-042",
+        "type": "source_card",
+        "status": "concept_origin_well_established_in_secondary_reference_literature_but_specific_modern_baehr_publication_not_independently_located_or_read_in_this_pass_treat_as_open_verification_item",
+        "title": "Community of Fate (Schicksalsgemeinschaft): concept origin in Weber/Simmel and modern treatment via Peter Baehr's work on shared-crisis social bonds",
+        "path": "research/source-cards/baehr-community-of-fate.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "source_id_format": "canonical",
+        "relationships": {
+          "related_to": [
+            "SC-039",
+            "SC-040"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -1650,6 +1829,42 @@
         "relationships": {
           "affects": [
             "SC-035"
+          ]
+        }
+      },
+      {
+        "id": "VI-012",
+        "canonical_id": "VI-012",
+        "type": "verification_issue",
+        "status": "needs_primary_source",
+        "title": "Peter Baehr community-of-fate attribution lacks a verified primary publication",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-042"
+          ]
+        }
+      },
+      {
+        "id": "VI-013",
+        "canonical_id": "VI-013",
+        "type": "verification_issue",
+        "status": "contextual_limit",
+        "title": "Collective capacity is an interpretive umbrella rather than a source-defined construct",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "ChatGPT",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "SC-040"
           ]
         }
       }
@@ -4489,6 +4704,42 @@
       "source_path": "governance/TASK_CODEX_0011_COMPLETION_REPORT.md"
     },
     {
+      "from": "REPORT_TASK_CODEX_0012",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0011",
+      "source_path": "governance/TASK_CODEX_0012_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0012",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0013",
+      "source_path": "governance/TASK_CODEX_0012_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0012",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0012",
+      "source_path": "governance/TASK_CODEX_0012_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0013",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0012",
+      "source_path": "governance/TASK_CODEX_0013_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0013",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0013",
+      "source_path": "governance/TASK_CODEX_0013_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0013",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0013",
+      "source_path": "governance/TASK_CODEX_0013_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REVIEW_CODEX_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -5011,6 +5262,78 @@
       "source_path": "research/source-cards/morrison-2014-employee-voice-and-silence.md"
     },
     {
+      "from": "SC-037",
+      "relation": "related_to",
+      "to": "SC-013",
+      "source_path": "research/source-cards/goffman-1963-behavior-in-public-places.md"
+    },
+    {
+      "from": "SC-037",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/goffman-1963-behavior-in-public-places.md"
+    },
+    {
+      "from": "SC-038",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/fine-1979-idioculture-little-league.md"
+    },
+    {
+      "from": "SC-038",
+      "relation": "related_to",
+      "to": "SC-039",
+      "source_path": "research/source-cards/fine-1979-idioculture-little-league.md"
+    },
+    {
+      "from": "SC-039",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/fine-vandenscott-2011-wispy-communities.md"
+    },
+    {
+      "from": "SC-039",
+      "relation": "related_to",
+      "to": "SC-038",
+      "source_path": "research/source-cards/fine-vandenscott-2011-wispy-communities.md"
+    },
+    {
+      "from": "SC-040",
+      "relation": "related_to",
+      "to": "SC-006",
+      "source_path": "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md"
+    },
+    {
+      "from": "SC-040",
+      "relation": "related_to",
+      "to": "SC-013",
+      "source_path": "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md"
+    },
+    {
+      "from": "SC-041",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/lamont-molnar-2002-study-of-boundaries.md"
+    },
+    {
+      "from": "SC-041",
+      "relation": "related_to",
+      "to": "SC-016",
+      "source_path": "research/source-cards/lamont-molnar-2002-study-of-boundaries.md"
+    },
+    {
+      "from": "SC-042",
+      "relation": "related_to",
+      "to": "SC-039",
+      "source_path": "research/source-cards/baehr-community-of-fate.md"
+    },
+    {
+      "from": "SC-042",
+      "relation": "related_to",
+      "to": "SC-040",
+      "source_path": "research/source-cards/baehr-community-of-fate.md"
+    },
+    {
       "from": "TASK_CLAUDE_0007",
       "relation": "depends_on",
       "to": "DECISION_0003",
@@ -5095,6 +5418,18 @@
       "source_path": "governance/TASK_CODEX_0012_RECOVER_WAVE_3_INPUTS.md"
     },
     {
+      "from": "TASK_CODEX_0013",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0013",
+      "source_path": "governance/TASK_CODEX_0013_INTEGRATE_SOCIOLOGY_RESEARCH.md"
+    },
+    {
+      "from": "TASK_CODEX_0013",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0012",
+      "source_path": "governance/TASK_CODEX_0013_INTEGRATE_SOCIOLOGY_RESEARCH.md"
+    },
+    {
       "from": "VI-001",
       "relation": "affects",
       "to": "SC-006",
@@ -5158,6 +5493,18 @@
       "from": "VI-011",
       "relation": "affects",
       "to": "SC-035",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-012",
+      "relation": "affects",
+      "to": "SC-042",
+      "source_path": "research/verification/VERIFICATION_ISSUES.md"
+    },
+    {
+      "from": "VI-013",
+      "relation": "affects",
+      "to": "SC-040",
       "source_path": "research/verification/VERIFICATION_ISSUES.md"
     }
   ]

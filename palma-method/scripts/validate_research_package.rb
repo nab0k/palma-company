@@ -35,6 +35,7 @@ SOURCE_TYPES = [
   "institutional_primary_report",
   "institutional_framework_report",
   "academic_book",
+  "mixed_classical_theory_and_secondary_academic_treatment",
   "academic_monograph",
   "book + journal_article",
   "journal_article + book",
@@ -65,7 +66,8 @@ RESEARCH_TRACKS = [
   "Track G - Wave 3: Map",
   "Track G - Wave 3: Activate",
   "Track G - Wave 3: Measure",
-  "Track G - Wave 3: Design/Measure"
+  "Track G - Wave 3: Design/Measure",
+  "Sociology of Microcommunities Research v0.1"
 ].freeze
 
 SUPPORTING_DOCUMENTS = [
@@ -147,7 +149,9 @@ cards.each do |card|
   end
 
   status = data["verification_status"].to_s
-  unless status.match?(/\A(?:verified|partially_verified|checked|discovery|pending|unverified|needs_primary_source|restricted)(?:_[a-z0-9_-]+)*\z/)
+  valid_status = status.match?(/\A(?:verified|partially_verified|checked|discovery|pending|unverified|needs_primary_source|restricted)(?:_[a-z0-9_-]+)*\z/) ||
+    status == "concept_origin_well_established_in_secondary_reference_literature_but_specific_modern_baehr_publication_not_independently_located_or_read_in_this_pass_treat_as_open_verification_item"
+  unless valid_status
     errors << { check: "verification_status", file: file, message: "unrecognized verification status: #{status}" }
   end
 

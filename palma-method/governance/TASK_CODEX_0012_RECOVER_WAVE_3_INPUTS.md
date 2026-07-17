@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0012
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-17
@@ -75,3 +75,10 @@ TASK_CLAUDE_0012 can resume.
    and is shown before launch.
 7. A completion report records exact files, validation, unresolved decisions,
    and protection of manuscript and unrelated files.
+
+## Delivery note
+
+The TASK_CLAUDE_0011 package was recovered and validated, and the bounded
+TASK_CLAUDE_0013 sociology task was prepared and launched. Integration of its
+returned research package is governed separately by TASK_CODEX_0013 so this
+task's original scope remains traceable.

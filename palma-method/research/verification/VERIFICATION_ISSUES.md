@@ -135,3 +135,38 @@ reviewer: ChatGPT
 VI-005 requires primary-text work before precise numerical use. VI-006 through
 VI-011 permit only the qualifications stated above. None authorizes an
 unqualified causal or universal claim.
+
+## Sociology of microcommunities mappings
+
+The TASK_CLAUDE_0013 gap log uses task-local `SMC-GAP-*` identifiers. Current
+work must use the canonical mappings below when the affected claims enter a
+chapter packet or manuscript draft.
+
+| Historical TASK_CLAUDE_0013 ID | Historical subject | Canonical ID |
+|---|---|---|
+| SMC-GAP-003 | Peter Baehr community-of-fate publication not pinned down | VI-012 |
+| SMC-GAP-004 | Collective capacity used as an interpretive umbrella term | VI-013 |
+
+```yaml
+id: VI-012
+title: Peter Baehr community-of-fate attribution lacks a verified primary publication
+affected_source_card: SC-042
+status: needs_primary_source
+manuscript_use: prohibited_until_verified
+reviewer: ChatGPT
+```
+
+```yaml
+id: VI-013
+title: Collective capacity is an interpretive umbrella rather than a source-defined construct
+affected_source_card: SC-040
+status: contextual_limit
+manuscript_use: qualified_only
+qualification: identify collective capacity as editorial synthesis and use collective efficacy only within the scope supported by SC-040
+reviewer: ChatGPT
+```
+
+The Vakhstayn claim in SMC-GAP-001 remains excluded and therefore receives no
+claim ID. “Dissensus” in SMC-GAP-002 remains deferred. SMC-GAP-005 and
+SMC-GAP-006 were environment-visibility gaps and are resolved by the canonical
+TASK_CLAUDE_0012 and TASK_CODEX_0012 records in this repository.
