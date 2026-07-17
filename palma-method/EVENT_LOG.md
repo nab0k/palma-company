@@ -207,3 +207,18 @@ artifacts:
   - palma-method/governance/TASK_CLAUDE_0007_REVISE_RELATIONSHIP_CAPITAL_CHAPTERS.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0017
+occurred_at: 2026-07-17
+actor: Codex
+event_type: decision_sync
+title: Relationship Capital decision synchronized across GitHub and Notion
+status: delivered
+result: DECISION_0003, related artifacts, chapter packets, reviews, and task states synchronized; TASK_CLAUDE_0007 remains authorized
+artifacts:
+  - https://github.com/nab0k/palma-company/pull/3
+  - https://app.notion.com/p/39fc42d0b11b8145bbf5ea16d6279748
+  - palma-method/governance/IMPLEMENTATION_REPORT_TASK_CODEX_0006.md
+reviewer: ChatGPT
+```

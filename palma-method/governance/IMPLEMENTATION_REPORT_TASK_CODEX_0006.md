@@ -19,7 +19,8 @@ DECISION_0003 and its supporting task, review, research, chapter-packet, verific
 - Extended the existing research validator only for the newly received valid source types, research tracks, and the Introduction chapter reference.
 
 Branch: `codex/sync-relationship-capital-decision`
-Pull request: focused stacked draft PR to be opened against `codex/implement-knowledge-os-v1`.
+Pull request: https://github.com/nab0k/palma-company/pull/3
+Base: `codex/implement-knowledge-os-v1`
 
 ## Notion synchronization
 
