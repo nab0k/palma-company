@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "7c486fddb067870e80b88b0e0deec65db3d13c7af42027f62cc6a9b08e1fd483",
+  "source_fingerprint": "071b1e2555f473354d9f6d4b897e9dc00081be24739057f40eff9e20d520f42c",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 177,
-    "current": 58,
+    "records": 178,
+    "current": 59,
     "legacy": 96,
     "ambiguous": 23,
-    "non_chapter_current": 41,
+    "non_chapter_current": 42,
     "non_chapter_legacy": 77,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -623,6 +623,24 @@
         "relationships": {
           "depends_on": [
             "TASK_CODEX_0015"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CLAUDE_0015",
+        "canonical_id": "TASK_CLAUDE_0015",
+        "type": "task",
+        "status": "authorized",
+        "title": "TASK_CLAUDE_0015 — SC-039 full-text repair and bounded packet revision",
+        "path": "governance/TASK_CLAUDE_0015_SC039_FULL_TEXT_REPAIR.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CLAUDE_0014"
           ]
         }
       },
@@ -6453,6 +6471,12 @@
       "relation": "depends_on",
       "to": "TASK_CODEX_0015",
       "source_path": "governance/TASK_CLAUDE_0014_PART_III_EVIDENCE_REPAIR.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0015",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0014",
+      "source_path": "governance/TASK_CLAUDE_0015_SC039_FULL_TEXT_REPAIR.md"
     },
     {
       "from": "TASK_CODEX_0006",
