@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "51443236356ab4bdf4da190735ae8b9a4770b6df44edb1a852d62a9366974c2c",
+  "source_fingerprint": "2e47d26998c961e5bcf6ac99ecb6f4406e197d2ebd9c13e4a8a7cddcf468acc2",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 152,
-    "current": 49,
-    "legacy": 80,
+    "records": 170,
+    "current": 51,
+    "legacy": 96,
     "ambiguous": 23,
-    "non_chapter_current": 32,
-    "non_chapter_legacy": 67,
+    "non_chapter_current": 34,
+    "non_chapter_legacy": 77,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 107
+    "validation_warnings": 113
   },
   "catalog": {
     "current": [
@@ -315,6 +315,25 @@
         }
       },
       {
+        "id": "REPORT_TASK_CODEX_0014",
+        "canonical_id": "REPORT_TASK_CODEX_0014",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0014 — Completion report",
+        "path": "governance/TASK_CODEX_0014_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0014",
+            "TASK_CLAUDE_0012"
+          ]
+        }
+      },
+      {
         "id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "canonical_id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "type": "contract",
@@ -453,7 +472,7 @@
         "id": "TASK_CLAUDE_0012",
         "canonical_id": "TASK_CLAUDE_0012",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CLAUDE_0012 recovery record",
         "path": "governance/TASK_CLAUDE_0012_RECOVERY_RECORD.md",
         "metadata_format": "frontmatter",
@@ -614,6 +633,25 @@
           "depends_on": [
             "TASK_CODEX_0012",
             "TASK_CLAUDE_0013"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0014",
+        "canonical_id": "TASK_CODEX_0014",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0014 — Integrate Part III reconciliation",
+        "path": "governance/TASK_CODEX_0014_INTEGRATE_PART_III_RECONCILIATION.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-17",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CLAUDE_0012",
+            "TASK_CODEX_0013"
           ]
         }
       }
@@ -1867,6 +1905,156 @@
             "SC-040"
           ]
         }
+      },
+      {
+        "id": "VI-014",
+        "canonical_id": "VI-014",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-015",
+        "canonical_id": "VI-015",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-016",
+        "canonical_id": "VI-016",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-017",
+        "canonical_id": "VI-017",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-018",
+        "canonical_id": "VI-018",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-019",
+        "canonical_id": "VI-019",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-020",
+        "canonical_id": "VI-020",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-021",
+        "canonical_id": "VI-021",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-022",
+        "canonical_id": "VI-022",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "VI-023",
+        "canonical_id": "VI-023",
+        "type": "verification_issue",
+        "status": "open",
+        "title": "Verification Restrictions",
+        "path": "research/verification/VERIFICATION_ISSUES.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "research",
+        "created": "unknown",
+        "privacy_level": "internal",
+        "relationships": {
+        }
       }
     ],
     "ambiguous": [
@@ -2825,6 +3013,40 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-11-v0.2",
+          "canonical_id": "CHAPTER_11",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 11 — Listen",
+          "path": "research/chapter-packets/CHAPTER_11_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 11,
+          "supersedes_declaration": "CHAPTER_11_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-010",
+              "SC-013",
+              "SC-029",
+              "SC-030",
+              "SC-036",
+              "SC-037",
+              "SC-038"
+            ],
+            "verifies": [
+              "VI-005",
+              "VI-006",
+              "VI-014",
+              "VI-015"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
           "id": "PKT-11",
           "canonical_id": "CHAPTER_11",
           "type": "chapter",
@@ -2851,7 +3073,7 @@
               "VI-006"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_11",
@@ -2877,6 +3099,44 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-12-v0.2",
+          "canonical_id": "CHAPTER_12",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 12 — Map",
+          "path": "research/chapter-packets/CHAPTER_12_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 12,
+          "supersedes_declaration": "CHAPTER_12_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-010",
+              "SC-012",
+              "SC-028",
+              "SC-031",
+              "SC-037",
+              "SC-039",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-002",
+              "VI-004",
+              "VI-007",
+              "VI-016",
+              "VI-017"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-12",
           "canonical_id": "CHAPTER_12",
@@ -2907,7 +3167,7 @@
               "VI-007"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_12",
@@ -2933,6 +3193,42 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-13-v0.2",
+          "canonical_id": "CHAPTER_13",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 13 — Design",
+          "path": "research/chapter-packets/CHAPTER_13_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 13,
+          "supersedes_declaration": "CHAPTER_13_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-006",
+              "SC-009",
+              "SC-013",
+              "SC-027",
+              "SC-030",
+              "SC-035",
+              "SC-037",
+              "SC-038",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-001",
+              "VI-011",
+              "VI-018",
+              "VI-019"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-13",
           "canonical_id": "CHAPTER_13",
@@ -2961,7 +3257,7 @@
               "VI-011"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_13",
@@ -2987,6 +3283,40 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-14-v0.2",
+          "canonical_id": "CHAPTER_14",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 14 — Activate (title under review — see Section 0)",
+          "path": "research/chapter-packets/CHAPTER_14_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 14,
+          "supersedes_declaration": "CHAPTER_14_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-005",
+              "SC-013",
+              "SC-032",
+              "SC-033",
+              "SC-036",
+              "SC-038",
+              "SC-039",
+              "SC-040"
+            ],
+            "verifies": [
+              "VI-008",
+              "VI-009",
+              "VI-020"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-14",
           "canonical_id": "CHAPTER_14",
@@ -3014,7 +3344,7 @@
               "VI-009"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_14",
@@ -3040,6 +3370,39 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-15-v0.2",
+          "canonical_id": "CHAPTER_15",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 15 — Measure",
+          "path": "research/chapter-packets/CHAPTER_15_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 15,
+          "supersedes_declaration": "CHAPTER_15_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-014",
+              "SC-018",
+              "SC-019",
+              "SC-026",
+              "SC-034",
+              "SC-035",
+              "SC-040"
+            ],
+            "verifies": [
+              "VI-010",
+              "VI-011",
+              "VI-021"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-15",
           "canonical_id": "CHAPTER_15",
@@ -3070,7 +3433,7 @@
               "VI-011"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_15",
@@ -3096,6 +3459,41 @@
       "selection_state": "current",
       "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-16-v0.2",
+          "canonical_id": "CHAPTER_16",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 16 — Connect Communication and Community",
+          "path": "research/chapter-packets/CHAPTER_16_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 16,
+          "supersedes_declaration": "CHAPTER_16_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-025",
+              "SC-029",
+              "SC-039",
+              "SC-040",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-005",
+              "VI-022",
+              "VI-023"
+            ]
+          },
+          "index_state": "current"
+        },
         {
           "id": "PKT-16",
           "canonical_id": "CHAPTER_16",
@@ -3126,7 +3524,7 @@
               "VI-005"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_16",
@@ -4262,8 +4660,20 @@
     {
       "from": "CHAPTER_11",
       "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
     },
     {
       "from": "CHAPTER_11",
@@ -4274,14 +4684,44 @@
     {
       "from": "CHAPTER_11",
       "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
       "to": "SC-030",
       "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
     },
     {
       "from": "CHAPTER_11",
       "relation": "supported_by",
+      "to": "SC-030",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
       "to": "SC-036",
       "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-036",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-037",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "supported_by",
+      "to": "SC-038",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
     },
     {
       "from": "CHAPTER_11",
@@ -4292,8 +4732,32 @@
     {
       "from": "CHAPTER_11",
       "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
       "to": "VI-006",
       "source_path": "research/chapter-packets/CHAPTER_11_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
+      "to": "VI-006",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
+      "to": "VI-014",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_11",
+      "relation": "verifies",
+      "to": "VI-015",
+      "source_path": "research/chapter-packets/CHAPTER_11_v0.2.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4304,14 +4768,32 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-004",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-005",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4322,8 +4804,20 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-012",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4334,8 +4828,38 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-031",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-031",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-037",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4346,14 +4870,44 @@
     {
       "from": "CHAPTER_12",
       "relation": "verifies",
+      "to": "VI-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
       "to": "VI-004",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
     {
       "from": "CHAPTER_12",
       "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
       "to": "VI-007",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-007",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-016",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-017",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
     },
     {
       "from": "CHAPTER_13",
@@ -4364,14 +4918,32 @@
     {
       "from": "CHAPTER_13",
       "relation": "supported_by",
+      "to": "SC-006",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
       "to": "SC-009",
       "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
     },
     {
       "from": "CHAPTER_13",
       "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
     },
     {
       "from": "CHAPTER_13",
@@ -4382,14 +4954,50 @@
     {
       "from": "CHAPTER_13",
       "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
       "to": "SC-030",
       "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
     },
     {
       "from": "CHAPTER_13",
       "relation": "supported_by",
+      "to": "SC-030",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
       "to": "SC-035",
       "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-035",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-037",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-038",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
     },
     {
       "from": "CHAPTER_13",
@@ -4400,8 +5008,32 @@
     {
       "from": "CHAPTER_13",
       "relation": "verifies",
+      "to": "VI-001",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
       "to": "VI-011",
       "source_path": "research/chapter-packets/CHAPTER_13_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
+      "to": "VI-011",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
+      "to": "VI-018",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_13",
+      "relation": "verifies",
+      "to": "VI-019",
+      "source_path": "research/chapter-packets/CHAPTER_13_v0.2.md"
     },
     {
       "from": "CHAPTER_14",
@@ -4412,8 +5044,20 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
     },
     {
       "from": "CHAPTER_14",
@@ -4424,14 +5068,50 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-032",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-033",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
     },
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-033",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-036",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-036",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-038",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
     },
     {
       "from": "CHAPTER_14",
@@ -4442,8 +5122,26 @@
     {
       "from": "CHAPTER_14",
       "relation": "verifies",
+      "to": "VI-008",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
       "to": "VI-009",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-009",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-020",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
     },
     {
       "from": "CHAPTER_15",
@@ -4454,8 +5152,20 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-018",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
     },
     {
       "from": "CHAPTER_15",
@@ -4466,8 +5176,20 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-019",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-026",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-026",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
     },
     {
       "from": "CHAPTER_15",
@@ -4478,8 +5200,26 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-034",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-035",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-035",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
     },
     {
       "from": "CHAPTER_15",
@@ -4502,8 +5242,26 @@
     {
       "from": "CHAPTER_15",
       "relation": "verifies",
+      "to": "VI-010",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
       "to": "VI-011",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-011",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-021",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
     },
     {
       "from": "CHAPTER_16",
@@ -4520,6 +5278,12 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-012",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
     },
@@ -4532,8 +5296,20 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
     },
     {
       "from": "CHAPTER_16",
@@ -4544,8 +5320,20 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
     },
     {
       "from": "CHAPTER_16",
@@ -4561,9 +5349,51 @@
     },
     {
       "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
       "relation": "verifies",
       "to": "VI-005",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-022",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-023",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
     },
     {
       "from": "DECISION_0004",
@@ -4738,6 +5568,18 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0013",
       "source_path": "governance/TASK_CODEX_0013_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0014",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0012",
+      "source_path": "governance/TASK_CODEX_0014_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0014",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0014",
+      "source_path": "governance/TASK_CODEX_0014_COMPLETION_REPORT.md"
     },
     {
       "from": "REVIEW_CODEX_0007",
@@ -5428,6 +6270,18 @@
       "relation": "depends_on",
       "to": "TASK_CODEX_0012",
       "source_path": "governance/TASK_CODEX_0013_INTEGRATE_SOCIOLOGY_RESEARCH.md"
+    },
+    {
+      "from": "TASK_CODEX_0014",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0012",
+      "source_path": "governance/TASK_CODEX_0014_INTEGRATE_PART_III_RECONCILIATION.md"
+    },
+    {
+      "from": "TASK_CODEX_0014",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0013",
+      "source_path": "governance/TASK_CODEX_0014_INTEGRATE_PART_III_RECONCILIATION.md"
     },
     {
       "from": "VI-001",

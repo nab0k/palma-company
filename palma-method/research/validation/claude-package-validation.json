@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "403df66c99f7e88979e4ff2cd46c1bc545d2f55ed2c38cc0ff617d469ddac169",
+  "source_fingerprint": "d8ec53caa0cba252ec24a5487310ecdeb6f965346d45008491c4439a48c108be",
   "source_card_count": 42,
   "parsed_source_card_count": 42,
   "unique_source_card_ids": 42,

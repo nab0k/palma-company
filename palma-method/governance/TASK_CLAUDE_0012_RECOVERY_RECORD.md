@@ -1,7 +1,7 @@
 ---
 id: TASK_CLAUDE_0012
 type: task
-status: in_progress
+status: delivered
 owner: claude
 reviewer: chief_editor
 created: 2026-07-17
@@ -51,6 +51,13 @@ after the Wave 3 package and sociology brief became canonical on branch
 preserved the exact recovered scope, outputs, version rules, and exclusions.
 Claude acknowledged the instruction by starting work; no readiness question or
 scope expansion was introduced.
+
+Claude completed the bounded delivery in the same session on 2026-07-17. The
+six v0.2 packets and five supporting documents were recovered for canonical
+integration under TASK_CODEX_0014. Delivery-time task-local VI identifiers and
+duplicate legacy packet IDs required collision-free metadata normalization;
+the mapping is recorded in the canonical verification registry and the
+TASK_CODEX_0014 completion report.
 
 ## Exact primary objective
 
