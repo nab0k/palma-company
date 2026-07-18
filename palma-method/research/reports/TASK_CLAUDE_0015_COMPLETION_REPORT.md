@@ -13,7 +13,7 @@ subject_refs:
   - SC-039
   - VI-017
   - VI-022
-delivery_commit: pending_codex_integration
+delivery_commit: 744ec1e6badc7e3ddde79892353cfe878da2eb4e
 ---
 
 # TASK_CLAUDE_0015 — Completion report

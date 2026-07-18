@@ -1,7 +1,7 @@
 ---
 id: TASK_CLAUDE_0015
 type: task
-status: authorized
+status: delivered
 owner: claude
 reviewer: chief_editor
 created: 2026-07-18
@@ -39,7 +39,7 @@ output_paths:
   - palma-method/research/chapter-packets/CHAPTER_16_v0.3.md
   - palma-method/research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md
 completion_report: palma-method/research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: 744ec1e6badc7e3ddde79892353cfe878da2eb4e
 ---
 
 # TASK_CLAUDE_0015 — SC-039 full-text repair and bounded packet revision
