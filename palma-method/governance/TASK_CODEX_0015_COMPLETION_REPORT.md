@@ -26,7 +26,7 @@ no manuscript-writing authority was inferred.
 - Base branch: `codex/integrate-part-iii-0014`
 - Base commit: `4936acf62f4f46a1577d175c6f6810ed53976ab7`
 - Working branch: `codex/part-iii-readiness-0015`
-- Delivery commit: pending until scoped commit
+- Delivery commit: `8e0541515345e0d0d11ec14e8152f1b054b10a0a`.
 
 ## Files changed
 
