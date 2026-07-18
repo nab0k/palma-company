@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "f6f98d170bcb837668aeb726706e6d12bd240e4753f987c607455aae16e4827b",
+  "source_fingerprint": "b93932f178cd570b694f3bc2fdc79308cdc81e6d83be87293696f6983098f58d",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 174,
-    "current": 55,
+    "records": 177,
+    "current": 58,
     "legacy": 96,
     "ambiguous": 23,
-    "non_chapter_current": 38,
+    "non_chapter_current": 41,
     "non_chapter_legacy": 77,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -154,6 +154,25 @@
             "CHAPTER_06",
             "CHAPTER_09",
             "CHAPTER_10"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0014",
+        "canonical_id": "REPORT_TASK_CLAUDE_0014",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0014 — Completion Report",
+        "path": "research/reports/TASK_CLAUDE_0014_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "REVIEW_CASES_0014",
+            "SC-039"
           ]
         }
       },
@@ -422,6 +441,52 @@
         }
       },
       {
+        "id": "RG-002",
+        "canonical_id": "RG-002",
+        "type": "research_gap",
+        "status": "open",
+        "title": "Part III Evidence Repair Gap Log v0.1",
+        "path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "CHAPTER_11",
+            "CHAPTER_12",
+            "CHAPTER_13",
+            "CHAPTER_14",
+            "CHAPTER_15",
+            "CHAPTER_16"
+          ]
+        }
+      },
+      {
+        "id": "REVIEW_CASES_0014",
+        "canonical_id": "REVIEW_CASES_0014",
+        "type": "review",
+        "status": "review",
+        "title": "Part III Published Case Candidates v0.1",
+        "path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "CHAPTER_11",
+            "CHAPTER_12",
+            "CHAPTER_13",
+            "CHAPTER_14",
+            "CHAPTER_15",
+            "CHAPTER_16"
+          ]
+        }
+      },
+      {
         "id": "REVIEW_CODEX_0007",
         "canonical_id": "REVIEW_CODEX_0007",
         "type": "review",
@@ -547,7 +612,7 @@
         "id": "TASK_CLAUDE_0014",
         "canonical_id": "TASK_CLAUDE_0014",
         "type": "task",
-        "status": "authorized",
+        "status": "delivered",
         "title": "TASK_CLAUDE_0014 — Part III evidence and example repair",
         "path": "governance/TASK_CLAUDE_0014_PART_III_EVIDENCE_REPAIR.md",
         "metadata_format": "frontmatter",
@@ -5514,6 +5579,18 @@
       "source_path": "research/reports/TASK_CLAUDE_0010_COMPLETION_REPORT.md"
     },
     {
+      "from": "REPORT_TASK_CLAUDE_0014",
+      "relation": "reviews",
+      "to": "REVIEW_CASES_0014",
+      "source_path": "research/reports/TASK_CLAUDE_0014_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0014",
+      "relation": "reviews",
+      "to": "SC-039",
+      "source_path": "research/reports/TASK_CLAUDE_0014_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REPORT_TASK_CODEX-2A2B_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -5664,6 +5741,42 @@
       "source_path": "governance/TASK_CODEX_0015_COMPLETION_REPORT.md"
     },
     {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_11",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_12",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_13",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_14",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_15",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CASES_0014",
+      "relation": "reviews",
+      "to": "CHAPTER_16",
+      "source_path": "research/reports/PART_III_PUBLISHED_CASE_CANDIDATES_v0.1.md"
+    },
+    {
       "from": "REVIEW_CODEX_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -5692,6 +5805,42 @@
       "relation": "affects",
       "to": "CHAPTER_09",
       "source_path": "research/open-questions/WAVE_2_EVIDENCE_GAP_LOG.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_11",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_12",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_13",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_14",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_15",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
+    },
+    {
+      "from": "RG-002",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/open-questions/PART_III_EVIDENCE_REPAIR_GAP_LOG_v0.1.md"
     },
     {
       "from": "SC-001",

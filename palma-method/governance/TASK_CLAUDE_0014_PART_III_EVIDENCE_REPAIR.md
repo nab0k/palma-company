@@ -1,7 +1,7 @@
 ---
 id: TASK_CLAUDE_0014
 type: task
-status: authorized
+status: delivered
 owner: claude
 reviewer: chief_editor
 created: 2026-07-18
@@ -136,3 +136,13 @@ revision; it does not revise packets or manuscript prose itself.
 Codex created this task from the published head of PR #6. The shared worktree is
 already on the declared working branch. The root README modification and other
 unrelated local files predate this task and must remain unstaged and untouched.
+
+## Delivery record
+
+Claude delivered the four declared outputs on 2026-07-18. Codex verified the
+canonical task coordinates, imported only those four files, normalized their
+repository frontmatter without changing the research findings, and preserved
+all protected manuscript, packet, source-card, decision, Method, voice, and
+Collective Fitness files. The research package remains under Chief Editor
+review; `delivered` does not mean that any candidate case is accepted for the
+manuscript.
