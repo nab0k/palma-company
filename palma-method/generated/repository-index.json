@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "2e47d26998c961e5bcf6ac99ecb6f4406e197d2ebd9c13e4a8a7cddcf468acc2",
+  "source_fingerprint": "56fcf12681e3869df86a21e625a3f1e8a04df1d911de5ddbe075eeb62c836d7e",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 170,
-    "current": 51,
+    "records": 173,
+    "current": 54,
     "legacy": 96,
     "ambiguous": 23,
-    "non_chapter_current": 34,
+    "non_chapter_current": 37,
     "non_chapter_legacy": 77,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -334,6 +334,25 @@
         }
       },
       {
+        "id": "REPORT_TASK_CODEX_0015",
+        "canonical_id": "REPORT_TASK_CODEX_0015",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0015 — Completion report",
+        "path": "governance/TASK_CODEX_0015_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0015",
+            "REVIEW_CODEX_0015"
+          ]
+        }
+      },
+      {
         "id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "canonical_id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "type": "contract",
@@ -418,6 +437,21 @@
           "reviews": [
             "TASK_CODEX_0007"
           ]
+        }
+      },
+      {
+        "id": "REVIEW_CODEX_0015",
+        "canonical_id": "REVIEW_CODEX_0015",
+        "type": "review",
+        "status": "review",
+        "title": "Part III editorial readiness review v0.1",
+        "path": "research/reports/PART_III_EDITORIAL_READINESS_REVIEW_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
         }
       },
       {
@@ -652,6 +686,24 @@
           "depends_on": [
             "TASK_CLAUDE_0012",
             "TASK_CODEX_0013"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0015",
+        "canonical_id": "TASK_CODEX_0015",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0015 — Part III editorial readiness",
+        "path": "governance/TASK_CODEX_0015_PART_III_EDITORIAL_READINESS.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0014"
           ]
         }
       }
@@ -5582,6 +5634,18 @@
       "source_path": "governance/TASK_CODEX_0014_COMPLETION_REPORT.md"
     },
     {
+      "from": "REPORT_TASK_CODEX_0015",
+      "relation": "reviews",
+      "to": "REVIEW_CODEX_0015",
+      "source_path": "governance/TASK_CODEX_0015_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0015",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0015",
+      "source_path": "governance/TASK_CODEX_0015_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REVIEW_CODEX_0007",
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
@@ -6282,6 +6346,12 @@
       "relation": "depends_on",
       "to": "TASK_CODEX_0013",
       "source_path": "governance/TASK_CODEX_0014_INTEGRATE_PART_III_RECONCILIATION.md"
+    },
+    {
+      "from": "TASK_CODEX_0015",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0014",
+      "source_path": "governance/TASK_CODEX_0015_PART_III_EDITORIAL_READINESS.md"
     },
     {
       "from": "VI-001",
