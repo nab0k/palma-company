@@ -253,14 +253,15 @@ id: VI-017
 claim: "Fine & van den Scott's wispy-communities concept, as used in Chapter 12's mapping caution."
 source_card: SC-039
 severity: low-medium
-status: open
+status: resolved_with_scope_limit
 issue: >
-  ADDED (TASK_CLAUDE_0012, Wave 3 v0.2 corrective revision): checked via abstract and secondary
-  summary only, not full original text, when first used in Chapter 12 v0.2 as a mapping caution.
-  See VI-022 for this same source's elevated-priority use in Chapter 16.
+  RESOLUTION (TASK_CLAUDE_0015): the complete 17-page original article was read and the source card
+  was corrected. The article supplies a typology of transient leisure and fan-culture gatherings;
+  it does not study organizational mapping. Chapter 12 v0.3 therefore labels its mapping caution as
+  a Palma interpretive extension rather than an article finding.
 risk_if_uncorrected: "Low-medium risk in Chapter 12's narrower use; obtain and read the full original article before manuscript-final use."
-required_action: "Read full original Fine & van den Scott (2011) article before manuscript finalization."
-related_artifact: SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1
+required_action: "Preserve the explicit organizational-transfer qualification in any later manuscript prose."
+related_artifact: SC_039_FULL_TEXT_VERIFICATION_v0.1
 related_chapters:
   - "Chapter 12 (Map)"
 ```
@@ -337,15 +338,15 @@ id: VI-022
 claim: "Fine & van den Scott's wispy-communities concept, as used in Chapter 16's central community-as-destination correction."
 source_card: SC-039
 severity: medium
-status: open
+status: resolved_with_scope_limit
 issue: >
-  ADDED (TASK_CLAUDE_0012, Wave 3 v0.2 corrective revision): same source and underlying
-  verification gap as VI-017, but logged at elevated severity here because Chapter 16 v0.2 makes
-  this source central and load-bearing for its Problem E correction (community is not a universal
-  destination), not a supporting caution as in Chapter 12.
+  RESOLUTION (TASK_CLAUDE_0015): the complete original article was read. It supports the distinction
+  between durable club forms and transient occasion forms within leisure and fan cultures, including
+  the claim that transience need not mean immaturity. It contains no organizational case or managerial
+  recommendation. Chapter 16 v0.3 now identifies its organizational application as a Palma inference.
 risk_if_uncorrected: "Medium risk given how load-bearing this claim now is; obtain and read the full original article with priority before Chapter 16's correction is finalized for manuscript prose."
-required_action: "Read full original Fine & van den Scott (2011) article; prioritize over VI-017 given Chapter 16's dependence on it."
-related_artifact: SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1
+required_action: "Preserve the explicit organizational-transfer qualification in any later manuscript prose."
+related_artifact: SC_039_FULL_TEXT_VERIFICATION_v0.1
 related_chapters:
   - "Chapter 16 (Connect)"
 ```
