@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "c9cee51931c582dbadb981a34d7acbbdd175bf06829c9349e85610c7c971125f",
+  "source_fingerprint": "f6f98d170bcb837668aeb726706e6d12bd240e4753f987c607455aae16e4827b",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 173,
-    "current": 54,
+    "records": 174,
+    "current": 55,
     "legacy": 96,
     "ambiguous": 23,
-    "non_chapter_current": 37,
+    "non_chapter_current": 38,
     "non_chapter_legacy": 77,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -540,6 +540,24 @@
           "depends_on": [
             "TASK_CLAUDE_0011",
             "TASK_CODEX_0012"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CLAUDE_0014",
+        "canonical_id": "TASK_CLAUDE_0014",
+        "type": "task",
+        "status": "authorized",
+        "title": "TASK_CLAUDE_0014 — Part III evidence and example repair",
+        "path": "governance/TASK_CLAUDE_0014_PART_III_EVIDENCE_REPAIR.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CODEX_0015"
           ]
         }
       },
@@ -6280,6 +6298,12 @@
       "relation": "depends_on",
       "to": "TASK_CODEX_0012",
       "source_path": "governance/TASK_CLAUDE_0013_SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0014",
+      "relation": "depends_on",
+      "to": "TASK_CODEX_0015",
+      "source_path": "governance/TASK_CLAUDE_0014_PART_III_EVIDENCE_REPAIR.md"
     },
     {
       "from": "TASK_CODEX_0006",
