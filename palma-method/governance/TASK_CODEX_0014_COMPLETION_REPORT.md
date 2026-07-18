@@ -19,6 +19,11 @@ Local integration and validation are complete. GitHub authorization was
 restored on 2026-07-18, and publication resumed on the dedicated branch
 `codex/integrate-part-iii-0014` from canonical base `bca11b8`.
 
+- Delivery commit: `5b037f2dcf930788cbe348d9962395f0e24bbd33`.
+- A narrow governance closeout commit records this SHA and delivered status;
+  its SHA is reported in the PR handoff because a commit cannot contain its own
+  hash.
+
 ## Branch and delivery
 
 - Repository: `nab0k/palma-company`

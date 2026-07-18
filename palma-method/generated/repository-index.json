@@ -3,7 +3,7 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "bd2cf1335e38c355514a7c4fb55aa22d93cfbde8b154f0d32992c9cb290fe19f",
+  "source_fingerprint": "2e47d26998c961e5bcf6ac99ecb6f4406e197d2ebd9c13e4a8a7cddcf468acc2",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
@@ -640,7 +640,7 @@
         "id": "TASK_CODEX_0014",
         "canonical_id": "TASK_CODEX_0014",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CODEX_0014 — Integrate Part III reconciliation",
         "path": "governance/TASK_CODEX_0014_INTEGRATE_PART_III_RECONCILIATION.md",
         "metadata_format": "frontmatter",

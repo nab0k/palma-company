@@ -1,11 +1,11 @@
 ---
 id: TASK_CODEX_0014
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-18
 privacy_level: internal
 project: palma-method-book
 priority: high
@@ -47,7 +47,7 @@ output_paths:
   - palma-method/generated/repository-index.json
   - palma-method/generated/repository-index.md
 completion_report: palma-method/governance/TASK_CODEX_0014_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: 5b037f2dcf930788cbe348d9962395f0e24bbd33
 ---
 
 # TASK_CODEX_0014 — Integrate Part III reconciliation
@@ -103,3 +103,10 @@ found `LEDGER_SCHEMA_0001.md` but no ledger instance; the generated
 `BOOK_DASHBOARD.md`, task records, and approved DECISION_0004 were therefore
 used for current-state verification. This governance gap does not authorize
 creation of a new ledger in this task.
+
+## Delivery record
+
+The scoped integration was committed as
+`5b037f2dcf930788cbe348d9962395f0e24bbd33`. Only the declared task paths were
+staged; the pre-existing root README modification and unrelated untracked files
+remained outside the commit.
