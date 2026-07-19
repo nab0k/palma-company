@@ -304,14 +304,22 @@ id: VI-020
 claim: "Sampson, Raudenbush & Earls's collective efficacy research, as used in Chapter 14's conditions/outcomes illustration."
 source_card: SC-040
 severity: low-medium
-status: open
+status: resolved_with_scope_limit
 issue: >
   ADDED (TASK_CLAUDE_0012, Wave 3 v0.2 corrective revision): the original 1997 study was conducted
   in urban-neighborhood, violent-crime contexts; Chapter 14 v0.2 extends the construct to
   organizational intervention design, an extension the original study does not test.
 risk_if_uncorrected: "Low-medium risk; state the extension explicitly."
 required_action: "State the extension explicitly wherever collective efficacy is invoked."
-related_artifact: SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1
+resolution_update: >
+  UPDATED (TASK_CLAUDE_0016): the complete seven-page original article was read from the
+  user-supplied PDF (SHA-256 f16db6bd775f525dea284a9fb22b98834f8845578f78a60ae89833cdbdd8b0ec).
+  Full-text access confirms the article's definition and multilevel neighborhood measurement,
+  while correcting unsupported claims that it tested cohesion alone as a competing predictor or
+  originated the term generally. The access gap is resolved; transfer from Chicago neighborhoods
+  and violent-crime outcomes to organizational intervention design remains a labeled Palma
+  extension in CHAPTER_14_v0.3.md.
+related_artifact: SC_040_FULL_TEXT_VERIFICATION_v0.1
 related_chapters:
   - "Chapter 14 (Activate)"
 ```
@@ -321,14 +329,19 @@ id: VI-021
 claim: "Sampson, Raudenbush & Earls's multilevel-measurement caution, as used in Chapter 15's group-level measurement discussion."
 source_card: SC-040
 severity: low-medium
-status: open
+status: resolved_with_scope_limit
 issue: >
   ADDED (TASK_CLAUDE_0012, Wave 3 v0.2 corrective revision): same underlying transfer risk as
   VI-020, logged separately because Chapter 15 v0.2 uses this source for a distinct methodological
   claim (group-level properties cannot be validly inferred from aggregated individual data alone).
 risk_if_uncorrected: "Low-medium risk; state the extension explicitly."
 required_action: "State the extension explicitly wherever invoked in Chapter 15."
-related_artifact: SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1
+resolution_update: >
+  UPDATED (TASK_CLAUDE_0016): full-text review confirms that the article uses a three-level
+  hierarchical model and treats neighborhood as a distinct level of analysis rather than a simple
+  average of individual responses. The source-access gap is resolved. Applying that measurement
+  discipline to organizations remains an explicit Palma extension in CHAPTER_15_v0.3.md.
+related_artifact: SC_040_FULL_TEXT_VERIFICATION_v0.1
 related_chapters:
   - "Chapter 15 (Measure)"
 ```
@@ -355,14 +368,20 @@ id: VI-023
 claim: "Sampson, Raudenbush & Earls's collective efficacy research, as used in Chapter 16's alternative-to-community outcome vocabulary."
 source_card: SC-040
 severity: low-medium
-status: open
+status: resolved_with_scope_limit
 issue: >
   ADDED (TASK_CLAUDE_0012, Wave 3 v0.2 corrective revision): same underlying transfer risk as
   VI-020/VI-021, logged separately for Chapter 16's use of the construct as a legitimate
   alternative outcome to full community formation.
 risk_if_uncorrected: "Low-medium risk; state the extension explicitly."
 required_action: "State the extension explicitly wherever invoked in Chapter 16."
-related_artifact: SOCIOLOGY_OF_MICROCOMMUNITIES_RESEARCH_v0.1
+resolution_update: >
+  UPDATED (TASK_CLAUDE_0016): full-text review confirms the narrower article finding that collective
+  efficacy is analytically distinct from dense personal ties, organizational participation, and
+  local services. The source-access gap is resolved. The broader use of this distinction to treat
+  no-community as a potentially legitimate organizational outcome remains a labeled Palma inference
+  in CHAPTER_16_v0.4.md, because the article studies neighborhoods and violence, not organizations.
+related_artifact: SC_040_FULL_TEXT_VERIFICATION_v0.1
 related_chapters:
   - "Chapter 16 (Connect)"
 ```
