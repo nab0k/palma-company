@@ -22,7 +22,7 @@ subject_refs:
 - Working branch: `codex/prefinal-manuscript-0018`
 - Authorization commit: `37128ca`
 - Manuscript delivery commit: `bbbfb1d725c5d8eb103f8847813a7814512cc23c`
-- Publication status: local delivery complete; push and pull request blocked by invalid GitHub CLI credentials for account `nab0k`
+- Publication status: branch pushed to GitHub; pull-request coordinates are recorded in the final handoff
 
 ## Delivered
 
@@ -67,7 +67,7 @@ Generated index/dashboard and validation artifacts were not committed because th
 2. Collective material is gathered against the insertion brief or the marker is removed.
 3. The resulting manuscript receives one voice pass and one final proof/citation-format pass.
 4. A separately authorized repository-maintenance task regenerates indexes/dashboard.
-5. GitHub authentication is renewed, then this branch is pushed and a pull request opened.
+5. Review and merge the draft pull request after editorial acceptance.
 
 ## Scope confirmation
 
