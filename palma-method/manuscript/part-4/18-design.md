@@ -1,4 +1,4 @@
-## Chapter 18. Design
+# Chapter 18: Design
 
 A diagnosis, however careful, does not decide anything by itself. It produces a mechanism, a rival explanation that was considered and rejected, and a clearer picture of what is actually happening — and then someone has to choose what, if anything, gets done about it. That choosing is Decide, and it is easy to underrate precisely because it produces no artifact as visible as a finished plan. What it produces instead is a set of commitments that everything downstream depends on: which zone a recommendation falls into, who owns it, and what would count as evidence that it was wrong.
 

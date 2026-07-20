@@ -1,4 +1,4 @@
-## Chapter 21. Handover
+# Chapter 21: Handover
 
 It would be convenient if handover were a phase, because phases end, and an ending is satisfying in a way that an ongoing standard is not. There could be a meeting, a signed-off document, a moment everyone agrees marks the point where the organization has taken over and the outside help has stepped back. That moment is worth having. It is not, on its own, worth trusting.
 

@@ -1,4 +1,4 @@
-## Chapter 19. Launch
+# Chapter 19: Launch
 
 There is a moment in every engagement that feels like the finish line and is not one: the design goes live. A pilot runs, a new ritual gets tried, a channel opens that didn't exist before. It is a genuinely good moment, and it is tempting to treat it as proof that the work succeeded, because something real is now happening where before there was only a plan. But a live pilot proves only that the conditions could be built. It does not yet prove that the organization can keep them running once the people who built them step back.
 

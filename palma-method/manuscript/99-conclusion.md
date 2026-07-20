@@ -1,4 +1,4 @@
-## Conclusion
+# Conclusion
 
 Six phases, run in order and then, almost always, run again out of order as evidence demands: orient, diagnose, decide, design, enable, evaluate. That sequence, more than any particular finding it has ever produced, is what this book has actually been arguing for. A discipline that insists on testing a request before acting on it, on naming a rival explanation before trusting a mechanism, on stating in advance what would prove a design wrong, on checking twice whether ownership has genuinely transferred rather than assuming it has — that discipline is the thing worth taking from these pages, more than any specific technique nested inside it.
 

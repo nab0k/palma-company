@@ -1,4 +1,4 @@
-## Chapter 17. Diagnose
+# Chapter 17: Diagnose
 
 Every engagement begins with a sentence someone else has already written. "We need a community." "Engagement is down." "We need a video that gets the bank on our side." The sentence arrives sounding like a diagnosis, because it names a problem and gestures at a fix in the same breath. It is neither. It is a hypothesis, offered with more confidence than the person offering it actually has grounds for, because that is what a brief is for — to get a project moving, not to settle what the project should be.
 

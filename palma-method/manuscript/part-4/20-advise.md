@@ -1,4 +1,4 @@
-## Chapter 20. Advise
+# Chapter 20: Advise
 
 Once a design is live, the temptation splits in two directions, and both are easy to justify in the moment. One is to step back almost entirely — the plan is built, the client has it, the engagement's real work is done. The other is to stay closely involved and let that involvement quietly harden into control, because reading the evidence carefully tends to produce opinions, and opinions delivered with confidence have a way of being received as decisions. Advise has to resist both. It is the discipline of continuing to read evidence honestly after launch, while keeping the decision itself where it was always supposed to sit — with the organization that owns the outcome, not with the practice that helped diagnose and design it.
 
