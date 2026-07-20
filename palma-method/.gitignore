@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+production/epub/*.epub
+production/print/*.pdf
+production/print/*.docx
+*.tmp
+*.bak
+
+# Raw interview recordings and sensitive participant exports stay local.
+collective-fitness/interviews/raw/
+collective-fitness/**/private/
