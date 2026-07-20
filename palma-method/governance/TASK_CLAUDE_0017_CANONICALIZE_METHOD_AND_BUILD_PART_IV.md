@@ -1,7 +1,7 @@
 ---
 id: TASK_CLAUDE_0017
 type: task
-status: authorized
+status: delivered
 owner: claude
 reviewer: chief_editor
 created: 2026-07-19
@@ -65,7 +65,7 @@ output_paths:
   - palma-method/manuscript/99-conclusion.md
   - palma-method/research/reports/TASK_CLAUDE_0017_COMPLETION_REPORT.md
 completion_report: palma-method/research/reports/TASK_CLAUDE_0017_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: 9351ad48b5b23cf52fb3eec21236cdefcd98984f
 ---
 
 # TASK_CLAUDE_0017 — Canonicalize Palma Method and draft Part IV
