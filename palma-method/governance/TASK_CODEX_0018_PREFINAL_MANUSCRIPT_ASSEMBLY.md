@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0018
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-20
@@ -58,7 +58,7 @@ output_paths:
   - palma-method/research/reports/AUTHOR_VOICE_PASS_BRIEF_v0.1.md
   - palma-method/governance/TASK_CODEX_0018_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0018_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: bbbfb1d725c5d8eb103f8847813a7814512cc23c
 ---
 
 # TASK_CODEX_0018 — Predelivery manuscript assembly
