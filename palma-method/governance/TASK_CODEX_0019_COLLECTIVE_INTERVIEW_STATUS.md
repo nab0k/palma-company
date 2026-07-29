@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0019
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-07-29
@@ -41,7 +41,7 @@ acceptance_criteria:
   - consent, attribution, causality, and personal-story limits remain explicit
   - protected manuscript files remain untouched
 completion_report: palma-method/governance/TASK_CODEX_0019_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: 31ffba185ca665e611a18219ed1427cbaf6665e7
 ---
 
 # TASK_CODEX_0019 — Collective interview status and Miguel guide

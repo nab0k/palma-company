@@ -25,6 +25,16 @@ Palma × Collective prospective book case as of 29 July 2026.
 GitHub is canonical. Any Notion page derived from this report is an operational
 interface only and must link back to the committed source.
 
+## Publication coordinates
+
+- Repository: `nab0k/palma-company`
+- Base branch: `codex/prefinal-manuscript-0018`
+- Working branch: `codex/collective-interview-status-0019`
+- Guide source commit: `31ffba185ca665e611a18219ed1427cbaf6665e7`
+- Draft pull request: [PR #11](https://github.com/nab0k/palma-company/pull/11)
+- Notion operational mirror:
+  [Miguel — 60-minute book interview](https://app.notion.com/p/3acc42d0b11b817fadc2c26781c75435)
+
 ## Current status
 
 | Workstream | State | Evidence or next gate |
