@@ -26,7 +26,7 @@ subject_refs:
 - Base commit: `98567b86e9a9d5a14e9098d49f12c220af6c8ae9`
 - Working branch: `codex/archive-interview-sources-0020`
 - Delivery commit: `9db2f491cde639147992c7d0ce1b6bbbe8ca8069`
-- Pull request: pending
+- Draft pull request: [PR #12](https://github.com/nab0k/palma-company/pull/12)
 
 ## Delivered
 
