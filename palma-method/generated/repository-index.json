@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "071b1e2555f473354d9f6d4b897e9dc00081be24739057f40eff9e20d520f42c",
+  "source_fingerprint": "551f85bf27eacf9c71782dd2b8e650962da66a3e98ce52ac8934c1ee5516edbb",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 178,
-    "current": 59,
-    "legacy": 96,
-    "ambiguous": 23,
-    "non_chapter_current": 42,
-    "non_chapter_legacy": 77,
+    "records": 215,
+    "current": 84,
+    "legacy": 105,
+    "ambiguous": 26,
+    "non_chapter_current": 61,
+    "non_chapter_legacy": 84,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 113
+    "validation_warnings": 131
   },
   "catalog": {
     "current": [
@@ -51,6 +51,27 @@
         "created": "2026-07-17",
         "privacy_level": "internal",
         "relationships": {
+        }
+      },
+      {
+        "id": "CHANGE_MAP_BOMBOM_CHAPTER_02",
+        "canonical_id": "CHANGE_MAP_BOMBOM_CHAPTER_02",
+        "type": "change_map",
+        "status": "draft",
+        "title": "Bombom Chapter 2 insertion demonstration v0.1",
+        "path": "research/reports/BOMBOM_CHAPTER_2_INSERTION_DEMO_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "internal",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "reviews": [
+            "SC-045"
+          ]
         }
       },
       {
@@ -173,6 +194,67 @@
           "reviews": [
             "REVIEW_CASES_0014",
             "SC-039"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0015",
+        "canonical_id": "REPORT_TASK_CLAUDE_0015",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0015 — Completion report",
+        "path": "research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CLAUDE_0015",
+            "SC-039",
+            "VI-017",
+            "VI-022"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0016",
+        "canonical_id": "REPORT_TASK_CLAUDE_0016",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0016 — Completion report",
+        "path": "research/reports/TASK_CLAUDE_0016_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-19",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "SC-040",
+            "VI-020",
+            "VI-021",
+            "VI-023"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CLAUDE_0017",
+        "canonical_id": "REPORT_TASK_CLAUDE_0017",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0017 — Completion Report",
+        "path": "research/reports/TASK_CLAUDE_0017_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CLAUDE_0017",
+            "DECISION_0005"
           ]
         }
       },
@@ -372,6 +454,66 @@
         }
       },
       {
+        "id": "REPORT_TASK_CODEX_0018",
+        "canonical_id": "REPORT_TASK_CODEX_0018",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0018 completion report",
+        "path": "governance/TASK_CODEX_0018_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0018"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0019",
+        "canonical_id": "REPORT_TASK_CODEX_0019",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0019 completion report",
+        "path": "governance/TASK_CODEX_0019_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-29",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0019",
+            "REVIEW_CODEX_0019"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0020",
+        "canonical_id": "REPORT_TASK_CODEX_0020",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0020 completion report",
+        "path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0020",
+            "REVIEW_CODEX_0020",
+            "SC-043",
+            "SC-044",
+            "SC-045",
+            "SC-046"
+          ]
+        }
+      },
+      {
         "id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "canonical_id": "CONTRACT_GITHUB_NOTION_SYNC_0001",
         "type": "contract",
@@ -401,6 +543,43 @@
         "relationships": {
           "related_to": [
             "DECISION_0002"
+          ]
+        }
+      },
+      {
+        "id": "DECISION_0005",
+        "canonical_id": "DECISION_0005",
+        "type": "decision",
+        "status": "approved",
+        "title": "DECISION_0005 — Palma Method core architecture",
+        "path": "governance/DECISION_0005_PALMA_METHOD_CORE_ARCHITECTURE.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "serhii_nabok",
+        "created": "2026-07-19",
+        "privacy_level": "internal",
+        "relationships": {
+          "related_to": [
+            "DECISION_0003",
+            "TASK_CLAUDE_0017"
+          ]
+        }
+      },
+      {
+        "id": "POLICY_AUTHOR_VOICE_PASS_0001",
+        "canonical_id": "POLICY_AUTHOR_VOICE_PASS_0001",
+        "type": "policy",
+        "status": "draft_for_editorial_review",
+        "title": "Author voice pass brief v0.1",
+        "path": "research/reports/AUTHOR_VOICE_PASS_BRIEF_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+          "related_to": [
+            "TASK_CODEX_0018"
           ]
         }
       },
@@ -520,6 +699,78 @@
         }
       },
       {
+        "id": "REVIEW_CODEX_0018",
+        "canonical_id": "REVIEW_CODEX_0018",
+        "type": "review",
+        "status": "draft",
+        "title": "Book readiness audit v0.1",
+        "path": "research/reports/BOOK_READINESS_AUDIT_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0018"
+          ]
+        }
+      },
+      {
+        "id": "REVIEW_CODEX_0019",
+        "canonical_id": "REVIEW_CODEX_0019",
+        "type": "review",
+        "status": "draft",
+        "title": "Palma × Collective interview status v0.1",
+        "path": "research/reports/COLLECTIVE_INTERVIEW_STATUS_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-29",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "REVIEW_CODEX_0018"
+          ]
+        }
+      },
+      {
+        "id": "REVIEW_CODEX_0020",
+        "canonical_id": "REVIEW_CODEX_0020",
+        "type": "review",
+        "status": "draft",
+        "title": "Interview and author-source register v0.1",
+        "path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "SC-043",
+            "SC-044",
+            "SC-045",
+            "SC-046"
+          ]
+        }
+      },
+      {
+        "id": "SPEC_COLLECTIVE_INSERTION_0001",
+        "canonical_id": "SPEC_COLLECTIVE_INSERTION_0001",
+        "type": "specification",
+        "status": "draft_for_editorial_review",
+        "title": "Palma × Collective insertion brief v0.1",
+        "path": "research/reports/COLLECTIVE_INSERTION_BRIEF_v0.1.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
         "id": "SPEC_FRONTMATTER_0001",
         "canonical_id": "SPEC_FRONTMATTER_0001",
         "type": "specification",
@@ -532,6 +783,25 @@
         "created": "2026-07-17",
         "privacy_level": "internal",
         "relationships": {
+        }
+      },
+      {
+        "id": "SPEC_PALMA_METHOD_CANON_0001",
+        "canonical_id": "SPEC_PALMA_METHOD_CANON_0001",
+        "type": "specification",
+        "status": "approved",
+        "title": "Palma Method — Canon v1.0 (reconciled)",
+        "path": "governance/PALMA_METHOD_CANON_v1.0.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "serhii_nabok",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "DECISION_0003",
+            "DECISION_0005"
+          ]
         }
       },
       {
@@ -630,7 +900,7 @@
         "id": "TASK_CLAUDE_0015",
         "canonical_id": "TASK_CLAUDE_0015",
         "type": "task",
-        "status": "authorized",
+        "status": "delivered",
         "title": "TASK_CLAUDE_0015 — SC-039 full-text repair and bounded packet revision",
         "path": "governance/TASK_CLAUDE_0015_SC039_FULL_TEXT_REPAIR.md",
         "metadata_format": "frontmatter",
@@ -641,6 +911,43 @@
         "relationships": {
           "depends_on": [
             "TASK_CLAUDE_0014"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CLAUDE_0016",
+        "canonical_id": "TASK_CLAUDE_0016",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0016 — SC-040 full-text repair and bounded packet revision",
+        "path": "governance/TASK_CLAUDE_0016_SC040_FULL_TEXT_REPAIR.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-18",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CLAUDE_0015"
+          ]
+        }
+      },
+      {
+        "id": "TASK_CLAUDE_0017",
+        "canonical_id": "TASK_CLAUDE_0017",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CLAUDE_0017 — Canonicalize Palma Method and draft Part IV",
+        "path": "governance/TASK_CLAUDE_0017_CANONICALIZE_METHOD_AND_BUILD_PART_IV.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "claude",
+        "created": "2026-07-19",
+        "privacy_level": "internal",
+        "relationships": {
+          "depends_on": [
+            "TASK_CLAUDE_0016",
+            "DECISION_0005"
           ]
         }
       },
@@ -806,6 +1113,51 @@
           "depends_on": [
             "TASK_CODEX_0014"
           ]
+        }
+      },
+      {
+        "id": "TASK_CODEX_0018",
+        "canonical_id": "TASK_CODEX_0018",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0018 — Predelivery manuscript assembly",
+        "path": "governance/TASK_CODEX_0018_PREFINAL_MANUSCRIPT_ASSEMBLY.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-20",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "TASK_CODEX_0019",
+        "canonical_id": "TASK_CODEX_0019",
+        "type": "task",
+        "status": "delivered",
+        "title": "TASK_CODEX_0019 — Collective interview status and Miguel guide",
+        "path": "governance/TASK_CODEX_0019_COLLECTIVE_INTERVIEW_STATUS.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-07-29",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "TASK_CODEX_0020",
+        "canonical_id": "TASK_CODEX_0020",
+        "type": "task",
+        "status": "in_progress",
+        "title": "TASK_CODEX_0020 — Archive interview and author-story sources",
+        "path": "governance/TASK_CODEX_0020_ARCHIVE_INTERVIEW_SOURCES.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "internal",
+        "relationships": {
         }
       }
     ],
@@ -1676,7 +2028,7 @@
         "id": "SC-039",
         "canonical_id": "SC-039",
         "type": "source_card",
-        "status": "checked_via_abstract_and_secondary_summaries_full_original_article_not_independently_read_in_this_pass",
+        "status": "verified_via_primary_source_pdf_with_scope_limit",
         "title": "Wispy Communities: Transient Gathering and Imagined Micro-Communities",
         "path": "research/source-cards/fine-vandenscott-2011-wispy-communities.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -1696,7 +2048,7 @@
         "id": "SC-040",
         "canonical_id": "SC-040",
         "type": "source_card",
-        "status": "checked_via_abstract_and_widely_reproduced_secondary_summaries_full_original_article_not_independently_read_in_this_pass",
+        "status": "verified_with_scope_limit",
         "title": "Neighborhoods and Violent Crime: A Multilevel Study of Collective Efficacy",
         "path": "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -1749,6 +2101,200 @@
           "related_to": [
             "SC-039",
             "SC-040"
+          ]
+        }
+      },
+      {
+        "id": "SC-043",
+        "canonical_id": "SC-043",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF founder interview — 27 July 2026",
+        "path": "research/source-cards/tcf-founder-interview-2026-07-27.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-007",
+            "SC-046"
+          ]
+        }
+      },
+      {
+        "id": "SC-044",
+        "canonical_id": "SC-044",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF founder interview — 30 July 2026",
+        "path": "research/source-cards/tcf-founder-interview-2026-07-30.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_09",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-043",
+            "SC-007",
+            "SC-046"
+          ]
+        }
+      },
+      {
+        "id": "SC-045",
+        "canonical_id": "SC-045",
+        "type": "source_card",
+        "status": "review",
+        "title": "Café Bombom founder interview — 3 August 2026",
+        "path": "research/source-cards/bombom-founder-interview-2026-08-03.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "codex",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_06",
+            "CHAPTER_07",
+            "CHAPTER_10",
+            "CHAPTER_12",
+            "CHAPTER_17"
+          ],
+          "related_to": [
+            "SC-004",
+            "SC-017",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-046",
+        "canonical_id": "SC-046",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — Serhii at TCF",
+        "path": "research/source-cards/serhii-tcf-personal-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-043",
+            "SC-044",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-047",
+        "canonical_id": "SC-047",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — Kichkine and the childhood settlement",
+        "path": "research/source-cards/serhii-kichkine-childhood-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_06",
+            "CHAPTER_08",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-002",
+            "SC-003",
+            "SC-016"
+          ]
+        }
+      },
+      {
+        "id": "SC-048",
+        "canonical_id": "SC-048",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — Kyiv Military Lyceum",
+        "path": "research/source-cards/serhii-military-lyceum-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_09",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-037",
+            "SC-016",
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-049",
+        "canonical_id": "SC-049",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — TAK.Shtab",
+        "path": "research/source-cards/serhii-tak-shtab-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-03",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_04",
+            "CHAPTER_05",
+            "CHAPTER_06",
+            "CHAPTER_07",
+            "CHAPTER_09",
+            "CHAPTER_11",
+            "CHAPTER_16",
+            "CHAPTER_19"
+          ],
+          "related_to": [
+            "SC-040",
+            "SC-007",
+            "SC-002"
           ]
         }
       },
@@ -2108,7 +2654,7 @@
         "id": "VI-017",
         "canonical_id": "VI-017",
         "type": "verification_issue",
-        "status": "open",
+        "status": "resolved_with_scope_limit",
         "title": "Verification Restrictions",
         "path": "research/verification/VERIFICATION_ISSUES.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -2153,7 +2699,7 @@
         "id": "VI-020",
         "canonical_id": "VI-020",
         "type": "verification_issue",
-        "status": "open",
+        "status": "resolved_with_scope_limit",
         "title": "Verification Restrictions",
         "path": "research/verification/VERIFICATION_ISSUES.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -2168,7 +2714,7 @@
         "id": "VI-021",
         "canonical_id": "VI-021",
         "type": "verification_issue",
-        "status": "open",
+        "status": "resolved_with_scope_limit",
         "title": "Verification Restrictions",
         "path": "research/verification/VERIFICATION_ISSUES.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -2183,7 +2729,7 @@
         "id": "VI-022",
         "canonical_id": "VI-022",
         "type": "verification_issue",
-        "status": "open",
+        "status": "resolved_with_scope_limit",
         "title": "Verification Restrictions",
         "path": "research/verification/VERIFICATION_ISSUES.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -2198,7 +2744,7 @@
         "id": "VI-023",
         "canonical_id": "VI-023",
         "type": "verification_issue",
-        "status": "open",
+        "status": "resolved_with_scope_limit",
         "title": "Verification Restrictions",
         "path": "research/verification/VERIFICATION_ISSUES.md",
         "metadata_format": "legacy_fenced_yaml",
@@ -3058,6 +3604,9 @@
           "privacy_level": "internal",
           "chapter_number": 9,
           "relationships": {
+            "verifies": [
+              "VI-004"
+            ]
           },
           "index_state": "ambiguous"
         }
@@ -3155,6 +3704,9 @@
           "privacy_level": "internal",
           "chapter_number": 10,
           "relationships": {
+            "verifies": [
+              "VI-004"
+            ]
           },
           "index_state": "ambiguous"
         }
@@ -3253,20 +3805,20 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
-          "id": "PKT-12-v0.2",
+          "id": "PKT-12-v0.3",
           "canonical_id": "CHAPTER_12",
           "type": "chapter",
           "status": "draft_for_editorial_review",
-          "title": "Research Packet v0.2: Chapter 12 — Map",
-          "path": "research/chapter-packets/CHAPTER_12_v0.2.md",
+          "title": "Research Packet v0.3: Chapter 12 — Map",
+          "path": "research/chapter-packets/CHAPTER_12_v0.3.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
           "owner": "Claude (Research Synthesizer and Developmental Editor role)",
-          "created": "2026-07-17",
+          "created": "2026-07-18",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.3",
           "chapter_number": 12,
-          "supersedes_declaration": "CHAPTER_12_v0.1.md",
+          "supersedes_declaration": "CHAPTER_12_v0.2.md",
           "relationships": {
             "supported_by": [
               "SC-002",
@@ -3318,6 +3870,44 @@
               "VI-002",
               "VI-004",
               "VI-007"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-12-v0.2",
+          "canonical_id": "CHAPTER_12",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 12 — Map",
+          "path": "research/chapter-packets/CHAPTER_12_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 12,
+          "supersedes_declaration": "CHAPTER_12_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-004",
+              "SC-005",
+              "SC-010",
+              "SC-012",
+              "SC-028",
+              "SC-031",
+              "SC-037",
+              "SC-039",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-002",
+              "VI-004",
+              "VI-007",
+              "VI-016",
+              "VI-017"
             ]
           },
           "index_state": "legacy"
@@ -3515,6 +4105,40 @@
           "relationships": {
           },
           "index_state": "ambiguous"
+        },
+        {
+          "id": "PKT-14-v0.3",
+          "canonical_id": "CHAPTER_14",
+          "type": "chapter",
+          "status": "",
+          "title": "Research Packet v0.3: Chapter 14 — Activate (title under review — see Section 0)",
+          "path": "research/chapter-packets/CHAPTER_14_v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-18",
+          "privacy_level": "internal",
+          "version": "v0.3",
+          "chapter_number": 14,
+          "supersedes_declaration": "CHAPTER_14_v0.2.md",
+          "relationships": {
+            "supported_by": [
+              "SC-005",
+              "SC-013",
+              "SC-032",
+              "SC-033",
+              "SC-036",
+              "SC-038",
+              "SC-039",
+              "SC-040"
+            ],
+            "verifies": [
+              "VI-008",
+              "VI-009",
+              "VI-020"
+            ]
+          },
+          "index_state": "ambiguous"
         }
       ]
     },
@@ -3604,6 +4228,39 @@
           "relationships": {
           },
           "index_state": "ambiguous"
+        },
+        {
+          "id": "PKT-15-v0.3",
+          "canonical_id": "CHAPTER_15",
+          "type": "chapter",
+          "status": "",
+          "title": "Research Packet v0.3: Chapter 15 — Measure",
+          "path": "research/chapter-packets/CHAPTER_15_v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-18",
+          "privacy_level": "internal",
+          "version": "v0.3",
+          "chapter_number": 15,
+          "supersedes_declaration": "CHAPTER_15_v0.2.md",
+          "relationships": {
+            "supported_by": [
+              "SC-014",
+              "SC-018",
+              "SC-019",
+              "SC-026",
+              "SC-034",
+              "SC-035",
+              "SC-040"
+            ],
+            "verifies": [
+              "VI-010",
+              "VI-011",
+              "VI-021"
+            ]
+          },
+          "index_state": "ambiguous"
         }
       ]
     },
@@ -3613,20 +4270,20 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
-          "id": "PKT-16-v0.2",
+          "id": "PKT-16-v0.3",
           "canonical_id": "CHAPTER_16",
           "type": "chapter",
           "status": "draft_for_editorial_review",
-          "title": "Research Packet v0.2: Chapter 16 — Connect Communication and Community",
-          "path": "research/chapter-packets/CHAPTER_16_v0.2.md",
+          "title": "Research Packet v0.3: Chapter 16 — Connect Communication and Community",
+          "path": "research/chapter-packets/CHAPTER_16_v0.3.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
           "owner": "Claude (Research Synthesizer and Developmental Editor role)",
-          "created": "2026-07-17",
+          "created": "2026-07-18",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.3",
           "chapter_number": 16,
-          "supersedes_declaration": "CHAPTER_16_v0.1.md",
+          "supersedes_declaration": "CHAPTER_16_v0.2.md",
           "relationships": {
             "supported_by": [
               "SC-007",
@@ -3680,6 +4337,41 @@
           "index_state": "legacy"
         },
         {
+          "id": "PKT-16-v0.2",
+          "canonical_id": "CHAPTER_16",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Research Packet v0.2: Chapter 16 — Connect Communication and Community",
+          "path": "research/chapter-packets/CHAPTER_16_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 16,
+          "supersedes_declaration": "CHAPTER_16_v0.1.md",
+          "relationships": {
+            "supported_by": [
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-025",
+              "SC-029",
+              "SC-039",
+              "SC-040",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-005",
+              "VI-022",
+              "VI-023"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
           "id": "MANUSCRIPT_CHAPTER_16",
           "canonical_id": "CHAPTER_16",
           "type": "chapter",
@@ -3695,14 +4387,67 @@
           "relationships": {
           },
           "index_state": "ambiguous"
+        },
+        {
+          "id": "PKT-16-v0.4",
+          "canonical_id": "CHAPTER_16",
+          "type": "chapter",
+          "status": "",
+          "title": "Research Packet v0.4: Chapter 16 — Connect Communication and Community",
+          "path": "research/chapter-packets/CHAPTER_16_v0.4.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer and Developmental Editor role)",
+          "created": "2026-07-18",
+          "privacy_level": "internal",
+          "version": "v0.4",
+          "chapter_number": 16,
+          "supersedes_declaration": "CHAPTER_16_v0.3.md",
+          "relationships": {
+            "supported_by": [
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-025",
+              "SC-029",
+              "SC-039",
+              "SC-040",
+              "SC-041"
+            ],
+            "verifies": [
+              "VI-005",
+              "VI-022",
+              "VI-023"
+            ]
+          },
+          "index_state": "ambiguous"
         }
       ]
     },
     {
       "canonical_id": "CHAPTER_17",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-17-v0.1",
+          "canonical_id": "CHAPTER_17",
+          "type": "chapter",
+          "status": "",
+          "title": "Chapter 17 — Diagnose (packet)",
+          "path": "research/chapter-packets/CHAPTER_17_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 17,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_17",
           "canonical_id": "CHAPTER_17",
@@ -3724,9 +4469,27 @@
     },
     {
       "canonical_id": "CHAPTER_18",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-18-v0.1",
+          "canonical_id": "CHAPTER_18",
+          "type": "chapter",
+          "status": "",
+          "title": "Chapter 18 — Design (packet)",
+          "path": "research/chapter-packets/CHAPTER_18_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 18,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_18",
           "canonical_id": "CHAPTER_18",
@@ -3748,9 +4511,27 @@
     },
     {
       "canonical_id": "CHAPTER_19",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-19-v0.1",
+          "canonical_id": "CHAPTER_19",
+          "type": "chapter",
+          "status": "",
+          "title": "Chapter 19 — Launch (packet)",
+          "path": "research/chapter-packets/CHAPTER_19_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 19,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_19",
           "canonical_id": "CHAPTER_19",
@@ -3772,9 +4553,27 @@
     },
     {
       "canonical_id": "CHAPTER_20",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-20-v0.1",
+          "canonical_id": "CHAPTER_20",
+          "type": "chapter",
+          "status": "",
+          "title": "Chapter 20 — Advise (packet)",
+          "path": "research/chapter-packets/CHAPTER_20_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 20,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_20",
           "canonical_id": "CHAPTER_20",
@@ -3796,9 +4595,27 @@
     },
     {
       "canonical_id": "CHAPTER_21",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-21-v0.1",
+          "canonical_id": "CHAPTER_21",
+          "type": "chapter",
+          "status": "",
+          "title": "Chapter 21 — Handover (packet)",
+          "path": "research/chapter-packets/CHAPTER_21_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 21,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_21",
           "canonical_id": "CHAPTER_21",
@@ -3820,15 +4637,33 @@
     },
     {
       "canonical_id": "CHAPTER_99",
-      "selection_state": "ambiguous",
-      "selection_basis": "no_explicit_version",
+      "selection_state": "current",
+      "selection_basis": "highest_observed_version",
       "records": [
+        {
+          "id": "PKT-99-v0.1",
+          "canonical_id": "CHAPTER_99",
+          "type": "chapter",
+          "status": "",
+          "title": "Conclusion (packet)",
+          "path": "research/chapter-packets/CONCLUSION_v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "research",
+          "created": "unknown",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 99,
+          "relationships": {
+          },
+          "index_state": "current"
+        },
         {
           "id": "MANUSCRIPT_CHAPTER_99",
           "canonical_id": "CHAPTER_99",
           "type": "chapter",
           "status": "unknown",
-          "title": "Conclusion: The Open Palm",
+          "title": "Conclusion",
           "path": "manuscript/99-conclusion.md",
           "metadata_format": "legacy_filename",
           "record_state": "legacy",
@@ -3844,6 +4679,18 @@
     }
   ],
   "edges": [
+    {
+      "from": "CHANGE_MAP_BOMBOM_CHAPTER_02",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/reports/BOMBOM_CHAPTER_2_INSERTION_DEMO_v0.1.md"
+    },
+    {
+      "from": "CHANGE_MAP_BOMBOM_CHAPTER_02",
+      "relation": "reviews",
+      "to": "SC-045",
+      "source_path": "research/reports/BOMBOM_CHAPTER_2_INSERTION_DEMO_v0.1.md"
+    },
     {
       "from": "CHANGE_MAP_CROSS_CHAPTER_SYNC_0010",
       "relation": "reviews",
@@ -4742,6 +5589,12 @@
       "from": "CHAPTER_09",
       "relation": "verifies",
       "to": "VI-004",
+      "source_path": "manuscript/part-2/09-networks-groups-and-structural-advantage.md"
+    },
+    {
+      "from": "CHAPTER_09",
+      "relation": "verifies",
+      "to": "VI-004",
       "source_path": "research/chapter-packets/CHAPTER_09_v0.1.md"
     },
     {
@@ -4797,6 +5650,12 @@
       "relation": "verifies",
       "to": "VI-002",
       "source_path": "research/chapter-packets/CHAPTER_10_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_10",
+      "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "manuscript/part-2/10-the-dark-side-of-social-capital.md"
     },
     {
       "from": "CHAPTER_10",
@@ -4927,6 +5786,12 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-004",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
@@ -4935,6 +5800,12 @@
       "relation": "supported_by",
       "to": "SC-004",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4951,6 +5822,12 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-010",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
@@ -4959,6 +5836,12 @@
       "relation": "supported_by",
       "to": "SC-010",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-010",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -4975,6 +5858,12 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-012",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-028",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
@@ -4987,6 +5876,12 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-028",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-031",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
@@ -4995,6 +5890,12 @@
       "relation": "supported_by",
       "to": "SC-031",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-031",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -5005,8 +5906,20 @@
     {
       "from": "CHAPTER_12",
       "relation": "supported_by",
+      "to": "SC-037",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
       "to": "SC-039",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -5016,6 +5929,12 @@
     },
     {
       "from": "CHAPTER_12",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
       "relation": "verifies",
       "to": "VI-002",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
@@ -5025,6 +5944,12 @@
       "relation": "verifies",
       "to": "VI-002",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-002",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -5041,6 +5966,12 @@
     {
       "from": "CHAPTER_12",
       "relation": "verifies",
+      "to": "VI-004",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
       "to": "VI-007",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.1.md"
     },
@@ -5049,6 +5980,12 @@
       "relation": "verifies",
       "to": "VI-007",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-007",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_12",
@@ -5059,8 +5996,20 @@
     {
       "from": "CHAPTER_12",
       "relation": "verifies",
+      "to": "VI-016",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
       "to": "VI-017",
       "source_path": "research/chapter-packets/CHAPTER_12_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_12",
+      "relation": "verifies",
+      "to": "VI-017",
+      "source_path": "research/chapter-packets/CHAPTER_12_v0.3.md"
     },
     {
       "from": "CHAPTER_13",
@@ -5203,6 +6152,12 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-005",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
     },
@@ -5211,6 +6166,12 @@
       "relation": "supported_by",
       "to": "SC-013",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-013",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
     },
     {
       "from": "CHAPTER_14",
@@ -5227,6 +6188,12 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-032",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-033",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
     },
@@ -5239,6 +6206,12 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-033",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-036",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
     },
@@ -5247,6 +6220,12 @@
       "relation": "supported_by",
       "to": "SC-036",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-036",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
     },
     {
       "from": "CHAPTER_14",
@@ -5257,8 +6236,20 @@
     {
       "from": "CHAPTER_14",
       "relation": "supported_by",
+      "to": "SC-038",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
       "to": "SC-039",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
     },
     {
       "from": "CHAPTER_14",
@@ -5268,6 +6259,12 @@
     },
     {
       "from": "CHAPTER_14",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
       "relation": "verifies",
       "to": "VI-008",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
@@ -5281,6 +6278,12 @@
     {
       "from": "CHAPTER_14",
       "relation": "verifies",
+      "to": "VI-008",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
       "to": "VI-009",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.1.md"
     },
@@ -5289,6 +6292,12 @@
       "relation": "verifies",
       "to": "VI-009",
       "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-009",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
     },
     {
       "from": "CHAPTER_14",
@@ -5297,6 +6306,12 @@
       "source_path": "research/chapter-packets/CHAPTER_14_v0.2.md"
     },
     {
+      "from": "CHAPTER_14",
+      "relation": "verifies",
+      "to": "VI-020",
+      "source_path": "research/chapter-packets/CHAPTER_14_v0.3.md"
+    },
+    {
       "from": "CHAPTER_15",
       "relation": "supported_by",
       "to": "SC-014",
@@ -5307,6 +6322,12 @@
       "relation": "supported_by",
       "to": "SC-014",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
     },
     {
       "from": "CHAPTER_15",
@@ -5323,6 +6344,12 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-018",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-019",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
     },
@@ -5331,6 +6358,12 @@
       "relation": "supported_by",
       "to": "SC-019",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-019",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
     },
     {
       "from": "CHAPTER_15",
@@ -5347,6 +6380,12 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-026",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-034",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
     },
@@ -5359,6 +6398,12 @@
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
+      "to": "SC-034",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
       "to": "SC-035",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
     },
@@ -5367,12 +6412,24 @@
       "relation": "supported_by",
       "to": "SC-035",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-035",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
     },
     {
       "from": "CHAPTER_15",
       "relation": "supported_by",
       "to": "SC-040",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
     },
     {
       "from": "CHAPTER_15",
@@ -5401,6 +6458,12 @@
     {
       "from": "CHAPTER_15",
       "relation": "verifies",
+      "to": "VI-010",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
       "to": "VI-011",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.1.md"
     },
@@ -5413,8 +6476,20 @@
     {
       "from": "CHAPTER_15",
       "relation": "verifies",
+      "to": "VI-011",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
       "to": "VI-021",
       "source_path": "research/chapter-packets/CHAPTER_15_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_15",
+      "relation": "verifies",
+      "to": "VI-021",
+      "source_path": "research/chapter-packets/CHAPTER_15_v0.3.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5437,6 +6512,18 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-012",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
     },
@@ -5455,6 +6542,18 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
     },
@@ -5463,6 +6562,18 @@
       "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5479,6 +6590,18 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.1.md"
     },
@@ -5487,6 +6610,18 @@
       "relation": "supported_by",
       "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-025",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5509,8 +6644,32 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-029",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-039",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-039",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5521,8 +6680,32 @@
     {
       "from": "CHAPTER_16",
       "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-040",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
       "to": "SC-041",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "supported_by",
+      "to": "SC-041",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5539,8 +6722,32 @@
     {
       "from": "CHAPTER_16",
       "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-005",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
       "to": "VI-022",
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-022",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-022",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
     },
     {
       "from": "CHAPTER_16",
@@ -5549,10 +6756,40 @@
       "source_path": "research/chapter-packets/CHAPTER_16_v0.2.md"
     },
     {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-023",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.3.md"
+    },
+    {
+      "from": "CHAPTER_16",
+      "relation": "verifies",
+      "to": "VI-023",
+      "source_path": "research/chapter-packets/CHAPTER_16_v0.4.md"
+    },
+    {
       "from": "DECISION_0004",
       "relation": "related_to",
       "to": "DECISION_0002",
       "source_path": "governance/DECISION_0004_GITHUB_CANONICAL_NOTION_INTERFACE.md"
+    },
+    {
+      "from": "DECISION_0005",
+      "relation": "related_to",
+      "to": "DECISION_0003",
+      "source_path": "governance/DECISION_0005_PALMA_METHOD_CORE_ARCHITECTURE.md"
+    },
+    {
+      "from": "DECISION_0005",
+      "relation": "related_to",
+      "to": "TASK_CLAUDE_0017",
+      "source_path": "governance/DECISION_0005_PALMA_METHOD_CORE_ARCHITECTURE.md"
+    },
+    {
+      "from": "POLICY_AUTHOR_VOICE_PASS_0001",
+      "relation": "related_to",
+      "to": "TASK_CODEX_0018",
+      "source_path": "research/reports/AUTHOR_VOICE_PASS_BRIEF_v0.1.md"
     },
     {
       "from": "REPORT_TASK_CLAUDE_0009",
@@ -5607,6 +6844,66 @@
       "relation": "reviews",
       "to": "SC-039",
       "source_path": "research/reports/TASK_CLAUDE_0014_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0015",
+      "relation": "reviews",
+      "to": "SC-039",
+      "source_path": "research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0015",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0015",
+      "source_path": "research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0015",
+      "relation": "reviews",
+      "to": "VI-017",
+      "source_path": "research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0015",
+      "relation": "reviews",
+      "to": "VI-022",
+      "source_path": "research/reports/TASK_CLAUDE_0015_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0016",
+      "relation": "reviews",
+      "to": "SC-040",
+      "source_path": "research/reports/TASK_CLAUDE_0016_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0016",
+      "relation": "reviews",
+      "to": "VI-020",
+      "source_path": "research/reports/TASK_CLAUDE_0016_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0016",
+      "relation": "reviews",
+      "to": "VI-021",
+      "source_path": "research/reports/TASK_CLAUDE_0016_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0016",
+      "relation": "reviews",
+      "to": "VI-023",
+      "source_path": "research/reports/TASK_CLAUDE_0016_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0017",
+      "relation": "reviews",
+      "to": "DECISION_0005",
+      "source_path": "research/reports/TASK_CLAUDE_0017_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CLAUDE_0017",
+      "relation": "reviews",
+      "to": "TASK_CLAUDE_0017",
+      "source_path": "research/reports/TASK_CLAUDE_0017_COMPLETION_REPORT.md"
     },
     {
       "from": "REPORT_TASK_CODEX-2A2B_0007",
@@ -5759,6 +7056,60 @@
       "source_path": "governance/TASK_CODEX_0015_COMPLETION_REPORT.md"
     },
     {
+      "from": "REPORT_TASK_CODEX_0018",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0018",
+      "source_path": "governance/TASK_CODEX_0018_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0019",
+      "relation": "reviews",
+      "to": "REVIEW_CODEX_0019",
+      "source_path": "governance/TASK_CODEX_0019_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0019",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0019",
+      "source_path": "governance/TASK_CODEX_0019_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "REVIEW_CODEX_0020",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-043",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-044",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-045",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-046",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0020",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0020",
+      "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
       "from": "REVIEW_CASES_0014",
       "relation": "reviews",
       "to": "CHAPTER_11",
@@ -5799,6 +7150,42 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0007",
       "source_path": "governance/TASK_CODEX_0007_PHASE_1_GAP_REPORT.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0018",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0018",
+      "source_path": "research/reports/BOOK_READINESS_AUDIT_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0019",
+      "relation": "reviews",
+      "to": "REVIEW_CODEX_0018",
+      "source_path": "research/reports/COLLECTIVE_INTERVIEW_STATUS_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-043",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-044",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-045",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0020",
+      "relation": "reviews",
+      "to": "SC-046",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md"
     },
     {
       "from": "RG-001",
@@ -6425,6 +7812,342 @@
       "source_path": "research/source-cards/baehr-community-of-fate.md"
     },
     {
+      "from": "SC-043",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-043",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-27.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "related_to",
+      "to": "SC-043",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-044",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/tcf-founder-interview-2026-07-30.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_12",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "affects",
+      "to": "CHAPTER_17",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-045",
+      "relation": "related_to",
+      "to": "SC-017",
+      "source_path": "research/source-cards/bombom-founder-interview-2026-08-03.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "related_to",
+      "to": "SC-043",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-046",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/serhii-tcf-personal-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "related_to",
+      "to": "SC-003",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-047",
+      "relation": "related_to",
+      "to": "SC-016",
+      "source_path": "research/source-cards/serhii-kichkine-childhood-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "related_to",
+      "to": "SC-016",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-048",
+      "relation": "related_to",
+      "to": "SC-037",
+      "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_04",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_11",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_19",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "related_to",
+      "to": "SC-040",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SPEC_PALMA_METHOD_CANON_0001",
+      "relation": "depends_on",
+      "to": "DECISION_0003",
+      "source_path": "governance/PALMA_METHOD_CANON_v1.0.md"
+    },
+    {
+      "from": "SPEC_PALMA_METHOD_CANON_0001",
+      "relation": "depends_on",
+      "to": "DECISION_0005",
+      "source_path": "governance/PALMA_METHOD_CANON_v1.0.md"
+    },
+    {
       "from": "TASK_CLAUDE_0007",
       "relation": "depends_on",
       "to": "DECISION_0003",
@@ -6477,6 +8200,24 @@
       "relation": "depends_on",
       "to": "TASK_CLAUDE_0014",
       "source_path": "governance/TASK_CLAUDE_0015_SC039_FULL_TEXT_REPAIR.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0016",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0015",
+      "source_path": "governance/TASK_CLAUDE_0016_SC040_FULL_TEXT_REPAIR.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0017",
+      "relation": "depends_on",
+      "to": "DECISION_0005",
+      "source_path": "governance/TASK_CLAUDE_0017_CANONICALIZE_METHOD_AND_BUILD_PART_IV.md"
+    },
+    {
+      "from": "TASK_CLAUDE_0017",
+      "relation": "depends_on",
+      "to": "TASK_CLAUDE_0016",
+      "source_path": "governance/TASK_CLAUDE_0017_CANONICALIZE_METHOD_AND_BUILD_PART_IV.md"
     },
     {
       "from": "TASK_CODEX_0006",
