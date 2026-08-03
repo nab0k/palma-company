@@ -25,7 +25,7 @@ subject_refs:
 - Base branch: `codex/collective-interview-status-0019`
 - Base commit: `98567b86e9a9d5a14e9098d49f12c220af6c8ae9`
 - Working branch: `codex/archive-interview-sources-0020`
-- Final commit: pending
+- Delivery commit: `9db2f491cde639147992c7d0ce1b6bbbe8ca8069`
 - Pull request: pending
 
 ## Delivered

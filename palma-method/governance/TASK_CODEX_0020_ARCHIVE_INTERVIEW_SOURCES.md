@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0020
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-03
@@ -58,7 +58,7 @@ acceptance_criteria:
   - a concrete Chapter 2 insertion demonstration is available for editorial review
   - protected manuscript files remain untouched
 completion_report: palma-method/governance/TASK_CODEX_0020_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: 9db2f491cde639147992c7d0ce1b6bbbe8ca8069
 ---
 
 # TASK_CODEX_0020 — Archive interview and author-story sources
