@@ -4,7 +4,7 @@
 
 - Canonical table of contents: `manuscript/README.md`
 - Repository index: `generated/repository-index.json`
-- Dashboard fingerprint: `b20f9afd560925ccf68dc8616377a9b7a8d83d3ebda9a81e01868fdea344fac4`
+- Dashboard fingerprint: `1df07fa9fccb6f0be242ede8182ba8a35f930ba7a6d662fefa2fd16ee67300f7`
 - Metadata mode: `legacy_warning`
 - Editorial meaning of `accepted`: current working version accepted for continued manuscript development; not final publication copy.
 
