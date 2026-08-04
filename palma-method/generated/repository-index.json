@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "80092dadf7e0543d1d6421727e87ad7f11dd2e3f8cf4ea8bccc1ceb7ba5aaf13",
+  "source_fingerprint": "2d07fcd9d3281d216d6de08c760e0e76234ba5596ac13bebf0a0175634d8cb9e",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 215,
+    "records": 216,
     "current": 84,
-    "legacy": 105,
+    "legacy": 106,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 84,
+    "non_chapter_legacy": 85,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 131
+    "validation_warnings": 132
   },
   "catalog": {
     "current": [
@@ -2295,6 +2295,30 @@
             "SC-040",
             "SC-007",
             "SC-002"
+          ]
+        }
+      },
+      {
+        "id": "SC-050",
+        "canonical_id": "SC-050",
+        "type": "source_card",
+        "status": "review",
+        "title": "Foreign-born population share in Dutch Republic cities, 1600-1800 — unverified claim, source pending",
+        "path": "research/source-cards/dutch-republic-foreign-population-1600-1800-unverified.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_07",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-004",
+            "SC-017"
           ]
         }
       },
@@ -8134,6 +8158,30 @@
       "relation": "related_to",
       "to": "SC-040",
       "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/dutch-republic-foreign-population-1600-1800-unverified.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/dutch-republic-foreign-population-1600-1800-unverified.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/dutch-republic-foreign-population-1600-1800-unverified.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "related_to",
+      "to": "SC-017",
+      "source_path": "research/source-cards/dutch-republic-foreign-population-1600-1800-unverified.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

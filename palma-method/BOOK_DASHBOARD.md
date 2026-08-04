@@ -4,7 +4,7 @@
 
 - Canonical table of contents: `manuscript/README.md`
 - Repository index: `generated/repository-index.json`
-- Dashboard fingerprint: `4812c9d5028a964cd7a1daf1047f8495b03a9b90f5c7dab0d92da269df1e7e6f`
+- Dashboard fingerprint: `b20f9afd560925ccf68dc8616377a9b7a8d83d3ebda9a81e01868fdea344fac4`
 - Metadata mode: `legacy_warning`
 - Editorial meaning of `accepted`: current working version accepted for continued manuscript development; not final publication copy.
 
@@ -13,89 +13,48 @@
 | Metric | Count |
 |---|---:|
 | Total manuscript units | 23 |
-| Working packets | 17 |
+| Working packets | 23 |
 | Editorially accepted | 6 |
 | Under revision | 0 |
-| Not started | 6 |
-| Current records | 59 |
-| Legacy records | 96 |
-| Ambiguous records | 23 |
-| Packet coverage | 73.9% |
+| Not started | 0 |
+| Current records | 84 |
+| Legacy records | 106 |
+| Ambiguous records | 26 |
+| Packet coverage | 100.0% |
 
 ## Manuscript units
 
 | Part | No. | Title | Current working chapter | Repository | Research packet | Accepted working version | Legacy versions | Ambiguous files | Draft | Editorial | Next action | Last modified |
 |---|---:|---|---|---|---|---|---|---|---|---|---|---|
-| Introduction | Introduction | The Missing Response | v0.1 — `research/chapter-packets/00-introduction-packet-v0.1.md` | current | draft_for_editorial_review | unknown | none | `manuscript/01-introduction.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-17 |
-| Part I — The Problem | 1 | Companies Speak. People Scroll. | v0.2 — `research/chapter-packets/01-chapter-1-packet-v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/01-chapter-1-packet-v0.1.md` | `manuscript/part-1/01-companies-speak-people-scroll.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-17 |
-| Part I — The Problem | 2 | An Audience Is Not a Community | v0.1 — `research/chapter-packets/02-chapter-2-packet-v0.1.md` | current | draft_for_editorial_review | unknown | none | `manuscript/part-1/02-an-audience-is-not-a-community.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-17 |
-| Part I — The Problem | 3 | Reputation Is Not Access | v0.2 — `research/chapter-packets/CHAPTER_03_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_03_v0.1.md` | `manuscript/part-1/03-reputation-is-not-access.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part I — The Problem | 4 | The Cost of Weak Relationships | v0.2 — `research/chapter-packets/CHAPTER_04_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_04_v0.1.md` | `manuscript/part-1/04-the-cost-of-weak-relationships.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part I — The Problem | 5 | Events Are Not Infrastructure | v0.2 — `research/chapter-packets/CHAPTER_05_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_05_v0.1.md` | `manuscript/part-1/05-events-are-not-infrastructure.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part II — The Theory | 6 | Relationship Capital | v0.4 — `research/chapter-packets/CHAPTER_06_v0.4.md` | current | accepted | v0.4 — accepted working version (not final) | v0.1 — `research/chapter-packets/06-chapter-6-packet-v0.1.md`; v0.2 — `research/chapter-packets/06-chapter-6-packet-v0.2.md`; v0.3 — `research/chapter-packets/CHAPTER_06_v0.3.md` | `manuscript/part-2/06-relationship-capital.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part II — The Theory | 7 | Strong Ties, Weak Ties, and Bridges | v0.2 — `research/chapter-packets/07-chapter-7-packet-v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/07-chapter-7-packet-v0.1.md` | `manuscript/part-2/07-strong-ties-weak-ties-and-bridges.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-17 |
-| Part II — The Theory | 8 | Trust, Status, and Reciprocity | v0.2 — `research/chapter-packets/CHAPTER_08_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/08-chapter-8-packet-v0.1.md` | `manuscript/part-2/08-trust-status-and-reciprocity.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-17 |
-| Part II — The Theory | 9 | Networks, Groups, and Structural Advantage | v0.3 — `research/chapter-packets/CHAPTER_09_v0.3.md` | current | accepted | v0.3 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_09_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_09_v0.2.md` | `manuscript/part-2/09-networks-groups-and-structural-advantage.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part II — The Theory | 10 | The Dark Side of Social Capital | v0.3 — `research/chapter-packets/CHAPTER_10_v0.3.md` | current | accepted | v0.3 — accepted working version (not final) | v0.1 — `research/chapter-packets/10-chapter-10-packet-v0.1.md`; v0.2 — `research/chapter-packets/10-chapter-10-packet-v0.2.md` | `manuscript/part-2/10-the-dark-side-of-social-capital.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-17 |
-| Part III — The Practice | 11 | Listen | v0.2 — `research/chapter-packets/CHAPTER_11_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_11_v0.1.md` | `manuscript/part-3/11-listen.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part III — The Practice | 12 | Map | v0.2 — `research/chapter-packets/CHAPTER_12_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_12_v0.1.md` | `manuscript/part-3/12-map.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part III — The Practice | 13 | Design | v0.2 — `research/chapter-packets/CHAPTER_13_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_13_v0.1.md` | `manuscript/part-3/13-design.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part III — The Practice | 14 | Activate | v0.2 — `research/chapter-packets/CHAPTER_14_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_14_v0.1.md` | `manuscript/part-3/14-activate.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part III — The Practice | 15 | Measure | v0.2 — `research/chapter-packets/CHAPTER_15_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_15_v0.1.md` | `manuscript/part-3/15-measure.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part III — The Practice | 16 | Connect Communication and Community | v0.2 — `research/chapter-packets/CHAPTER_16_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_16_v0.1.md` | `manuscript/part-3/16-connect-communication-and-community.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-18 |
-| Part IV — The Palma Method | 17 | Diagnose | unknown | ambiguous | missing | unknown | none | `manuscript/part-4/17-diagnose.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
-| Part IV — The Palma Method | 18 | Design | unknown | ambiguous | missing | unknown | none | `manuscript/part-4/18-design.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
-| Part IV — The Palma Method | 19 | Launch | unknown | ambiguous | missing | unknown | none | `manuscript/part-4/19-launch.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
-| Part IV — The Palma Method | 20 | Advise | unknown | ambiguous | missing | unknown | none | `manuscript/part-4/20-advise.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
-| Part IV — The Palma Method | 21 | Handover | unknown | ambiguous | missing | unknown | none | `manuscript/part-4/21-handover.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
-| Conclusion | Conclusion | The Open Palm | unknown | ambiguous | missing | unknown | none | `manuscript/99-conclusion.md` | unknown | needs editorial classification | add explicit version and lifecycle metadata | 2026-07-16 |
+| Introduction | Introduction | The Missing Response | v0.1 — `research/chapter-packets/00-introduction-packet-v0.1.md` | current | draft_for_editorial_review | unknown | none | `manuscript/01-introduction.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part I — The Problem | 1 | Companies Speak. People Scroll. | v0.2 — `research/chapter-packets/01-chapter-1-packet-v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/01-chapter-1-packet-v0.1.md` | `manuscript/part-1/01-companies-speak-people-scroll.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part I — The Problem | 2 | An Audience Is Not a Community | v0.1 — `research/chapter-packets/02-chapter-2-packet-v0.1.md` | current | draft_for_editorial_review | unknown | none | `manuscript/part-1/02-an-audience-is-not-a-community.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part I — The Problem | 3 | Reputation Is Not Access | v0.2 — `research/chapter-packets/CHAPTER_03_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_03_v0.1.md` | `manuscript/part-1/03-reputation-is-not-access.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part I — The Problem | 4 | The Cost of Weak Relationships | v0.2 — `research/chapter-packets/CHAPTER_04_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_04_v0.1.md` | `manuscript/part-1/04-the-cost-of-weak-relationships.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part I — The Problem | 5 | Events Are Not Infrastructure | v0.2 — `research/chapter-packets/CHAPTER_05_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_05_v0.1.md` | `manuscript/part-1/05-events-are-not-infrastructure.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part II — The Theory | 6 | Relationship Capital | v0.4 — `research/chapter-packets/CHAPTER_06_v0.4.md` | current | accepted | v0.4 — accepted working version (not final) | v0.1 — `research/chapter-packets/06-chapter-6-packet-v0.1.md`; v0.2 — `research/chapter-packets/06-chapter-6-packet-v0.2.md`; v0.3 — `research/chapter-packets/CHAPTER_06_v0.3.md` | `manuscript/part-2/06-relationship-capital.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part II — The Theory | 7 | Strong Ties, Weak Ties, and Bridges | v0.2 — `research/chapter-packets/07-chapter-7-packet-v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/07-chapter-7-packet-v0.1.md` | `manuscript/part-2/07-strong-ties-weak-ties-and-bridges.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part II — The Theory | 8 | Trust, Status, and Reciprocity | v0.2 — `research/chapter-packets/CHAPTER_08_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/08-chapter-8-packet-v0.1.md` | `manuscript/part-2/08-trust-status-and-reciprocity.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part II — The Theory | 9 | Networks, Groups, and Structural Advantage | v0.3 — `research/chapter-packets/CHAPTER_09_v0.3.md` | current | accepted | v0.3 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_09_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_09_v0.2.md` | `manuscript/part-2/09-networks-groups-and-structural-advantage.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part II — The Theory | 10 | The Dark Side of Social Capital | v0.3 — `research/chapter-packets/CHAPTER_10_v0.3.md` | current | accepted | v0.3 — accepted working version (not final) | v0.1 — `research/chapter-packets/10-chapter-10-packet-v0.1.md`; v0.2 — `research/chapter-packets/10-chapter-10-packet-v0.2.md` | `manuscript/part-2/10-the-dark-side-of-social-capital.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part III — The Practice | 11 | Listen | v0.2 — `research/chapter-packets/CHAPTER_11_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_11_v0.1.md` | `manuscript/part-3/11-listen.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part III — The Practice | 12 | Map | v0.3 — `research/chapter-packets/CHAPTER_12_v0.3.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_12_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_12_v0.2.md` | `manuscript/part-3/12-map.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part III — The Practice | 13 | Design | v0.2 — `research/chapter-packets/CHAPTER_13_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_13_v0.1.md` | `manuscript/part-3/13-design.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part III — The Practice | 14 | Activate | v0.2 — `research/chapter-packets/CHAPTER_14_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_14_v0.1.md` | `manuscript/part-3/14-activate.md`; `research/chapter-packets/CHAPTER_14_v0.3.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part III — The Practice | 15 | Measure | v0.2 — `research/chapter-packets/CHAPTER_15_v0.2.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_15_v0.1.md` | `manuscript/part-3/15-measure.md`; `research/chapter-packets/CHAPTER_15_v0.3.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part III — The Practice | 16 | Connect Communication and Community | v0.3 — `research/chapter-packets/CHAPTER_16_v0.3.md` | current | draft_for_editorial_review | unknown | v0.1 — `research/chapter-packets/CHAPTER_16_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_16_v0.2.md` | `manuscript/part-3/16-connect-communication-and-community.md`; `research/chapter-packets/CHAPTER_16_v0.4.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
+| Part IV — The Palma Method | 17 | Diagnose | v0.1 — `research/chapter-packets/CHAPTER_17_v0.1.md` | current | unknown | unknown | none | `manuscript/part-4/17-diagnose.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
+| Part IV — The Palma Method | 18 | Design | v0.1 — `research/chapter-packets/CHAPTER_18_v0.1.md` | current | unknown | unknown | none | `manuscript/part-4/18-design.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
+| Part IV — The Palma Method | 19 | Launch | v0.1 — `research/chapter-packets/CHAPTER_19_v0.1.md` | current | unknown | unknown | none | `manuscript/part-4/19-launch.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
+| Part IV — The Palma Method | 20 | Advise | v0.1 — `research/chapter-packets/CHAPTER_20_v0.1.md` | current | unknown | unknown | none | `manuscript/part-4/20-advise.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
+| Part IV — The Palma Method | 21 | Handover | v0.1 — `research/chapter-packets/CHAPTER_21_v0.1.md` | current | unknown | unknown | none | `manuscript/part-4/21-handover.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
+| Conclusion | Conclusion | The Open Palm | v0.1 — `research/chapter-packets/CONCLUSION_v0.1.md` | current | unknown | unknown | none | `manuscript/99-conclusion.md` | unknown | needs editorial classification | classify editorial status | 2026-07-20 |
 
 ## Ambiguity report
 
 Only chapter groups whose repository-index selection is `ambiguous` appear here.
 
-### CHAPTER_17 — Diagnose
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/part-4/17-diagnose.md` — version: `unknown`; index state: `ambiguous`
-
-### CHAPTER_18 — Design
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/part-4/18-design.md` — version: `unknown`; index state: `ambiguous`
-
-### CHAPTER_19 — Launch
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/part-4/19-launch.md` — version: `unknown`; index state: `ambiguous`
-
-### CHAPTER_20 — Advise
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/part-4/20-advise.md` — version: `unknown`; index state: `ambiguous`
-
-### CHAPTER_21 — Handover
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/part-4/21-handover.md` — version: `unknown`; index state: `ambiguous`
-
-### CHAPTER_99 — The Open Palm
-
-- Reason: no file has explicit version metadata; an unversioned manuscript file cannot be declared current
-- Smallest manual action: add explicit version and lifecycle metadata to the manuscript unit
-- Competing files:
-  - `manuscript/99-conclusion.md` — version: `unknown`; index state: `ambiguous`
-
+No ambiguous chapter groups.
 
 ## Unresolved manuscript-to-packet relationships
 
@@ -113,8 +72,14 @@ These unversioned manuscript files remain traceable but are not promoted over a 
 - `CHAPTER_09`: `manuscript/part-2/09-networks-groups-and-structural-advantage.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_09_v0.3.md` (v0.3); smallest action: record explicit manuscript-to-packet lineage metadata.
 - `CHAPTER_10`: `manuscript/part-2/10-the-dark-side-of-social-capital.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_10_v0.3.md` (v0.3); smallest action: record explicit manuscript-to-packet lineage metadata.
 - `CHAPTER_11`: `manuscript/part-3/11-listen.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_11_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
-- `CHAPTER_12`: `manuscript/part-3/12-map.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_12_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_12`: `manuscript/part-3/12-map.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_12_v0.3.md` (v0.3); smallest action: record explicit manuscript-to-packet lineage metadata.
 - `CHAPTER_13`: `manuscript/part-3/13-design.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_13_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
 - `CHAPTER_14`: `manuscript/part-3/14-activate.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_14_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
 - `CHAPTER_15`: `manuscript/part-3/15-measure.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_15_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
-- `CHAPTER_16`: `manuscript/part-3/16-connect-communication-and-community.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_16_v0.2.md` (v0.2); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_16`: `manuscript/part-3/16-connect-communication-and-community.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_16_v0.3.md` (v0.3); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_17`: `manuscript/part-4/17-diagnose.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_17_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_18`: `manuscript/part-4/18-design.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_18_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_19`: `manuscript/part-4/19-launch.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_19_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_20`: `manuscript/part-4/20-advise.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_20_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_21`: `manuscript/part-4/21-handover.md` remains ambiguous relative to `research/chapter-packets/CHAPTER_21_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
+- `CHAPTER_99`: `manuscript/99-conclusion.md` remains ambiguous relative to `research/chapter-packets/CONCLUSION_v0.1.md` (v0.1); smallest action: record explicit manuscript-to-packet lineage metadata.
