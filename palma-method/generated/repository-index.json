@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "831ecc567f9b90ab31309a5c794230b33a60d0b3328bc01acfb77c3acc3198a7",
+  "source_fingerprint": "3b93b3f5757f6d19d1625b07bdcac4eeec23f501f33c6e20a2cf5e95e063855e",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 216,
+    "records": 220,
     "current": 84,
-    "legacy": 106,
+    "legacy": 110,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 85,
+    "non_chapter_legacy": 89,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 132
+    "validation_warnings": 136
   },
   "catalog": {
     "current": [
@@ -2319,6 +2319,109 @@
           "related_to": [
             "SC-004",
             "SC-017"
+          ]
+        }
+      },
+      {
+        "id": "SC-051",
+        "canonical_id": "SC-051",
+        "type": "source_card",
+        "status": "review",
+        "title": "Evoking Equanimity: Silent Interaction Rituals in Vipassana Meditation Retreats",
+        "path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-052",
+            "SC-053"
+          ]
+        }
+      },
+      {
+        "id": "SC-052",
+        "canonical_id": "SC-052",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Ritual Process: Structure and Anti-Structure",
+        "path": "research/source-cards/turner-1969-ritual-process-communitas.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-002",
+            "SC-016"
+          ]
+        }
+      },
+      {
+        "id": "SC-053",
+        "canonical_id": "SC-053",
+        "type": "source_card",
+        "status": "review",
+        "title": "Synchrony and Cooperation",
+        "path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-052"
+          ]
+        }
+      },
+      {
+        "id": "SC-054",
+        "canonical_id": "SC-054",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — ten-day Vipassana retreat in Spain",
+        "path": "research/source-cards/serhii-vipassana-retreat-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-052",
+            "SC-053"
           ]
         }
       },
@@ -8182,6 +8285,144 @@
       "relation": "related_to",
       "to": "SC-017",
       "source_path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-053",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-016",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-053",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

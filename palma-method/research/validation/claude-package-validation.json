@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "9b333e16b7500e9b3563a2e826570852a4f4053dd6e28a9b88327c8b984dffe7",
-  "source_card_count": 50,
-  "parsed_source_card_count": 50,
-  "unique_source_card_ids": 50,
+  "source_fingerprint": "66d65b70b91ec45dc1453c2ff9eab9fb5b6431c44c1d6d2519d624c262d1ee51",
+  "source_card_count": 54,
+  "parsed_source_card_count": 54,
+  "unique_source_card_ids": 54,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -79,7 +79,11 @@
     "SC-047",
     "SC-048",
     "SC-049",
-    "SC-050"
+    "SC-050",
+    "SC-051",
+    "SC-052",
+    "SC-053",
+    "SC-054"
   ],
   "source_card_sha256": {
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
@@ -114,6 +118,7 @@
     "research/source-cards/morrison-2014-employee-voice-and-silence.md": "a0385140da555ca58625be186165ad6347a3b41a52597d5cd866ad04098353d8",
     "research/source-cards/olson-1965-logic-of-collective-action.md": "d1f658bc5d8a9a185a56c54dcfab26e0a0bafe09d98e9d1418d2e7cba1f0ca49",
     "research/source-cards/ostrom-1990-governing-the-commons.md": "deab2720d44b5297cc4d54f1a216cb8909222acd697bf43e2d5ec5285095d009",
+    "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md": "71326d5bcf136467ea50a74d21eae23796a045b80066a8200e04a5d1e3bbadb1",
     "research/source-cards/portes-1998-downside-of-social-capital.md": "cd1f5a67d5be9045691620ab3084f9ca67b4414af3eac8753e9858e7817a8c97",
     "research/source-cards/putnam-2000-bowling-alone.md": "3ccaa0e20faa6b24fa6fb57f0d312174a3ce4c41382225a9c655b6adcd7bf43b",
     "research/source-cards/reichheld-sasser-1990-zero-defections.md": "d407ecf8bbe007582f6cb497b7a189ff7b4e5dc82d384570b3214c5bf93acd19",
@@ -123,14 +128,17 @@
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
     "research/source-cards/serhii-tak-shtab-story-intake.md": "5f33f801b07ebb3f1b09a13aa2f0adf4c081ba7b648007e4098d9ba520a1716b",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
+    "research/source-cards/serhii-vipassana-retreat-story-intake.md": "75a61b20cc0afe7ad5b58b4c67ab8a0fbdd27c2927f539b3926d22fb3a1cfab2",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
     "research/source-cards/tcf-founder-interview-2026-07-30.md": "8dc196d0064c874aeaf9462206d06c058d46b4f6f8c47b5ffb4e709a5036f375",
+    "research/source-cards/turner-1969-ritual-process-communitas.md": "8ca100b9c1c6b6e1f6f8ea63d7ed0331286e1014ab0276873c3f130ef5f22852",
     "research/source-cards/urry-2007-network-capital.md": "e2092310d4ff41cacabfb8844606444b153f9c298fee3e690ec3405244c3de84",
     "research/source-cards/uzzi-1997-paradox-of-embeddedness.md": "17097e67a488390b378c9fc5b193ec6b4844330ab1626fc911063e084519f7cc",
     "research/source-cards/weiss-1995-theory-of-change.md": "1aaad64029de71246902afabc1f113abb54a015ab22e9d1c5973961b35b2f84d",
     "research/source-cards/wenger-1991-1998-communities-of-practice.md": "996e3b7acbe12c15538f8ade784b515e0b1634a78c19f06461082fb4de5d95d2",
+    "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md": "fb20bea90ab65c89e346905849e4e131b3689aa8de4fe1eca251e8e8c2b761bc",
     "research/source-cards/zak-2017-neuroscience-of-trust.md": "d0bd21fda7cd0b148dde1021b40b5899271ff3825f1c7c11aac81e103a7251ed"
   }
 }
