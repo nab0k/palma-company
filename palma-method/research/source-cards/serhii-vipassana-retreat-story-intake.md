@@ -11,66 +11,98 @@ research_track: "Track D - Community Cases"
 book_chapters:
   - "Chapter 2 (An Audience Is Not a Community)"
   - "Chapter 5 (Events Are Not Infrastructure)"
+  - "Chapter 8 (Trust, Status, and Reciprocity)"
   - "Chapter 16 (Connect Communication and Community)"
 related_concepts:
   - communitas
   - liminality
   - silent-interaction-ritual
   - synchrony
+  - thin-slicing
 related_cards:
   - "SC-051 (Pagis - silent interaction rituals in Vipassana retreats, the closest direct academic parallel to this account)"
-  - "SC-052 (Turner - communitas/liminality, the frame for both the bond and its likely fade)"
+  - "SC-052 (Turner - communitas/liminality, the frame for the bond, complicated by this account's reported persistence)"
   - "SC-053 (Wiltermuth & Heath - synchrony and cooperation, a candidate mechanism for the shared retreat schedule)"
 core_claim: >
   Serhii's account describes ten days of silence, meditation, and removal
   from ordinary stimuli at a retreat in Spain, ending in a strong felt sense
-  of unity with roughly a hundred strangers, and a wish to be kind and
-  useful to them - a first-person instance of the mechanism Pagis (SC-051)
-  and Turner (SC-052) describe theoretically.
+  of unity with roughly a hundred strangers, a wish to be kind and useful to
+  them, and - confirmed directly by the author - contact with three people
+  from that group that has continued since. The account was developed
+  through comparison against several publicly published first-person
+  Vipassana accounts, which the author confirmed, corrected, or extended
+  point by point rather than through open-ended recall alone.
 summary: >
-  A preliminary account, not yet expanded into concrete scenes. Serhii
-  described the outcome (deep felt unity, prosocial feeling toward the
-  group) but has not yet supplied the specific moments, sensory detail, or
-  named structure of the experience that the book's evidence standard
-  requires before this can become a usable case.
+  Reviewed against four published accounts of ten-day Vipassana retreats
+  (see "Comparison method" below). Serhii confirmed the broad structure
+  (threshold into silence, rigid daily schedule, Day 10 metta and the break
+  of silence, a diverse group, a shared sense of gratitude) and flagged four
+  specific divergences from the published accounts, each now treated as a
+  confirmed, author-sourced detail rather than a general recollection: (1) a
+  distinct cognitive pattern - his mind actively generated hypotheses about
+  who other participants were, without any words exchanged; (2) no
+  aggressive or violent intrusive thoughts during metta, unlike one
+  published account; (3) no physical contact occurred at any point - his
+  retreat prohibited touch throughout, unlike a published account describing
+  a hug when silence broke; (4) no one in his cohort left partway through,
+  unlike two published accounts that mention departures. Most notably, he
+  confirmed that the felt connection did not simply fade: he remains in
+  contact with three people from the retreat, and a group (chat or similar)
+  still exists.
 key_evidence: >
-  Author recollection only so far; no concrete scene, date, or named detail
-  has been elicited yet. See "Required author expansion" below.
+  Author-confirmed, point-by-point comparison against four published
+  accounts (Reyzer - Dhamma Neru, Spain; Sara Qiu - Dhamma Neru, Spain;
+  Caroline Fleissner; Ethan Maurice). For each comparison point, the author
+  stated whether his own experience matched, diverged, or included a detail
+  the published accounts did not. See "Comparison log" below for the
+  point-by-point record.
 important_quote: "No direct quotation is cleared for publication."
 quote_page_or_location: "Private; final author wording pending."
-methodology: "Author story intake from project conversation; expansion not yet conducted."
-sample: "One first-person ten-day retreat account."
+methodology: "Author story intake via structured comparison against published first-person accounts, rather than open-ended recall alone."
+sample: "One first-person ten-day retreat account, elicited via comparison against four independently published accounts of the same retreat format."
 limitations: >
-  Highly preliminary - only the outcome has been described, not the
-  mechanism. Other retreat participants are recognizable third parties by
-  default and would need separate handling per the project's privacy rule
-  even if never named, since a described scene could still identify them to
-  someone who was there.
+  The specific retreat center, exact dates, and the identities of the three
+  ongoing contacts remain unconfirmed and private. Other retreat
+  participants are recognizable third parties by default and need separate
+  handling per the project's privacy rule even where never named, since a
+  described scene could still identify them to someone who was there. The
+  "mind generating hypotheses about strangers" detail has not yet been
+  anchored to a specific remembered instance (a particular hypothesis formed
+  and later confirmed or disproven) - it is currently a described pattern,
+  not yet a scene.
 counterarguments: >
-  A single, self-selected, paid retreat experience is not evidence that
-  this mechanism generalizes to unpaid, involuntary, or organizational
-  settings; per Turner (SC-052), the specific bond described may not
-  persist once ordinary status and social structure resume.
+  Turner (SC-052) predicts liminal communitas fades once ordinary status and
+  structure resume; this account complicates that prediction rather than
+  confirming it - three ongoing contacts and a surviving group is a
+  meaningful, if partial, counterexample, worth stating honestly as a
+  complication rather than resolving it in either direction. A single,
+  self-selected, paid retreat experience is still not evidence the mechanism
+  generalizes to unpaid, involuntary, or organizational settings.
 business_implication: >
-  If developed, offers a vivid illustration that intense group connection
-  can form without any conversation, shared biography, or organizational
-  design - useful for showing what a maximally "liminal" case looks like at
-  one extreme of the book's argument, precisely because it is so unlike
-  ordinary organizational community-building.
+  Offers a vivid, now partly concrete illustration that intense group
+  connection can form without any conversation, shared biography, or
+  organizational design - and, unusually among the published comparison
+  accounts, one where the connection is confirmed to have partly persisted
+  rather than being left as an open question.
 palma_implication: >
-  A strong candidate for Chapter 2 or 16 as an illustration of a real
-  mechanism of connection, paired explicitly with Turner's caution (does
-  not durably transfer to ordinary structure without deliberate work) so
-  the book does not imply "send your team on a silent retreat" as a
-  business recommendation.
-potential_case_use: "Personal-essay-style scene in Chapter 2, 5, or 16, after the expansion below and explicit author approval."
+  A strong candidate for Chapter 2, 8, or 16. The "mind builds hypotheses
+  about strangers without words" detail is a distinct, currently unused
+  angle - a natural illustration for Chapter 8's discussion of how trust and
+  status get inferred from minimal cues, before any real information
+  exists. The confirmed ongoing contact with three people directly
+  complicates Turner's fade prediction and should be stated as a genuine
+  complication, not smoothed into either "communitas lasts" or "communitas
+  fades."
+potential_case_use: "Personal-essay-style scene in Chapter 2, 5, 8, or 16, after the remaining gaps below are closed and explicit author approval is given."
 potential_linkedin_post: "Not cleared - not yet expanded or approved."
-confidence_level: low
+confidence_level: medium
 notes: >
-  Logged 2026-08-04 at Serhii's own request, in the same session three
-  academic sources (SC-051, SC-052, SC-053) were located to give this case
-  a real theoretical anchor. See "Required author expansion" for the
-  specific questions needed before this can move toward manuscript use.
+  Logged 2026-08-04 at Serhii's own request. Developed through a specific
+  method: rather than answering open questions from memory, Serhii reviewed
+  excerpts from four published Vipassana accounts and confirmed, corrected,
+  or extended each point - a faster and, in his own account, more accurate
+  elicitation method than free recall. Preserved as "Comparison method"
+  below for reuse on other personal cases if it works well here.
 type: source_card
 status: review
 owner: serhii_nabok
@@ -78,48 +110,65 @@ created: 2026-08-04
 privacy_level: public
 verification_status: restricted
 source_kind: author_interview
-citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04."
+citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04, developed via comparison against four published Vipassana retreat accounts."
 chapter_refs:
   - CHAPTER_02
   - CHAPTER_05
+  - CHAPTER_08
   - CHAPTER_16
 personal_story_use: pending_author_approval
 ```
 
 # Author story intake — ten-day Vipassana retreat in Spain
 
-## Recoverable account (as relayed so far)
+## Recoverable account (as confirmed so far)
 
 Serhii attended a ten-day Vipassana retreat in Spain: silence, meditation,
-and an absence of ordinary stimuli (no phone, no talking, no reading,
-presumably a fixed daily schedule, though this has not been confirmed). By
-the end, he describes a strong felt sense of unity with roughly a hundred
-fellow participants, built on the shared experience itself rather than on
-any exchanged biography or conversation, along with a wish to be kind and
-useful to the group and a felt sense of belonging.
+and an absence of ordinary stimuli. By the end, he describes a strong felt
+sense of unity with roughly a hundred fellow participants, a wish to be kind
+and useful to them, and a felt sense of belonging - broadly matching the
+structure documented in several published first-person accounts of the same
+retreat format (arrival and confiscation of phones/books, silence beginning
+almost immediately, a rigid daily schedule, Day 10 metta meditation and the
+break of silence, a diverse group, a shared sense of gratitude by the end).
+
+## Comparison method
+
+Rather than answering open questions from memory, Serhii was shown excerpts
+from four published accounts of ten-day Vipassana retreats and asked to
+confirm, correct, or extend each point. This produced more specific,
+higher-confidence detail than open recall alone, and surfaced divergences
+he might not otherwise have thought to volunteer.
+
+## Comparison log
+
+| Published detail (source) | Serhii's response |
+|---|---|
+| Reyzer: during metta, sudden aggressive/violent intrusive thoughts ("wanted to kill everybody"), then dissolved; when silence broke, "Spaniards took full advantage of it" | Did not happen for him - no aggressive thoughts during metta |
+| Fleissner: a five-minute hug when silence broke, "we both craved hugs so much" | Would not write this - his retreat prohibited any physical touch for the entire duration |
+| Maurice: "hardly anyone can believe they survived," reflecting on which days people most wanted to leave | Did not match - nobody in his cohort left partway through |
+| Reyzer: drove off with an international mix of fellow participants after the retreat, no reflection on whether it lasted | Confirmed and extended: many people actually did stay in contact; there is a surviving group, and he personally remains in touch with three people from the retreat |
+| Maurice: "Trent, the blues guitarist I sat next to for thirty silent meals" - bonding with a specific person before either spoke | Not the specific detail, but the same underlying mechanism: his own mind actively generated hypotheses about who other participants were - guesses at identity, personality, backstory - built entirely without words |
+| General structure (threshold, daily rhythm, Day 10 metta and silence break, diverse group, shared gratitude) across all four accounts | "Roughly matches my experience" |
 
 ## Why the story may matter
 
-It is the most extreme available instance in Serhii's own material of group
-connection forming through something other than conversation, shared work,
-or organizational design - a useful boundary case for the book's argument
-about what actually produces belonging, and a natural pairing with Pagis's
-(SC-051) academic account of the same phenomenon and Turner's (SC-052)
-theory of why it happens and why it may not last.
+Two details make this a stronger case than a generic illustration of
+communitas: first, the "mind generates hypotheses about strangers without
+words" pattern is a distinct angle none of the four published comparison
+accounts described this way - a candidate for Chapter 8's argument about
+how trust and status get inferred from minimal cues. Second, the confirmed
+ongoing contact with three people directly complicates Turner's (SC-052)
+prediction that liminal communitas fades once ordinary structure resumes -
+worth using as a genuine complication in the book's argument, not resolved
+in either direction.
 
-## Required author expansion
+## Still open before manuscript use
 
-Before this can move toward manuscript use, the scene needs the same kind
-of concrete detail the book's other personal cases required. Specific
-questions:
-
-1. **The threshold.** What was the actual moment or ritual that marked "ordinary life ends here" - handing in your phone, the first bell, the first meal in silence? Was there a specific marker, or did it feel gradual?
-2. **The schedule.** What did a single day actually look like, hour by hour (wake time, sit blocks, meals, walking periods)? Was everyone doing the exact same thing at the exact same time, or was there individual variation?
-3. **The first crack in isolation.** Was there a specific moment - a look, a gesture, someone crying, a shared meal, anything - where you first sensed the group's unity before it became a general feeling? Can you locate roughly which day?
-4. **The culmination.** You describe a "greatest feeling of unity" by the end - was there one specific moment this crystallized (the last sit, the moment silence broke, a closing circle), or did it build gradually across the last day or two?
-5. **The end of silence.** What was it actually like when people first spoke again - what did you say, what did others say, was it awkward, was it overwhelming?
-6. **After the retreat.** Did the felt unity and the wish to be kind persist once you left - for how long, and what (if anything) caused it to fade as ordinary life resumed? This is the single most useful question for the book's argument, since it tests Turner's prediction directly.
-7. **What's publishable.** Which details are you comfortable naming (the retreat's location/organization, the approximate dates, your own experience) versus which need to stay abstracted because other real participants could be identified from them?
+1. **The hypothesis-generating mind.** Is there one specific remembered instance - a guess about a particular person that turned out right or wrong once silence broke - that could anchor this as a scene rather than a described pattern? (Optional - the pattern itself may be usable without one.)
+2. **The culmination.** Was there one specific moment the "greatest feeling of unity" crystallized, or did it build gradually across the last day or two?
+3. **The three ongoing contacts.** How has that contact actually looked since the retreat - occasional messages, an active group chat, in-person meetups? This is now the single most useful open question, since it is what makes this case a genuine complication to Turner rather than just an illustration of him.
+4. **What's publishable.** Which details are comfortable to name (retreat center, approximate dates, the author's own experience) versus what needs to stay abstracted because other real participants could be identified.
 
 ## Editorial note
 

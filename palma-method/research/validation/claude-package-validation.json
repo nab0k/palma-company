@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "66d65b70b91ec45dc1453c2ff9eab9fb5b6431c44c1d6d2519d624c262d1ee51",
+  "source_fingerprint": "adc827d8f96de7b2d8bf2b831e9241b158cd7a464860f3d1a6ea55d3cbe48ae3",
   "source_card_count": 54,
   "parsed_source_card_count": 54,
   "unique_source_card_ids": 54,
@@ -128,7 +128,7 @@
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
     "research/source-cards/serhii-tak-shtab-story-intake.md": "5f33f801b07ebb3f1b09a13aa2f0adf4c081ba7b648007e4098d9ba520a1716b",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
-    "research/source-cards/serhii-vipassana-retreat-story-intake.md": "75a61b20cc0afe7ad5b58b4c67ab8a0fbdd27c2927f539b3926d22fb3a1cfab2",
+    "research/source-cards/serhii-vipassana-retreat-story-intake.md": "41ddaa51ca830dc4e9ee8e149df7e85732427c9c5ce1194dab0c7a2e47f36ded",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",

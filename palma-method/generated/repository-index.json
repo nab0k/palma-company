@@ -3,7 +3,7 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "3b93b3f5757f6d19d1625b07bdcac4eeec23f501f33c6e20a2cf5e95e063855e",
+  "source_fingerprint": "720b7825a3548c48ea1f222bfdc7c23b53f81f25e5fdc35a7c302c450af146e6",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
@@ -2416,6 +2416,7 @@
           "affects": [
             "CHAPTER_02",
             "CHAPTER_05",
+            "CHAPTER_08",
             "CHAPTER_16"
           ],
           "related_to": [
@@ -8398,6 +8399,12 @@
       "from": "SC-054",
       "relation": "affects",
       "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_08",
       "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
     },
     {
