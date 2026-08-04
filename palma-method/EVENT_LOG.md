@@ -248,3 +248,16 @@ artifacts:
   - palma-method/governance/TASK_CODEX_0010_COMPLETION_REPORT.md
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0020
+occurred_at: 2026-08-04
+actor: Claude
+event_type: policy_update
+title: Source-justification and idea-based cross-reference rules added to prose-quality policy
+status: delivered
+result: Two house-style rules added to POLICY_PROSE_QUALITY_0001 (section 2) with matching diagnostic-checklist items 11-12, requested directly by Serhii Nabok during a voice-editing trial on Chapter 10
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+reviewer: Serhii Nabok
+```

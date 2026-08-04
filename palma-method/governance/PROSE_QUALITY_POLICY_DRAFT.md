@@ -34,6 +34,20 @@ hype. Prefer concrete mechanisms and observed consequences. Use Palma's approved
 definitions consistently. Keep technical terms when they carry precise meaning.
 Examples must clarify the mechanism and remain traceable or explicitly abstract.
 
+Name the reason for a source, not only the source. When a scholar or study is
+cited, one clause should say what earns its place in the argument: an original
+formulation of the idea, a finding replicated across unrelated domains, or a
+sourced biographical fact that plausibly shaped the researcher's angle on the
+material. A bare name and date is not sufficient justification for the weight
+a citation is asked to carry, and any such addition follows the same
+verification discipline as the claim it supports.
+
+Cross-reference by idea or example, not by chapter number. A reader does not
+remember chapter numbers. Recall a concept, mechanism, or a specific,
+recognizable example instead of writing "as Chapter 6 argued." A chapter
+number may sit in parentheses as a wayfinding aid; it must never be the sole
+content of the reference.
+
 ### 3. Author voice
 
 Reserved. It may be documented only from samples the author explicitly approves
@@ -61,6 +75,8 @@ Before proposing a style edit, ask:
 8. Did the edit add opinion, anecdote, informality, or certainty not present in the source?
 9. Does any example reveal or derive from an unapproved personal story?
 10. Can the editor explain the change without appealing to an “AI score”?
+11. Does every named source state, even briefly, why it earns its place — originality, cross-domain replication, or a sourced biographical link?
+12. Does any inter-chapter reference name an idea or example, rather than resting on a chapter number alone?
 
 ## Editing protocol
 
