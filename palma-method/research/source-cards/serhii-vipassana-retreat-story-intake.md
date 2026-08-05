@@ -23,6 +23,10 @@ related_cards:
   - "SC-051 (Pagis - silent interaction rituals in Vipassana retreats, the closest direct academic parallel to this account)"
   - "SC-052 (Turner - communitas/liminality, the frame for the bond, complicated by this account's reported persistence)"
   - "SC-053 (Wiltermuth & Heath - synchrony and cooperation, a candidate mechanism for the shared retreat schedule)"
+  - "SC-055 (Winter & Uleman - spontaneous trait inference, the automatic mechanism behind the 'sea guy' scene)"
+  - "SC-056 (Ambady & Rosenthal - thin-slicing, why brief wordless cues can still be accurate)"
+  - "SC-057 (Gosling et al. - behavioral residue, the closest anchor for eating style and posture as informative cues)"
+  - "SC-058 (Heider & Simmel - the same narrative-generating impulse at its most extreme, non-human form)"
 core_claim: >
   Serhii's account describes ten days of silence, meditation, and removal
   from ordinary stimuli at a retreat in Spain, ending in a strong felt sense
@@ -161,6 +165,32 @@ a complete, three-beat scene (silent guess -> silence breaks -> guess
 confirmed) rather than a described pattern, and it doubles as evidence that
 comparing hypotheses was a shared, structural feature of how this retreat's
 silence broke, not an idiosyncratic detail unique to Serhii.
+
+Serhii specified what fed these hypotheses in the absence of any words or
+biography: appearance, facial expression, and - especially informative, in
+his account - the very different ways people ate. This maps onto a real,
+if not perfectly matched, research trail rather than only a personal
+observation:
+
+- **Spontaneous trait inference** (Winter & Uleman 1984, SC-055) - the mind
+  forms personality judgments about others automatically, without
+  intending to, from whatever behavior is visible.
+- **Thin-slicing** (Ambady & Rosenthal 1992, SC-056) - such judgments,
+  even from very brief or minimal nonverbal exposure, carry real predictive
+  accuracy, not just the feeling of insight.
+- **Behavioral residue** (Gosling et al. 2002, SC-057) - accurate judgments
+  can form even from indirect physical traces of behavior, not only from a
+  person's face or speech - the closest documented anchor for "how someone
+  eats told a lot," though no study located so far studies eating behavior
+  specifically; a targeted search turned up only non-peer-reviewed
+  popular-psychology content on that exact point, and this gap should stay
+  visible rather than be quietly papered over.
+- **Heider & Simmel (1944, SC-058)** - the same story-building impulse is so
+  fundamental it fires even on two triangles and a circle with zero real
+  information at all, which is useful as a framing line: if people
+  narrate personalities onto moving shapes, of course a room of silent,
+  eating, gesturing strangers will generate far richer stories about each
+  other.
 
 ## The culmination
 

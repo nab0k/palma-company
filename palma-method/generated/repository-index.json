@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "c7ba9d9fbf3122f46a20ba2deda1c6182d2022cf282024202e517bb7e07f6c47",
+  "source_fingerprint": "716fbc3eafa55db48e8f8b3757a531ae9f10b7bb1caaa57a11a44e42510df7f1",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 220,
+    "records": 224,
     "current": 84,
-    "legacy": 110,
+    "legacy": 114,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 89,
+    "non_chapter_legacy": 93,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 136
+    "validation_warnings": 140
   },
   "catalog": {
     "current": [
@@ -2422,7 +2422,111 @@
           "related_to": [
             "SC-051",
             "SC-052",
-            "SC-053"
+            "SC-053",
+            "SC-055",
+            "SC-056",
+            "SC-057",
+            "SC-058"
+          ]
+        }
+      },
+      {
+        "id": "SC-055",
+        "canonical_id": "SC-055",
+        "type": "source_card",
+        "status": "review",
+        "title": "When Are Social Judgments Made? Evidence for the Spontaneousness of Trait Inferences",
+        "path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-056",
+            "SC-057",
+            "SC-058"
+          ]
+        }
+      },
+      {
+        "id": "SC-056",
+        "canonical_id": "SC-056",
+        "type": "source_card",
+        "status": "review",
+        "title": "Thin Slices of Expressive Behavior as Predictors of Interpersonal Consequences: A Meta-Analysis",
+        "path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055",
+            "SC-057"
+          ]
+        }
+      },
+      {
+        "id": "SC-057",
+        "canonical_id": "SC-057",
+        "type": "source_card",
+        "status": "review",
+        "title": "A Room with a Cue: Personality Judgments Based on Offices and Bedrooms",
+        "path": "research/source-cards/gosling-2002-room-with-a-cue.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055",
+            "SC-056"
+          ]
+        }
+      },
+      {
+        "id": "SC-058",
+        "canonical_id": "SC-058",
+        "type": "source_card",
+        "status": "review",
+        "title": "An Experimental Study of Apparent Behavior",
+        "path": "research/source-cards/heider-simmel-1944-apparent-behavior.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055"
           ]
         }
       },
@@ -8430,6 +8534,150 @@
       "relation": "related_to",
       "to": "SC-053",
       "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-058",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-058",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
