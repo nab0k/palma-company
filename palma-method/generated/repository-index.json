@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "716fbc3eafa55db48e8f8b3757a531ae9f10b7bb1caaa57a11a44e42510df7f1",
+  "source_fingerprint": "e7bbf548677d506b4c2d3617aba37d04f37c194a46e980e849a247d48ba81932",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 224,
+    "records": 225,
     "current": 84,
-    "legacy": 114,
+    "legacy": 115,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 93,
+    "non_chapter_legacy": 94,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 140
+    "validation_warnings": 141
   },
   "catalog": {
     "current": [
@@ -2404,7 +2404,7 @@
         "canonical_id": "SC-054",
         "type": "source_card",
         "status": "review",
-        "title": "Author story intake — ten-day Vipassana retreat in Spain",
+        "title": "Author story intake — ten-day Vipassana retreat at Dhamma Sacca, Spain",
         "path": "research/source-cards/serhii-vipassana-retreat-story-intake.md",
         "metadata_format": "legacy_fenced_yaml",
         "record_state": "legacy",
@@ -2414,6 +2414,7 @@
         "source_id_format": "canonical",
         "relationships": {
           "affects": [
+            "CHAPTER_00",
             "CHAPTER_02",
             "CHAPTER_05",
             "CHAPTER_08",
@@ -2426,7 +2427,8 @@
             "SC-055",
             "SC-056",
             "SC-057",
-            "SC-058"
+            "SC-058",
+            "SC-059"
           ]
         }
       },
@@ -2527,6 +2529,31 @@
           "related_to": [
             "SC-054",
             "SC-055"
+          ]
+        }
+      },
+      {
+        "id": "SC-059",
+        "canonical_id": "SC-059",
+        "type": "source_card",
+        "status": "review",
+        "title": "Asylums: Essays on the Social Situation of Mental Patients and Other Inmates",
+        "path": "research/source-cards/goffman-1961-asylums.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-05",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_05",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-052",
+            "SC-054",
+            "SC-048"
           ]
         }
       },
@@ -8496,6 +8523,12 @@
     {
       "from": "SC-054",
       "relation": "affects",
+      "to": "CHAPTER_00",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
       "to": "CHAPTER_02",
       "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
     },
@@ -8560,6 +8593,12 @@
       "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
     },
     {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-059",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
       "from": "SC-055",
       "relation": "affects",
       "to": "CHAPTER_03",
@@ -8678,6 +8717,36 @@
       "relation": "related_to",
       "to": "SC-055",
       "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

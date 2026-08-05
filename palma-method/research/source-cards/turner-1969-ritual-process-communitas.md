@@ -50,10 +50,10 @@ sample: "Ndembu rites of passage (primary fieldwork), generalized comparatively 
 limitations: >
   A classic, highly generalized anthropological theory built from a specific
   ethnographic base (1950s-60s Zambia); applying it to a 21st-century,
-  voluntary, paid meditation retreat is an analogy, not a direct empirical
-  claim about that setting - the same caution already logged for applying
+  voluntary meditation retreat is an analogy, not a direct empirical claim
+  about that setting - the same caution already logged for applying
   Goffman's total-institution framework to the Kyiv Military Lyceum case
-  (SC-048) applies here.
+  (SC-048), and now formally registered as SC-059, applies here too.
 counterarguments: >
   Later anthropologists (and the "communitas revisited" literature) have
   qualified or extended Turner's original framing since 1969; this card has

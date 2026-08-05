@@ -1,14 +1,15 @@
 ```yaml
 id: SC-054
-title: "Author story intake — ten-day Vipassana retreat in Spain"
+title: "Author story intake — ten-day Vipassana retreat at Dhamma Sacca, Spain"
 author: "Serhii Nabok"
 year: 2026
 source_type: practitioner_analysis
 publisher_or_journal: "Private author account; public-safe derivative card"
-url_or_identifier: "conversation:palma-company-repo-session-2026-08-04"
-date_accessed: "2026-08-04"
+url_or_identifier: "conversation:palma-company-repo-session-2026-08-04-and-2026-08-05"
+date_accessed: "2026-08-05"
 research_track: "Track D - Community Cases"
 book_chapters:
+  - "Introduction (The Missing Response)"
   - "Chapter 2 (An Audience Is Not a Community)"
   - "Chapter 5 (Events Are Not Infrastructure)"
   - "Chapter 8 (Trust, Status, and Reciprocity)"
@@ -19,6 +20,7 @@ related_concepts:
   - silent-interaction-ritual
   - synchrony
   - thin-slicing
+  - delayed-unaddressed-reciprocity
 related_cards:
   - "SC-051 (Pagis - silent interaction rituals in Vipassana retreats, the closest direct academic parallel to this account)"
   - "SC-052 (Turner - communitas/liminality, the frame for the bond, complicated by this account's reported persistence)"
@@ -27,6 +29,7 @@ related_cards:
   - "SC-056 (Ambady & Rosenthal - thin-slicing, why brief wordless cues can still be accurate)"
   - "SC-057 (Gosling et al. - behavioral residue, the closest anchor for eating style and posture as informative cues)"
   - "SC-058 (Heider & Simmel - the same narrative-generating impulse at its most extreme, non-human form)"
+  - "SC-059 (Goffman - Asylums/total institutions; a required caution against overclaiming this framing for a voluntary retreat)"
 core_claim: >
   Serhii's account describes ten days of silence, meditation, and removal
   from ordinary stimuli at a retreat in Spain, ending in a strong felt sense
@@ -65,19 +68,23 @@ quote_page_or_location: "Private; final author wording pending."
 methodology: "Author story intake via structured comparison against published first-person accounts, rather than open-ended recall alone."
 sample: "One first-person ten-day retreat account, elicited via comparison against four independently published accounts of the same retreat format."
 limitations: >
-  The specific retreat center and exact dates remain unconfirmed. Per
-  Serhii's own anonymization decision, "the sea guy" is deliberately kept
-  unnamed and minimally described in any use of this scene; the identities
-  of the three ongoing contacts remain private and are not needed for
-  manuscript use.
+  Per Serhii's own anonymization decision, "the sea guy" is deliberately
+  kept unnamed and minimally described in any use of this scene. The three
+  ongoing contacts have real names recorded only in a private working
+  document held entirely outside this git repository - those names must
+  never be copied into this card, the manuscript, or any other public
+  repository file, and are not needed for manuscript use in any case.
 counterarguments: >
   Turner (SC-052) predicts liminal communitas fades once ordinary status and
   structure resume; this account complicates that prediction rather than
   confirming it - three ongoing contacts and a surviving group is a
   meaningful, if partial, counterexample, worth stating honestly as a
   complication rather than resolving it in either direction. A single,
-  self-selected, paid retreat experience is still not evidence the mechanism
-  generalizes to unpaid, involuntary, or organizational settings.
+  self-selected, voluntary, freely-exitable retreat experience is still not
+  evidence the mechanism generalizes to involuntary or organizational
+  settings - and per Goffman (SC-059), it must never be framed using
+  "total institution" logic without an explicit, foregrounded qualification
+  that the retreat was voluntary, time-limited, and freely exitable.
 business_implication: >
   Offers a vivid, now partly concrete illustration that intense group
   connection can form without any conversation, shared biography, or
@@ -85,16 +92,21 @@ business_implication: >
   accounts, one where the connection is confirmed to have partly persisted
   rather than being left as an open question.
 palma_implication: >
-  A strong candidate for Chapter 2, 8, or 16. The "sea guy" scene - a silent
-  guess, confirmed true the moment silence broke - is a natural illustration
-  for Chapter 8's discussion of how trust and status get inferred from
-  minimal cues, before any real information exists, and it doubles as
-  evidence that guess-comparing was a shared ritual of this retreat's
-  silence-breaking, not an idiosyncratic habit. The confirmed ongoing
-  contact with three people directly complicates Turner's fade prediction
-  and should be stated as a genuine complication, not smoothed into either
-  "communitas lasts" or "communitas fades."
-potential_case_use: "Personal-essay-style scene in Chapter 2, 5, 8, or 16 - the 'sea guy' moment is a complete, scene-ready anchor (setup, guess, confirmation), the culmination arc is confirmed (gradual, peaking on the last day), and the anonymization approach is decided. Ready to draft; still needs explicit author sign-off on final wording."
+  The strongest current candidate for opening the Introduction itself: the
+  book's stated editorial invariant is that "the true unit of communication
+  is not a message. It is a response." A hundred people who exchanged no
+  messages for ten days and still built a real, response-based bond is a
+  direct, concrete enactment of that exact claim, not just an illustration
+  of it. Secondary uses remain live in Chapter 2 (presence plus repeated
+  order, not talk, is what created the bond), Chapter 5 (a private working
+  draft already states explicitly: this cannot be turned into a corporate
+  recipe - the effect depends on duration, discipline, and voluntary
+  acceptance of constraints an ordinary offsite doesn't have), Chapter 8
+  (the "sea guy" scene), and Chapter 16. The confirmed ongoing contact with
+  three people directly complicates Turner's fade prediction and should be
+  stated as a genuine complication, not smoothed into either "communitas
+  lasts" or "communitas fades."
+potential_case_use: "A full working draft of this scene ('Сто человек в тишине', v0.1) already exists in Serhii's private project archive, outside this git repository - not yet reviewed by this project in full. It maps the scene primarily to the Introduction, with secondary echoes in Chapters 2, 5, 8, and 16, and already includes its own list of claims not to overstate (see 'What the private draft already flags' below). Next step is a full editorial read of that draft, not a from-scratch write."
 potential_linkedin_post: "Not cleared - not yet expanded or approved."
 confidence_level: high
 notes: >
@@ -102,17 +114,23 @@ notes: >
   method: rather than answering open questions from memory, Serhii reviewed
   excerpts from four published Vipassana accounts and confirmed, corrected,
   or extended each point - a faster and, in his own account, more accurate
-  elicitation method than free recall. Preserved as "Comparison method"
-  below for reuse on other personal cases if it works well here.
+  elicitation method than free recall. Updated 2026-08-05 after Codex
+  located a private working draft of the full scene, held in a separate,
+  non-Git local archive, that confirms and extends this card's facts (see
+  "What the private draft already flags" below). This card should be
+  treated as the public-safe index into that private draft, not a
+  substitute for reading it before any manuscript work begins.
 type: source_card
 status: review
 owner: serhii_nabok
 created: 2026-08-04
+updated: 2026-08-05
 privacy_level: public
-verification_status: restricted
+verification_status: checked
 source_kind: author_interview
-citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04, developed via comparison against four published Vipassana retreat accounts."
+citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04 and 2026-08-05, developed via comparison against four published Vipassana retreat accounts and cross-checked against a private working draft."
 chapter_refs:
+  - CHAPTER_00
   - CHAPTER_02
   - CHAPTER_05
   - CHAPTER_08
@@ -120,18 +138,30 @@ chapter_refs:
 personal_story_use: pending_author_approval
 ```
 
-# Author story intake — ten-day Vipassana retreat in Spain
+# Author story intake — ten-day Vipassana retreat at Dhamma Sacca, Spain
 
-## Recoverable account (as confirmed so far)
+## Recoverable account (confirmed facts)
 
-Serhii attended a ten-day Vipassana retreat in Spain: silence, meditation,
-and an absence of ordinary stimuli. By the end, he describes a strong felt
-sense of unity with roughly a hundred fellow participants, a wish to be kind
-and useful to them, and a felt sense of belonging - broadly matching the
-structure documented in several published first-person accounts of the same
-retreat format (arrival and confiscation of phones/books, silence beginning
-almost immediately, a rigid daily schedule, Day 10 metta meditation and the
-break of silence, a diverse group, a shared sense of gratitude by the end).
+Serhii attended a ten-day Vipassana retreat in April 2026 at **Dhamma
+Sacca**, a meditation center in Candeleda, Ávila province, Spain, with
+roughly a hundred participants. Silence, meditation, and an absence of
+ordinary stimuli (no talking, reading, writing, phones, or contact with
+other participants - including three people he already knew, whom he
+deliberately avoided all ten days). By the end, he describes a strong felt
+sense of unity with the group, a wish to be kind and useful to them, and a
+felt sense of belonging - matching the structure documented in several
+published first-person accounts of the same retreat format (silence
+beginning almost immediately, a rigid daily schedule built around three
+days of anapana followed by vipassana proper, Day 10 metta meditation and
+the break of silence, a diverse group, a shared sense of gratitude by the
+end).
+
+Retreats in the Goenka/Dhamma tradition (which "Dhamma"-prefixed centers
+like Dhamma Sacca and Dhamma Neru belong to) are run on a donation basis
+rather than a fixed course fee - worth confirming directly against the
+center's own published policy before stating this as fact in the
+manuscript, but it should replace the earlier, unverified "paid retreat"
+framing in this card's own notes if confirmed.
 
 ## Comparison method
 
@@ -217,10 +247,43 @@ prediction that liminal communitas fades once ordinary structure resumes -
 worth using as a genuine complication in the book's argument, not resolved
 in either direction.
 
+## Private working draft (not in this repository)
+
+A full working draft of this scene, titled "Сто человек в тишине," version
+0.1, exists in Serhii's private local project archive - outside this git
+repository and not synchronized with it. It was written from an interview
+with Serhii on 2026-08-04/05 plus source cards SC-051, SC-052, SC-055
+through SC-058 (registered separately in this repository). It already
+contains a full prose draft, an editorial map, a list of confirmed facts,
+and its own list of claims not to overstate. **This card indexes that
+draft; it does not reproduce it.** In particular, the private draft names
+three real people (the three ongoing contacts) - those names must never be
+copied into this repository, per the project's privacy rule.
+
+### What the private draft already flags (transplanted here for traceability)
+
+- Do not present the disappearance of physical pain during meditation as medical proof the pain "didn't exist."
+- Do not claim the impressions formed about strangers (like "the sea guy") were objectively accurate as a rule - only one vivid episode is confirmed; the rest were approximate and shifted after people actually spoke.
+- Do not call the retreat a "total institution" without an explicit, foregrounded qualification about its voluntariness, its time limit, and the participant's freedom to leave (see SC-059, Goffman).
+- Do not use terms like "ego death," "collective trance," *unio mystica*, "mana," or "pre-contractual solidarity" as if they were established explanations for what happened.
+- Do not claim the three surviving contacts prove the durability of the whole group's communitas.
+- Do not turn the retreat into a ready-made corporate team-building recipe.
+
+A new detail from the private draft, not previously logged here: helpers
+at Dhamma Sacca are former participants who return to serve a later
+course - preparing space and supporting a new group of strangers they are
+not permitted to interact with normally. Serhii reports wanting to return
+as a helper himself, though he has not yet done so. This is a distinct,
+concrete illustration of delayed, unaddressed reciprocity (help returned
+not to the person who gave it, but forward to the next group of
+strangers) - a candidate detail for Chapter 8 or 16, not yet cross-checked
+against any academic source in this repository.
+
 ## Still open before manuscript use
 
-1. **What's publishable.** Which details are comfortable to name (retreat center, approximate dates, the author's own experience) versus what needs to stay abstracted because other real participants could be identified.
-2. **Draft the scene and get explicit sign-off** on the specific wording, per the project's privacy rule - the underlying material is now complete enough to draft.
+1. **A full editorial read of the private draft** by whoever next works this case, before any drafting into the manuscript proper - this card is an index and safeguard list, not a replacement for reading the source.
+2. **Confirm the donation-vs-fee framing** against Dhamma Sacca's own published policy before stating it as fact.
+3. **Draft the scene and get explicit sign-off** on the specific wording, per the project's privacy rule - the underlying material is complete enough to draft, but no wording has been approved yet.
 
 ## Editorial note
 
