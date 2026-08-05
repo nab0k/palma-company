@@ -61,12 +61,11 @@ quote_page_or_location: "Private; final author wording pending."
 methodology: "Author story intake via structured comparison against published first-person accounts, rather than open-ended recall alone."
 sample: "One first-person ten-day retreat account, elicited via comparison against four independently published accounts of the same retreat format."
 limitations: >
-  The specific retreat center and exact dates remain unconfirmed. The "sea
-  guy" from the anchoring scene below is a recognizable third party by
-  default and needs anonymization (changed identifying detail, or explicit
-  consent) before any manuscript use, even though no name has been recorded
-  here. The identities of the three ongoing contacts remain private and are
-  not needed for manuscript use.
+  The specific retreat center and exact dates remain unconfirmed. Per
+  Serhii's own anonymization decision, "the sea guy" is deliberately kept
+  unnamed and minimally described in any use of this scene; the identities
+  of the three ongoing contacts remain private and are not needed for
+  manuscript use.
 counterarguments: >
   Turner (SC-052) predicts liminal communitas fades once ordinary status and
   structure resume; this account complicates that prediction rather than
@@ -91,7 +90,7 @@ palma_implication: >
   contact with three people directly complicates Turner's fade prediction
   and should be stated as a genuine complication, not smoothed into either
   "communitas lasts" or "communitas fades."
-potential_case_use: "Personal-essay-style scene in Chapter 2, 5, 8, or 16 - the 'sea guy' moment is now a complete, scene-ready anchor (setup, guess, confirmation) pending anonymization and explicit author approval."
+potential_case_use: "Personal-essay-style scene in Chapter 2, 5, 8, or 16 - the 'sea guy' moment is a complete, scene-ready anchor (setup, guess, confirmation), the culmination arc is confirmed (gradual, peaking on the last day), and the anonymization approach is decided. Ready to draft; still needs explicit author sign-off on final wording."
 potential_linkedin_post: "Not cleared - not yet expanded or approved."
 confidence_level: high
 notes: >
@@ -163,6 +162,19 @@ confirmed) rather than a described pattern, and it doubles as evidence that
 comparing hypotheses was a shared, structural feature of how this retreat's
 silence broke, not an idiosyncratic detail unique to Serhii.
 
+## The culmination
+
+The "greatest feeling of unity" was not a single crystallizing moment - it
+built gradually across the retreat and was at its strongest on the last
+day.
+
+## Anonymization decision
+
+Serhii's own call: the man in "the sea guy" scene is not named and gets
+almost no identifying detail beyond what the scene itself requires (a
+guess, a confirmation). No further anonymization work is needed beyond
+holding to that restraint when the scene is actually drafted.
+
 ## Why the story may matter
 
 Two details make this a stronger case than a generic illustration of
@@ -177,9 +189,8 @@ in either direction.
 
 ## Still open before manuscript use
 
-1. **The culmination.** Was there one specific moment the "greatest feeling of unity" crystallized, or did it build gradually across the last day or two?
-2. **Anonymizing "the sea guy."** What detail changes (or what explicit consent is sought) so this real person isn't identifiable from the scene?
-3. **What's publishable.** Which details are comfortable to name (retreat center, approximate dates, the author's own experience) versus what needs to stay abstracted because other real participants could be identified.
+1. **What's publishable.** Which details are comfortable to name (retreat center, approximate dates, the author's own experience) versus what needs to stay abstracted because other real participants could be identified.
+2. **Draft the scene and get explicit sign-off** on the specific wording, per the project's privacy rule - the underlying material is now complete enough to draft.
 
 ## Editorial note
 
