@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "9a1f38622304cda105a14500932f774d57c946c760b59c11f97f4cd151c7e94e",
-  "source_card_count": 64,
-  "parsed_source_card_count": 64,
-  "unique_source_card_ids": 64,
+  "source_fingerprint": "2a4937bb699bdc4c0e3ee2cbe76fe1d042b1f1f21dba4b7c16861c0eb307b01e",
+  "source_card_count": 65,
+  "parsed_source_card_count": 65,
+  "unique_source_card_ids": 65,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -93,7 +93,8 @@
     "SC-061",
     "SC-062",
     "SC-063",
-    "SC-064"
+    "SC-064",
+    "SC-065"
   ],
   "source_card_sha256": {
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
@@ -128,6 +129,7 @@
     "research/source-cards/iirc-2013-six-capitals-framework.md": "7046a281b81b65c8cbacc5368f7ba710f1ca9430dacbf1f3e7d126eeab375f26",
     "research/source-cards/imperva-2025-bad-bot-report.md": "1b1c926375c18d21ac0b96a968fd4e5c077c8479098ea8ca3737c5ebffaafafb",
     "research/source-cards/krackhardt-hanson-1993-informal-networks.md": "a9db0554537dfee9bc7def89e548ed1accb8f8e83b3d475c962da6da060664c2",
+    "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md": "0496488db04f82a452b58f0439e0b4f9dfbb8421ba67abdfdde2a0fdf29d90aa",
     "research/source-cards/lamont-molnar-2002-study-of-boundaries.md": "65a1663edf34fcd28a6b239a238efe27225b795bc325993e1397955163eb52b1",
     "research/source-cards/macnamara-2016-organizational-listening.md": "4394046b630ae6186521366521b4ee9239fb2bba0022def3807b45b9f6a39b3c",
     "research/source-cards/mayer-davis-schoorman-1995-organizational-trust.md": "089eca37f139151979b289dbea7fd89e082301acf4228fabab4e70584674d343",

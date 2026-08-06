@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "cefe5f7d9c343d862e293276836d2a1cf28f5c2185143f718ab7e8d7aac507e3",
+  "source_fingerprint": "f6707207986379f9410c6a31300eb277d2088c49cb4a2d30b5696ad62c8d1fe8",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 230,
+    "records": 231,
     "current": 84,
-    "legacy": 120,
+    "legacy": 121,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 99,
+    "non_chapter_legacy": 100,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 146
+    "validation_warnings": 147
   },
   "catalog": {
     "current": [
@@ -2669,6 +2669,29 @@
           "related_to": [
             "SC-027",
             "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-065",
+        "canonical_id": "SC-065",
+        "type": "source_card",
+        "status": "review",
+        "title": "Cardboard protests following the dismissal of Defense Minister Mykhailo Fedorov",
+        "path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-064",
+            "SC-009"
           ]
         }
       },
@@ -8952,6 +8975,24 @@
       "relation": "related_to",
       "to": "SC-027",
       "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "related_to",
+      "to": "SC-009",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "related_to",
+      "to": "SC-064",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
