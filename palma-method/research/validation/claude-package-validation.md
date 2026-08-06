@@ -1,14 +1,14 @@
 # Claude Research Package — Structural Validation
 
 Report ID: `VAL-CLAUDE-001`  
-Source fingerprint: `fbba1762af94983b5fecab679a0f2301a4611c06de5151324d3927da2c76f430`
+Source fingerprint: `0a67ee3873f17fa210ecdab0f24d79cce9c8ad2ff5090b37292f13319c01de2b`
 Status: **PASS**
 
 ## Result
 
-- Source cards found: 70
-- Source cards parsed: 70
-- Unique source-card IDs: 70
+- Source cards found: 71
+- Source cards parsed: 71
+- Unique source-card IDs: 71
 - Errors: 0
 - Warnings: 0
 

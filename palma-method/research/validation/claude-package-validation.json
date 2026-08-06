@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "fbba1762af94983b5fecab679a0f2301a4611c06de5151324d3927da2c76f430",
-  "source_card_count": 70,
-  "parsed_source_card_count": 70,
-  "unique_source_card_ids": 70,
+  "source_fingerprint": "0a67ee3873f17fa210ecdab0f24d79cce9c8ad2ff5090b37292f13319c01de2b",
+  "source_card_count": 71,
+  "parsed_source_card_count": 71,
+  "unique_source_card_ids": 71,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -99,9 +99,11 @@
     "SC-067",
     "SC-068",
     "SC-069",
-    "SC-070"
+    "SC-070",
+    "SC-071"
   ],
   "source_card_sha256": {
+    "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
     "research/source-cards/ambady-rosenthal-1992-thin-slices.md": "bc8d465d9627e0ce95e2ad5b7440a5b05ab7e6a96dc1197708bc328f7c76d6cf",
     "research/source-cards/amec-2020-barcelona-principles.md": "167ddaabaee0b28fd0a91fe429e624257d8a27a2eb7edff2eab58ec262cb9d86",

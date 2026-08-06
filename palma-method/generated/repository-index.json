@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "528c89e123b7807118c699f9627fbf438720a0490c5742b11c10ee087b51def9",
+  "source_fingerprint": "38fca35b4c7ec22d1b6ddea7987310aadbebeecd2a411da8e307153446285106",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 236,
+    "records": 237,
     "current": 84,
-    "legacy": 126,
+    "legacy": 127,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 105,
+    "non_chapter_legacy": 106,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 152
+    "validation_warnings": 153
   },
   "catalog": {
     "current": [
@@ -2805,6 +2805,28 @@
           ],
           "related_to": [
             "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-071",
+        "canonical_id": "SC-071",
+        "type": "source_card",
+        "status": "review",
+        "title": "Client attrition following account-lead departure in agency/professional-services businesses",
+        "path": "research/source-cards/agency-client-attrition-account-departure.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-067"
           ]
         }
       },
@@ -9184,6 +9206,18 @@
       "relation": "related_to",
       "to": "SC-027",
       "source_path": "research/source-cards/spinks-2021-business-of-belonging.md"
+    },
+    {
+      "from": "SC-071",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/agency-client-attrition-account-departure.md"
+    },
+    {
+      "from": "SC-071",
+      "relation": "related_to",
+      "to": "SC-067",
+      "source_path": "research/source-cards/agency-client-attrition-account-departure.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
