@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "6bb72387182e3f6653d1b8826f0408be9a30352a7f47c8fe12d33b3ccec531dd",
+  "source_fingerprint": "528c89e123b7807118c699f9627fbf438720a0490c5742b11c10ee087b51def9",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 233,
+    "records": 236,
     "current": 84,
-    "legacy": 123,
+    "legacy": 126,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 102,
+    "non_chapter_legacy": 105,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 149
+    "validation_warnings": 152
   },
   "catalog": {
     "current": [
@@ -2725,6 +2725,74 @@
         "status": "review",
         "title": "Soziologie (The Sociology of Georg Simmel)",
         "path": "research/source-cards/simmel-1908-sociology-forms.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-068",
+        "canonical_id": "SC-068",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion (the 'hive switch')",
+        "path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-069",
+        "canonical_id": "SC-069",
+        "type": "source_card",
+        "status": "review",
+        "title": "How Brands Become Icons: The Principles of Cultural Branding (cultural branding / crowdculture)",
+        "path": "research/source-cards/holt-2004-how-brands-become-icons.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-066",
+            "SC-062"
+          ]
+        }
+      },
+      {
+        "id": "SC-070",
+        "canonical_id": "SC-070",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Business of Belonging: How to Make Community your Competitive Advantage (SPACES model)",
+        "path": "research/source-cards/spinks-2021-business-of-belonging.md",
         "metadata_format": "legacy_fenced_yaml",
         "record_state": "legacy",
         "owner": "claude",
@@ -9068,6 +9136,54 @@
       "relation": "related_to",
       "to": "SC-027",
       "source_path": "research/source-cards/simmel-1908-sociology-forms.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "related_to",
+      "to": "SC-062",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "related_to",
+      "to": "SC-066",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-070",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/spinks-2021-business-of-belonging.md"
+    },
+    {
+      "from": "SC-070",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/spinks-2021-business-of-belonging.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
