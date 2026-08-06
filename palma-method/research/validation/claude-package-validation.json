@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "2a4937bb699bdc4c0e3ee2cbe76fe1d042b1f1f21dba4b7c16861c0eb307b01e",
-  "source_card_count": 65,
-  "parsed_source_card_count": 65,
-  "unique_source_card_ids": 65,
+  "source_fingerprint": "be95249b79041ede07e7543496c0070b5730d2bdc56d0160d2595f0297a8aa86",
+  "source_card_count": 67,
+  "parsed_source_card_count": 67,
+  "unique_source_card_ids": 67,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -94,7 +94,9 @@
     "SC-062",
     "SC-063",
     "SC-064",
-    "SC-065"
+    "SC-065",
+    "SC-066",
+    "SC-067"
   ],
   "source_card_sha256": {
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
@@ -111,6 +113,7 @@
     "research/source-cards/coleman-1988-social-capital-human-capital.md": "b1957ab9a5338e5816f536d30fa510ef6093aa9022df8f39eb15977bfb6068ed",
     "research/source-cards/collins-2004-interaction-ritual-chains.md": "5dda2908bb88a6d9e64cd47b33b8b63bf1a1aa19b653759b0e130faffea85512",
     "research/source-cards/craig-1999-constitutive-model-communication.md": "dfa23feaba2db2b43ea8a02c58723674fe774369eafdeffaebda6249cf047f25",
+    "research/source-cards/durkheim-1912-elementary-forms-religious-life.md": "f9ff3cfcd543627d537cc57c1056deb288867b313da74c421d855685bb592b44",
     "research/source-cards/edelman-2026-trust-barometer.md": "01a71833647f179eaf8634f17c70ddd1c7289345beea238b004dd7512118e2b6",
     "research/source-cards/edmondson-1999-psychological-safety.md": "700cf43875f6874886608c444b581dee0f9c1e4674b5eac543af0cfceed3015f",
     "research/source-cards/eventbrite-2026-reset-to-real.md": "39ac56d354af587ce49f35638d7a5d9d6c0ed9b83c53175f72d38591358df7aa",
@@ -150,6 +153,7 @@
     "research/source-cards/serhii-tak-shtab-story-intake.md": "5f33f801b07ebb3f1b09a13aa2f0adf4c081ba7b648007e4098d9ba520a1716b",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "40f0f0ecb12d18200da9221774560179004addcee7dd089ae28e6903a947821b",
+    "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
