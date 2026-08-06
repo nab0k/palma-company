@@ -109,33 +109,46 @@ palma_implication: >
 potential_case_use: "A full working draft of this scene ('Сто человек в тишине', v0.1) already exists in Serhii's private project archive, outside this git repository - not yet reviewed by this project in full. It maps the scene primarily to the Introduction, with secondary echoes in Chapters 2, 5, 8, and 16, and already includes its own list of claims not to overstate (see 'What the private draft already flags' below). Next step is a full editorial read of that draft, not a from-scratch write."
 potential_linkedin_post: "Not cleared - not yet expanded or approved."
 confidence_level: high
-notes: >
+notes: |
   Logged 2026-08-04 at Serhii's own request. Developed through a specific
   method: rather than answering open questions from memory, Serhii reviewed
   excerpts from four published Vipassana accounts and confirmed, corrected,
   or extended each point - a faster and, in his own account, more accurate
-  elicitation method than free recall. Updated 2026-08-05 after Codex
-  located a private working draft of the full scene, held in a separate,
-  non-Git local archive, that confirms and extends this card's facts (see
-  "What the private draft already flags" below). This card should be
-  treated as the public-safe index into that private draft, not a
-  substitute for reading it before any manuscript work begins.
+  elicitation method than free recall.
+
+  Updated 2026-08-05 after Codex located a private working draft of the
+  full scene, held in a separate, non-Git local archive, that confirms and
+  extends this card's facts (see "What the private draft already flags"
+  below). This card should be treated as the public-safe index into that
+  private draft, not a substitute for reading it before any manuscript work
+  begins.
+
+  Updated 2026-08-06: after several further editing passes with the
+  assistant (restructuring for narrative pacing, adding the "imagined
+  romance" wrong-guess scene, correcting the helper/volunteer framing to
+  avoid asserting a motive that isn't actually known), Serhii approved the
+  specific Russian wording of the Introduction's opening scene - see
+  "Approved text: Introduction opening" below. `personal_story_use` moves
+  to `approved` for that specific Russian text only. The English
+  translation, and any further rewording of either version, should be
+  re-confirmed before manuscript commit, per the project's privacy rule.
 type: source_card
 status: review
 owner: serhii_nabok
 created: 2026-08-04
-updated: 2026-08-05
+updated: 2026-08-06
 privacy_level: public
 verification_status: checked
 source_kind: author_interview
-citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04 and 2026-08-05, developed via comparison against four published Vipassana retreat accounts and cross-checked against a private working draft."
+citation: "Serhii Nabok, first-person account relayed in the Palma.company project repository session, 2026-08-04 through 2026-08-06, developed via comparison against four published Vipassana retreat accounts, cross-checked against a private working draft, and finalized through iterative editing with the assistant."
 chapter_refs:
   - CHAPTER_00
   - CHAPTER_02
   - CHAPTER_05
   - CHAPTER_08
   - CHAPTER_16
-personal_story_use: pending_author_approval
+personal_story_use: approved
+author_approval_ref: "Palma.company project repository session, 2026-08-06 - explicit approval of the Russian text in 'Approved text: Introduction opening' below; covers that text only, not any other rewording"
 ```
 
 # Author story intake — ten-day Vipassana retreat at Dhamma Sacca, Spain
@@ -143,18 +156,28 @@ personal_story_use: pending_author_approval
 ## Recoverable account (confirmed facts)
 
 Serhii attended a ten-day Vipassana retreat in April 2026 at **Dhamma
-Sacca**, a meditation center in Candeleda, Ávila province, Spain, with
-roughly a hundred participants. Silence, meditation, and an absence of
-ordinary stimuli (no talking, reading, writing, phones, or contact with
-other participants - including three people he already knew, whom he
-deliberately avoided all ten days). By the end, he describes a strong felt
-sense of unity with the group, a wish to be kind and useful to them, and a
-felt sense of belonging - matching the structure documented in several
-published first-person accounts of the same retreat format (silence
-beginning almost immediately, a rigid daily schedule built around three
-days of anapana followed by vipassana proper, Day 10 metta meditation and
-the break of silence, a diverse group, a shared sense of gratitude by the
-end).
+Sacca**, a meditation center in the Sierra de Gredos, Candeleda, Ávila
+province, Spain (roughly a hundred kilometers from Madrid), with roughly a
+hundred participants and about ten volunteers. Silence, meditation, and an
+absence of ordinary stimuli - no screens of any kind, not only phones; no
+talking, reading, or writing; no contact with other participants. Two casual acquaintances he arrived
+with, and a third person met half an hour before the ten days of silence
+began, were his only contacts going in - across several editing passes,
+Serhii has consistently dropped any framing of "deliberately avoiding"
+them during the retreat itself, so this card no longer asserts that; it
+simply was not mentioned. By the end, he
+describes a strong felt sense of unity with the group, a wish to be kind
+and useful to them, and a felt sense of belonging - matching the structure
+documented in several published first-person accounts of the same retreat
+format (silence beginning almost immediately, a rigid daily schedule built
+around three days of anapana followed by vipassana proper, Day 10 metta
+meditation and the break of silence, a diverse group, a shared sense of
+gratitude by the end). New physical detail: the setting itself (snow-dusted
+peaks, a sea of blooming lavender, roses, and rockrose) is part of how
+Serhii now tells the story - not decoration he's willing to cut, see the
+voice-skill note on this in `serhii-nabok-voice`. New timing detail: a few
+hours after speech resumed on day 10, fatigue and information overload set
+in, even though the felt sense of closeness and unity was at its peak.
 
 Retreats in the Goenka/Dhamma tradition (which "Dhamma"-prefixed centers
 like Dhamma Sacca and Dhamma Neru belong to) are run on a donation basis
@@ -222,6 +245,46 @@ observation:
   eating, gesturing strangers will generate far richer stories about each
   other.
 
+## The paired scene: an imagined romance, and a wrong guess
+
+Serhii added a second anchoring scene that pairs deliberately with "the sea
+guy" - this time, a wrong guess. He became convinced a woman sitting nearby
+was making eye contact with him, that there was some kind of silent mutual
+interest - despite meditating without his glasses on, meaning he could not
+actually have seen where her gaze was directed. Over the following days his
+imagination built an entire private subplot around this. On the first day
+speech was allowed again, he approached her - and found she had no idea
+what he was talking about; she had not shared or noticed any of it.
+
+This is deliberately kept in the account for the same reason "the sea guy"
+is: together they show the mind generating stories from minimal or absent
+cues, sometimes right, sometimes completely wrong, and continuing to do so
+regardless. It directly strengthens the existing caution already logged in
+this card and in the private draft ("do not claim the impressions formed
+about strangers were objectively accurate as a rule") by giving it a
+concrete counter-example, not just a disclaimer. Same anonymization
+approach as "the sea guy": no name, no identifying detail beyond what the
+scene requires.
+
+## The volunteer/helper loop: caution against asserting a motive
+
+Earlier notes on this card (see below) described the helper-reciprocity
+loop as a candidate illustration of "delayed, unaddressed reciprocity" and,
+at one draft stage, as something Serhii had "spроектировал" (designed).
+Serhii corrected this directly: he does not actually know whether the
+retreat's reliance on returning volunteers, rather than paid staff, is a
+deliberate design choice aimed at producing bonding, an expression of
+genuine altruism among returning participants, or simply the most
+practical way to avoid paying wages within a donation-funded model. What he
+does know: the center pays for land, construction, and food; nearly
+everything else appears to run on volunteer labor. The manuscript must not
+assert a motive (altruism, deliberate psychological design, or cost
+avoidance) that hasn't actually been confirmed - state the structural
+effect (a self-renewing loop that doesn't require an intermediary) without
+claiming to know why it exists. This is a direct, deliberate application of
+the project's own evidence discipline, volunteered by the author himself,
+not imposed by an editor.
+
 ## The culmination
 
 The "greatest feeling of unity" was not a single crystallizing moment - it
@@ -277,13 +340,111 @@ as a helper himself, though he has not yet done so. This is a distinct,
 concrete illustration of delayed, unaddressed reciprocity (help returned
 not to the person who gave it, but forward to the next group of
 strangers) - a candidate detail for Chapter 8 or 16, not yet cross-checked
-against any academic source in this repository.
+against any academic source in this repository. **See "The volunteer/helper
+loop: caution against asserting a motive" above** - do not describe this as
+deliberately designed for bonding; the motive is genuinely unknown.
+
+## Approved text: Introduction opening (Russian, 2026-08-06)
+
+Serhii approved the following Russian text as the working draft for the
+Introduction's opening scene, after multiple structural and line-editing
+passes with the assistant (moving from a hook-before-scene structure to a
+scene-then-reflection structure; splitting the "sea guy" guess from its
+confirmation to hold narrative tension across the middle of the piece;
+adding the paired "wrong guess" scene; correcting the volunteer/helper
+framing to avoid asserting an unconfirmed motive). This approval covers
+this Russian text only - the English translation is a separate, not-yet-
+approved step, tracked in "Still open before manuscript use" below. This is
+the authoritative copy; treat any other copy elsewhere (chat history,
+other local files) as a working draft, not the record of what was approved.
+
+> Давно хотел попробовать, и вот весной 2026 года впервые приехал на
+> десятидневный ретрит випассаны — в окружении припорошенных снегом вершин
+> Серры-де-Гредос, в море из цветущей лаванды, роз и ладанника за сто
+> километров от Мадрида. Ни единого экрана, ни разговоров, ни чтения —
+> только полный атлас звёзд вместо каждого «доброе утро», только закат от
+> которого наворачиваются слёзы восхищения вместо каждого «спокойной
+> ночи» и десять часов медитации между ними. Я приехал с двумя случайными
+> знакомыми, и ещё с одним человеком познакомился за полчаса до начала
+> десятидневного молчания. Среди сотни участников и десятка волонтёров —
+> это были исключительно все мои контакты там на тот момент.
+>
+> Просыпался раньше гонга — в половине пятого, ещё в темноте. По
+> неосвещённой дорожке из белого щебня добирался до зала, босиком по
+> прохладному бетонному полу прямиком к своей подушке для медитаций,
+> закрывал глаза рядом с одним-двумя такими же ранними. Как подтягиваются
+> остальные — не слышал. Открывал глаза ближе к шести — полный зал, сотня
+> человек, собравшихся без единого слова.
+>
+> Взаимодействовать привычным способом мы не могли. Но потребность в этом
+> никуда не делась. Придерживали дверь друг перед другом, опустив глаза,
+> чтобы не смущать. Уступали место в очереди в столовой. Оставляли
+> пространство вокруг. Я не видел, чтобы кто-то нарушил порядок. Но
+> отсутствие разговора не отменило обмен между нами — оно сделало его
+> почти незаметным.
+>
+> К четвёртому-пятому дню, без единого слова, накопилась близость с
+> окружающими — животная, стайная, другого слова не подберу. Ум
+> продолжал переваривать. Лишённый имён, биографий, разговора, он
+> считывал единственное, что осталось: походку, посадку, то, как человек
+> ест. Об одном парне я почему-то решил — не могу восстановить, из чего
+> именно: лицо, загар, шапка-бини, — что он связан с морем. Потом, когда
+> молчание кончилось, выяснилось: правда. Дом на воде, родители —
+> мореплаватели. К этому попаданию стоит отнестись осторожно: большинство
+> моих версий оказались лишь приблизительно верны, когда люди наконец
+> заговорили. Например, однажды мне показалось, что девушка в соседнем
+> ряду с интересом смотрит на меня, что у нас с ней какой-то зрительный
+> диалог — я медитировал без очков, и, на самом деле не мог видеть куда
+> она смотрит. Впрочем, ум ни разу не остановился в конструировании
+> историй. Десять дней подряд он собирал версии почти из ничего. Потому-то
+> где-то на фоне, в одной из сюжетных линий моей буйной фантазии у меня
+> разыгрывался роман с этой девушкой. В первый день без молчания я подошёл
+> к ней и выяснил, что она, конечно же, даже не понимает о чём я.
+>
+> Тогда, на десятый день, когда разрешили заговорить — было очень странное
+> ощущение. Первых фраз не помню. Помню только, что сперва не хотелось
+> говорить вовсе — не разучился, а не хотел разрушить то, на что ушло
+> десять дней тишины. А спустя несколько часов появилась усталость,
+> перегрузка от информации. Но ощущение близости и общности было пиковым.
+>
+> У ретрита не было ни одного из инструментов, которыми компании обычно
+> пытаются строить сообщество. Ни бейджей с именами. Ни icebreakers. Ни
+> HR-менеджера, организующего сближение. Ни бюджета на тимбилдинг. За
+> десять дней ни один человек не сказал ни одного слова другому. И всё же
+> я вышел оттуда с ощущением единства с сотней незнакомцев — более
+> сильным, чем после любого офсайта или корпоратива, на которых мне
+> доводилось бывать.
+>
+> Попробуй вспомнить последнее мероприятие, после которого у тебя было
+> что-то похожее. Сколько таких пришлось устроить, чтобы хоть раз
+> приблизиться?
+>
+> Это не было магией и не было удачей. Это было спроектировано — не мной.
+> И я потратил немало времени, чтобы понять, как именно.
+>
+> Мы привыкли думать, что отношения начинаются с разговора. Там на
+> випассане к моменту первого разговора ощущение связи уже существовало.
+> Речь его не создала — она затем позволила проверить то, что каждый из
+> нас молча выстроил.
+>
+> Чувство не пережило следующие недели в первоначальном масштабе —
+> большинство из той сотни сегодня снова для меня незнакомцы, как в
+> первое утро. Но не всё исчезло. С несколькими я до сих пор на связи. И
+> сам ретрит и вся система держится на втором, более тихом витке того же
+> механизма: люди, однажды сидевшие на моём месте, возвращаются месяцы
+> или годы спустя волонтёрами-хелперами — готовить, убирать, держать
+> пространство для следующей сотни незнакомцев, с которыми им тоже нельзя
+> вступать в обычное общение. Никто не возвращает помощь тому, кто её
+> оказал. Её передают дальше — тем, кого ещё здесь не было.
+>
+> Не хватало именно отклика.
 
 ## Still open before manuscript use
 
-1. **A full editorial read of the private draft** by whoever next works this case, before any drafting into the manuscript proper - this card is an index and safeguard list, not a replacement for reading the source.
-2. **Confirm the donation-vs-fee framing** against Dhamma Sacca's own published policy before stating it as fact.
-3. **Draft the scene and get explicit sign-off** on the specific wording, per the project's privacy rule - the underlying material is complete enough to draft, but no wording has been approved yet.
+1. **English translation**, preserving voice per `serhii-nabok-voice` - not yet approved; the Russian text above is the only approved wording so far.
+2. **Confirm the donation-vs-fee framing** against Dhamma Sacca's own published policy before stating it as fact in the manuscript.
+3. **Commit the English translation into `manuscript/01-introduction.md`** (or the appropriate chapter packet) only after Serhii separately approves that translation - approval of the Russian text does not extend to the English wording automatically.
+4. **Fix the two bare "(Chapter N)" cross-references** in the existing Introduction manuscript text (referring to Chapter 2 and Chapters 6-10) per the idea-based cross-reference rule in `PROSE_QUALITY_POLICY_DRAFT.md`, while this section is being edited anyway.
 
 ## Editorial note
 
