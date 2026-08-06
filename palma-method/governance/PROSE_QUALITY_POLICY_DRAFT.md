@@ -48,6 +48,15 @@ recognizable example instead of writing "as Chapter 6 argued." A chapter
 number may sit in parentheses as a wayfinding aid; it must never be the sole
 content of the reference.
 
+Introduce the question before the name. Do not open a new source with the
+person's name and credentials — open with the question, gap, or tension the
+text has just raised, then say who answers it and why that person
+specifically. "For this, I turn to psychologist X, who spent years studying
+Y" earns the name; "Psychologist X argues..." dropped in cold does not,
+even if a reason follows later in the same sentence. This applies to every
+named scholar or practitioner without exception, not only the first one in
+a section.
+
 ### 3. Author voice
 
 Reserved. It may be documented only from samples the author explicitly approves
@@ -77,6 +86,7 @@ Before proposing a style edit, ask:
 10. Can the editor explain the change without appealing to an “AI score”?
 11. Does every named source state, even briefly, why it earns its place — originality, cross-domain replication, or a sourced biographical link?
 12. Does any inter-chapter reference name an idea or example, rather than resting on a chapter number alone?
+13. Does every named scholar or practitioner arrive after the question they answer, rather than cold before it?
 
 ## Editing protocol
 

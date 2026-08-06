@@ -261,3 +261,16 @@ artifacts:
   - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0021
+occurred_at: 2026-08-06
+actor: Claude
+event_type: policy_update
+title: "Introduce the question before the name" rule added to prose-quality policy
+status: delivered
+result: A third house-style rule added to POLICY_PROSE_QUALITY_0001 (section 2), with matching diagnostic-checklist item 13, requested directly by Serhii Nabok while line-editing Chapter 1's theory passage - every named scholar or practitioner must arrive after the question or gap they answer, never cold before it, without exception
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+reviewer: Serhii Nabok
+```
