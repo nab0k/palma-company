@@ -370,7 +370,7 @@ other local files) as a working draft, not the record of what was approved.
 > это были исключительно все мои контакты там на тот момент.
 >
 > Просыпался раньше гонга — в половине пятого, ещё в темноте. По
-> неосвещённой дорожке из белого щебня добирался до зала, босиком по
+> неосвещённой дорожке из белого щебня добирался до зала, затем босиком по
 > прохладному бетонному полу прямиком к своей подушке для медитаций,
 > закрывал глаза рядом с одним-двумя такими же ранними. Как подтягиваются
 > остальные — не слышал. Открывал глаза ближе к шести — полный зал, сотня
@@ -437,8 +437,15 @@ other local files) as a working draft, not the record of what was approved.
 > пространство для следующей сотни незнакомцев, с которыми им тоже нельзя
 > вступать в обычное общение. Никто не возвращает помощь тому, кто её
 > оказал. Её передают дальше — тем, кого ещё здесь не было.
->
-> Не хватало именно отклика.
+
+**Locked 2026-08-06.** The closing line "Не хватало именно отклика." from
+the previous approved draft is removed in this version: Chapter 1 now
+opens directly into the same material ("Я до сих пор не совсем осознаю,
+как именно сто человек...") and supplies its own transition, making the
+separate closing line redundant. This is the version Serhii confirmed as
+final ("Виправив, давай фіксувати") after a full critical read of the
+assembled Introduction + Chapter 1 text; see `01-chapter-1-packet-v0.3.md`
+for the connected Chapter 1 text and its own evidence map.
 
 ## Still open before manuscript use
 

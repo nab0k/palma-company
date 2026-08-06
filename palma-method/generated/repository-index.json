@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "24cdeacae4ae47b6759c667df13c9391099a6681d03b4125ac79ef668d57fb66",
+  "source_fingerprint": "6c93ffde35e889aff44769742f9a9d90760261984e7c71f53603e78b178051d1",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 237,
+    "records": 240,
     "current": 84,
-    "legacy": 127,
+    "legacy": 130,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 106,
+    "non_chapter_legacy": 108,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 153
+    "validation_warnings": 156
   },
   "catalog": {
     "current": [
@@ -2832,6 +2832,50 @@
         }
       },
       {
+        "id": "SC-072",
+        "canonical_id": "SC-072",
+        "type": "source_card",
+        "status": "review",
+        "title": "United Airlines Flight 3411 (Dr. David Dao) - stock market impact, April 2017",
+        "path": "research/source-cards/united-airlines-2017-stock-impact.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-009"
+          ]
+        }
+      },
+      {
+        "id": "SC-073",
+        "canonical_id": "SC-073",
+        "type": "source_card",
+        "status": "review",
+        "title": "Patagonia Worn Wear - repair program scale",
+        "path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-069"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -3353,27 +3397,39 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
-          "id": "PKT-01-v0.2",
+          "id": "PKT-01-v0.3",
           "canonical_id": "CHAPTER_01",
           "type": "chapter",
-          "status": "draft_for_editorial_review",
-          "title": "Chapter Packet v0.2: Chapter 1 — Companies Speak. People Scroll.",
-          "path": "research/chapter-packets/01-chapter-1-packet-v0.2.md",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 1 Packet v0.3 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.3.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
-          "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-16",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-06",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.3",
           "chapter_number": 1,
-          "supersedes_declaration": "01-chapter-1-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "supersedes_declaration": "01-chapter-1-packet-v0.1.md and 01-chapter-1-packet-v0.2.md (both preserved unmodified, not deleted or overwritten)",
           "relationships": {
             "supported_by": [
-              "SC-003",
               "SC-009",
-              "SC-014",
-              "SC-021",
-              "SC-024"
+              "SC-027",
+              "SC-049",
+              "SC-051",
+              "SC-054",
+              "SC-060",
+              "SC-062",
+              "SC-064",
+              "SC-065",
+              "SC-066",
+              "SC-067",
+              "SC-068",
+              "SC-069",
+              "SC-070",
+              "SC-071",
+              "SC-072",
+              "SC-073"
             ]
           },
           "index_state": "current"
@@ -3398,6 +3454,32 @@
               "SC-009",
               "SC-014",
               "SC-021"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-01-v0.2",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 1 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-003",
+              "SC-009",
+              "SC-014",
+              "SC-021",
+              "SC-024"
             ]
           },
           "index_state": "legacy"
@@ -5365,6 +5447,12 @@
     {
       "from": "CHAPTER_01",
       "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
       "to": "SC-014",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.1.md"
     },
@@ -5391,6 +5479,102 @@
       "relation": "supported_by",
       "to": "SC-024",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-051",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-060",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-062",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-064",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-065",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-066",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-067",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-068",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-069",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-070",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-071",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-072",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-073",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -9225,6 +9409,30 @@
       "relation": "related_to",
       "to": "SC-067",
       "source_path": "research/source-cards/agency-client-attrition-account-departure.md"
+    },
+    {
+      "from": "SC-072",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/united-airlines-2017-stock-impact.md"
+    },
+    {
+      "from": "SC-072",
+      "relation": "related_to",
+      "to": "SC-009",
+      "source_path": "research/source-cards/united-airlines-2017-stock-impact.md"
+    },
+    {
+      "from": "SC-073",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md"
+    },
+    {
+      "from": "SC-073",
+      "relation": "related_to",
+      "to": "SC-069",
+      "source_path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

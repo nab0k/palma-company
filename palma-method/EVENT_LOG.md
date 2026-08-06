@@ -274,3 +274,19 @@ artifacts:
   - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0022
+occurred_at: 2026-08-06
+actor: Claude
+event_type: chapter_lock_in
+title: Chapter 1 fully rebuilt and locked as v0.3; Introduction opening scene finalized
+status: delivered
+result: Chapter 1 rebuilt from scratch in Russian around a four-level theoretical architecture (Simmel, Durkheim, Collins/Pagis/Haidt/Holt, Spinks/Craig) directly continuous with the Introduction's Vipassana opening scene, after multiple structural critique passes and fact-checks across the session. Locked by Serhii Nabok ("Виправив, давай фіксувати") after confirming two final fixes: a restored plural antecedent for "Один из них" and an overclaiming-verb correction in Holt's paragraph ("нашёл" -> "описывает"). Two new source cards registered in the same pass (SC-072 United Airlines stock impact, SC-073 Patagonia Worn Wear scale, both previously used in-text without a formal card) and the Introduction's approved text in SC-054 synced to its final wording (added "затем"; removed a now-redundant closing line superseded by Chapter 1's own opening transition). English translation and manuscript commit remain open, tracked in the new packet's "Open before manuscript use" section.
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.3.md
+  - palma-method/research/source-cards/serhii-vipassana-retreat-story-intake.md
+  - palma-method/research/source-cards/united-airlines-2017-stock-impact.md
+  - palma-method/research/source-cards/patagonia-2026-worn-wear-repair-program.md
+reviewer: Serhii Nabok
+```
