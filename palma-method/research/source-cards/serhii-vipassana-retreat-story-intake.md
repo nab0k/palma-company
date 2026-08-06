@@ -358,23 +358,24 @@ approved step, tracked in "Still open before manuscript use" below. This is
 the authoritative copy; treat any other copy elsewhere (chat history,
 other local files) as a working draft, not the record of what was approved.
 
-> Давно хотел попробовать, и вот весной 2026 года впервые приехал на
-> десятидневный ретрит випассаны — в окружении припорошенных снегом вершин
-> Серры-де-Гредос, в море из цветущей лаванды, роз и ладанника за сто
-> километров от Мадрида. Ни единого экрана, ни разговоров, ни чтения —
-> только полный атлас звёзд вместо каждого «доброе утро», только закат от
-> которого наворачиваются слёзы восхищения вместо каждого «спокойной
-> ночи» и десять часов медитации между ними. Я приехал с двумя случайными
-> знакомыми, и ещё с одним человеком познакомился за полчаса до начала
-> десятидневного молчания. Среди сотни участников и десятка волонтёров —
-> это были исключительно все мои контакты там на тот момент.
+> В окружении припорошенных снегом вершин Серры-де-Гредос, в море из
+> цветущей лаванды, роз и ладанника за сто километров от Мадрида. Без
+> экранов, без разговоров, без чтения — только полный атлас звёзд вместо
+> каждого «доброе утро», только закат от которого наворачиваются слёзы
+> восхищения вместо каждого «спокойной ночи» и десять часов медитации
+> между ними. Давно хотел попробовать, и вот весной 2026 года впервые
+> приехал на десятидневный ретрит випассаны. Добрался на машине с двумя
+> почти случайными знакомыми израильтянами, а ещё с одним бородатым
+> техно-диджеем (тоже, кстати, с менорой на обложке паспорта) познакомился за полчаса до
+> начала десятидневного молчания. Среди сотни участников и десятка
+> волонтёров — это были исключительно все мои контакты там на тот момент.
 >
-> Просыпался раньше гонга — в половине пятого, ещё в темноте. По
-> неосвещённой дорожке из белого щебня добирался до зала, затем босиком по
-> прохладному бетонному полу прямиком к своей подушке для медитаций,
-> закрывал глаза рядом с одним-двумя такими же ранними. Как подтягиваются
-> остальные — не слышал. Открывал глаза ближе к шести — полный зал, сотня
-> человек, собравшихся без единого слова.
+> Просыпаюсь раньше гонга — в половине пятого, ещё в темноте. По
+> неосвещённой дорожке из белого щебня бреду к залу на холме, затем
+> босиком по прохладному бетонному полу прямиком к своей подушке для
+> медитаций, закрываю глаза рядом с одним-двумя такими же ранними. Как
+> подтягиваются остальные — не слышу. Открываю глаза уже ближе к шести —
+> полный зал, сотня человек, собравшихся без единого слова.
 >
 > Взаимодействовать привычным способом мы не могли. Но потребность в этом
 > никуда не делась. Придерживали дверь друг перед другом, опустив глаза,
@@ -447,9 +448,20 @@ final ("Виправив, давай фіксувати") after a full critical 
 assembled Introduction + Chapter 1 text; see `01-chapter-1-packet-v0.3.md`
 for the connected Chapter 1 text and its own evidence map.
 
+**Refined further, same day (2026-08-06).** Serhii tightened the opening
+for immersion: moved the scene-setting (mountains, lavender, roses) ahead
+of the "I'd long wanted to try this" framing so the piece opens cold into
+sensory detail; shifted the second paragraph's morning-routine verbs from
+past to present tense (historical present, for immediacy); added two new
+travel-companion details (arrived by car with two "almost accidental"
+Israeli acquaintances; met a bearded techno-DJ shortly before the silence
+began); added "на холме" (on a hill) to locate the meditation hall. These
+are the author's own further edits to his own approved text, not an
+editorial suggestion - the wording above is now the authoritative version.
+
 ## Still open before manuscript use
 
-1. **English translation**, preserving voice per `serhii-nabok-voice` - not yet approved; the Russian text above is the only approved wording so far.
+1. **English translation**, preserving voice per `serhii-nabok-voice` - not yet approved; the Russian text above is the only approved wording so far. Note for that pass: "с менорой на обложке паспорта" ("with a menorah on the passport cover") establishes the DJ was also an Israeli citizen, like the two other travel companions - the menorah is the emblem on the Israeli passport's cover. This phrasing is self-explanatory and translates directly ("a passport with a menorah on the cover"); no translator's note needed.
 2. **Confirm the donation-vs-fee framing** against Dhamma Sacca's own published policy before stating it as fact in the manuscript.
 3. **Commit the English translation into `manuscript/01-introduction.md`** (or the appropriate chapter packet) only after Serhii separately approves that translation - approval of the Russian text does not extend to the English wording automatically.
 4. **Fix the two bare "(Chapter N)" cross-references** in the existing Introduction manuscript text (referring to Chapter 2 and Chapters 6-10) per the idea-based cross-reference rule in `PROSE_QUALITY_POLICY_DRAFT.md`, while this section is being edited anyway.

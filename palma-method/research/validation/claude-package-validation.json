@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "3fafff78efb88c5f1af58c4f08a2dee775fbdfb8db986c09aee0ce465a0e410e",
-  "source_card_count": 73,
-  "parsed_source_card_count": 73,
-  "unique_source_card_ids": 73,
+  "source_fingerprint": "2bb27a6606171a82e3962a33d52b40f33ece8fd7955d0d80f5fa7edc3381aac9",
+  "source_card_count": 74,
+  "parsed_source_card_count": 74,
+  "unique_source_card_ids": 74,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -102,7 +102,8 @@
     "SC-070",
     "SC-071",
     "SC-072",
-    "SC-073"
+    "SC-073",
+    "SC-074"
   ],
   "source_card_sha256": {
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
@@ -160,9 +161,10 @@
     "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md": "c240ff68a0cac3b9c0c766aea2ce9bdd54b1e76578e7ba23c40e755b5b8ec9dc",
     "research/source-cards/serhii-kichkine-childhood-story-intake.md": "db9fba24beaccc07ed8f3727027d6f5f618a5d3bc57248327d05ea17d51cb07d",
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
+    "research/source-cards/serhii-palma-name-origin-story-intake.md": "e0f811bbf6c762fc4e533088b215f13dd04c4eb7da02db6e7c5261763ef558b8",
     "research/source-cards/serhii-tak-shtab-story-intake.md": "343d2f2333bc33e3622c814b7c3a3021bc89c3f848a20f28a1e266ca7e1c7e28",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
-    "research/source-cards/serhii-vipassana-retreat-story-intake.md": "d7c7e1b46c4d6eec6a4836df71935ab239de29faedbf871e878ae648d08b41c2",
+    "research/source-cards/serhii-vipassana-retreat-story-intake.md": "45cd67cc5f8ef6962e187f960e347b2493bc7218ad84a8dd6802a6d553829e93",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/spinks-2021-business-of-belonging.md": "a7eb559f2b194f24d1c6f87c089f820861ca860f1f909186a418a423da79265f",

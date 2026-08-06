@@ -290,3 +290,18 @@ artifacts:
   - palma-method/research/source-cards/patagonia-2026-worn-wear-repair-program.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0023
+occurred_at: 2026-08-06
+actor: Claude
+event_type: chapter_lock_in
+title: "Palma" naming insertion added to Chapter 1 (v0.4); Introduction opening further refined
+status: delivered
+result: Chapter 1 gained a two-paragraph insertion after the Craig transmission/constitutive paragraph, connecting that distinction to the book's own title. Grounded in a new source card (SC-074) capturing the real naming history - the 2008 Kyiv ad agency co-founded with student friends, Latin/pan-Romance etymology (corrected from an initial, wrong "Portuguese-specific" claim), and Serhii's current "Palmas" email sign-off. Two errors were caught and fixed before lock-in: a fabricated causal claim that the email sign-off predated and motivated the 2008 naming (it did not - Serhii corrected this directly), and an overclaiming physics line ("sound is the collision of two surfaces," stated as a general fact rather than specific to a clap). The "one hand clapping" image is deliberately named as a Zen koan (not mislabeled a "physical paradox," per Serhii's own catch) then answered literally as physics, per his direction to secularize rather than religious-frame it. Separately, the Introduction's opening scene (SC-054) was further refined by Serhii for immersion - reordered to open on sensory scene-setting before reflection, shifted to present tense for the morning-routine paragraph, and added two travel-companion details (Israeli acquaintances, a techno-DJ identified via "менора на обложке паспорта" rather than the opaque loanword "даркон"). Locked via "Давай вносить всё и коммитить."
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.4.md
+  - palma-method/research/source-cards/serhii-palma-name-origin-story-intake.md
+  - palma-method/research/source-cards/serhii-vipassana-retreat-story-intake.md
+reviewer: Serhii Nabok
+```
