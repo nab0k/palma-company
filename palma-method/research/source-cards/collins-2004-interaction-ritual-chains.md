@@ -9,6 +9,7 @@ url_or_identifier: "ISBN 9780691090276 / 9780691123899"
 date_accessed: "2026-07-17"
 research_track: "TASK_CLAUDE_0008 - Wave 2, Chapter 5 grounding"
 book_chapters:
+  - "Chapter 1 (Companies Speak. People Scroll.)"
   - "Chapter 5 (Events Are Not Infrastructure)"
 related_concepts:
   - ritual

@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "a599f71e340e082dcd598dd483147abf743fb1dcac4531ae92cbd4ffb3d4002c",
+  "source_fingerprint": "5ca9177a23e891e6bdc243ef9bfd62dd1619013ba24a630abaea58dfdd1910f8",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 225,
+    "records": 228,
     "current": 84,
-    "legacy": 115,
+    "legacy": 118,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 94,
+    "non_chapter_legacy": 97,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 141
+    "validation_warnings": 144
   },
   "catalog": {
     "current": [
@@ -2554,6 +2554,74 @@
             "SC-052",
             "SC-054",
             "SC-048"
+          ]
+        }
+      },
+      {
+        "id": "SC-060",
+        "canonical_id": "SC-060",
+        "type": "source_card",
+        "status": "review",
+        "title": "2025 Imperva Bad Bot Report: The Rapid Rise of Bots and the Unseen Risk for Business",
+        "path": "research/source-cards/imperva-2025-bad-bot-report.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-061",
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-061",
+        "canonical_id": "SC-061",
+        "type": "source_card",
+        "status": "review",
+        "title": "Muse/Billion Dollar Boy consumer surveys on generative-AI content preference, 2023 vs. 2025",
+        "path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-060"
+          ]
+        }
+      },
+      {
+        "id": "SC-062",
+        "canonical_id": "SC-062",
+        "type": "source_card",
+        "status": "review",
+        "title": "Eventbrite Social Study 2026: Reset to Real (plus Live Nation 2026 ticket-sales data)",
+        "path": "research/source-cards/eventbrite-2026-reset-to-real.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-060",
+            "SC-061"
           ]
         }
       },
@@ -8747,6 +8815,54 @@
       "relation": "related_to",
       "to": "SC-054",
       "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "related_to",
+      "to": "SC-061",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-061",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md"
+    },
+    {
+      "from": "SC-061",
+      "relation": "related_to",
+      "to": "SC-060",
+      "source_path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "related_to",
+      "to": "SC-060",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "related_to",
+      "to": "SC-061",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

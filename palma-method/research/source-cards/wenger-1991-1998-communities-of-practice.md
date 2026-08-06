@@ -9,6 +9,7 @@ url_or_identifier: "https://it.ubc.ca/sites/default/files/Community_of_Practice9
 date_accessed: "2026-07-16"
 research_track: "Track A - Theoretical Foundations"
 book_chapters:
+  - "Chapter 1 (Companies Speak. People Scroll.)"
   - "Chapter 6 (Relationship Capital)"
   - "Chapter 16 (Connect Communication and Community)"
 related_concepts:
