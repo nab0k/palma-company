@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "0a67ee3873f17fa210ecdab0f24d79cce9c8ad2ff5090b37292f13319c01de2b",
+  "source_fingerprint": "1286716ea5e8f87a9ceec76a593dda4ab65ddb66f9d24509041c1827e925fd58",
   "source_card_count": 71,
   "parsed_source_card_count": 71,
   "unique_source_card_ids": 71,
@@ -157,7 +157,7 @@
     "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md": "c240ff68a0cac3b9c0c766aea2ce9bdd54b1e76578e7ba23c40e755b5b8ec9dc",
     "research/source-cards/serhii-kichkine-childhood-story-intake.md": "db9fba24beaccc07ed8f3727027d6f5f618a5d3bc57248327d05ea17d51cb07d",
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
-    "research/source-cards/serhii-tak-shtab-story-intake.md": "5f33f801b07ebb3f1b09a13aa2f0adf4c081ba7b648007e4098d9ba520a1716b",
+    "research/source-cards/serhii-tak-shtab-story-intake.md": "343d2f2333bc33e3622c814b7c3a3021bc89c3f848a20f28a1e266ca7e1c7e28",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "40f0f0ecb12d18200da9221774560179004addcee7dd089ae28e6903a947821b",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",

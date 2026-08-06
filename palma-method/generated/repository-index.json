@@ -3,7 +3,7 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "38fca35b4c7ec22d1b6ddea7987310aadbebeecd2a411da8e307153446285106",
+  "source_fingerprint": "24cdeacae4ae47b6759c667df13c9391099a6681d03b4125ac79ef668d57fb66",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
@@ -2282,6 +2282,7 @@
         "source_id_format": "canonical",
         "relationships": {
           "affects": [
+            "CHAPTER_01",
             "CHAPTER_04",
             "CHAPTER_05",
             "CHAPTER_06",
@@ -8600,6 +8601,12 @@
       "relation": "related_to",
       "to": "SC-037",
       "source_path": "research/source-cards/serhii-military-lyceum-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
     },
     {
       "from": "SC-049",

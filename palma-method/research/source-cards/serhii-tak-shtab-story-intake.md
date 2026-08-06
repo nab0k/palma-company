@@ -9,6 +9,7 @@ url_or_identifier: "codex-thread:019fb73d-6cc5-7bf3-a1c4-c461ae1812a7#tak-shtab"
 date_accessed: "2026-08-03"
 research_track: "Track D - Community Cases"
 book_chapters:
+  - "Chapter 1 (Companies Speak. People Scroll.)"
   - "Chapter 4 (The Cost of Weak Relationships)"
   - "Chapter 5 (Events Are Not Infrastructure)"
   - "Chapter 6 (Relationship Capital)"
@@ -50,6 +51,7 @@ verification_status: restricted
 source_kind: author_interview
 citation: "Serhii Nabok, first-person account, follow-up answers, internal project records, and public TAK.Shtab materials assembled in the Palma.company project, August 2026."
 chapter_refs:
+  - CHAPTER_01
   - CHAPTER_04
   - CHAPTER_05
   - CHAPTER_06
@@ -80,10 +82,16 @@ questions. They remain the private full source.
 
 At the beginning of the full-scale invasion of Ukraine, an existing civic
 organization's office in Kyiv became a humanitarian coordination point.
-Neighbours, friends, professional contacts, and strangers brought information,
-goods, transport, and time. Simple work—receiving requests, unloading,
-sorting, packing, finding vehicles, and delivering aid—gave new participants a
-low-threshold way to become useful immediately.
+Confirmed 2026-08-06, directly from the author, correcting an earlier
+draft's vaguer framing: Serhii founded this specifically with his partner
+and a neighbour from his building - people he already knew, not strangers.
+Barely-known people began joining the very next day, and it was this
+second wave, not the founding trio, for whom nobody asked "who did what
+before the war." Neighbours, friends, professional contacts, and strangers
+brought information, goods, transport, and time. Simple work—receiving
+requests, unloading, sorting, packing, finding vehicles, and delivering
+aid—gave new participants a low-threshold way to become useful
+immediately.
 
 Repeated work produced roles and rhythm. A warehouse, duty system, request
 tracking, routing, partner communication, and a small collegial decision group
