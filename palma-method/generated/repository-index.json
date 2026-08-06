@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "5ca9177a23e891e6bdc243ef9bfd62dd1619013ba24a630abaea58dfdd1910f8",
+  "source_fingerprint": "cefe5f7d9c343d862e293276836d2a1cf28f5c2185143f718ab7e8d7aac507e3",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 228,
+    "records": 230,
     "current": 84,
-    "legacy": 118,
+    "legacy": 120,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 97,
+    "non_chapter_legacy": 99,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 144
+    "validation_warnings": 146
   },
   "catalog": {
     "current": [
@@ -2622,6 +2622,53 @@
           "related_to": [
             "SC-060",
             "SC-061"
+          ]
+        }
+      },
+      {
+        "id": "SC-063",
+        "canonical_id": "SC-063",
+        "type": "source_card",
+        "status": "review",
+        "title": "Changes in peripheral oxytocin and vasopressin during a silent month-long Insight meditation retreat",
+        "path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_00",
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-064",
+        "canonical_id": "SC-064",
+        "type": "source_card",
+        "status": "review",
+        "title": "Communication Theory as a Field (transmission vs. constitutive models of communication)",
+        "path": "research/source-cards/craig-1999-constitutive-model-communication.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-007"
           ]
         }
       },
@@ -8863,6 +8910,48 @@
       "relation": "related_to",
       "to": "SC-061",
       "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "affects",
+      "to": "CHAPTER_00",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

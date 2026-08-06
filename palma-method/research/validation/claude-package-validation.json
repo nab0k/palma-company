@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "aa6e70343667346b19acd920aac86dfd4b23618223568ac9b59fceae235878f3",
-  "source_card_count": 62,
-  "parsed_source_card_count": 62,
-  "unique_source_card_ids": 62,
+  "source_fingerprint": "9a1f38622304cda105a14500932f774d57c946c760b59c11f97f4cd151c7e94e",
+  "source_card_count": 64,
+  "parsed_source_card_count": 64,
+  "unique_source_card_ids": 64,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -91,7 +91,9 @@
     "SC-059",
     "SC-060",
     "SC-061",
-    "SC-062"
+    "SC-062",
+    "SC-063",
+    "SC-064"
   ],
   "source_card_sha256": {
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
@@ -107,6 +109,7 @@
     "research/source-cards/burt-1992-2004-structural-holes.md": "83d8269e190fd21bdbec6a359f409ef27569e9b746ba28f9d3c5c6047bfacdb1",
     "research/source-cards/coleman-1988-social-capital-human-capital.md": "b1957ab9a5338e5816f536d30fa510ef6093aa9022df8f39eb15977bfb6068ed",
     "research/source-cards/collins-2004-interaction-ritual-chains.md": "5dda2908bb88a6d9e64cd47b33b8b63bf1a1aa19b653759b0e130faffea85512",
+    "research/source-cards/craig-1999-constitutive-model-communication.md": "dfa23feaba2db2b43ea8a02c58723674fe774369eafdeffaebda6249cf047f25",
     "research/source-cards/edelman-2026-trust-barometer.md": "01a71833647f179eaf8634f17c70ddd1c7289345beea238b004dd7512118e2b6",
     "research/source-cards/edmondson-1999-psychological-safety.md": "700cf43875f6874886608c444b581dee0f9c1e4674b5eac543af0cfceed3015f",
     "research/source-cards/eventbrite-2026-reset-to-real.md": "39ac56d354af587ce49f35638d7a5d9d6c0ed9b83c53175f72d38591358df7aa",
@@ -114,6 +117,7 @@
     "research/source-cards/fine-vandenscott-2011-wispy-communities.md": "839d258683b9056760cecd5b51664247094ec5eea252035ab18def9497e9bd39",
     "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md": "2ea587be4f7ee447cce5d6525c1b6d3450b6acbb212efb286eebd3ce20a905c2",
     "research/source-cards/freeman-1984-stakeholder-theory.md": "f385666980e7191f503920a2d032c92ea40c498ce2bd6c22cc4897884b75a5e3",
+    "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md": "2e61867345561433da2db0183d6440180e8b26055dc19a4f0fa613ec02a1e4c0",
     "research/source-cards/goffman-1961-asylums.md": "269f8adb55259541666da43b52a63d87cfbec67b55e5ae010f8332713f43675b",
     "research/source-cards/goffman-1963-behavior-in-public-places.md": "422b9972a232da5029a4c8d7e53f7b1bee08c71ccbd7e0b2b719c086a61e1cde",
     "research/source-cards/google-rework-2015-2016-project-aristotle.md": "72eb305924af015f0c49f2cb5acd314ff00b2514d24aad4c983596782dfc0546",
