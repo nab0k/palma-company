@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "70cce5d7b50cbba7146ceb1f1a0c89fd3f9a4698c39f7042e21aa87dbc445583",
+  "source_fingerprint": "e75c26b4ccaa502abe780e202642cad25f57b57ff1791519150af66fd41ff78f",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 245,
+    "records": 247,
     "current": 84,
-    "legacy": 135,
+    "legacy": 137,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 111,
+    "non_chapter_legacy": 112,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 161
+    "validation_warnings": 163
   },
   "catalog": {
     "current": [
@@ -2944,6 +2944,29 @@
         }
       },
       {
+        "id": "SC-077",
+        "canonical_id": "SC-077",
+        "type": "source_card",
+        "status": "review",
+        "title": "Pan Am - airline ceased operations 1991, brand survives purely as licensing/merchandise",
+        "path": "research/source-cards/pan-am-1991-brand-survival-licensing.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-075",
+            "SC-076"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -3623,6 +3646,37 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-02-v0.2",
+          "canonical_id": "CHAPTER_02",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 2 Packet v0.2 — An Audience Is Not a Community",
+          "path": "research/chapter-packets/02-chapter-2-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-07",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 2,
+          "supersedes_declaration": "02-chapter-2-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-049",
+              "SC-054",
+              "SC-075",
+              "SC-076",
+              "SC-077"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
           "id": "PKT-02",
           "canonical_id": "CHAPTER_02",
           "type": "chapter",
@@ -3644,7 +3698,7 @@
               "SC-021"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_02",
@@ -5723,8 +5777,20 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-007",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
     },
     {
       "from": "CHAPTER_02",
@@ -5735,8 +5801,56 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-075",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-076",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-077",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
     },
     {
       "from": "CHAPTER_03",
@@ -9619,6 +9733,24 @@
       "relation": "related_to",
       "to": "SC-075",
       "source_path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "related_to",
+      "to": "SC-075",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "related_to",
+      "to": "SC-076",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

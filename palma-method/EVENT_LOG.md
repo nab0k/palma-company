@@ -319,3 +319,18 @@ artifacts:
   - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0025
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_lock_in
+title: Chapter 2 rebuilt from scratch and locked as v0.2 ("An Audience Is Not a Community")
+status: delivered
+result: Chapter 2 was rebuilt entirely in Russian, replacing v0.1's generic English draft (Wenger's domain/community/practice via Harley-Davidson/Dell only, no author material, no connection to Chapter 1's architecture). The new version opens with a brand-survives-business argument (Polaroid, Pan Am, Triumph Motorcycles - the latter two newly registered as SC-077 and SC-076), operationalizes Chapter 1's "отклик"/"форма связи" vocabulary into a testable audience-vs-community question, introduces Wenger's three ingredients as a diagnostic, and grounds the chapter's central case in extensive, heavily-verified author material developed across this session: a peacetime prequel (the author's own coworking office - publisher, bookstore built on a purchased library, gallery, café, and think tank, with neighbourhood partnerships) and the TAK.Shtab wartime activation of that same space, told in far more depth than Chapter 1's brief mention (a self-organizing decision group, at least four aid convoys including Bucha, growing partner coordination). Harley-Davidson is retained as compressed external corroboration; Dell/Millington as the explicitly practitioner-tier failure case; Coleman/Portes as a dark-side flag reserved for a later chapter. Several rounds of fact reconciliation happened during drafting - most notably a correction to Chapter 1 itself (see EVT-0024) - and multiple pieces of verified but out-of-scope material (the 2023 institutionalization arc, a wartime pizzeria restart, international press coverage) were deliberately reserved rather than force-fit into this chapter. Locked via "Ок, идём дальше" after extensive voice, structure, and accuracy passes.
+artifacts:
+  - palma-method/research/chapter-packets/02-chapter-2-packet-v0.2.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+  - palma-method/research/source-cards/pan-am-1991-brand-survival-licensing.md
+reviewer: Serhii Nabok
+```

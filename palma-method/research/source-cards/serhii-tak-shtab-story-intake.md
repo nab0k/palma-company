@@ -205,6 +205,167 @@ research study, EU/U-LEAD funding - the institutionalization material
 above). Useful as an explicit dividing line if a future chapter tells both
 halves of the story.
 
+**A prequel, 2026-08-07 - the same office had a community before the war.**
+From roughly 2019 to 2022, the office that later became TAK.Shtab housed two
+of the author's own pre-war ventures: "ТАК" ("TAK books"), a publishing
+house, and the NGO "Інститут конструктивної журналістики та нових медіа"
+("Institute of Constructive Journalism and New Media"), a think tank
+co-founded with his business partner. A dense, genuine community had formed
+around this space before the war - neighbours from the district and
+surrounding buildings, business partners, friends - anchored by a recurring
+event series, "Так Це П'ятниця" ("So, It's Friday") - Facebook group
+facebook.com/takbookskyiv. Verified directly via browser (2026-08-07): the
+TAK books Facebook page is real (810 followers, category "Видавець"/
+Publisher, linked site tak.media, one review), with a confirmed in-person
+event "Відкриття TAK books" on Sunday, May 30, 2021 (27 interested, 8
+attending, event created May 25, 2021) and a since-deleted/restricted post
+from October 28, 2019 - consistent with the author's stated 2019-2022
+timeframe. The specific "Так Це П'ятниця" series itself was not
+independently located via page search in this pass (may live in Stories,
+Instagram, or individual event posts not surfaced by the search UI used) -
+its existence and general character (frequency, format, who attended) rests
+on the author's account and is not yet independently verified beyond the
+page and one confirmed event existing. The Friday events were attempted
+weekly ("намагалися це робити щоп'ятниці") - author's own phrasing
+indicates aspiration/frequent attempt, not a guaranteed unbroken weekly
+schedule; keep manuscript language similarly hedged ("почти каждую
+пятницу" or similar), not an absolute claim.
+
+Added 2026-08-07: the office partnered with essentially every other local
+business it could reach in the neighbourhood - named examples supplied by
+the author: sports club "ЄБШ," Berezhnitsky Gallery ("галерея
+Березницьких"), the café "Міра," a nearby flower shop, the local office of
+PR agency Havas, plus roughly a dozen further neighbourhood restaurants and
+shops (unnamed). Also: the author's own children attended kindergarten and
+school in the neighbouring building, so his and neighbours' children were
+regularly present at the office - a concrete, personal detail supporting
+the "genuine local hub, not just a venue" characterization.
+
+Added 2026-08-07: the office itself functioned as a de facto coworking
+space, not a single-tenant office - at various times it hosted PR people,
+IT workers, an event agency, art curators, and friends who simply came by
+to work or spend time. There was a café, "Roza Bekkers," in the same
+building/street (Дегтярна вул., 11, Kyiv). This reinforces the
+"genuine community, not just a venue" point independently of the Friday
+events and neighbourhood partnerships already noted - multiple distinct,
+unrelated groups shared and used the same space regularly.
+
+**Note on chapter-text scope:** this card now holds more concrete detail
+(named neighbourhood partners, coworking tenants, the café, the school/
+kindergarten detail) than a single Chapter 2 paragraph can carry without
+becoming a list. Manuscript prose should select a curated subset for
+texture, not enumerate everything registered here - this card is the full
+record; the chapter text is allowed to compress it.
+
+**Final manuscript choice, confirmed by the author 2026-08-07:** the
+published Chapter 2 paragraph deliberately genericizes what this card
+records with specific names - "издательство" instead of "ТАК books,"
+"аналитический центр" instead of "Институт конструктивної журналістики
+та нових медіа," "открытые пятницы" instead of "Так Це П'ятниця," "кафе"
+instead of "Roza Bekkers," and the neighbourhood partners reduced to
+"спортклуб, галерея, соседние кафе" with no names, PR agency Havas
+dropped entirely, and "мои и соседские дети" simplified to "дети." This
+is a deliberate authorial choice (likely privacy/pacing, not correction -
+none of the named specifics above were inaccurate) and should be treated
+as final for this chapter; the fully named version above remains the
+record if a future chapter or edition wants more specificity.
+
+**Added 2026-08-07, not yet reconciled with the "издательство" (publisher)
+framing already in the chapter text:** the author had a large personal
+library at the office, which he later turned into a bookstore
+("книжный магазин"). He also organized a café there himself from the very
+start ("с самого начала я организовал там кафе") - this revises the
+earlier note above, which described "Roza Bekkers" as if it were simply a
+nearby/independent café; it may instead have been the author's own venture.
+
+**Resolved 2026-08-07 - the earlier "ТАК books = издательство" equation was
+wrong; these are two distinct, related ventures at the same office, per a
+fuller author account plus two verified documents (a KPI library thank-you
+letter and a library inventory spreadsheet, both supplied directly):**
+
+1. **"ТАК видавництво" (TAK publishing house)** - published a print
+   magazine, *Promum*; two books, *Стокгольм* ("Stockholm") and *Шоу*
+   ("Show"); and ran two websites under its umbrella, promum.com.ua and
+   bzns.media, both still live as of 2026-08-07.
+2. **"Tak Books"** - a separate bookstore project, distinct from the
+   publishing house. Around 2018 the author bought the ~12,000-volume
+   business library of a company called "Бліц Інформ." Verified directly
+   (2026-08-07, spreadsheet supplied by the author, "Библиотека
+   Коробочная - Шарпоинт.xlsx"): a real inventory of 3,655 catalogued
+   titles (some with quantity 2+), overwhelmingly business/economics/
+   marketing/law/PR literature, with a "Номер Коробки" (box number) column
+   - consistent with a later packing/donation event, not just a static
+   shelf list. The author then arranged with publishers to supply new
+   books on consignment (art books and contemporary titles) and launched
+   Tak Books inside "Roza Bekker's," a café the author organized himself
+   from the start (revising the earlier note that treated the café as an
+   independent neighbour). At some point he donated the library - **partly
+   verified directly** (2026-08-07, PDF supplied by the author): a formal
+   thank-you letter dated March 10, 2021, from the Scientific-Technical
+   Library named after H.I. Denysenko at Kyiv Polytechnic Institute (KPI),
+   addressed to "Директорці Інституту конструктивної журналістики і нових
+   медіа Ксенії БУКШИНІЙ" (the Institute's director, Ksenia Bukshyna),
+   thanking the Institute for donated books that would "enrich the
+   socio-economic part" of the university library's collection, signed by
+   library director Oksana Bruy. This confirms at least one real donation
+   of business/economics books from the Institute to KPI in March 2021;
+   whether this was the entire Tak Books library or a portion of it is not
+   confirmed.
+3. **"Інститут конструктивної журналістики та нових медіа"** (the think
+   tank, already registered above) - its formally listed director per the
+   KPI letter is **Ksenia Bukshyna**. **Confirmed 2026-08-07, directly from
+   the author:** Ksenia Bukshyna is the "партнёрка" referenced throughout
+   this card and elsewhere in the book's TAK.Shtab/TAK books material -
+   she is the same business partner co-founder in every instance, not a
+   separate person. This does not change the chapter-text preference for
+   generic "мы" (see the note above), but resolves the internal
+   record: every "партнёрка" reference across this card refers to Ksenia
+   Bukshyna specifically.
+
+**Practical note for Chapter 2:** the current chapter paragraph compresses
+this to "издательство и аналитический центр" (publisher + think tank),
+which omits the bookstore entirely. Whether to add "книжный магазин" as a
+third element, fold it into "издательство" loosely, or leave the current
+compression as sufficient is the author's call, not yet decided - the
+bookstore/library detail (thousands of real books on shelves, a named
+inventory, a real donation) is vivid and concrete, and arguably strengthens
+the "domain" leg of the Wenger test more than the generic "издательство"
+does, but adding it also lengthens an already dense paragraph.
+
+**Added 2026-08-07 - a wartime pizzeria restart, likely belongs in a
+different chapter, not Chapter 2:** on the author's street, a pizzeria's
+owner left Ukraine because of the war and the space stood empty. The
+author and others contacted her, reached an agreement, and restarted the
+pizzeria - he personally studied HACCP (food-safety certification) to
+reopen it, a team assembled from volunteers, and they found a pizzaiolo.
+It ran for only about two weeks before events overtook it ("події
+розвивалися швидко"). Author's own framing: "цікавий нюанс," offered as
+texture, not urged for a specific use. Editorial assessment: this doesn't
+cleanly serve Chapter 2's specific audience-vs-community/Wenger-test
+argument the way the TAK books prequel and the aid convoys do - it's a
+short-lived (two-week), resourcefulness-under-pressure story rather than
+an illustration of the domain/community/practice test, and stacking a
+third "we did something remarkable during the war" anecdote onto the
+chapter risks diluting its focus. Better suited to wherever the book
+discusses adaptability, resourcefulness, or rapid mobilization under
+pressure (e.g., Chapter 4 or 5) - reserved here, not drafted into Chapter
+2.
+initial contacts the author described for TAK.Shtab's rapid 2022
+mobilization ("наших первоначальных контактов на старте хватило чтоб
+запустить снежный ком") was very likely seeded by this pre-existing local/
+neighbour community, not built from nothing - the humanitarian point didn't
+start with zero relational capital; it activated relational capital that
+already existed in the same physical space for wholly different reasons
+(books, journalism, Friday gatherings). This is a strong, personal,
+verifiable candidate for Chapter 2's still-missing personal business
+example - potentially stronger than Harley-Davidson, since it is: a case of
+genuine audience-plus-community (a publisher with real neighbourhood
+peer-to-peer ties, not just customers), directly authored, and narratively
+connected to the TAK.Shtab material already in the chapter. Not yet drafted
+into the chapter text - needs the author's fuller account of what "Так Це
+П'ятниця" actually was (frequency, format, roughly how many people, how
+long it ran) before use.
+
 **Previous version, corrected above but preserved for the audit trail:**
 "Confirmed 2026-08-06, directly from the author, correcting an earlier
 draft's vaguer framing: Serhii founded this specifically with his partner
