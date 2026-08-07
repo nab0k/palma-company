@@ -163,6 +163,35 @@ already a neighbour, moved in. This is the connective tissue between the
 Polina's later role in TAK.Shtab - not previously an isolated coincidence,
 but part of the same web of relationships the pre-war office generated.
 
+**Added 2026-08-07 - a civic-action example, potentially stronger than the
+business-collaboration examples above:** the author describes the
+Vozdvyzhenka neighbourhood (where the office was) as having a genuinely
+dense community before the war - he mentions being able to list out his
+whole circle of acquaintances and friends there. One specific episode: at
+some point, neighbourhood residents organized to stop a public square from
+being sold off / built over ("защитить сквер от застройки"). The square
+still exists today. **Correction from the author, same session: the
+initiative did not originate in his office - do not claim it was born
+there.** What's accurate: it was discussed in his office, and he and his
+office were part of the initiative, not its origin. Keep this distinction
+precise in any future manuscript text - participant and venue, not
+founder.
+
+**Identified and independently verified 2026-08-07:** the square is
+"Площа Мистецтв" (Ploshcha Mystetstv / "Arts Square") on Vozdvyzhenka -
+now a full source card, SC-079
+(`vozdvyzhenka-square-community-campaign-2018-2023.md`). Confirmed via
+WebSearch across three independent Ukrainian press outlets (The Village
+Ukraine, Hmarochos, LB.ua): a developer wanted a nine-story hotel on the
+site; residents self-funded their own square design and offered to cover
+implementation costs; in 2018, under resident pressure, Kyiv City Council
+granted the plot official "square" status; the city later terminated the
+developer's lease; a construction fence was dismantled around 2020 despite
+the developer's resistance; as of April 2023 Ukraine's Supreme Court had
+issued an interim ruling in the square's favor. This is real, well-
+documented, multi-year (2018-2023+) civic action - see SC-079 for full
+detail and citations.
+
 **Added 2026-08-07, not yet developed:** journalists visited the office,
 including international press. No further detail supplied yet (which
 outlets, when, what coverage resulted, or whether anything was published).

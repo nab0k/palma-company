@@ -362,3 +362,20 @@ artifacts:
   - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0028
+occurred_at: 2026-08-07
+actor: Claude
+event_type: research_delivery
+title: Chapter 2 case material deepened and reconciled - Vozdvyzhenka square, Harley-Davidson detail, Google+ registered then dropped, wartime risk context verified
+status: delivered
+result: Several rounds of fact-checking and case development for Chapter 2. Registered SC-079 (the Vozdvyzhenka "Ploshcha Mystetstv" square community campaign, 2018-2023+, independently verified across three Ukrainian press outlets - the author was a participant/venue, not the campaign's originator, corrected accordingly). SC-021 (Harley-Davidson/HOG) substantially expanded with the 1973-1983 market-share collapse (78% to 23%), an honest confound (1983 Reagan-era tariffs also aided the turnaround - do not credit HOG alone), and the concrete mechanism of the company's actual contribution (dealer-network chartering, explicitly no chapter budget - member dues capped ~$35/year). SC-080 (Google+ engagement failure) was registered as a stronger replacement candidate for Dell Digital Nomads, then the author correctly flagged it as still a "stretched" case given how much conflicting material exists about a company that large - the paragraph was cut without replacement rather than force a citation. SC-081 registers officially-sourced confirmation that active enemy sabotage-reconnaissance groups were a real, documented risk in Kyiv Oblast in April 2022 (the time/place of TAK.Shtab's aid convoys), after the author supplied primary Ukrainian press sources in response to Claude flagging a wartime-danger detail as unverified speculation - the detail turned out to be well-grounded, not embellishment.
+artifacts:
+  - palma-method/research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md
+  - palma-method/research/source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md
+  - palma-method/research/source-cards/google-plus-2011-2019-engagement-failure.md
+  - palma-method/research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```

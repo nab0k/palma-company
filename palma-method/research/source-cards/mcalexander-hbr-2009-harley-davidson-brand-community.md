@@ -75,6 +75,29 @@ counterarguments: >
   branding) that may lend itself unusually well to community formation compared to, say, a B2B
   software company; the diagnostic point (audience vs. community) transfers, but the specific
   tactics may not.
+
+  Added 2026-08-07 (WebSearch): from 1973 to 1983, Harley-Davidson's US motorcycle market share
+  collapsed from roughly 78% to 23% as Japanese manufacturers entered with cheaper, higher-quality
+  bikes - real, well-documented stakes behind "near bankruptcy," not a figure of speech. Important
+  confound, must be stated honestly in-text if the company's recovery is discussed: in 1983 the
+  Reagan administration also imposed tariffs on imported Japanese motorcycles over 700cc, which
+  independently helped Harley-Davidson's turnaround. HOG's exact, isolated contribution to the
+  company's financial recovery cannot be cleanly separated from the tariff effect - do not present
+  HOG alone as having "saved" the company financially. HOG's structure (member-elected officers
+  including a "Road Captain" role, monthly Saturday chapter meetings, member-written newsletters,
+  member-organized charity fundraising) is well-documented and safe to describe in detail
+  regardless of this confound - it's the causal claim about *financial rescue* specifically that
+  needs the tariff caveat, not the description of HOG's community structure itself.
+
+  Added 2026-08-07 (WebSearch), answering the author's direct question "was there a budget for the
+  clubs?": no. Each local chapter is sponsored by an authorized Harley-Davidson dealership (at that
+  dealer's discretion), which gives the chapter a charter and legitimacy - but the company/dealer
+  did not fund chapter activities. Chapters historically ran on member dues (capped around $35/year
+  per multiple chapter FAQ pages) plus their own fundraising, subject to the sponsoring dealer's
+  approval; a volunteer chapter treasurer reports finances to the dealer monthly. This is a useful,
+  concrete detail: the company's actual contribution was structural (an official charter riding on
+  its existing nationwide dealer network), not financial - members funded and ran the clubs
+  themselves from day one.
 business_implication: >
   Usable as the illustrative business case for Chapter 1 and/or Chapter 2, showing the audience-
   to-community conversion is achievable and has a multi-decade track record, not just a

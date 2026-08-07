@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "7083c6a7925d196ef8057917654016bf319ffa8a45460e57f9d920e021cb3887",
+  "source_fingerprint": "1821a2819cd498ba1b7be3afe0abc9ec2baf0e9c78edd4b5757bd52260a6c520",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 248,
+    "records": 251,
     "current": 84,
-    "legacy": 138,
+    "legacy": 141,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 113,
+    "non_chapter_legacy": 116,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 164
+    "validation_warnings": 167
   },
   "catalog": {
     "current": [
@@ -2985,6 +2985,73 @@
           ],
           "related_to": [
             "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-079",
+        "canonical_id": "SC-079",
+        "type": "source_card",
+        "status": "review",
+        "title": "Vozdvyzhenka residents' campaign to save 'Ploshcha Mystetstv' (Arts Square), Kyiv, 2018-2023+",
+        "path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-049",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-080",
+        "canonical_id": "SC-080",
+        "type": "source_card",
+        "status": "review",
+        "title": "Google+ (2011-2019) - massive scale, near-zero genuine engagement, official admission of failure",
+        "path": "research/source-cards/google-plus-2011-2019-engagement-failure.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-081",
+        "canonical_id": "SC-081",
+        "type": "source_card",
+        "status": "review",
+        "title": "Kyiv and Kyiv Oblast, April 2022 - active enemy sabotage-reconnaissance groups (DRG), checkpoints retained for this reason",
+        "path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-049"
           ]
         }
       },
@@ -9785,6 +9852,48 @@
       "relation": "related_to",
       "to": "SC-054",
       "source_path": "research/source-cards/bls-2024-business-five-year-survival-rate.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-080",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/google-plus-2011-2019-engagement-failure.md"
+    },
+    {
+      "from": "SC-080",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/google-plus-2011-2019-engagement-failure.md"
+    },
+    {
+      "from": "SC-081",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md"
+    },
+    {
+      "from": "SC-081",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
