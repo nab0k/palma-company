@@ -305,3 +305,17 @@ artifacts:
   - palma-method/research/source-cards/serhii-vipassana-retreat-story-intake.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0024
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_lock_in
+title: TAK.Shtab founding fact corrected in Chapter 1 (v0.5); source card substantially expanded while drafting Chapter 2
+status: delivered
+result: While developing Chapter 2's fuller telling of the TAK.Shtab story, the author gave a corrected account of the founding - the office belonged to him and his business partner only; a neighbour present in earlier drafts was not a co-founder but someone who ended up sheltering there during air-raid alerts and began helping afterward. Chapter 1's locked v0.4 text ("вместе с партнёркой и соседкой по дому") was corrected to plain "мы" in v0.5, per the author's own stated preference to describe the situation observationally rather than enumerate specific people or roles. SC-049 (serhii-tak-shtab-story-intake.md) was substantially expanded in the same session with verified new material: the basement/shelter origin story, sourcing difficulties (body armor via friends in Israel), at least four aid convoys to liberated Kyiv-region settlements including Bucha, a self-organizing decision-making group, and - verified directly via the organization's own Facebook page - a confirmed 2023 pivot from volunteer humanitarian aid to a formal EU-funded program (Taktion) and a recurring research study on Ukrainian mothers during the war, reserved for a later chapter.
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.5.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```

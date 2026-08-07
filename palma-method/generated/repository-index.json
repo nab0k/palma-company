@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "1aab25a0c7dcfdcbea9f5e2f63091128d82800c4d974399fd50ccff7076aa301",
+  "source_fingerprint": "70cce5d7b50cbba7146ceb1f1a0c89fd3f9a4698c39f7042e21aa87dbc445583",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 242,
+    "records": 245,
     "current": 84,
-    "legacy": 132,
+    "legacy": 135,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 109,
+    "non_chapter_legacy": 111,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 158
+    "validation_warnings": 161
   },
   "catalog": {
     "current": [
@@ -2900,6 +2900,50 @@
         }
       },
       {
+        "id": "SC-075",
+        "canonical_id": "SC-075",
+        "type": "source_card",
+        "status": "review",
+        "title": "Polaroid - brand survives corporate death and is revived by an unrelated company",
+        "path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-067"
+          ]
+        }
+      },
+      {
+        "id": "SC-076",
+        "canonical_id": "SC-076",
+        "type": "source_card",
+        "status": "review",
+        "title": "Triumph Motorcycles - full business liquidation, brand bought and rebuilt from nothing",
+        "path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-075"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -3421,20 +3465,20 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
-          "id": "PKT-01-v0.4",
+          "id": "PKT-01-v0.5",
           "canonical_id": "CHAPTER_01",
           "type": "chapter",
           "status": "locked_working_draft_russian",
-          "title": "Chapter 1 Packet v0.4 — Companies Speak. People Scroll.",
-          "path": "research/chapter-packets/01-chapter-1-packet-v0.4.md",
+          "title": "Chapter 1 Packet v0.5 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.5.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
           "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
-          "created": "2026-08-06",
+          "created": "2026-08-07",
           "privacy_level": "internal",
-          "version": "0.4",
+          "version": "0.5",
           "chapter_number": 1,
-          "supersedes_declaration": "01-chapter-1-packet-v0.3.md (preserved unmodified, not deleted or overwritten); v0.1/v0.2 remain superseded as noted in v0.3",
+          "supersedes_declaration": "01-chapter-1-packet-v0.4.md (preserved unmodified, not deleted or overwritten); v0.1/v0.2/v0.3 remain superseded as noted in v0.3/v0.4",
           "relationships": {
             "supported_by": [
               "SC-054",
@@ -3527,6 +3571,29 @@
               "SC-071",
               "SC-072",
               "SC-073"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-01-v0.4",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 1 Packet v0.4 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.4.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-06",
+          "privacy_level": "internal",
+          "version": "0.4",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.3.md (preserved unmodified, not deleted or overwritten); v0.1/v0.2 remain superseded as noted in v0.3",
+          "relationships": {
+            "supported_by": [
+              "SC-054",
+              "SC-074"
             ]
           },
           "index_state": "legacy"
@@ -5560,6 +5627,12 @@
     {
       "from": "CHAPTER_01",
       "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.5.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
       "to": "SC-060",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
     },
@@ -5634,6 +5707,12 @@
       "relation": "supported_by",
       "to": "SC-074",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.4.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-074",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.5.md"
     },
     {
       "from": "CHAPTER_02",
@@ -9516,6 +9595,30 @@
       "relation": "related_to",
       "to": "SC-067",
       "source_path": "research/source-cards/serhii-palma-name-origin-story-intake.md"
+    },
+    {
+      "from": "SC-075",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md"
+    },
+    {
+      "from": "SC-075",
+      "relation": "related_to",
+      "to": "SC-067",
+      "source_path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md"
+    },
+    {
+      "from": "SC-076",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md"
+    },
+    {
+      "from": "SC-076",
+      "relation": "related_to",
+      "to": "SC-075",
+      "source_path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

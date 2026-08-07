@@ -59,6 +59,16 @@ limitations: >
   full original text; the core facts (near-bankruptcy origin, member-led chapter structure) are
   corroborated across multiple independent sources but should be verified against the original
   HBR article text before a direct quotation is used in the manuscript.
+
+  Concrete figures added 2026-08-06 (WebSearch, cross-referenced across Wikipedia, Harley-Davidson's
+  own "H.O.G. Stories" site, and multiple dealership pages): H.O.G. was initiated in September 1982
+  by Harley-Davidson marketing executive Steve Piehl, with an official launch date of January 1,
+  1983. Membership figures vary by source and year (recent reporting ranges roughly 750,000-900,000
+  active members, with some sources citing over 1 million lifetime/historical members), and chapter
+  counts are reported between roughly 1,350 and 1,400+ worldwide. Treat the exact current membership
+  number as approximate/dated - it fluctuates by source and year - but the order of magnitude
+  (hundreds of thousands of active members, 1,000+ chapters) and the founding facts (1982-83, Steve
+  Piehl) are well-corroborated.
 counterarguments: >
   The book should avoid presenting HOG as proof that any company can replicate this outcome -
   Harley-Davidson's case involved a distinctive product category (motorcycles, lifestyle/identity

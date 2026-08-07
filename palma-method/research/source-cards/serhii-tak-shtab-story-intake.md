@@ -80,18 +80,146 @@ questions. They remain the private full source.
 
 ## Recoverable account
 
-At the beginning of the full-scale invasion of Ukraine, an existing civic
-organization's office in Kyiv became a humanitarian coordination point.
-Confirmed 2026-08-06, directly from the author, correcting an earlier
+At the beginning of the full-scale invasion of Ukraine, an office used by
+an existing civic organization in Kyiv became a humanitarian coordination
+point.
+
+**Superseded 2026-08-07 - this replaces the 2026-08-06 correction below,
+which was itself already an improvement on an earlier vaguer draft but is
+now known to be inaccurate on one specific point.** The office belonged to
+Serhii and his business partner only - there was no three-person founding
+group, and the neighbour was not a co-founder. Most residents of the
+building evacuated the morning of February 24, 2022 and in the days that
+followed. Those who stayed tried to shelter in the building's basement
+during air-raid alerts, but the basement was a poor place to wait one out,
+so Serhii and his partner opened the office doors and let people sit there
+instead - this is specifically how the neighbour and others came to be
+present, as people sheltering nearby, not as co-founders. Serhii himself
+did not go down to the basement during alerts; asked why, he gave a plain,
+undramatized answer rather than a constructed motive: "если судьба —
+значит судьба" ("if it's fate, it's fate"). Nothing struck their specific
+district directly, though a strike landed roughly 1.5 km away.
+
+This is how people started appearing at the office: first a small
+delivery, then a larger one, then cars. The organization's own recent
+peacetime projects and some existing media contacts brought specific
+inbound requests (notably from mothers with children); more general,
+undirected need was visible around them too - soldiers stationed nearby,
+and displaced people who began arriving. Serhii doesn't remember exactly
+where all the people who showed up came from, but the initial contacts
+were enough to start a snowball effect, and each new volunteer at the
+office multiplied the reachable network further, roughly exponentially by
+his account. Sourcing most things - fuel, goods, food, medication - was
+manageable. The hardest thing to source was body armor: two vests were
+sent by friends in Israel; after Serhii and his partner used them
+personally on the aid missions into liberated Kyiv-region settlements
+(see the convoy material below), they passed the vests on to friends
+serving at the front.
+
+**Added 2026-08-07, not yet developed:** journalists visited the office,
+including international press. No further detail supplied yet (which
+outlets, when, what coverage resulted, or whether anything was published).
+Confirmed by the author as background texture only, not earmarked for a
+specific argumentative use - register and hold, don't build a claim on it
+yet.
+
+**Added 2026-08-07 - the office itself:** it was genuinely Serhii and his
+partner's own office, emptied out by the war (colleagues had evacuated),
+with enough room to pack boxes and store a substantial amount of material.
+At some point they opened up a basement directly beneath the office,
+spanning the office's full footprint, which made storage much easier - a
+truck-full of diapers fit down there, along with a large quantity of other
+food and goods.
+
+**On how to describe who was present - author's explicit preference,
+2026-08-07:** Serhii does not want to claim a leadership role and considers
+his own specific position there unimportant to the story; he prefers the
+account stay observational ("from outside"), describing what happened
+rather than who exactly did it. For manuscript purposes, plain "мы" ("we"),
+without enumerating specific people or roles, is both more accurate (it
+doesn't assert a founding structure that isn't established) and better
+matches this preference than naming specific individuals. Use "мы"
+generically in future drafts touching this material unless a specific
+person's role is directly relevant to the point being made.
+
+**Verified 2026-08-07 via direct browser fetch of the organization's public
+Facebook page (facebook.com/tak.shtab, primary source, not secondhand):**
+Page name "Так. Це штаб," 5,900 followers as of this check, category
+"государственные и общественные службы" (government/public services),
+short description "Центр соціальних змін. Допомагаємо матерям ВПО в
+Україні" ("Center for social change. We help IDP mothers in Ukraine"),
+based in Kyiv, contact tak.shtab@gmail.com. This independently confirms
+and sharpens the "mothers with children" request focus noted above - the
+organization has since settled into a specifically defined mission (IDP
+mothers) rather than general humanitarian aid, consistent with the
+institutionalization arc already noted in this card. The page remains
+active at least as of a November 5, 2024 post ("Основні зміни за роки
+війни у українських матерів..."). An Instagram account was also referenced
+by the author in this session but not yet independently checked in this
+pass - follow up if needed.
+
+**Major addition, 2026-08-07, verified by direct browser inspection of the
+organization's own Facebook page (primary source):** this substantially
+strengthens the "later institutionalization" line already noted in this
+card's `core_claim` and `scientific fit` sections, with concrete specifics
+now confirmed rather than just described in general terms.
+
+- **"Taktion"** - a named program of free group psychological support for
+  women, run by the organization: CBT-based group sessions, art therapy,
+  body-based and mindfulness practices, masterclasses on personal/career
+  development and financial independence, a women's peer-support circle,
+  and support from mental-health practitioners. A May 2024 post announced a
+  new intake specifically for women in Kyiv, Chernihiv, and Zhytomyr
+  oblasts, online and offline (in-person track based in Vyshneve).
+- **A recurring research study**, "Українські матері під час
+  повномасштабної війни" ("Ukrainian mothers during the full-scale war"),
+  conducted three times, most recently May-October 2024. Findings reported
+  in a November 5, 2024 post include: accumulated fatigue from years of
+  unpaid domestic labor and financial instability; documented discrimination
+  against IDP mothers in housing and employment ("othering"); worsening,
+  often delayed psychological effects on mothers and children; persistent,
+  unmet demand for accessible psychological support; a desire to return
+  home that does not fade over time and complicates adaptation elsewhere;
+  and ongoing financial hardship as the primary problem, especially for
+  mothers of young children.
+- **Institutional backing**: both the Taktion program and the research
+  publication credit funding/support from the EU's "U-LEAD z Yevropoyu"
+  program, co-financed by the EU and Germany, Poland, Denmark, and
+  Slovenia - i.e., by 2024 the organization had moved from ad hoc wartime
+  volunteering to formal program delivery with institutional/EU funding.
+
+This is strong, well-documented material for whatever chapter eventually
+covers the transition from community to formal organization (see
+`book_chapters` above) - it should NOT be pulled into Chapter 2, whose
+argument is specifically about the audience/community distinction (Wenger's
+three ingredients), not about what a mature community can grow into.
+Flagging as reserved, high-value material for later use.
+
+**Timeline confirmed by the author, 2026-08-07:** the organization's
+character changed around 2023 - what continued from that point was no
+longer about volunteers or shipping humanitarian aid at all. This gives the
+account a clean two-act structure: 2022 (emergency volunteer mobilization,
+convoy missions, the audience-to-community material relevant to Chapter 2)
+and 2023 onward (pivot to formal program delivery - Taktion, the recurring
+research study, EU/U-LEAD funding - the institutionalization material
+above). Useful as an explicit dividing line if a future chapter tells both
+halves of the story.
+
+**Previous version, corrected above but preserved for the audit trail:**
+"Confirmed 2026-08-06, directly from the author, correcting an earlier
 draft's vaguer framing: Serhii founded this specifically with his partner
 and a neighbour from his building - people he already knew, not strangers.
-Barely-known people began joining the very next day, and it was this
-second wave, not the founding trio, for whom nobody asked "who did what
-before the war." Neighbours, friends, professional contacts, and strangers
-brought information, goods, transport, and time. Simple work—receiving
-requests, unloading, sorting, packing, finding vehicles, and delivering
-aid—gave new participants a low-threshold way to become useful
-immediately.
+Barely-known people began joining the very next day..." - this framing
+(a three-person founding group) is no longer accurate and must not be used
+in the manuscript. Any manuscript text already reflecting it - notably
+Chapter 1's locked v0.4 text, which currently reads "я вместе с партнёркой
+и соседкой по дому превратил офис..." - needs a follow-up correction pass;
+flagged here so it isn't lost.
+
+Neighbours, friends, professional contacts, and strangers brought
+information, goods, transport, and time. Simple work—receiving requests,
+unloading, sorting, packing, finding vehicles, and delivering aid—gave new
+participants a low-threshold way to become useful immediately.
 
 Repeated work produced roles and rhythm. A warehouse, duty system, request
 tracking, routing, partner communication, and a small collegial decision group
@@ -105,6 +233,41 @@ to recently liberated settlements in the Kyiv region. By then, participants
 could assemble the load, divide responsibilities, coordinate a route, and
 complete the mission together. The exact date, route, and public details remain
 to be verified.
+
+**Confirmed 2026-08-07, directly from the author, in response to an editorial
+question while drafting Chapter 2:**
+
+- There were at least four such missions to newly liberated settlements, not
+  a single trip - the convoy scene is representative of a repeated,
+  refined-over-time practice, not a one-off.
+- One mission passed through or near Bucha; the author recalls it as likely
+  but is explicitly not certain whether aid was unloaded there specifically
+  ("не помню, разгружали ли мы там гуманитарку, но, кажется, что да" - "in
+  a school"). Any manuscript use must preserve this uncertainty rather than
+  stating a delivery in Bucha as confirmed fact. Resolved in the Chapter 2
+  draft (2026-08-07): the author's final phrasing keeps this at the level he
+  did directly confirm - the missions included Bucha as a destination
+  ("в том числе и в печально известную Бучу") - without separately asserting
+  the still-uncertain claim that aid was specifically unloaded there. This
+  framing is accurate to what's confirmed and should be the template for any
+  future manuscript passage touching this detail.
+- On one mission, a landmine detonated roughly 300-500 meters from part of
+  the convoy, near a small overpass. No one was hurt. The author has a
+  specific, vivid personal memory of this moment: everyone else in his
+  vehicle got out immediately, but he could not because he was seated in the
+  third row and couldn't exit quickly. This is powerful material but is
+  about danger/stakes, not about the shared-practice point Chapter 2 is
+  making - candidate for a different chapter (e.g., cost/risk material),
+  not to be folded into the Wenger-practice illustration by default.
+- The author has video from one of these trips: destroyed houses, distressed
+  residents. In one village, a local woman told him about the fighting and
+  described burying fallen Ukrainian soldiers near a church. **This involves
+  a third party's story, told secondhand, with no name and no obtained
+  consent for publication.** Treat with the same discipline as any account
+  of another real, identifiable person: do not use in the manuscript without
+  a separate, explicit decision about how (or whether) to represent it
+  responsibly - this is not cleared by the author's own personal-story
+  approval, since it is not only his story to tell.
 
 ## Scientific fit
 
