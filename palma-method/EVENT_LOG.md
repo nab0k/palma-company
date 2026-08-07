@@ -334,3 +334,17 @@ artifacts:
   - palma-method/research/source-cards/pan-am-1991-brand-survival-licensing.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0026
+occurred_at: 2026-08-07
+actor: Claude
+event_type: policy_update
+title: No real names of the author's personal acquaintances rule added to prose-quality policy
+status: delivered
+result: A standing privacy rule added to POLICY_PROSE_QUALITY_0001's Privacy rule section, with matching diagnostic-checklist item 14, requested directly by Serhii Nabok after confirming Ksenia Bukshyna's identity as his business partner in SC-049 - no real first or last name of any personal acquaintance (friends, colleagues, business partners, neighbours) may appear anywhere in the manuscript, even when the underlying story is approved for use and even when the person's identity is independently verifiable via public documents. This is separate from and in addition to the existing story-approval privacy rule; approving a story does not separately approve naming anyone in it. Applies to every chapter going forward, not only the TAK.Shtab/TAK books material that prompted it.
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```

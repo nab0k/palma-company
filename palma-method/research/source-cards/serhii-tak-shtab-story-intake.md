@@ -322,6 +322,15 @@ letter and a library inventory spreadsheet, both supplied directly):**
    record: every "партнёрка" reference across this card refers to Ksenia
    Bukshyna specifically.
 
+   **Final decision, 2026-08-07:** the author has confirmed her name (and
+   the names of any of his personal acquaintances) must never appear in the
+   manuscript, under any circumstances - "Букшину не називаємо, взагалі без
+   прізвищ та імен моїх знайомих в цій книзі." This is now a standing house
+   rule, added to `PROSE_QUALITY_POLICY_DRAFT.md`'s Privacy rule section
+   and diagnostic checklist (item 14) - it applies to every chapter, not
+   only this card's material. Her name stays in this internal research
+   record for accuracy but must never reach manuscript prose.
+
 **Practical note for Chapter 2:** the current chapter paragraph compresses
 this to "издательство и аналитический центр" (publisher + think tank),
 which omits the bookstore entirely. Whether to add "книжный магазин" as a

@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "e0b0b1d1801251da87c5e343409bbf7c5b0802039579e247bebf24a040832d0e",
+  "source_fingerprint": "9b2635aed16953776c00f8d5b1cc37aaf7782fc8a1868ef838fe75a1443312ac",
   "source_card_count": 77,
   "parsed_source_card_count": 77,
   "unique_source_card_ids": 77,
@@ -167,7 +167,7 @@
     "research/source-cards/serhii-kichkine-childhood-story-intake.md": "db9fba24beaccc07ed8f3727027d6f5f618a5d3bc57248327d05ea17d51cb07d",
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
     "research/source-cards/serhii-palma-name-origin-story-intake.md": "e0f811bbf6c762fc4e533088b215f13dd04c4eb7da02db6e7c5261763ef558b8",
-    "research/source-cards/serhii-tak-shtab-story-intake.md": "6e5ce1a853e3ea9c123a331a84978909b78c1ab55bcf69031fdaf594979e0f30",
+    "research/source-cards/serhii-tak-shtab-story-intake.md": "9dcc224fefc1b1b4435c6494fa48dccca0c06df16ed053d1ca7c877feabd342c",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "45cd67cc5f8ef6962e187f960e347b2493bc7218ad84a8dd6802a6d553829e93",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",

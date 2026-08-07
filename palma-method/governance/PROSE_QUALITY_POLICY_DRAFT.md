@@ -70,6 +70,19 @@ unless the author explicitly approves them. Until then, use published evidence,
 an abstract non-identifying example, or an editorial placeholder. Approval must
 be traceable and specific to the intended use.
 
+No real first or last names of the author's personal acquaintances — friends,
+colleagues, business partners, neighbours, or anyone else from his private
+life — appear anywhere in the manuscript, without exception. This holds even
+when the underlying story or fact is approved for use, and even when the
+person's identity happens to be independently a matter of public record (a
+name on a public document, a company filing, a byline). Refer to such people
+generically by role or relationship — "партнёрка," "сосед," "друг," "коллега"
+— never by name. Approving a story's use does not separately approve naming
+anyone who appears in it; treat these as two different approvals. This rule
+does not apply to public figures written about in their public capacity
+(e.g., a government official's actions covered by the press), only to the
+author's personal acquaintances.
+
 ## Diagnostic checklist
 
 Before proposing a style edit, ask:
@@ -87,6 +100,7 @@ Before proposing a style edit, ask:
 11. Does every named source state, even briefly, why it earns its place — originality, cross-domain replication, or a sourced biographical link?
 12. Does any inter-chapter reference name an idea or example, rather than resting on a chapter number alone?
 13. Does every named scholar or practitioner arrive after the question they answer, rather than cold before it?
+14. Does the text name any real acquaintance of the author's by first or last name — even one whose identity is independently verifiable — rather than referring to them generically by role or relationship?
 
 ## Editing protocol
 

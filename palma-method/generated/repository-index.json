@@ -3,7 +3,7 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "e75c26b4ccaa502abe780e202642cad25f57b57ff1791519150af66fd41ff78f",
+  "source_fingerprint": "1af97b6e596c550a851401ac30658d3ad6936965f6050424664ea0e2efdb0f3c",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
