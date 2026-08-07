@@ -45,6 +45,23 @@ limitations: >
   House filing or a direct Bloor interview) has not been checked in this pass.
 counterarguments: >
   None identified against the core claim - well-corroborated across independent sources.
+
+  Added 2026-08-07 (author-supplied sourced research, cross-checked against Footman James,
+  Management Today, BBC, Wikipedia, Visordown): before buying Triumph's name, Bloor was already a
+  successful multimillionaire builder (started his career as a plasterer; his firm Bloor Homes was
+  founded in 1969, 14 years before the 1983 Triumph purchase, and was already profitable by 1983) -
+  but nowhere near his current fortune. His initial interest in the liquidated Triumph estate was
+  reportedly the Meriden factory land for housing development, not the motorcycle brand itself.
+  Concrete investment detail: Bloor personally invested over GBP 80 million of his own construction-
+  business money into new model development and the new Hinckley factory; Triumph did not turn a
+  profit for 17 years, first becoming profitable in 2000. His current GBP 3.1 billion net worth
+  (2026 Sunday Times Rich List, 53rd on the UK rich list) came "relatively recently" - he became an
+  official billionaire in the 2010s as both companies' valuations rose sharply, i.e. this wealth is
+  a decades-later outcome, not a pre-existing cushion that made the 1983 purchase a safe or trivial
+  bet. Do not juxtapose his current net worth with the 1983 purchase price in manuscript text without
+  this context - doing so risks implying he was already effectively risk-free/wealthy enough that the
+  revival "obviously" would work, which is not supported and undercuts rather than strengthens the
+  chapter's point that reviving a bought brand costs far more than the name itself.
 business_implication: >
   An even cleaner illustration than Polaroid of "the brand outlives the business": here, literally
   nothing but the name and IP was purchased - no factory, no workforce, no ongoing operations.

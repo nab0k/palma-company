@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "1821a2819cd498ba1b7be3afe0abc9ec2baf0e9c78edd4b5757bd52260a6c520",
+  "source_fingerprint": "5105c1b181036f146598b8c75cee3b84ecef85e283adefdb557fddb0db55b7e1",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 251,
+    "records": 252,
     "current": 84,
-    "legacy": 141,
+    "legacy": 142,
     "ambiguous": 26,
     "non_chapter_current": 61,
     "non_chapter_legacy": 116,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 167
+    "validation_warnings": 168
   },
   "catalog": {
     "current": [
@@ -3735,6 +3735,65 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-02-v0.3",
+          "canonical_id": "CHAPTER_02",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 2 Packet v0.3 — An Audience Is Not a Community",
+          "path": "research/chapter-packets/02-chapter-2-packet-v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-07",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 2,
+          "supersedes_declaration": "02-chapter-2-packet-v0.2.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-049",
+              "SC-054",
+              "SC-075",
+              "SC-076",
+              "SC-077",
+              "SC-078",
+              "SC-079",
+              "SC-080",
+              "SC-081"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
+          "id": "PKT-02",
+          "canonical_id": "CHAPTER_02",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.1: Chapter 2 — An Audience Is Not a Community",
+          "path": "research/chapter-packets/02-chapter-2-packet-v0.1.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.1",
+          "chapter_number": 2,
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-016",
+              "SC-021"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
           "id": "PKT-02-v0.2",
           "canonical_id": "CHAPTER_02",
           "type": "chapter",
@@ -3761,30 +3820,6 @@
               "SC-075",
               "SC-076",
               "SC-077"
-            ]
-          },
-          "index_state": "current"
-        },
-        {
-          "id": "PKT-02",
-          "canonical_id": "CHAPTER_02",
-          "type": "chapter",
-          "status": "draft_for_editorial_review",
-          "title": "Chapter Packet v0.1: Chapter 2 — An Audience Is Not a Community",
-          "path": "research/chapter-packets/02-chapter-2-packet-v0.1.md",
-          "metadata_format": "legacy_fenced_yaml",
-          "record_state": "legacy",
-          "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-16",
-          "privacy_level": "internal",
-          "version": "0.1",
-          "chapter_number": 2,
-          "relationships": {
-            "supported_by": [
-              "SC-002",
-              "SC-007",
-              "SC-016",
-              "SC-021"
             ]
           },
           "index_state": "legacy"
@@ -5872,6 +5907,12 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-007",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
     },
@@ -5880,6 +5921,12 @@
       "relation": "supported_by",
       "to": "SC-007",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -5896,6 +5943,12 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
     },
@@ -5904,6 +5957,12 @@
       "relation": "supported_by",
       "to": "SC-021",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -5914,8 +5973,20 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-049",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -5926,8 +5997,20 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-075",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-075",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -5938,8 +6021,44 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-076",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-077",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-077",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-078",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-079",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-080",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-081",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_03",

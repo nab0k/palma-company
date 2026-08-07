@@ -379,3 +379,36 @@ artifacts:
   - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0029
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_delivery
+title: "Chapter 2 locked as v0.3 - John Bloor/Triumph investment detail, full critical pass, opening triad rewritten"
+status: delivered
+result: >
+  Closed out this session's Chapter 2 work by locking a new packet version. Added John Bloor's
+  actual Triumph investment (GBP 80m+ personally invested, 7 years to relaunch production, 17 years
+  to first profit in 2000) after the author supplied sourced research - resolved an earlier concern
+  that his current GBP 3.1B net worth (accumulated mostly in the 2010s, decades after 1983) would
+  wrongly imply he was already extremely wealthy when he bought Triumph's name; the investment/
+  timeline detail was used instead, since it directly supports rather than undermines the chapter's
+  "brand alone isn't enough - reviving it costs far more than buying the name" point. A full critical
+  re-read of the assembled chapter then caught and fixed five issues: the opening triad ("Бренд может
+  обанкротиться следом") contradicted the chapter's own evidence that brands routinely outlive
+  businesses by decades - rewritten twice, first to hedge correctly ("иногда на десятилетия"), then
+  again after the author flagged the third line ("Люди — остаются") as empty - it asserted people
+  merely exist rather than naming the chapter's actual subject, connections between people, which
+  may or may not survive; a false callback ("я уже описывал" pointing to content never actually
+  written earlier in the chapter); a reintroduced "не в одной поездке, а в серии" construction with
+  no established antecedent, already fixed once earlier this session and drifted back in; a leftover
+  "наши Так пятницы" inconsistent with the chapter's established generic "открытые пятницы"; and a
+  Triumph sentence that briefly conflated the 7-year relaunch milestone with the 17-year
+  profitability milestone as if they were the same event. All fixes applied and locked into
+  02-chapter-2-packet-v0.3.md, which supersedes v0.2 for review purposes (v0.2 preserved unmodified).
+artifacts:
+  - palma-method/research/chapter-packets/02-chapter-2-packet-v0.3.md
+  - palma-method/research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md
+reviewer: Serhii Nabok
+```

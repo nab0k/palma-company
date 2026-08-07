@@ -1,7 +1,7 @@
 # Claude Research Package — Structural Validation
 
 Report ID: `VAL-CLAUDE-001`  
-Source fingerprint: `c6dfcc8b24ddba2958db0115694b4c10f2c7d1f73b3a814acd9b50551d39b2c9`
+Source fingerprint: `defcb6f6b065ca113dbd9cc437aefba6c9b45dac988b4e26086be5d3e58f2143`
 Status: **PASS**
 
 ## Result
