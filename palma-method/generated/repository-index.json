@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "1af97b6e596c550a851401ac30658d3ad6936965f6050424664ea0e2efdb0f3c",
+  "source_fingerprint": "7083c6a7925d196ef8057917654016bf319ffa8a45460e57f9d920e021cb3887",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 247,
+    "records": 248,
     "current": 84,
-    "legacy": 137,
+    "legacy": 138,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 112,
+    "non_chapter_legacy": 113,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 163
+    "validation_warnings": 164
   },
   "catalog": {
     "current": [
@@ -2963,6 +2963,28 @@
           "related_to": [
             "SC-075",
             "SC-076"
+          ]
+        }
+      },
+      {
+        "id": "SC-078",
+        "canonical_id": "SC-078",
+        "type": "source_card",
+        "status": "review",
+        "title": "US business five-year survival rate (BLS data)",
+        "path": "research/source-cards/bls-2024-business-five-year-survival-rate.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-054"
           ]
         }
       },
@@ -9751,6 +9773,18 @@
       "relation": "related_to",
       "to": "SC-076",
       "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-078",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/bls-2024-business-five-year-survival-rate.md"
+    },
+    {
+      "from": "SC-078",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/bls-2024-business-five-year-survival-rate.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

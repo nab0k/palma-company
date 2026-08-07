@@ -72,7 +72,8 @@ be traceable and specific to the intended use.
 
 No real first or last names of the author's personal acquaintances — friends,
 colleagues, business partners, neighbours, or anyone else from his private
-life — appear anywhere in the manuscript, without exception. This holds even
+life — appear anywhere in the manuscript, with one narrow exception (below).
+This holds even
 when the underlying story or fact is approved for use, and even when the
 person's identity happens to be independently a matter of public record (a
 name on a public document, a company filing, a byline). Refer to such people
@@ -82,6 +83,21 @@ anyone who appears in it; treat these as two different approvals. This rule
 does not apply to public figures written about in their public capacity
 (e.g., a government official's actions covered by the press), only to the
 author's personal acquaintances.
+
+**The one narrow exception:** a self-chosen public alias or persona that
+the person themselves uses to introduce themselves — not a name invented
+by the author or an editor for this book — may be used, but only with the
+author's explicit, case-by-case approval for that specific person and
+that specific text. This is not a general "pseudonyms are fine" license:
+default to generic reference (role/relationship) unless the author
+affirmatively confirms the alias is the person's own and approves its use.
+Even under this exception, flag for the author if surrounding detail
+(a specific credential, a specific project, a specific location) makes the
+person identifiable to people who know them despite the alias — that is a
+judgment call for the author to make knowingly, not something an editor
+should smooth over silently. First documented instance: "Рабинович" in
+Chapter 2's TAK books material (see
+`research/source-cards/serhii-tak-shtab-story-intake.md`).
 
 ## Diagnostic checklist
 

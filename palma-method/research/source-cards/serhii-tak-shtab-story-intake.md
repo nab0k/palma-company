@@ -116,6 +116,53 @@ personally on the aid missions into liberated Kyiv-region settlements
 (see the convoy material below), they passed the vests on to friends
 serving at the front.
 
+**Further revised 2026-08-07 - partial reversal of the "no co-founder"
+correction above, prompted by new detail supplied while developing Chapter
+2's TAK books material:** the neighbour who ended up present at the office
+**can accurately be called a co-founder ("соосновательница") of
+TAK.Shtab** - the author confirmed this directly ("девочку можно назвать
+соосновательницей, вполне"), which walks back part of the earlier
+2026-08-07 correction that said "the neighbour was not a co-founder." Her
+real first name is **Polina** (no surname given). Per the standing
+"no real names" rule, Polina's name must never appear in manuscript text -
+refer to her generically ("соосновательница," "соседка"). The scene-
+setting detail (basement/air-raid shelter origin of her presence) is still
+accurate as far as it goes, but "not a co-founder" is no longer accurate -
+she is now confirmed as one of the people who founded TAK.Shtab, alongside
+Serhii and his business partner. Treat any future manuscript text about
+the founding accordingly; the existing "мы" phrasing in both Chapter 1 and
+Chapter 2 remains safe and accurate either way, since it never made a
+specific claim about who exactly founded it.
+
+Additional context obtained in the same pass: the office itself was
+rented, not owned, by Serhii and his partner - the author does not think
+this needs separate mention in the manuscript, and it doesn't materially
+change the argument, so it's recorded here only for accuracy.
+
+**How Polina connects to the pre-war TAK books material (the "stranger off
+the street" story, above):** before the war, Polina was already a
+neighbour, renting an apartment in the same building as the office - this
+predates and is independent of her later co-founder role in TAK.Shtab. The
+connection runs through a third person: a man the author refers to (with
+his own consent) by the alias **"Рабинович"** - this is the man's own
+self-chosen public persona/alias, not a name invented for this book, and
+the author has explicitly approved using it in manuscript text, as a
+documented, reasoned exception to the standing "no real names" rule (see
+`PROSE_QUALITY_POLICY_DRAFT.md`). Rabinovich walked into the office one
+day, criticized the library bluntly ("сказал, что это гавно") and said the
+author should do what he'd seen at similar spaces in New York; they got
+talking and turned out to be neighbours. Rabinovich was a writer and the
+founder of a once well-known book café in Kyiv (identifying enough, even
+under the alias, that readers who know Kyiv's literary scene may recognize
+him - the author has been made aware of this and is comfortable with it).
+Rabinovich introduced the author to people who remain his friends today.
+Their own friendship lasted about three years. When Rabinovich eventually
+left, the author helped find a tenant for his vacated apartment - Polina,
+already a neighbour, moved in. This is the connective tissue between the
+"stranger becomes collaborator" pattern already registered above and
+Polina's later role in TAK.Shtab - not previously an isolated coincidence,
+but part of the same web of relationships the pre-war office generated.
+
 **Added 2026-08-07, not yet developed:** journalists visited the office,
 including international press. No further detail supplied yet (which
 outlets, when, what coverage resulted, or whether anything was published).
@@ -249,6 +296,33 @@ building/street (Дегтярна вул., 11, Kyiv). This reinforces the
 "genuine community, not just a venue" point independently of the Friday
 events and neighbourhood partnerships already noted - multiple distinct,
 unrelated groups shared and used the same space regularly.
+
+**Added 2026-08-07 - a concrete demonstrated instance of interaction, not
+just co-location (supplied after Claude flagged that the coworking
+paragraph listed categories of tenants but never showed them actually
+connecting with each other):** Oksana Goshva, who ran a PR agency ("Гошва
+Піар" / Goshva PR), originally lived in the building across the street.
+At some point she moved her whole agency into the author's office, where
+it stayed for about a year. This wasn't just shared space - the author's
+own ventures and Goshva PR actively collaborated on various projects
+together. The author says this kind of thing happened often: people who
+started as office-neighbours became working collaborators. **Per the
+standing "no real names" rule confirmed 2026-08-07 (see below and
+`PROSE_QUALITY_POLICY_DRAFT.md`), Oksana Goshva's name must never appear
+in manuscript text** - refer to this generically ("a PR agency," "a
+neighbour who moved her business in") in the chapter, even though the name
+is recorded here for accuracy.
+
+**Added 2026-08-07 - a second, even stronger demonstrated instance, and
+the author's own framing that this was typical, not a one-off:** the
+author describes this as a normal pattern at the office - a person would
+walk in off the street simply curious about the library (the ~thousands of
+books), they'd talk, and it would turn into a working collaboration
+lasting a year or two. The author sold at least one real project this way.
+No name is involved, so no genericizing is needed for this specific
+example - it can be used directly and prominently, and works especially
+well because it ties to the already-established library/bookstore detail
+in the same paragraph (the domain itself is what drew the stranger in).
 
 **Note on chapter-text scope:** this card now holds more concrete detail
 (named neighbourhood partners, coworking tenants, the café, the school/

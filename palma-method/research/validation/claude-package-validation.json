@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "9b2635aed16953776c00f8d5b1cc37aaf7782fc8a1868ef838fe75a1443312ac",
-  "source_card_count": 77,
-  "parsed_source_card_count": 77,
-  "unique_source_card_ids": 77,
+  "source_fingerprint": "c2c308d63437bc5318db1c5ac37df870322097df87eb6fc420d4c84575c1681b",
+  "source_card_count": 78,
+  "parsed_source_card_count": 78,
+  "unique_source_card_ids": 78,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -106,7 +106,8 @@
     "SC-074",
     "SC-075",
     "SC-076",
-    "SC-077"
+    "SC-077",
+    "SC-078"
   ],
   "source_card_sha256": {
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
@@ -118,6 +119,7 @@
     "research/source-cards/barabasi-1999-scale-free-networks.md": "3a4de09b687ed135a7c8b75413ff6ce4d2e13a315c3efa5412c506b76a0ec1e2",
     "research/source-cards/bcg-2024-rebuilding-corporate-trust.md": "988df9180f453d4a92325ee832ae9cff7ce27d28e9b2f0ff3d0c461cacf1bcbb",
     "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md": "aa7b5d4883dc29e9d49bca0413fbaaedcbe6f47898be28e0b83aa385d156ef49",
+    "research/source-cards/bls-2024-business-five-year-survival-rate.md": "8a54b02de2795323078038025afbfe8982b2c5776d9d685d0c596602b80ac503",
     "research/source-cards/bombom-founder-interview-2026-08-03.md": "6d74fe0f08bf2b5bdeb584d826189c081746174faa3d6e33c14f2e808fbd8e32",
     "research/source-cards/bourdieu-1986-forms-of-capital.md": "00646d476d6a0b55a4b69326155b0b50fdf9780dc3d628ba9db09368ef3a4623",
     "research/source-cards/burt-1992-2004-structural-holes.md": "83d8269e190fd21bdbec6a359f409ef27569e9b746ba28f9d3c5c6047bfacdb1",
@@ -167,7 +169,7 @@
     "research/source-cards/serhii-kichkine-childhood-story-intake.md": "db9fba24beaccc07ed8f3727027d6f5f618a5d3bc57248327d05ea17d51cb07d",
     "research/source-cards/serhii-military-lyceum-story-intake.md": "07c6db4b65c65b11aece26d9bd29c5f3a3217d12d8343433c592d7bc1fb626dd",
     "research/source-cards/serhii-palma-name-origin-story-intake.md": "e0f811bbf6c762fc4e533088b215f13dd04c4eb7da02db6e7c5261763ef558b8",
-    "research/source-cards/serhii-tak-shtab-story-intake.md": "9dcc224fefc1b1b4435c6494fa48dccca0c06df16ed053d1ca7c877feabd342c",
+    "research/source-cards/serhii-tak-shtab-story-intake.md": "9f8383ecd63f6eab82345b6bf1fc3404e28f7a3eca45db04420036acfc8d2a5b",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "45cd67cc5f8ef6962e187f960e347b2493bc7218ad84a8dd6802a6d553829e93",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",

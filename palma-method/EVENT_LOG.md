@@ -348,3 +348,17 @@ artifacts:
   - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0027
+occurred_at: 2026-08-07
+actor: Claude
+event_type: policy_update
+title: "Self-chosen alias" exception added to the no-real-names rule; TAK.Shtab co-founder status revised
+status: delivered
+result: A narrow, explicitly documented exception was added to the "no real names" privacy rule (EVT-0026) - a self-chosen public alias the person themselves uses (not a name invented for the book) may be used with the author's explicit, case-by-case approval, illustrated by the first instance ("Рабинович," Chapter 2's TAK books material). Separately, while developing that same material, the author partially reversed an earlier 2026-08-07 correction to SC-049: the neighbour present at the TAK.Shtab office ("Polina," name withheld per the standing rule) is now confirmed as an actual co-founder, not merely someone who ended up sheltering there. Both the existing Chapter 1 (v0.5) and Chapter 2 (v0.2) manuscript text remain accurate through this change, since both use generic "мы" and never asserted a specific founding structure - only the research record (SC-049) needed correcting, and it now documents both the reversal and the connective story (Rabinovich introducing the author's circle, his vacated apartment later housing Polina) transparently, without erasing the prior, now-superseded version.
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```
