@@ -459,3 +459,37 @@ artifacts:
   - palma-method/research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0031
+occurred_at: 2026-08-08
+actor: Claude
+event_type: research_delivery
+title: "Timofey 26-year tie intake expanded; dormant-ties literature gap closed"
+status: delivered
+result: >
+  The author supplied a full, self-critical 23-section intake (conducted with a separate AI
+  collaborator, voice-based) on a 26-year friendship formed at the Kyiv Military Lyceum ("Тимофей" -
+  real name, plus his mother "Лариса Тимофеевна" and a contrast case "Игорь" - all recorded privately
+  only, per the standing no-real-names rule) that has recurred as a professional partnership across
+  at least three unrelated later career contexts. SC-089 rewritten from a thin stub into a full card
+  capturing the intake's central hypothesis (a three-part mechanism: shared past, contact
+  reproduction, and recurring new joint practice - none alone sufficient, tested via two
+  counterfactuals) and its own explicitly flagged research gap: this project's evidence base covered
+  tie strength/formation and structural position well, but nothing on tie persistence, dormancy, or
+  reactivation. Closed that gap by registering SC-090 (Levin, Walter & Murnighan 2011, "Dormant Ties:
+  The Value of Reconnecting" - the seminal finding that reconnected dormant ties can outperform
+  active ties, combining weak-tie novelty with strong-tie trust) and SC-091 (a 2023 follow-up,
+  registered at lower confidence pending a full read). Also reviewed and corrected a proposed small
+  Chapter 3 addition (from the author's separate AI collaborator) that would have mislabeled
+  willingness-to-act as "access" - exactly the conflation Chapter 3 exists to prevent; redirected the
+  fix toward Chapter 3's currently-abstract Relationship Capital paragraph instead, where a human
+  illustration is still missing, with corrected wording that keeps "access" (reachability) and
+  relationship capital (willingness once reached) properly separated. This edit has not yet been
+  applied to the locked Chapter 3 v0.3 text - reserved for the author's decision.
+artifacts:
+  - palma-method/research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md
+  - palma-method/research/source-cards/levin-walter-murnighan-2011-dormant-ties.md
+  - palma-method/research/source-cards/levin-walter-kudesia-2023-reconnection-process.md
+reviewer: Serhii Nabok
+```

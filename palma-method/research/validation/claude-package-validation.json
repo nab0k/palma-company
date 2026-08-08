@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "4b7239780f9800e56205d4c1b83037a01cdabcdaef9875b447d5933183976368",
-  "source_card_count": 89,
-  "parsed_source_card_count": 89,
-  "unique_source_card_ids": 89,
+  "source_fingerprint": "3e6198b3abfb5449d5386b36ef44887ade4ed1fb7ebec703ad4fc844c64b9360",
+  "source_card_count": 91,
+  "parsed_source_card_count": 91,
+  "unique_source_card_ids": 91,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -118,7 +118,9 @@
     "SC-086",
     "SC-087",
     "SC-088",
-    "SC-089"
+    "SC-089",
+    "SC-090",
+    "SC-091"
   ],
   "source_card_sha256": {
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
@@ -164,6 +166,8 @@
     "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md": "0496488db04f82a452b58f0439e0b4f9dfbb8421ba67abdfdde2a0fdf29d90aa",
     "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md": "ffe4dfad7d9de19b342f6480f9fb6c8496462e83f0ae0d293501d613b84bb8ac",
     "research/source-cards/lamont-molnar-2002-study-of-boundaries.md": "65a1663edf34fcd28a6b239a238efe27225b795bc325993e1397955163eb52b1",
+    "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md": "ddcff0c48fc6718f53ed0636b5b26492ec17c408d277f645bcc9b459a9e30f88",
+    "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md": "50cf7f64e3f6c46ca8fdf04c8511b8a8aa6e23171c4aafaf66e4a4b08b1ced70",
     "research/source-cards/macnamara-2016-organizational-listening.md": "4394046b630ae6186521366521b4ee9239fb2bba0022def3807b45b9f6a39b3c",
     "research/source-cards/mayer-davis-schoorman-1995-organizational-trust.md": "089eca37f139151979b289dbea7fd89e082301acf4228fabab4e70584674d343",
     "research/source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md": "cf8c5fe2dc990d0012dd010065bdcd2ed3008820edccc385cfe6c6e37bc61810",
@@ -189,7 +193,7 @@
     "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md": "0ad259c06979a804176586f5a90b6550da7f510adf6853cf85548f65a0018f3e",
     "research/source-cards/serhii-tak-shtab-story-intake.md": "edddc8de8f104667554a1b594ce6e714c950b58776dbb1ad7cac9a22aa1ca077",
     "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
-    "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md": "4e05ff5d42788c8fc36479368f096eaca49fd1c2fb57024d772e2db3d93c0de6",
+    "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md": "9bab091f7b14bbf256e09804b662468e76be97d8693786149688a46045fc87e9",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "45cd67cc5f8ef6962e187f960e347b2493bc7218ad84a8dd6802a6d553829e93",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",

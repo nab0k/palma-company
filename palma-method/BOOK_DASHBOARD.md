@@ -4,7 +4,7 @@
 
 - Canonical table of contents: `manuscript/README.md`
 - Repository index: `generated/repository-index.json`
-- Dashboard fingerprint: `77f17e41c562b25ce51ac2fa29f9adf62cc8a16212498557203324f27f947bb4`
+- Dashboard fingerprint: `714679adeefc84b7fa5c6f89b84cae6ad19c46de24eca4a52551f6f286276e45`
 - Metadata mode: `legacy_warning`
 - Editorial meaning of `accepted`: current working version accepted for continued manuscript development; not final publication copy.
 
@@ -18,7 +18,7 @@
 | Under revision | 0 |
 | Not started | 0 |
 | Current records | 84 |
-| Legacy records | 151 |
+| Legacy records | 153 |
 | Ambiguous records | 26 |
 | Packet coverage | 100.0% |
 
@@ -29,7 +29,7 @@
 | Introduction | Introduction | The Missing Response | v0.1 — `research/chapter-packets/00-introduction-packet-v0.1.md` | current | draft_for_editorial_review | unknown | none | `manuscript/01-introduction.md` | unknown | draft_for_editorial_review | complete editorial review | 2026-07-20 |
 | Part I — The Problem | 1 | Companies Speak. People Scroll. | v0.5 — `research/chapter-packets/01-chapter-1-packet-v0.5.md` | current | locked_working_draft_russian | unknown | v0.1 — `research/chapter-packets/01-chapter-1-packet-v0.1.md`; v0.2 — `research/chapter-packets/01-chapter-1-packet-v0.2.md`; v0.3 — `research/chapter-packets/01-chapter-1-packet-v0.3.md`; v0.4 — `research/chapter-packets/01-chapter-1-packet-v0.4.md` | `manuscript/part-1/01-companies-speak-people-scroll.md` | unknown | needs editorial classification | classify editorial status | 2026-08-07 |
 | Part I — The Problem | 2 | An Audience Is Not a Community | v0.3 — `research/chapter-packets/02-chapter-2-packet-v0.3.md` | current | locked_working_draft_russian | unknown | v0.1 — `research/chapter-packets/02-chapter-2-packet-v0.1.md`; v0.2 — `research/chapter-packets/02-chapter-2-packet-v0.2.md` | `manuscript/part-1/02-an-audience-is-not-a-community.md` | unknown | needs editorial classification | classify editorial status | 2026-08-07 |
-| Part I — The Problem | 3 | Reputation Is Not Access | v0.3 — `research/chapter-packets/03-chapter-3-packet-v0.3.md` | current | accepted | v0.3 — accepted working version (publication status unknown) | v0.1 — `research/chapter-packets/CHAPTER_03_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_03_v0.2.md` | `manuscript/part-1/03-reputation-is-not-access.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
+| Part I — The Problem | 3 | Reputation Is Not Access | v0.3 — `research/chapter-packets/03-chapter-3-packet-v0.3.md` | current | accepted | v0.3 — accepted working version (publication status unknown) | v0.1 — `research/chapter-packets/CHAPTER_03_v0.1.md`; v0.2 — `research/chapter-packets/CHAPTER_03_v0.2.md` | `manuscript/part-1/03-reputation-is-not-access.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-08-08 |
 | Part I — The Problem | 4 | The Cost of Weak Relationships | v0.2 — `research/chapter-packets/CHAPTER_04_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_04_v0.1.md` | `manuscript/part-1/04-the-cost-of-weak-relationships.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
 | Part I — The Problem | 5 | Events Are Not Infrastructure | v0.2 — `research/chapter-packets/CHAPTER_05_v0.2.md` | current | accepted | v0.2 — accepted working version (not final) | v0.1 — `research/chapter-packets/CHAPTER_05_v0.1.md` | `manuscript/part-1/05-events-are-not-infrastructure.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |
 | Part II — The Theory | 6 | Relationship Capital | v0.4 — `research/chapter-packets/CHAPTER_06_v0.4.md` | current | accepted | v0.4 — accepted working version (not final) | v0.1 — `research/chapter-packets/06-chapter-6-packet-v0.1.md`; v0.2 — `research/chapter-packets/06-chapter-6-packet-v0.2.md`; v0.3 — `research/chapter-packets/CHAPTER_06_v0.3.md` | `manuscript/part-2/06-relationship-capital.md` | unknown | accepted | continue manuscript development; later authorial and line editing | 2026-07-20 |

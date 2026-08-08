@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "4f41f201629c732c12f5f7d36dcf6920f903cdcac4e7507d74d2a6c7bd5dfb26",
+  "source_fingerprint": "4b66d031a52e3c31aa6873dfa09f31e79ef31719d96b8971527daecbbe69fe92",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 261,
+    "records": 263,
     "current": 84,
-    "legacy": 151,
+    "legacy": 153,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 124,
+    "non_chapter_legacy": 126,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 177
+    "validation_warnings": 179
   },
   "catalog": {
     "current": [
@@ -3221,7 +3221,7 @@
         "canonical_id": "SC-089",
         "type": "source_card",
         "status": "review",
-        "title": "Author story intake - a Kyiv Military Lyceum friendship recurring as a professional partnership across decades and industries",
+        "title": "Author story intake - a 26-year friendship (Kyiv Military Lyceum) recurring as professional partnership: mechanism of tie persistence and reactivation",
         "path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md",
         "metadata_format": "legacy_fenced_yaml",
         "record_state": "legacy",
@@ -3233,11 +3233,64 @@
           "affects": [
             "CHAPTER_03",
             "CHAPTER_06",
-            "CHAPTER_07"
+            "CHAPTER_07",
+            "CHAPTER_09"
           ],
           "related_to": [
             "SC-048",
-            "SC-085"
+            "SC-085",
+            "SC-046",
+            "SC-054",
+            "SC-090"
+          ]
+        }
+      },
+      {
+        "id": "SC-090",
+        "canonical_id": "SC-090",
+        "type": "source_card",
+        "status": "review",
+        "title": "Dormant Ties: The Value of Reconnecting",
+        "path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_06",
+            "CHAPTER_07"
+          ],
+          "related_to": [
+            "SC-004",
+            "SC-089",
+            "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-091",
+        "canonical_id": "SC-091",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Reconnection Process: Mobilizing the Social Capital of Dormant Ties",
+        "path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_06",
+            "CHAPTER_07"
+          ],
+          "related_to": [
+            "SC-090",
+            "SC-089"
           ]
         }
       },
@@ -10438,6 +10491,18 @@
     },
     {
       "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
       "relation": "related_to",
       "to": "SC-048",
       "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
@@ -10445,8 +10510,74 @@
     {
       "from": "SC-089",
       "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
       "to": "SC-085",
       "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-089",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "related_to",
+      "to": "SC-089",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
