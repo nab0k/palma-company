@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "5105c1b181036f146598b8c75cee3b84ecef85e283adefdb557fddb0db55b7e1",
+  "source_fingerprint": "4f41f201629c732c12f5f7d36dcf6920f903cdcac4e7507d74d2a6c7bd5dfb26",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 252,
+    "records": 261,
     "current": 84,
-    "legacy": 142,
+    "legacy": 151,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 116,
+    "non_chapter_legacy": 124,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 168
+    "validation_warnings": 177
   },
   "catalog": {
     "current": [
@@ -3056,6 +3056,192 @@
         }
       },
       {
+        "id": "SC-082",
+        "canonical_id": "SC-082",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — institutional credentials as a recurring legitimacy signal",
+        "path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025",
+            "SC-048"
+          ]
+        }
+      },
+      {
+        "id": "SC-083",
+        "canonical_id": "SC-083",
+        "type": "source_card",
+        "status": "review",
+        "title": "Warm introductions vs. cold outreach - conversion rate gap in VC fundraising and B2B sales",
+        "path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-008",
+            "SC-024"
+          ]
+        }
+      },
+      {
+        "id": "SC-084",
+        "canonical_id": "SC-084",
+        "type": "source_card",
+        "status": "review",
+        "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+        "path": "research/source-cards/keller-1993-customer-based-brand-equity.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025"
+          ]
+        }
+      },
+      {
+        "id": "SC-085",
+        "canonical_id": "SC-085",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - securing a former president's interview via a near-stranger and a borrowed credential",
+        "path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-082",
+            "SC-025",
+            "SC-008"
+          ]
+        }
+      },
+      {
+        "id": "SC-086",
+        "canonical_id": "SC-086",
+        "type": "source_card",
+        "status": "review",
+        "title": "Full author interview transcript - Pavlo Ryabikin (Boryspil airport director), ~2017",
+        "path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-085"
+          ]
+        }
+      },
+      {
+        "id": "SC-087",
+        "canonical_id": "SC-087",
+        "type": "source_card",
+        "status": "review",
+        "title": "Uber and Airbnb, early years - massive user reputation, contested legal legitimacy",
+        "path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025",
+            "SC-088"
+          ]
+        }
+      },
+      {
+        "id": "SC-088",
+        "canonical_id": "SC-088",
+        "type": "source_card",
+        "status": "review",
+        "title": "Airbnb peer-to-peer review trust vs. traditional hotel brand trust",
+        "path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-008",
+            "SC-014",
+            "SC-087"
+          ]
+        }
+      },
+      {
+        "id": "SC-089",
+        "canonical_id": "SC-089",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - a Kyiv Military Lyceum friendship recurring as a professional partnership across decades and industries",
+        "path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-08",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_06",
+            "CHAPTER_07"
+          ],
+          "related_to": [
+            "SC-048",
+            "SC-085"
+          ]
+        }
+      },
+      {
         "id": "TASK_CLAUDE_0004",
         "canonical_id": "TASK_CLAUDE_0004",
         "type": "task",
@@ -3849,29 +4035,33 @@
       "selection_basis": "explicit_editorial_acceptance",
       "records": [
         {
-          "id": "PKT-03-v0.2",
+          "id": "PKT-03-v0.3",
           "canonical_id": "CHAPTER_03",
           "type": "chapter",
           "status": "accepted",
-          "title": "Chapter Packet v0.2: Chapter 3 — Reputation Is Not Access",
-          "path": "research/chapter-packets/CHAPTER_03_v0.2.md",
+          "title": "Chapter 3 Packet v0.3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/03-chapter-3-packet-v0.3.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
-          "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-17",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-08",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.3",
           "chapter_number": 3,
           "editorial_scope": "accepted_current_working_version",
-          "publication_status": "not_final",
-          "acceptance_reference": "TASK_CODEX_0009",
-          "supersedes_declaration": "CHAPTER_03_v0.1.md",
+          "supersedes_declaration": "CHAPTER_03_v0.2.md (preserved unmodified, not deleted or overwritten - see revision_type)",
           "relationships": {
             "supported_by": [
               "SC-008",
               "SC-014",
-              "SC-015",
-              "SC-025"
+              "SC-025",
+              "SC-083",
+              "SC-084",
+              "SC-085",
+              "SC-086",
+              "SC-087",
+              "SC-088",
+              "SC-089"
             ]
           },
           "index_state": "current"
@@ -3890,6 +4080,34 @@
           "privacy_level": "internal",
           "version": "0.1",
           "chapter_number": 3,
+          "relationships": {
+            "supported_by": [
+              "SC-008",
+              "SC-014",
+              "SC-015",
+              "SC-025"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-03-v0.2",
+          "canonical_id": "CHAPTER_03",
+          "type": "chapter",
+          "status": "superseded",
+          "title": "Chapter Packet v0.2: Chapter 3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/CHAPTER_03_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 3,
+          "editorial_scope": "superseded_by_author_collaboration_rebuild",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_03_v0.1.md",
           "relationships": {
             "supported_by": [
               "SC-008",
@@ -6064,6 +6282,12 @@
       "from": "CHAPTER_03",
       "relation": "supported_by",
       "to": "SC-008",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-008",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
     },
     {
@@ -6076,6 +6300,12 @@
       "from": "CHAPTER_03",
       "relation": "supported_by",
       "to": "SC-014",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-014",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
     },
     {
@@ -6100,6 +6330,12 @@
       "from": "CHAPTER_03",
       "relation": "supported_by",
       "to": "SC-025",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
     },
     {
@@ -6107,6 +6343,48 @@
       "relation": "supported_by",
       "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-083",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-084",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-085",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-086",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-087",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-088",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-089",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_04",
@@ -10013,6 +10291,162 @@
       "relation": "related_to",
       "to": "SC-049",
       "source_path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "related_to",
+      "to": "SC-024",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-084",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/keller-1993-customer-based-brand-equity.md"
+    },
+    {
+      "from": "SC-084",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/keller-1993-customer-based-brand-equity.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-082",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-086",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md"
+    },
+    {
+      "from": "SC-086",
+      "relation": "related_to",
+      "to": "SC-085",
+      "source_path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "related_to",
+      "to": "SC-088",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-014",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-087",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-085",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

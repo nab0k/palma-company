@@ -412,3 +412,50 @@ artifacts:
   - palma-method/research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md
 reviewer: Serhii Nabok
 ```
+
+```yaml
+event_id: EVT-0030
+occurred_at: 2026-08-08
+actor: Claude
+event_type: chapter_delivery
+title: "Chapter 3 locked as v0.3 - full author-collaboration rebuild, five constructs freshly evidenced"
+status: delivered
+result: >
+  Rebuilt Chapter 3 ("Reputation Is Not Access") from the ground up in Russian, following the same
+  process used for Chapters 1-2, superseding CHAPTER_03_v0.2.md - a rigorous but purely academic
+  English synthesis (Codex-produced, TASK_CODEX_0009) that explicitly excluded personal material and
+  carried an unfilled case placeholder. The new draft opens with a personal scene (the author, as
+  editor-in-chief of a fading business publication in the late 2010s, secures an interview with a
+  former Ukrainian president through a near-stranger - a newly appointed airport director - who
+  turns out to have a real personal friendship with that president), introducing Suchman's legitimacy
+  construct as something recognized only in hindsight. A mid-session correction: the first full draft
+  stretched this single anecdote across all five constructs (awareness, reputation, legitimacy,
+  trust, access), which on reflection felt thin and repetitive - each of the other four constructs
+  was given its own fresh, independently verified illustration instead: Kevin Lane Keller (1993) for
+  awareness; Uber and Airbnb's early-years regulatory bans despite massive user love (SC-087) for the
+  reputation/legitimacy boundary; Mayer-Davis-Schoorman's trust model plus Airbnb's peer-review rate
+  vs. hotels and the Edelman Trust Barometer (SC-088, SC-014) for institutional-vs-relational trust;
+  venture-capital warm-intro-vs-cold-email conversion data (SC-083) for access. A full critical pass
+  then caught and fixed five real issues: a misattribution crediting Mayer-Davis-Schoorman with a
+  distinction their model doesn't actually make; an overclaim that awareness is the only
+  money-purchasable construct; an overclaim that all five constructs get conflated into "reputation"
+  specifically; a confused metaphor ("borrowing trust from yourself"); and a singular/plural
+  agreement error referring to two companies (Uber and Airbnb) as one. Separately, the author
+  disclosed that the unnamed "партнёр по изданию" in the opening scene is a Kyiv Military Lyceum
+  friend with whom he has repeatedly partnered across unrelated later career contexts (currently
+  colleagues again at a TV channel) - registered as SC-089, flagged as likely the strongest untapped
+  source of recurring-tie material for the Relationship Capital chapters (6-7), reserved for a future
+  dedicated intake session rather than folded into Chapter 3.
+artifacts:
+  - palma-method/research/chapter-packets/03-chapter-3-packet-v0.3.md
+  - palma-method/research/chapter-packets/CHAPTER_03_v0.2.md
+  - palma-method/research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md
+  - palma-method/research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md
+  - palma-method/research/source-cards/serhii-credential-legitimacy-pattern-intake.md
+  - palma-method/research/source-cards/keller-1993-customer-based-brand-equity.md
+  - palma-method/research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md
+  - palma-method/research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md
+  - palma-method/research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md
+  - palma-method/research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md
+reviewer: Serhii Nabok
+```
