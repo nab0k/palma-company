@@ -1,10 +1,21 @@
 # Palma Knowledge System — Research Layer (Claude)
 
+> **Current navigation:** this file preserves the original research-layer
+> integration record and its historical counts. For the complete current
+> repository inventory use
+> [`../generated/repository-index.md`](../generated/repository-index.md).
+> For personal stories and private interviews use
+> [`reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md`](reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md).
+> New agents should start at [`../AI_START_HERE.md`](../AI_START_HERE.md).
+
 Repository-ready research output for the Palma Method book sprint, migrated into the Palma Knowledge System structure per TASK-0018. See `MIGRATION_REPORT_TASK-0018.md` for the full migration record.
 
 ## Structure
 
-- `research/source-cards/` — 17 Source Cards (Section 15 YAML template + `related_concepts`/`related_cards` cross-references). SC-001 through SC-017.
+- `research/source-cards/` — source cards accumulated across the original and
+  subsequent research, case, interview, and author-story tasks. The sentence in
+  the original migration record counted 17 cards (SC-001 through SC-017); it is
+  not the current total.
 - `research/syntheses/literature-map.md` — Artifact ART-001: literature map for social capital, relationship capital, trust, reciprocity, networks, and communities of practice (Track A).
 - `research/anti-palma/anti-palma-argument-map.md` — Artifact ART-002: evidence and arguments against the thesis (Track H), each tagged modifies-the-method or appears-directly-in-the-book.
 - `research/syntheses/missing-theories-and-conflicting-definitions.md` — Artifact ART-003: theories missing from the handoff's priority list, and definitional conflicts latent in the sources that are on it.

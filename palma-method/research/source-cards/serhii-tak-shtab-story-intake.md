@@ -570,3 +570,40 @@ This is currently the strongest complete author case. It has a clear beginning,
 observable work, a transition from informal network to organization, a central
 scene, evidence of limitations, and a direct connection to the Palma Method's
 diagnostic and enabling phases.
+
+## 2026-08-12 author addendum — roles emerging from repeated work
+
+This public-safe addendum preserves new detail supplied by the author without
+introducing private raw notes or making manuscript-use permission automatic.
+
+The early headquarters had few predefined positions. People unloaded, sorted,
+packed, maintained spreadsheets, processed requests, coordinated donors, or
+handled logistics. The strongest mechanism in the author's recollection is:
+
+1. a person repeatedly performed an action;
+2. others began to rely on that person to perform it;
+3. only then did the action become a recognizable role.
+
+One volunteer illustrates the full institutionalization path. He began by
+showing up reliably, later received keys because he was present every day,
+assumed responsibility for opening the space, warehouse operations and
+logistics, and eventually became a paid employee whose position appeared in
+grant budgets. After the project moved and changed its operating model, his
+responsibility expanded into an operating structure of its own. Names and
+employment details require an explicit publication decision and documentary
+checking before prose use.
+
+A second public-safe micro-scene concerns an experienced creative director who
+chose the repetitive task of assembling cardboard boxes. The team jokingly
+called the role “Chief Box Officer.” The episode can show temporary suspension
+of outside status and voluntary role-taking, but the person's identity and the
+exact professional biography require checking and permission.
+
+The author remembers almost no competition for titles. A plausible explanation
+is that claiming an important role also meant accepting difficult work,
+continuous presence, and real responsibility. This remains the author's
+interpretation, not an independently established motive for every volunteer.
+
+These additions strengthen the case for later chapters on role formation,
+activation, and institutionalization. They should not be forced into Chapter 6
+or presented as evidence that every emergent group follows the same sequence.
