@@ -3,18 +3,18 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "5945658944cbea7d3e9a3d9a223792226ff89899a64255c96d2869a75ef2efed",
+  "source_fingerprint": "481706726e11558efd580ac73293047c3072fec7c6bd2c269fdb14ba58d30020",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 266,
-    "current": 86,
+    "records": 267,
+    "current": 87,
     "legacy": 154,
     "ambiguous": 26,
-    "non_chapter_current": 63,
+    "non_chapter_current": 64,
     "non_chapter_legacy": 127,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
@@ -510,6 +510,27 @@
             "SC-044",
             "SC-045",
             "SC-046"
+          ]
+        }
+      },
+      {
+        "id": "REPORT_TASK_CODEX_0023",
+        "canonical_id": "REPORT_TASK_CODEX_0023",
+        "type": "completion_report",
+        "status": "delivered",
+        "title": "TASK_CODEX_0023 completion report",
+        "path": "governance/TASK_CODEX_0023_COMPLETION_REPORT.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-12",
+        "privacy_level": "internal",
+        "relationships": {
+          "reviews": [
+            "TASK_CODEX_0023",
+            "REVIEW_CODEX_0023",
+            "SC-049",
+            "SC-092"
           ]
         }
       },
@@ -1201,7 +1222,7 @@
         "id": "TASK_CODEX_0023",
         "canonical_id": "TASK_CODEX_0023",
         "type": "task",
-        "status": "in_progress",
+        "status": "delivered",
         "title": "TASK_CODEX_0023 — Unify author and interview source navigation",
         "path": "governance/TASK_CODEX_0023_UNIFY_AUTHOR_SOURCE_INDEX.md",
         "metadata_format": "frontmatter",
@@ -8701,6 +8722,30 @@
       "relation": "reviews",
       "to": "TASK_CODEX_0020",
       "source_path": "governance/TASK_CODEX_0020_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0023",
+      "relation": "reviews",
+      "to": "REVIEW_CODEX_0023",
+      "source_path": "governance/TASK_CODEX_0023_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-049",
+      "source_path": "governance/TASK_CODEX_0023_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-092",
+      "source_path": "governance/TASK_CODEX_0023_COMPLETION_REPORT.md"
+    },
+    {
+      "from": "REPORT_TASK_CODEX_0023",
+      "relation": "reviews",
+      "to": "TASK_CODEX_0023",
+      "source_path": "governance/TASK_CODEX_0023_COMPLETION_REPORT.md"
     },
     {
       "from": "REVIEW_CASES_0014",

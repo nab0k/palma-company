@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0023
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-12
@@ -60,7 +60,7 @@ acceptance_criteria:
   - stale manual indexes no longer present themselves as complete inventories
   - protected manuscript and decision files remain untouched
 completion_report: palma-method/governance/TASK_CODEX_0023_COMPLETION_REPORT.md
-final_commit_sha: null
+final_commit_sha: cd115eba8ada96dc8d25b440baae31e711e1ed1f
 ---
 
 # TASK_CODEX_0023 — Unify author and interview source navigation
