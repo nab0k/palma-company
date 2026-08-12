@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "4b66d031a52e3c31aa6873dfa09f31e79ef31719d96b8971527daecbbe69fe92",
+  "source_fingerprint": "5945658944cbea7d3e9a3d9a223792226ff89899a64255c96d2869a75ef2efed",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 263,
-    "current": 84,
-    "legacy": 153,
+    "records": 266,
+    "current": 86,
+    "legacy": 154,
     "ambiguous": 26,
-    "non_chapter_current": 61,
-    "non_chapter_legacy": 126,
+    "non_chapter_current": 63,
+    "non_chapter_legacy": 127,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 179
+    "validation_warnings": 180
   },
   "catalog": {
     "current": [
@@ -756,6 +756,43 @@
         }
       },
       {
+        "id": "REVIEW_CODEX_0023",
+        "canonical_id": "REVIEW_CODEX_0023",
+        "type": "review",
+        "status": "draft",
+        "title": "Interview and author-source register v0.2",
+        "path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-12",
+        "privacy_level": "internal",
+        "supersedes_declaration": [
+          "REVIEW_CODEX_0020"
+        ],
+        "relationships": {
+          "reviews": [
+            "SC-043",
+            "SC-044",
+            "SC-045",
+            "SC-046",
+            "SC-047",
+            "SC-048",
+            "SC-049",
+            "SC-054",
+            "SC-074",
+            "SC-082",
+            "SC-085",
+            "SC-086",
+            "SC-089",
+            "SC-092"
+          ],
+          "supersedes": [
+            "REVIEW_CODEX_0020"
+          ]
+        }
+      },
+      {
         "id": "SPEC_COLLECTIVE_INSERTION_0001",
         "canonical_id": "SPEC_COLLECTIVE_INSERTION_0001",
         "type": "specification",
@@ -1156,6 +1193,21 @@
         "record_state": "current",
         "owner": "codex",
         "created": "2026-08-03",
+        "privacy_level": "internal",
+        "relationships": {
+        }
+      },
+      {
+        "id": "TASK_CODEX_0023",
+        "canonical_id": "TASK_CODEX_0023",
+        "type": "task",
+        "status": "in_progress",
+        "title": "TASK_CODEX_0023 — Unify author and interview source navigation",
+        "path": "governance/TASK_CODEX_0023_UNIFY_AUTHOR_SOURCE_INDEX.md",
+        "metadata_format": "frontmatter",
+        "record_state": "current",
+        "owner": "codex",
+        "created": "2026-08-12",
         "privacy_level": "internal",
         "relationships": {
         }
@@ -3290,6 +3342,39 @@
           ],
           "related_to": [
             "SC-090",
+            "SC-089"
+          ]
+        }
+      },
+      {
+        "id": "SC-092",
+        "canonical_id": "SC-092",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — career chronology and unseparated case corpus",
+        "path": "research/source-cards/serhii-career-story-corpus-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-12",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_04",
+            "CHAPTER_07",
+            "CHAPTER_08",
+            "CHAPTER_12",
+            "CHAPTER_13",
+            "CHAPTER_14",
+            "CHAPTER_17"
+          ],
+          "related_to": [
+            "SC-049",
+            "SC-074",
+            "SC-082",
+            "SC-085",
             "SC-089"
           ]
         }
@@ -8696,6 +8781,96 @@
       "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.1.md"
     },
     {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-043",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-044",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-045",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-046",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-047",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-048",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-049",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-054",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-074",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-082",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-085",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-086",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-089",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "reviews",
+      "to": "SC-092",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
+      "from": "REVIEW_CODEX_0023",
+      "relation": "supersedes",
+      "to": "REVIEW_CODEX_0020",
+      "source_path": "research/reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md"
+    },
+    {
       "from": "RG-001",
       "relation": "affects",
       "to": "CHAPTER_03",
@@ -10578,6 +10753,84 @@
       "relation": "related_to",
       "to": "SC-090",
       "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_04",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_12",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_13",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_14",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "affects",
+      "to": "CHAPTER_17",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "related_to",
+      "to": "SC-074",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "related_to",
+      "to": "SC-082",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "related_to",
+      "to": "SC-085",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
+    },
+    {
+      "from": "SC-092",
+      "relation": "related_to",
+      "to": "SC-089",
+      "source_path": "research/source-cards/serhii-career-story-corpus-intake.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

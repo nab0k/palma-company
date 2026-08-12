@@ -1,5 +1,11 @@
 # The Palma Method
 
+> **AI and collaborator entrypoint:** begin with
+> [`AI_START_HERE.md`](AI_START_HERE.md). It identifies the canonical indexes,
+> chapter map, author/interview register, privacy gates, and required read order.
+> Do not rely on the historical manual source count below as a complete project
+> inventory.
+
 Working repository for the English-language book:
 
 **The Palma Method: How Organizations Turn Communication into Trust, Relationships, and Opportunity**

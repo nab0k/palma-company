@@ -1,5 +1,12 @@
 # Source Index
 
+> **Historical curated index — incomplete.** This table preserves the original
+> theory-spine and early follow-up cards. It is not the current complete source
+> inventory. Use [`../generated/repository-index.md`](../generated/repository-index.md)
+> for all indexed artifacts and
+> [`reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md`](reports/INTERVIEW_AND_AUTHOR_SOURCE_REGISTER_v0.2.md)
+> for author stories and private interviews.
+
 Twenty-three source cards are registered across Claude's theoretical, Anti-Palma, first drafting-wave, and Relationship Capital packages. Structural validation does not itself authorize manuscript use.
 
 | ID | Author / organization | Year | Short title | Track | Chapters | Verification status | Confidence | Card |
