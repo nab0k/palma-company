@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "4b66d031a52e3c31aa6873dfa09f31e79ef31719d96b8971527daecbbe69fe92",
+  "source_fingerprint": "db6d73b93974ede4a852011cec5e602ece0e6234bf1fd91609a2d69292c578ba",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 263,
+    "records": 266,
     "current": 84,
-    "legacy": 153,
+    "legacy": 156,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 126,
+    "non_chapter_legacy": 129,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 179
+    "validation_warnings": 186
   },
   "catalog": {
     "current": [
@@ -1867,27 +1867,6 @@
         }
       },
       {
-        "id": "SC-031",
-        "canonical_id": "SC-031",
-        "type": "source_card",
-        "status": "checked_via_hbr_listing_and_multiple_secondary_summaries_full_original_article_not_independently_re-read_in_this_pass",
-        "title": "Informal Networks: The Company Behind the Chart",
-        "path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md",
-        "metadata_format": "legacy_fenced_yaml",
-        "record_state": "legacy",
-        "owner": "research",
-        "created": "2026-07-17",
-        "privacy_level": "internal",
-        "source_id_format": "canonical",
-        "relationships": {
-          "related_to": [
-            "SC-005",
-            "SC-004",
-            "SC-002"
-          ]
-        }
-      },
-      {
         "id": "SC-032",
         "canonical_id": "SC-032",
         "type": "source_card",
@@ -3291,6 +3270,108 @@
           "related_to": [
             "SC-090",
             "SC-089"
+          ]
+        }
+      },
+      {
+        "id": "SC-093",
+        "canonical_id": "SC-093",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - Anton Nosik as half-brother, and the Israeli-friends body-armor connection",
+        "path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_09"
+          ],
+          "related_to": [
+            "SC-049",
+            "SC-005",
+            "SC-090"
+          ]
+        }
+      },
+      {
+        "id": "SC-094",
+        "canonical_id": "SC-094",
+        "type": "source_card",
+        "status": "review",
+        "title": "Informal Networks: The Company Behind the Chart",
+        "path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_09"
+          ],
+          "related_to": [
+            "SC-005",
+            "SC-002"
+          ]
+        }
+      },
+      {
+        "id": "SC-095",
+        "canonical_id": "SC-095",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (personal acquaintance) — 14 August 2026",
+        "path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-14",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-046",
+            "SC-049"
+          ]
+        }
+      },
+      {
+        "id": "SC-096",
+        "canonical_id": "SC-096",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (relocated, occasional attendee) — 14 August 2026",
+        "path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-14",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-095",
+            "SC-044",
+            "SC-090",
+            "SC-091"
           ]
         }
       },
@@ -9188,24 +9269,6 @@
       "source_path": "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md"
     },
     {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-002",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-004",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-005",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
       "from": "SC-032",
       "relation": "related_to",
       "to": "SC-006",
@@ -10578,6 +10641,138 @@
       "relation": "related_to",
       "to": "SC-090",
       "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

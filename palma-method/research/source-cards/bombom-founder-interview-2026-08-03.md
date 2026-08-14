@@ -128,3 +128,44 @@ action that can continue without the owners.
 5. Confirm what changed in ownership and decision-making after reopening.
 6. Obtain explicit permission for each named fact and direct quotation.
 7. Interview one employee before drawing conclusions about loyalty or care.
+
+## 2026-08-08 follow-up - confirmed details and a hard confidentiality boundary
+
+A written follow-up (the questions drafted this session, sent directly to
+the founder) has been answered. Three specific details are now confirmed,
+directly from her, and are safe to use in manuscript text (still
+genericized per the standing no-real-names rule - "a regular," "a
+relative," not any name):
+
+- A regular who normally bought two croissants started buying one; the
+  founder asked and learned his wife was in Brazil. Confirmed, not
+  invented.
+- The founder tried to help that regular's younger relative gain
+  admission to the French lyceum. Confirmed.
+- The founder and her co-owner ("Педро" in the author's working draft -
+  her business partner, real first name, privacy decision pending same
+  as elsewhere) reached out to restaurant groups and other potential
+  partners without a prior relationship during the crisis, and did not
+  get a useful response. The reason for the non-response is NOT
+  established - do not assert "lack of prior relationship" as the proven
+  cause, only as the author's working hypothesis about a real, confirmed
+  non-outcome.
+
+**Hard confidentiality boundary, confirmed 2026-08-08:** the specific
+financial/banking mechanism of the crisis (per the private dossier: lease
+payment arrears leading to police involvement) is explicitly marked
+confidential in the private interview record and must NOT appear in any
+publication-facing text without Sandra's separate, explicit consent for
+that specific detail. The safe, cleared version for manuscript use
+describes only the observable sequence (financial trouble -> police
+involvement -> closure) without naming the specific mechanism. This
+overrides any earlier draft text that stated the leasing-debt detail
+directly - that detail must be removed from working chapter drafts unless
+and until separate consent is obtained.
+
+**Process note:** this confirms the answers exist in the private
+interview dossier (Notion) but had not yet been synchronized into this
+public-safe card - the working chapter draft was, correctly, ahead of
+this card rather than inventing detail. This card is now the place a
+future session should check first, rather than re-deriving these facts
+from the chapter text.

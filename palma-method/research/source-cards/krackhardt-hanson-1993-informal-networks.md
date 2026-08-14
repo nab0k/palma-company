@@ -1,96 +1,67 @@
 ```yaml
-id: SC-031
+id: SC-094
 title: "Informal Networks: The Company Behind the Chart"
-author: "David Krackhardt and Jeffrey R. Hanson"
+author: "David Krackhardt, Jeffrey R. Hanson"
 year: 1993
-source_type: practitioner_journal_article
-publisher_or_journal: "Harvard Business Review, Vol. 71, No. 4, pp. 104-111"
+source_type: journal_article
+publisher_or_journal: "Harvard Business Review, July-August 1993"
 url_or_identifier: "https://hbr.org/1993/07/informal-networks-the-company-behind-the-chart"
-date_accessed: "2026-07-17"
-research_track: "Track G - Wave 3: Map"
+date_accessed: "2026-08-08"
+research_track: "Track A - Theoretical Foundations"
 book_chapters:
-  - "Chapter 12 (Map)"
+  - "Chapter 9 (Networks, Groups, and Structural Advantage)"
 related_concepts:
-  - network-mapping
-  - organizational-network-analysis
-  - advice-network
-  - trust-network
-  - communication-network
-  - formal-vs-informal-authority
+  - network-structure
+  - informal-organization
 related_cards:
-  - "SC-005 (Burt - structural holes/brokerage, the academic-research complement to this practitioner mapping method)"
-  - "SC-004 (Granovetter - weak ties, relevant to why the advice/communication networks Krackhardt & Hanson map often diverge from the org chart)"
-  - "SC-002 (Coleman - closure, relevant to why trust networks tend to be denser/more clustered than advice networks)"
+  - "SC-005 (Burt - structural holes/brokerage, a complementary organizational-network finding)"
+  - "SC-002 (Coleman - closure, a related but distinct organizational-network mechanism)"
 core_claim: >
-  An organization's formal chart describes reporting lines, not how work actually gets done. Real
-  organizational function runs through informal networks that frequently cross, bypass, or
-  contradict the formal chart, and these networks are not one thing but at least three distinguishable,
-  separately mappable layers: the advice network (who people go to for information and technical
-  help), the trust network (who people confide sensitive or risky information to), and the
-  communication network (who talks to whom regularly, regardless of the content).
+  The formal organizational chart is a poor guide to how information, trust, and advice actually
+  move through a company. Krackhardt and Hanson propose mapping three distinct informal networks
+  separately: the advice network (who people go to for technical or task help), the trust network
+  (who people confide sensitive or risky information to), and the communication network (who talks
+  to whom regularly, regardless of advice or trust content). These three networks frequently do not
+  overlap - the most talkative person is not necessarily the one told bad news; the formal manager
+  may sign off on a decision the group actually worked out with a different colleague first.
 summary: >
-  Krackhardt and Hanson present a practitioner method (drawn from Krackhardt's academic network
-  research) for diagramming an organization's informal structure by asking employees a small set of
-  targeted questions ("who do you go to for advice on X," "who would you trust with a sensitive
-  problem," "who do you talk to about work-related matters") and mapping the resulting three
-  networks separately, because they found the three do not overlap perfectly - a person central in
-  the communication network is not necessarily central in the trust network, and the person with
-  formal authority (per the org chart) is frequently not central in any of the three. The practical
-  payoff is diagnostic: informal-network maps reveal actual bottlenecks, bridges, and reliance on
-  specific individuals (a documented business risk if that person leaves) that an org chart cannot
-  show.
-key_evidence: >
-  Practitioner case-study article drawing on Krackhardt's underlying social-network-analysis
-  academic research and consulting engagements; illustrated with company examples in the original
-  article. This is a practitioner/managerial synthesis of an academic method (network analysis via
-  sociometric survey), not itself a controlled empirical study - its evidentiary weight is as a
-  well-established, widely adopted applied methodology rather than a single tested causal finding.
+  A foundational, widely-taught HBR piece establishing that "who is connected to whom" is not one
+  network but several distinct ones layered on the same set of people, each carrying a different
+  kind of content and each requiring separate diagnosis - directly useful for Chapter 9's point that
+  raw connection count says nothing about what can actually travel along a given tie.
+key_evidence: "Practitioner-oriented synthesis grounded in organizational network mapping case work, widely cited and taught in management literature for three decades."
 important_quote: >
-  Managers can locate the real, functioning network behind the formal chart by mapping three
-  distinct informal networks - advice, trust, and communication - because these networks
-  systematically diverge from each other and from the formal reporting structure. (paraphrased from
-  the article's central argument; exact wording not independently page-verified in this pass)
-quote_page_or_location: "article body, methodology section; exact page not independently verified against the original HBR print text in this pass"
-methodology: "sociometric network-mapping method (structured relationship-elicitation questions plus network diagramming), illustrated through practitioner case examples"
-sample: "illustrative company case examples in the original 1993 article; underlying method draws on Krackhardt's broader organizational-network-analysis research program"
+  The three networks described are the advice network, the trust network, and the communication
+  network - and a company's actual work often depends on network types quite different from the one
+  shown on its formal organizational chart.
+quote_page_or_location: "Harvard Business Review, July-August 1993."
+methodology: "Practitioner/consulting-derived organizational network mapping framework."
+sample: "Not a single quantified study - a practitioner framework illustrated through organizational case examples."
 limitations: >
-  As a practitioner HBR article rather than a peer-reviewed empirical study, its claims are best
-  treated as a well-established applied method rather than a statistically validated general law;
-  the specific three-network typology (advice/trust/communication) is Krackhardt and Hanson's own
-  applied framework, not a claim that all organizational relationships reduce to exactly these three
-  categories. Full original text was not independently re-read page-by-page in this research pass;
-  this card is built from secondary summaries and abstracts, consistent with this project's
-  disclosure standard for sources not directly re-verified.
-counterarguments: >
-  Some organizational-network-analysis practitioners argue three networks understate real
-  complexity (e.g., separating "who helps me get things done" from "who I go to for career advice"
-  from "who I socialize with") and that a fixed three-category model can miss context-specific
-  network types relevant to a given organization's actual function.
+  This is a management-practitioner framework rather than a tightly controlled empirical study;
+  treat the three-network distinction as a useful diagnostic lens, consistent with how this project
+  treats similarly practitioner-grounded frameworks elsewhere.
+counterarguments: "None identified against the core distinction - the three-networks framework is broadly accepted and still taught."
 business_implication: >
-  Gives Palma a directly applicable, well-established practitioner method for the "network mapping"
-  and "formal and informal influence" territory in Chapter 12, distinguishing it clearly from purely
-  academic large-network science (Barabási-derived findings, carrying VI-004) by being explicitly
-  designed for small, bounded organizational networks - the exact scale gap this project's other
-  network-science sources cannot close on their own.
+  Gives leaders a concrete alternative to relying on the org chart or raw contact-frequency counts
+  when trying to understand how their organization actually functions.
 palma_implication: >
-  Directly supports Chapter 12's required distinction between "formal authority vs. informal
-  influence" and its "hubs, bridges, isolates, clusters, bottlenecks" territory: a mapping exercise
-  built on this method can identify these structural features at organizational scale without
-  relying on the large-network statistical assumptions (preferential attachment, power-law degree
-  distribution) that carry VI-004's small-scale-transfer caution.
-potential_case_use: "The three-network mapping method itself, described generally, as a practical mapping technique rather than tied to a specific named case from the original article."
-potential_linkedin_post: >
-  "Your org chart shows who reports to whom. It doesn't show who people actually go to for advice,
-  who they'd trust with a real problem, or who they talk to every day. Those are three different
-  networks, they rarely overlap perfectly, and the person with the title isn't always the person at
-  the center of any of them."
-confidence_level: medium-high
-verification_status: checked_via_hbr_listing_and_multiple_secondary_summaries_full_original_article_not_independently_re-read_in_this_pass
-notes: >
-  This is a practitioner-facing HBR article (not a peer-reviewed academic journal), included
-  deliberately because Chapter 12's "Map" territory is explicitly practitioner/methodological rather
-  than purely theoretical - it operationalizes Burt's (SC-005) and Granovetter's (SC-004) more
-  academic findings into an applied small-organization mapping technique, directly relevant to this
-  project's existing VI-002/VI-004 caution about transferring large-network science to small
-  organizational scale.
+  Supports Chapter 9's closing point that "count of connections" does not indicate what can travel
+  along them - directly cited to make this concrete with a named, three-part organizational
+  framework.
+potential_case_use: "Chapter 9 - already drafted into the working chapter text."
+potential_linkedin_post: "Not cleared."
+confidence_level: high
+verification_status: checked
+notes: "Registered 2026-08-08 for a citation already present in the Chapter 9 working draft."
+type: source_card
+status: review
+owner: claude
+created: 2026-08-08
+privacy_level: public
+verification_status: checked
+source_kind: journal_article
+citation: "Krackhardt, D., & Hanson, J. R. (1993). Informal Networks: The Company Behind the Chart. Harvard Business Review, 71(4), 104-111."
+chapter_refs:
+  - CHAPTER_09
 ```
