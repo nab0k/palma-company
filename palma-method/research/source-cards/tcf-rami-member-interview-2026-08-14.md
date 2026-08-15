@@ -243,3 +243,51 @@ useful boundary on how far "the relationship persists" actually extends.
 | Booking app does not function as social-matching infrastructure | Clean, direct disconfirmation ("I don't go there for people") | Corroborate with Miguel/founder account (SC-044) before treating as a settled point |
 | Cross-geography tie reactivation (~monthly contact from visiting members) | Participant's own account, dated | Useful even as a single case for the dormant-ties discussion; note it is self-reported frequency, not verified |
 | Physical space as non-substitutable relationship infrastructure | Participant's explicit, direct answer (space gone = relationships likely do not survive) | Consistent with Francisco's account; consent still required |
+
+## TASK_CLAUDE_0018 addendum — structured breakdown (2026-08-15)
+
+1. **What the participant actually said.** Unprompted: "I wouldn't call it
+   community... I use the word collective... it's in versus out people [for
+   community]." On Miguel's absence: TCF would continue but be "less personal, less
+   social, and less fun." Visiting TCF members reach out to meet him roughly monthly
+   since he relocated. "I don't go there for people" re: the booking app. "Sometimes I
+   don't want to train, I pass by for coffee." Small in-class groups attributed to
+   Miguel's coaching style, not deliberate design. Relationships "would not survive"
+   without the physical space; an occasional event (Christmas party) would not
+   substitute for daily low-effort contact. Closes with "one of my homes in Lisbon."
+2. **What Serhii observed.** Not separately recorded in this transcript beyond the
+   interview itself — no author-observation layer distinct from Rami's own account is
+   present in this card.
+3. **Interpretation (not the participant's own words).** That his "collective, not
+   community" framing may partly reflect his own selective, performance-gated way of
+   relating (he elsewhere describes disliking training with people who "aren't
+   serious") rather than a universal structural feature — this is the card's own
+   counterargument, offered as a caution against overreading one member's philosophy
+   of language as a fact about the organization.
+4. **Working hypothesis, not confirmed.** That cross-geography tie reactivation
+   (visiting members reaching out ~monthly) generalizes beyond this one participant;
+   that the booking app's irrelevance as social infrastructure holds for other members
+   too — neither corroborated with Miguel or another member yet.
+5. **Contradicts another interview.** His middling founder-dependency answer ("less
+   personal/social/fun, but continues") sits between Francisco's flat disconfirmation
+   and Anya's graduated-but-more-attached answer — a genuine spread across three
+   participants that should be reported as a spread, not resolved into one number.
+6. **Cannot be published.** His real name. Leticia's name or any reference to her,
+   under any framing, genericized or not — she is deceased and this is treated as a
+   matter of respect independent of consent. Every other named third party (João
+   Muller, Diogo, Bruna, Inês, Jana, Cathal, Ankit, Louise, "Sardo"). Ankit
+   specifically carries a standing exclusion from manuscript use per prior author
+   instruction, independent of this interview.
+7. **Needs re-asking or consent.** **The entire interview has no on-record consent
+   exchange at all** — this is the single largest outstanding item across all five TCF
+   cards. The recording-permission / quotation-approval / name-preference /
+   off-record-boundary script that Francisco's interview used was never run here. This
+   should happen before any of this material — including the already-strong
+   "collective, not community" line drafted into Chapter 2 today — is treated as
+   locked for publication.
+8. **Remaining alternative explanations.** Whether "collective, not community" is a
+   personality-driven word choice (per counterargument above) or a genuine structural
+   observation about TCF cannot be resolved from this interview alone; Francisco
+   independently reaching a related but differently-grounded conclusion ("just a gym,"
+   from a low-social-battery starting point) is suggestive but not sufficient
+   corroboration on its own.

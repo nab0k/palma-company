@@ -138,12 +138,21 @@ personal_story_use: pending_author_approval
 - Participant: a personal acquaintance of the author, TCF member for
   approximately six months. No name or alias is recorded anywhere in
   this card - see notes above.
-- Format: an informal, direct conversation, not a recorded or
-  transcribed interview. The explanatory mechanism (regularity
-  threshold) was reasoned through jointly, not volunteered independently
-  by the participant alone.
-- No private working file exists yet - this card is drafted directly
-  from the author's own account of the conversation.
+- Format: stage 1 was an informal, direct conversation, not recorded. The
+  explanatory mechanism (regularity threshold) was reasoned through
+  jointly at that stage, not volunteered independently by the
+  participant alone.
+- Stage 2 (14 August 2026) was a recorded, transcribed ~12.5-minute
+  follow-up that tested the dispositional rival explanation directly -
+  see "Follow-up interview" section below. **Correction, 2026-08-15: this
+  card previously said "no private working file exists yet"; that line
+  was stale as of the stage-2 recording.** Private working files: audio
+  `~/Downloads/14-16-17.m4a`; transcripts (originally in an ephemeral
+  session scratchpad, now copied to a durable local location)
+  `~/Downloads/trisha-transcripts-raw/trisha_interview.txt`,
+  `trisha_retry.txt` (the clean, complete re-transcription after fixing
+  a repetition artifact by disabling `condition_on_previous_text`), and
+  `trisha_srt.srt`. None of these are retained in the repository.
 
 ## What the account contributes
 
@@ -229,3 +238,47 @@ it: "it would have to be a skill that I actively develop."
 | Zero gym-formed connections despite pre-existing relationships in the room, which themselves go quiet at the gym | Participant's own direct, confirmed account | Consent only |
 | A real dispositional/cultural threshold coexists with, rather than replaces, the practice explanation | Tested directly; participant's own account holds both together | Consent; frame carefully so as not to reduce her account to only the cultural angle or only the structural one |
 | Miguel-relationship is hub-transactional, not a peer connection | Participant's own framing ("greet the customer") | Consent only |
+
+## TASK_CLAUDE_0018 addendum — structured breakdown (2026-08-15)
+
+1. **What the participant actually said.** Zero organic connections formed at TCF
+   despite ~6 months' membership; everyone she knows there predates joining, except
+   Miguel. "With other people from open gym... no, never, like, no, nothing." Even
+   pre-existing relationships (including with the author) go quiet at the gym: "we
+   just say hi hello." Miguel relationship is transactional: "he owns a business, you
+   greet the customer... sometimes it turns a bit more." Would like more connection
+   but "never thought to put some effort into it." Predicts raw frequency alone
+   wouldn't help without also being grouped with the same people and some active
+   intention. Unprompted seventh thread: raised in the Philippines, approaching
+   strangers not normalized growing up; rarely befriended students outside her own
+   grade despite years of shared school space, but did make friends within assigned
+   class group projects; rebuilt her social circle after leaving an office job by
+   joining a pre-existing interest group rather than making friends ambiently.
+2. **What Serhii observed.** That stage 1's regularity explanation was co-constructed
+   between them, not independently volunteered — the card is explicit that this
+   weakens stage 1 relative to stage 2, which is why stage 2 was conducted.
+3. **Interpretation (not the participant's own words).** That this is the project's
+   first genuine "false case" for the domain/community/practice test, and that it
+   *strengthens* rather than merely illustrates the existing Chapter 2 argument
+   because it comes from within the same organization as the positive cases — this
+   framing is the card author's analytical claim, built on but not identical to what
+   she said.
+4. **Working hypothesis, not confirmed.** That structured, repeated joint activity
+   (not mere frequency, not mere domain) is the necessary condition for connection —
+   supported by her own biography on re-examination, but tested in exactly one
+   participant's case.
+5. **Contradicts another interview.** Nothing directly contradicts another TCF
+   interview; she is the designed contrast case (zero connection vs. SC-095/096/097/098's
+   varying-but-positive connection), which is the point of including her.
+6. **Cannot be published.** Her name or any alias, including the working alias used
+   between author and Claude during drafting — confirmed not self-chosen, unlike
+   "Рабинович," and must never appear even as a placeholder.
+7. **Needs re-asking or consent.** Explicit consent for any manuscript use remains
+   outstanding — the card's own `potential_case_use` field already flags this as the
+   only remaining gate, and that has not changed.
+8. **Remaining alternative explanations.** A social-desirability effect on her answers
+   cannot be ruled out, since the interviewer is also a personal acquaintance and a
+   minor character in her own account (she notes their relationship also stays
+   surface-level at the gym). No corroboration yet from Miguel or another member on
+   whether her account of literally zero open-gym interaction matches what others
+   observe of the open-gym format generally.

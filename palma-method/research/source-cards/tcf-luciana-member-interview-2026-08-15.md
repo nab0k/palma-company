@@ -194,3 +194,52 @@ from curiosity to same-day subscription.
 | TCF converts membership to outside-gym friendship less than a comparable community elsewhere | Same-participant, cross-context comparison from the most enthusiastic informant on record | Consent; consider pairing with Francisco's independently thinner connectivity (SC-095) as convergent, not identical, evidence |
 | Miguel/Luciana as a dormant-tie reactivation case | Participant's own dated account | Consistent with SC-090/091; no further verification needed for internal use |
 | Grief/loss disclosure | Volunteered, unprompted, no name given | Do NOT use without a separate, explicit conversation with Luciana - see Safety and consent above |
+
+## TASK_CLAUDE_0018 addendum — structured breakdown (2026-08-15)
+
+1. **What the participant actually said.** Recognized both the building and Miguel's
+   face from an Instagram ad before ever speaking to him; subscribed same-day, before
+   the first class, becoming member #1. Explicit, unprompted cross-cultural
+   comparison: "in Brazil the people from the community, they become your friends
+   outside of the gym, and this is something that I don't see much at TCF" — plus the
+   Brazilian gym ran more organized non-training events. History with Miguel: met 2019
+   at a different CrossFit box, "never actually connected... always in a rush,"
+   reactivated the tie when TCF opened. Doesn't see Miguel and Margarida outside the
+   gym often, reasoning that daily contact at TCF already "uses" the relationship.
+   Names reception coffee and the Saturday team-format workout as the two mechanisms
+   that bring members together. A reciprocity episode connecting a member to a
+   professional contact. The grief disclosure, verbatim as recorded in the card's
+   Safety section.
+2. **What Serhii observed.** Not layered in as separate observation — built from her
+   own voice-memo answers.
+3. **Interpretation (not the participant's own words).** That her Brazil comparison
+   carries unusual weight *because* she is otherwise the most enthusiastic,
+   best-connected informant — this framing (a disconfirming signal from the least
+   likely source) is the card author's analytical point, not something she said about
+   her own credibility.
+4. **Working hypothesis, not confirmed.** That TCF's non-training social
+   infrastructure is measurably thinner than a comparable gym elsewhere — a real,
+   first-hand comparative data point from one person, not a measured fact about either
+   organization.
+5. **Contradicts another interview.** Her account that friendship-formation is *less*
+   frequent at TCF than at a comparable gym sits in tension with the otherwise strongly
+   positive connectivity accounts from Anya and Francisco (regarding the specific
+   subgroup he named) — worth holding as a genuine complication, not resolving toward
+   either reading.
+6. **Cannot be published.** Her real name. Miguel and Margarida are already
+   established, consented figures elsewhere and may be referred to generically. **The
+   grief/loss material must not be used in any form — quoted, paraphrased, or
+   alluded to — without a separate, explicit conversation with Luciana about what, if
+   anything, she is comfortable having described.** This is unresolved as of this
+   task.
+7. **Needs re-asking or consent.** The grief-material consent conversation is the
+   single highest-priority outstanding item in this entire inventory — the Chapter 14
+   passage already drafted from an adjacent detail (Roxy, the T-shirt fundraiser) does
+   not by itself resolve this; the grief disclosure itself is still unused, correctly,
+   but needs a clear resolution (use with consent, or permanently exclude) rather than
+   remaining open indefinitely.
+8. **Remaining alternative explanations.** Her thinner cross-member connectivity claim
+   could reflect a genuine organizational difference, a difference in what counts as
+   "friendship" across the two cultural contexts she's comparing, or simply her own
+   busier schedule as a working professional with an established local life (vs. her
+   younger self in Brazil) — the interview does not distinguish between these.

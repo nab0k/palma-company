@@ -254,3 +254,43 @@ community-building decision.
 | Founder-centrality is per-relationship, not organization-wide | This participant's explicit counterfactual answer | Compare against Luciana and Rami guides once conducted; do not generalize from one case |
 | Stated reciprocity models understate actual reciprocity | Two concrete recovered episodes vs. participant's initial denial | Useful as methodology illustration regardless of further corroboration |
 | "Small cell" mobilization (attendance follows sub-circle, not whole group) | Participant's own account | Check whether other members describe the same pattern |
+
+## TASK_CLAUDE_0018 addendum — structured breakdown (2026-08-15)
+
+1. **What the participant actually said.** "Just a gym," not community, when asked
+   directly. Imagining Miguel gone for three months: "almost nothing" changes for him.
+   Initial denial of functional reciprocity ("friends are just friends"), then, when
+   the interviewer named a specific remembered episode, confirmed lending Miguel a DJI
+   microphone and separately volunteered the Japan-itinerary episode. Small in-class
+   subgroups attributed to Miguel "solving the limitations, not having an end in
+   mind." A low "social battery" offered as his own explanation for limited
+   connection. On the real-name question: hesitant, closing on conditional
+   acquiescence, not a clear yes.
+2. **What Serhii observed.** The friendship between the two of them (moving help,
+   shared meals) — not gathered as the participant's own testimony, since Serhii
+   already knows it from lived experience and intends to narrate it himself if used.
+3. **Interpretation (not the participant's own words).** That his resistance to
+   "community" language reflects a low-social-battery disposition rather than a
+   structural feature of TCF — this is the card's own counterargument, not something
+   Francisco stated about himself in those terms.
+4. **Working hypothesis, not confirmed.** That the small in-class subgroup structure
+   functions as unplanned relationship infrastructure system-wide — Francisco's
+   attribution is a single data point, not yet corroborated with Miguel's own account.
+5. **Contradicts another interview.** His clean, flat "almost nothing changes" on the
+   Miguel-absence counterfactual sits at one end of a spectrum that Rami (middling —
+   "less personal, less social, less fun") and Anya (graduated — "would miss him, but
+   workouts and relationships remain") occupy differently. Do not average these into
+   one organization-level answer.
+6. **Cannot be published.** His real name, under any circumstance. His wartime
+   relocation and any unspecified "things I would not share" material, until a
+   separate, specific consent conversation happens. Any third-party name he mentioned.
+7. **Needs re-asking or consent.** The equivocal real-name exchange must not be
+   treated as consent — if his material is used at all (even genericized), a cleaner,
+   separately-timed consent check is warranted given how the original exchange read.
+   The truncated final ~5 minutes of the interview (his post-research account of
+   vetting Miguel before switching gyms) still needs to be captured from the audio.
+8. **Remaining alternative explanations.** Personal disposition vs. structural
+   under-connection are not mutually exclusive — his own account supports both
+   simultaneously (low social battery *and* a real but understated reciprocity
+   history). No data yet distinguishes whether a more socially outgoing member in his
+   exact structural position would report meaningfully more connection.

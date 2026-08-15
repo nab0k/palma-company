@@ -218,3 +218,45 @@ account of the same mechanic.
 | Founder-dependency is graduated, not binary, and varies per relationship | Three different per-participant answers now on record (Francisco/Rami/Anya) | Treat as a working finding; do not force into a single organization-level claim |
 | "Weakly connected member" is not a stable recruitment category | Anya (14-16 names) vs. Francisco (3 names), same recruitment logic | Note explicitly in any cross-case synthesis; do not average or collapse the two |
 | Barefoot-training norm is safety-motivated, not hygiene-motivated | Participant reports Miguel told her this directly | Corroborate with Miguel/founder account (SC-043/044) |
+
+## TASK_CLAUDE_0018 addendum — structured breakdown (2026-08-15)
+
+1. **What the participant actually said.** Unprompted contrast: shared training with
+   someone creates "a different context" than merely sharing a coffee shop —
+   licensing acknowledgment of strangers where ordinary repeated co-presence does not.
+   "Who would you message" test named 14-16 people. On Miguel's absence: would miss
+   him, but workouts and other relationships would remain. "You always have to meet at
+   training, cross paths" as her own explanation for why TCF doesn't feel unified (no
+   shared channel). A reciprocity episode (a co-signer found within a ~6-person class
+   for a residency document, later unusable for unrelated bureaucratic reasons). A
+   negative case matching "familiar face, no relationship," softened with self-aware
+   joking when pressed. The barefoot-training norm as safety-, not hygiene-motivated,
+   per a direct conversation with Miguel. Closing: "I don't consider myself to have
+   fallen out of the community, I consider myself to have fallen out of training."
+2. **What Serhii observed.** Not separately layered in — the card is built entirely
+   from the interview transcript itself.
+3. **Interpretation (not the participant's own words).** That her explanation for
+   *not* connecting with certain long-observed members ("that's just my character")
+   is a dispositional counter-explanation to this project's belonging hypothesis — she
+   offered this framing herself, but the card's further gloss (that it applies
+   specifically to her residual unconnected acquaintances, not her overall
+   connectivity) is analytical, not something she stated in those terms.
+4. **Working hypothesis, not confirmed.** That "weakly connected member" is not a
+   stable recruitment category (Anya's 14-16 names vs. Francisco's 3, despite similar
+   recruitment logic) — a real, striking contrast in this project's data, but drawn
+   from two cases, not a tested pattern.
+5. **Contradicts another interview.** Directly complicates treating her alongside
+   Francisco as the same "weakly connected" profile, since her operational
+   connectivity (14-16 names) is the highest of any TCF interview on record, including
+   the strongly-connected Luciana.
+6. **Cannot be published.** Her real name. Every third-party name in the transcript
+   (unspecified in this card by design, but present in the private Notion source) —
+   none has consented.
+7. **Needs re-asking or consent.** No consent exchange is documented in this card
+   either (unlike Francisco's equivocal-but-attempted exchange) — should be run before
+   any manuscript use. Audio re-transcription with `condition_on_previous_text=False`
+   is needed to recover the ~2-3 minute gap.
+8. **Remaining alternative explanations.** Whether the coffee-shop-vs-gym
+   acknowledgment mechanism she describes is specific to shared *training* (her claim)
+   or would appear with any sufficiently synchronized repeated co-presence (a
+   choir, a class) is untested outside TCF.

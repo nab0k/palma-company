@@ -1,13 +1,13 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "bcc1433d50924d785b8ad240a3d7df788a4509e8656eca4e1c684aee87a0a914",
-  "source_card_count": 97,
-  "parsed_source_card_count": 97,
-  "unique_source_card_ids": 97,
+  "source_fingerprint": "ab9b6f0018646f113a73c08a4586118dc3394ecb39d2fc34e2654fa9dfc9e400",
+  "source_card_count": 108,
+  "parsed_source_card_count": 108,
+  "unique_source_card_ids": 108,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
-  "warning_count": 0,
+  "warning_count": 4,
   "status": "pass",
   "checks": {
     "yaml_parse": "completed",
@@ -27,7 +27,26 @@
 
   ],
   "warnings": [
-
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md",
+      "message": "related-card entry has no SC ID: None registered yet."
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/crowdstrike-outage-delta-response-2024.md",
+      "message": "related-card entry has no SC ID: None registered yet."
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/gerstner-ibm-1993-breakup-reversal.md",
+      "message": "related-card entry has no SC ID: None registered yet."
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/vembu-zoho-2025-ceo-transition.md",
+      "message": "related-card entry has no SC ID: None registered yet."
+    }
   ],
   "source_card_ids": [
     "SC-001",
@@ -126,9 +145,21 @@
     "SC-096",
     "SC-097",
     "SC-098",
-    "SC-099"
+    "SC-099",
+    "SC-100",
+    "SC-101",
+    "SC-102",
+    "SC-103",
+    "SC-104",
+    "SC-105",
+    "SC-106",
+    "SC-107",
+    "SC-108",
+    "SC-109",
+    "SC-110"
   ],
   "source_card_sha256": {
+    "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "6d91a7ba59d372938e5e2b4d150f8ec2ddcccc7fff26ea2070125c95f1ab6fee",
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
     "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md": "4e08a6bc96c54d12ed169a4c03db82dadf403384de4713ae2ca1c5f73b8c38e4",
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
@@ -142,11 +173,15 @@
     "research/source-cards/bls-2024-business-five-year-survival-rate.md": "8a54b02de2795323078038025afbfe8982b2c5776d9d685d0c596602b80ac503",
     "research/source-cards/bombom-founder-interview-2026-08-03.md": "d703597cc20c84b3195c102088b679951b2295f26bd6fce751a96cca7dfe60e3",
     "research/source-cards/bourdieu-1986-forms-of-capital.md": "00646d476d6a0b55a4b69326155b0b50fdf9780dc3d628ba9db09368ef3a4623",
+    "research/source-cards/brehm-psychological-reactance.md": "1c914467d089505f4bb3cdeb938981c39d4a0390cdf2594befcdc729d77f0de6",
     "research/source-cards/burt-1992-2004-structural-holes.md": "83d8269e190fd21bdbec6a359f409ef27569e9b746ba28f9d3c5c6047bfacdb1",
     "research/source-cards/coleman-1988-social-capital-human-capital.md": "b1957ab9a5338e5816f536d30fa510ef6093aa9022df8f39eb15977bfb6068ed",
     "research/source-cards/collins-2004-interaction-ritual-chains.md": "5dda2908bb88a6d9e64cd47b33b8b63bf1a1aa19b653759b0e130faffea85512",
     "research/source-cards/craig-1999-constitutive-model-communication.md": "dfa23feaba2db2b43ea8a02c58723674fe774369eafdeffaebda6249cf047f25",
+    "research/source-cards/croskerry-premature-closure.md": "8e134baba8979dc0f6bee6d7be3032234cd0222cb96d9ac6e866d1661bad8f0c",
+    "research/source-cards/crowdstrike-outage-delta-response-2024.md": "d2de607c60b336667ae7cce27d8a042a28ddade1aa503f39eb04be3a3532889d",
     "research/source-cards/durkheim-1912-elementary-forms-religious-life.md": "f9ff3cfcd543627d537cc57c1056deb288867b313da74c421d855685bb592b44",
+    "research/source-cards/dynes-quarantelli-emergent-groups-typology.md": "4fc6ae0a097b267fcd8d1a2d912b9904bd619f63ccb2a4ae07b6e8289bf63aa3",
     "research/source-cards/edelman-2026-trust-barometer.md": "01a71833647f179eaf8634f17c70ddd1c7289345beea238b004dd7512118e2b6",
     "research/source-cards/edmondson-1999-psychological-safety.md": "700cf43875f6874886608c444b581dee0f9c1e4674b5eac543af0cfceed3015f",
     "research/source-cards/eventbrite-2026-reset-to-real.md": "39ac56d354af587ce49f35638d7a5d9d6c0ed9b83c53175f72d38591358df7aa",
@@ -155,6 +190,7 @@
     "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md": "2ea587be4f7ee447cce5d6525c1b6d3450b6acbb212efb286eebd3ce20a905c2",
     "research/source-cards/freeman-1984-stakeholder-theory.md": "f385666980e7191f503920a2d032c92ea40c498ce2bd6c22cc4897884b75a5e3",
     "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md": "2e61867345561433da2db0183d6440180e8b26055dc19a4f0fa613ec02a1e4c0",
+    "research/source-cards/gerstner-ibm-1993-breakup-reversal.md": "a5eedc8d6723e43483549ad7c5ea3f30672436ad28433fb65cf3ee8313ae1388",
     "research/source-cards/goffman-1961-asylums.md": "269f8adb55259541666da43b52a63d87cfbec67b55e5ae010f8332713f43675b",
     "research/source-cards/goffman-1963-behavior-in-public-places.md": "422b9972a232da5029a4c8d7e53f7b1bee08c71ccbd7e0b2b719c086a61e1cde",
     "research/source-cards/google-plus-2011-2019-engagement-failure.md": "6e03b1eec711d3391e0266347882101e004aeb184baf768ffc2909f7fde33c60",
@@ -191,6 +227,8 @@
     "research/source-cards/reichheld-sasser-1990-zero-defections.md": "d407ecf8bbe007582f6cb497b7a189ff7b4e5dc82d384570b3214c5bf93acd19",
     "research/source-cards/rogers-1962-diffusion-of-innovations.md": "742e8c87fd473eed557bc700e51489fc2658169b5c8fa1fae2d79e7da08cf14c",
     "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md": "c240ff68a0cac3b9c0c766aea2ce9bdd54b1e76578e7ba23c40e755b5b8ec9dc",
+    "research/source-cards/schein-process-consultation-and-humble-inquiry.md": "a2a03539f70e382b95cce2a102344ac18236a135a4df34a1f1f4016b49a8b142",
+    "research/source-cards/selznick-institutionalization.md": "0c61c1cdd6f4631a04439542c98230d8de459ffc3567f37a4eeb767af7054932",
     "research/source-cards/serhii-anton-nosik-half-brother-intake.md": "7082423cd591819b605ae7183d2132de2e1496abd1302f783b9a14220f6d4a10",
     "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md": "f29ef3bd523df5f89fb64d24102a15eac965f0fdcaf40d6464b7601baff51aee",
     "research/source-cards/serhii-credential-legitimacy-pattern-intake.md": "d0530954d2f7456b400b8c44c2cd5c898fa8d13aea5ef7d0f5dde6b5ad25b469",
@@ -206,13 +244,14 @@
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/spinks-2021-business-of-belonging.md": "a7eb559f2b194f24d1c6f87c089f820861ca860f1f909186a418a423da79265f",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
-    "research/source-cards/tcf-anya-member-interview-2026-08-15.md": "33e609f6a609776673d02a6bdad8a8dc22cc0fa0a974cb8bb93d3785c42a7d28",
+    "research/source-cards/tak-shtab-taktion-uleadeurope-institutionalization.md": "27de68c642f8f6b4834009d5e045ae4aa6525efa289f0d705f9f52678b8cb276",
+    "research/source-cards/tcf-anya-member-interview-2026-08-15.md": "6837a82ac440361f2bc3a298ab11cd45e58c5d8050022c7ac519c0465df33d80",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
     "research/source-cards/tcf-founder-interview-2026-07-30.md": "8dc196d0064c874aeaf9462206d06c058d46b4f6f8c47b5ffb4e709a5036f375",
-    "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "d12e17d1b8fc150c55999979f2ac17013b306c3f3dbb0ce79e68aeec0b6a8c7c",
-    "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "98e72152edd57f90b3249b2d044bcc45fe47210c6ed9ae51f0248824390a67a5",
-    "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "535448a2ecaceb10809817d2b0414df5f670b9468fdab6a6d750f6bce1e61b78",
-    "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "4a14d6383deca678d45adea268de141a33f6d0074db908922dcdcd60b0515c31",
+    "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "05dbeccc770d7c711d7611402e85b0bcc08b2af99e1b95f3306c2046a5b92448",
+    "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "1792f532b2486c2761695c8bd2249dd62e1712855b8d5917508200bc2076b56a",
+    "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "cbd4f33f1ba51e9cc330bdfe0f56895e3c4b83b852ba76cd17ad74c953da328d",
+    "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "eb30569a1bdda1810c1cc6feeecff72bd2a501cc289304ff1d2ab12931fe7c9e",
     "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md": "b1b84cd983e460ab7b0fc120e4303aae1354586911b6cf5787c3133d1de99ebe",
     "research/source-cards/turner-1969-ritual-process-communitas.md": "e382705da0b085def272908a89d43a739a0648fbba6187ddcba2d48a44b88be6",
     "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md": "48e4b511d787cdf3378a4c87d770b6b41c3bffb68709493af4c15956bdad0cc4",
@@ -220,8 +259,10 @@
     "research/source-cards/united-airlines-2017-stock-impact.md": "b6c7e43a74dff787081577973efb118c015247d30d9f173b7dd25f114a83cab1",
     "research/source-cards/urry-2007-network-capital.md": "e2092310d4ff41cacabfb8844606444b153f9c298fee3e690ec3405244c3de84",
     "research/source-cards/uzzi-1997-paradox-of-embeddedness.md": "17097e67a488390b378c9fc5b193ec6b4844330ab1626fc911063e084519f7cc",
+    "research/source-cards/vembu-zoho-2025-ceo-transition.md": "74685b91f7f7ccae7060d3e41397a8ac26ce5110ee67da29ae120b6f941e626e",
     "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md": "f989ef84f9270050e5439d21ed7a3b84e31c282babb0d3c46cf26a183e08f9df",
     "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md": "2b0a3d0e268ed43ecad84518e7e750a732c8ad892c84c463d2a029df566827bd",
+    "research/source-cards/weick-mann-gulch-sensemaking-collapse.md": "e48e8b6b6da6ff249b92c5d69e0f5924ebe4e972947d14eae2744b87c7ea818a",
     "research/source-cards/weiss-1995-theory-of-change.md": "1aaad64029de71246902afabc1f113abb54a015ab22e9d1c5973961b35b2f84d",
     "research/source-cards/wenger-1991-1998-communities-of-practice.md": "4d28fd7a55c15d1a68b105ee39c3c4967d644e3f754e8ed6926c54611fe3b8ad",
     "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md": "fb20bea90ab65c89e346905849e4e131b3689aa8de4fe1eca251e8e8c2b761bc",
