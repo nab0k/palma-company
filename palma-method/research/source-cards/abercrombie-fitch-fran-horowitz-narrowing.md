@@ -14,7 +14,8 @@ related_concepts:
   - audience-narrowing
   - design-as-selection-not-invention
 related_cards:
-  - "None registered yet."
+  - "SC-006 (Ostrom - the boundary-setting principle this business case illustrates at a retail scale)"
+  - "SC-110 (TAK.Shtab institutionalization - the personal case this business case is paired with in Chapter 18)"
 core_claim: >
   Abercrombie & Fitch spent years trying to be a broad, generically youth-oriented brand and lost
   market position. Starting in 2017, under CEO Fran Horowitz, the company deliberately narrowed its

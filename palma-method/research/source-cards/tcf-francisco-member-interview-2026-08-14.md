@@ -294,3 +294,18 @@ community-building decision.
    simultaneously (low social battery *and* a real but understated reciprocity
    history). No data yet distinguishes whether a more socially outgoing member in his
    exact structural position would report meaningfully more connection.
+
+## TASK_CLAUDE_0019 addendum — internal traceability confirmation (2026-08-15)
+
+Confirmed as the source of Chapter 17's "TCF member gives two answers, doesn't
+notice the contradiction" exchange (the "просто зал" / "just a gym" answer,
+followed by the unprompted naming of a foreigners' subgroup he'd call a
+community). This card is the only one of the five TCF interviews containing
+both elements together (see "What the participant actually said" above and
+this card's `core_claim`/`summary` fields). Rami's card (SC-096) references
+this same finding only by name, for comparison, and is not an independent
+source for it. This note exists for internal project traceability only — the
+manuscript text remains properly anonymized ("один из участников зала") and
+this confirmation does not change what may be published. See
+`palma-method/research/verification/PART_IV_CLAIMS_LEDGER_v0.1.md`, item
+P4-006.

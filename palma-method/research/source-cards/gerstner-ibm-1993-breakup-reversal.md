@@ -14,7 +14,8 @@ related_concepts:
   - diagnosis-under-consensus
   - integration-as-value
 related_cards:
-  - "None registered yet."
+  - "SC-100 (Schein - process consultation, the diagnostic discipline this business case illustrates at organizational scale)"
+  - "SC-101 (Croskerry - premature closure, the diagnostic bias this business case is paired with in Chapter 17)"
 core_claim: >
   In 1993, IBM's board and outside analysts had converged on a diagnosis - the company was too large
   and needed to be broken into independent pieces, with investment bankers already valuing the

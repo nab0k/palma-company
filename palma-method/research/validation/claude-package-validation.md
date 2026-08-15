@@ -1,7 +1,7 @@
 # Claude Research Package — Structural Validation
 
 Report ID: `VAL-CLAUDE-001`  
-Source fingerprint: `ab9b6f0018646f113a73c08a4586118dc3394ecb39d2fc34e2654fa9dfc9e400`
+Source fingerprint: `b4857d356ac2b46e0328d914ea029fec598af1b02ba9333f63a6d72f90385715`
 Status: **PASS**
 
 ## Result
@@ -10,7 +10,7 @@ Status: **PASS**
 - Source cards parsed: 108
 - Unique source-card IDs: 108
 - Errors: 0
-- Warnings: 4
+- Warnings: 0
 
 ## Checks completed
 
@@ -32,10 +32,7 @@ None.
 
 ## Warnings
 
-- `related_card_reference` — research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md: related-card entry has no SC ID: None registered yet.
-- `related_card_reference` — research/source-cards/crowdstrike-outage-delta-response-2024.md: related-card entry has no SC ID: None registered yet.
-- `related_card_reference` — research/source-cards/gerstner-ibm-1993-breakup-reversal.md: related-card entry has no SC ID: None registered yet.
-- `related_card_reference` — research/source-cards/vembu-zoho-2025-ceo-transition.md: related-card entry has no SC ID: None registered yet.
+None.
 
 ## Scope
 

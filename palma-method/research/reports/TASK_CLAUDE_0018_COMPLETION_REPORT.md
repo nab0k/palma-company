@@ -140,10 +140,16 @@ publication.
   text on the same line, in the Gerstner and Taktion cards) and nine field errors
   across the three new business-case cards (`business_case` is not a recognized
   `source_type`; `"Track B - Business Cases"` is not a recognized `research_track`;
-  empty `related_cards` arrays). All were fixed in place and the validator now
-  passes clean: **108 source cards, 0 errors, 4 harmless warnings** (the four new
-  business-case cards' `related_cards: ["None registered yet."]` placeholder isn't a
-  real SC ID, which the validator correctly flags as a warning, not an error).
+  empty `related_cards` arrays). Those were fixed in place, which brought the count
+  to **0 errors**, but four `related_card_reference` warnings remained (a
+  `"None registered yet."` placeholder in `related_cards` isn't a real SC ID, so the
+  validator correctly flagged it) — that state was **inaccurately described below as
+  "passes clean"** in the first version of this report; a result with 4 open
+  warnings is not clean. **Correction (2026-08-15, TASK_CLAUDE_0019):** those four
+  placeholders were replaced with real SC-ID cross-references (see
+  `PART_IV_TARGETED_CORRECTIONS_v0.1.md`'s sibling task record), and the validator
+  now genuinely reports **0 errors, 0 warnings** across all 108 source cards. See
+  `TASK_CLAUDE_0019`'s own completion note for the exact commit.
 - Decide, with Serhii, on the six items above before any of this material moves
   toward final manuscript use.
 

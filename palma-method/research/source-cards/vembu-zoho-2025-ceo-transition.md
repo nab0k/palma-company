@@ -14,7 +14,8 @@ related_concepts:
   - distributed-succession
   - founder-transition
 related_cards:
-  - "None registered yet."
+  - "SC-107 (Selznick - institutionalization, the theoretical framework this business case is paired with in Chapter 21)"
+  - "SC-006 (Ostrom - the institutional-durability account also invoked in the same chapter)"
 core_claim: >
   In January 2025, Sridhar Vembu - who founded Zoho and led it for 28 years without ever taking
   external investment - stepped down as CEO, transitioning to Chief Scientist, and handed the CEO role

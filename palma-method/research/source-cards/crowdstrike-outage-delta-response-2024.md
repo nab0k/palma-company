@@ -14,7 +14,8 @@ related_concepts:
   - unplanned-crisis-response
   - team-level-improvisation
 related_cards:
-  - "None registered yet."
+  - "SC-104 (Weick - Mann Gulch sensemaking collapse, the theoretical mechanism this business case illustrates at industry scale)"
+  - "SC-103 (Dynes & Quarantelli - the emergent-organization typology used in the same chapter)"
 core_claim: >
   A faulty CrowdStrike software update on 19 July 2024 crashed approximately 8.5 million Windows
   devices worldwide simultaneously - no airline or company had a specific plan for this exact failure
