@@ -4,7 +4,7 @@
 
 - Canonical table of contents: `manuscript/README.md`
 - Repository index: `generated/repository-index.json`
-- Dashboard fingerprint: `28a29c36df1c18ccc062d3ebdc429c25dd3e501ec699d3369cd1dc5dfd5574da`
+- Dashboard fingerprint: `723c512018baa1d2cd6a80754c9730c777b299a489e338f4c70f07f502858f90`
 - Metadata mode: `legacy_warning`
 - Editorial meaning of `accepted`: current working version accepted for continued manuscript development; not final publication copy.
 
@@ -18,7 +18,7 @@
 | Under revision | 0 |
 | Not started | 0 |
 | Current records | 84 |
-| Legacy records | 158 |
+| Legacy records | 159 |
 | Ambiguous records | 26 |
 | Packet coverage | 100.0% |
 

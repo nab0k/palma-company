@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "6186131c4b9faefc013ec9dbc8a15349f64617a777ce89a86aabc5b2db002b9c",
+  "source_fingerprint": "dfc80ade61ae1906953f56e334755e0dc73029e7e50b6a06410f3d80b0e97b86",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 268,
+    "records": 269,
     "current": 84,
-    "legacy": 158,
+    "legacy": 159,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 131,
+    "non_chapter_legacy": 132,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 188
+    "validation_warnings": 189
   },
   "catalog": {
     "current": [
@@ -3431,6 +3431,33 @@
             "SC-097",
             "SC-090",
             "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-099",
+        "canonical_id": "SC-099",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF non-connected member case (low-regularity attendee) — 15 August 2026",
+        "path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_11"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096",
+            "SC-097",
+            "SC-098"
           ]
         }
       },
@@ -10946,6 +10973,48 @@
       "relation": "related_to",
       "to": "SC-097",
       "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "affects",
+      "to": "CHAPTER_11",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-097",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-098",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

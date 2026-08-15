@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "558b56dae715ec99f5f9cf3c16ca8adc5c081a958aebba50939934d3f18ff510",
-  "source_card_count": 96,
-  "parsed_source_card_count": 96,
-  "unique_source_card_ids": 96,
+  "source_fingerprint": "bcc1433d50924d785b8ad240a3d7df788a4509e8656eca4e1c684aee87a0a914",
+  "source_card_count": 97,
+  "parsed_source_card_count": 97,
+  "unique_source_card_ids": 97,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 0,
@@ -125,7 +125,8 @@
     "SC-095",
     "SC-096",
     "SC-097",
-    "SC-098"
+    "SC-098",
+    "SC-099"
   ],
   "source_card_sha256": {
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
@@ -209,6 +210,7 @@
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
     "research/source-cards/tcf-founder-interview-2026-07-30.md": "8dc196d0064c874aeaf9462206d06c058d46b4f6f8c47b5ffb4e709a5036f375",
     "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "d12e17d1b8fc150c55999979f2ac17013b306c3f3dbb0ce79e68aeec0b6a8c7c",
+    "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "98e72152edd57f90b3249b2d044bcc45fe47210c6ed9ae51f0248824390a67a5",
     "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "535448a2ecaceb10809817d2b0414df5f670b9468fdab6a6d750f6bce1e61b78",
     "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "4a14d6383deca678d45adea268de141a33f6d0074db908922dcdcd60b0515c31",
     "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md": "b1b84cd983e460ab7b0fc120e4303aae1354586911b6cf5787c3133d1de99ebe",
