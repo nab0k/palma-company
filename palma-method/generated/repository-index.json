@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "db6d73b93974ede4a852011cec5e602ece0e6234bf1fd91609a2d69292c578ba",
+  "source_fingerprint": "6186131c4b9faefc013ec9dbc8a15349f64617a777ce89a86aabc5b2db002b9c",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 266,
+    "records": 268,
     "current": 84,
-    "legacy": 156,
+    "legacy": 158,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 129,
+    "non_chapter_legacy": 131,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 186
+    "validation_warnings": 188
   },
   "catalog": {
     "current": [
@@ -2269,6 +2269,7 @@
             "CHAPTER_09",
             "CHAPTER_11",
             "CHAPTER_16",
+            "CHAPTER_17",
             "CHAPTER_19"
           ],
           "related_to": [
@@ -3370,6 +3371,64 @@
           "related_to": [
             "SC-095",
             "SC-044",
+            "SC-090",
+            "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-097",
+        "canonical_id": "SC-097",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (Anya) — 15 August 2026",
+        "path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_03",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096"
+          ]
+        }
+      },
+      {
+        "id": "SC-098",
+        "canonical_id": "SC-098",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (Luciana, member number one) — 15 August 2026",
+        "path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_03",
+            "CHAPTER_09",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096",
+            "SC-097",
             "SC-090",
             "SC-091"
           ]
@@ -9691,6 +9750,12 @@
     {
       "from": "SC-049",
       "relation": "affects",
+      "to": "CHAPTER_17",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
       "to": "CHAPTER_19",
       "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
     },
@@ -10773,6 +10838,114 @@
       "relation": "related_to",
       "to": "SC-095",
       "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-097",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",

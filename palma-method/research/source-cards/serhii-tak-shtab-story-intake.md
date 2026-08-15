@@ -17,6 +17,7 @@ book_chapters:
   - "Chapter 9 (Networks, Groups, and Structural Advantage)"
   - "Chapter 11 (Listen)"
   - "Chapter 16 (Connect Communication and Community)"
+  - "Chapter 17 (Diagnose)"
   - "Chapter 19 (Launch)"
 related_concepts:
   - collective-efficacy
@@ -59,6 +60,7 @@ chapter_refs:
   - CHAPTER_09
   - CHAPTER_11
   - CHAPTER_16
+  - CHAPTER_17
   - CHAPTER_19
 personal_story_use: pending_author_approval
 ```
@@ -79,6 +81,53 @@ editorial analysis, public-source leads, numerical conflicts, and verification
 questions. They remain the private full source.
 
 ## Recoverable account
+
+**Added 2026-08-14 - the true opening moment, preceding everything else in
+this card, recovered from a private Codex-thread document ("История про
+комьюнити в гуманитарном штабе ТАК.Штаб") the author pointed to directly
+and confirmed for use:**
+
+The author met the first day of the full-scale invasion in Kyiv with a
+sense of chaos: people were stuck in traffic trying to leave the country
+within the first half of the first day, streets emptied of cars, roads were
+blocked with concrete checkpoints. Pharmacies saw street queues for the
+first time since the 1990s, shops operated with gaps longer than their
+posted hours, and ATMs paused service. A Russian military column stretched
+65 km through Kyiv oblast, reaching right up to Irpin and Hostomel, the
+capital's satellite towns.
+
+On the second day of the full-scale war, the author went to the two
+nearest military enlistment offices ("военкомата") to volunteer for
+military service. Weapons had already run out by then; at the third
+recruitment center, they ran out exactly on the person standing right in
+front of him in line. He read this as a signal, went home, and - together
+with his business partner (per the standing rule, her name never appears
+in manuscript text; see the "партнёрка" resolution elsewhere in this card) -
+organized a humanitarian headquarters in their office. They began
+redirecting hot meals around the city, taking in requests for help,
+building logistics, and running their own fundraising drives to cover
+basic necessities for anyone who needed them. The focus later narrowed to
+the target audience from their think tank's most recent research project
+(on domestic violence) - mothers with children - and then to internally
+displaced people arriving in Kyiv oblast from across the country. By the
+author's own count, they reached more than 10,000 people across what could
+be tracked. At peak, roughly twenty people worked directly in the Shtab,
+with a wider circle - including partner organizations - larger still.
+
+**A specific, author-flagged detail, confirmed 2026-08-14 as clear for
+manuscript use:** at the same time, the author was working as an advisor
+to Ukraine's deputy minister of defense on strategic communications
+("советник замминистра обороны по стратКому") - a role with plenty of its
+own work in that period - while separately co-organizing a civic
+organization already focused on women's and children's rights issues. In
+the author's own words, this made the idea for TAK.Shtab "as timely as it
+could possibly be." The author's own framing in the source document
+explicitly hesitates over whether this dual position is even worth
+mentioning ("стоит ли это вообще говорить") - that hesitation is itself
+worth preserving in any manuscript treatment, rather than smoothing it into
+a confident narrative; it matches this project's established preference
+for honest uncertainty over constructed motive (compare the "если судьба -
+значит судьба" line elsewhere in this card).
 
 At the beginning of the full-scale invasion of Ukraine, an office used by
 an existing civic organization in Kyiv became a humanitarian coordination
