@@ -59,12 +59,45 @@ limitations: >
   full original text; the core facts (near-bankruptcy origin, member-led chapter structure) are
   corroborated across multiple independent sources but should be verified against the original
   HBR article text before a direct quotation is used in the manuscript.
+
+  Concrete figures added 2026-08-06 (WebSearch, cross-referenced across Wikipedia, Harley-Davidson's
+  own "H.O.G. Stories" site, and multiple dealership pages): H.O.G. was initiated in September 1982
+  by Harley-Davidson marketing executive Steve Piehl, with an official launch date of January 1,
+  1983. Membership figures vary by source and year (recent reporting ranges roughly 750,000-900,000
+  active members, with some sources citing over 1 million lifetime/historical members), and chapter
+  counts are reported between roughly 1,350 and 1,400+ worldwide. Treat the exact current membership
+  number as approximate/dated - it fluctuates by source and year - but the order of magnitude
+  (hundreds of thousands of active members, 1,000+ chapters) and the founding facts (1982-83, Steve
+  Piehl) are well-corroborated.
 counterarguments: >
   The book should avoid presenting HOG as proof that any company can replicate this outcome -
   Harley-Davidson's case involved a distinctive product category (motorcycles, lifestyle/identity
   branding) that may lend itself unusually well to community formation compared to, say, a B2B
   software company; the diagnostic point (audience vs. community) transfers, but the specific
   tactics may not.
+
+  Added 2026-08-07 (WebSearch): from 1973 to 1983, Harley-Davidson's US motorcycle market share
+  collapsed from roughly 78% to 23% as Japanese manufacturers entered with cheaper, higher-quality
+  bikes - real, well-documented stakes behind "near bankruptcy," not a figure of speech. Important
+  confound, must be stated honestly in-text if the company's recovery is discussed: in 1983 the
+  Reagan administration also imposed tariffs on imported Japanese motorcycles over 700cc, which
+  independently helped Harley-Davidson's turnaround. HOG's exact, isolated contribution to the
+  company's financial recovery cannot be cleanly separated from the tariff effect - do not present
+  HOG alone as having "saved" the company financially. HOG's structure (member-elected officers
+  including a "Road Captain" role, monthly Saturday chapter meetings, member-written newsletters,
+  member-organized charity fundraising) is well-documented and safe to describe in detail
+  regardless of this confound - it's the causal claim about *financial rescue* specifically that
+  needs the tariff caveat, not the description of HOG's community structure itself.
+
+  Added 2026-08-07 (WebSearch), answering the author's direct question "was there a budget for the
+  clubs?": no. Each local chapter is sponsored by an authorized Harley-Davidson dealership (at that
+  dealer's discretion), which gives the chapter a charter and legitimacy - but the company/dealer
+  did not fund chapter activities. Chapters historically ran on member dues (capped around $35/year
+  per multiple chapter FAQ pages) plus their own fundraising, subject to the sponsoring dealer's
+  approval; a volunteer chapter treasurer reports finances to the dealer monthly. This is a useful,
+  concrete detail: the company's actual contribution was structural (an official charter riding on
+  its existing nationwide dealer network), not financial - members funded and ran the clubs
+  themselves from day one.
 business_implication: >
   Usable as the illustrative business case for Chapter 1 and/or Chapter 2, showing the audience-
   to-community conversion is achievable and has a multi-decade track record, not just a

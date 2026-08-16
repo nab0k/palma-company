@@ -73,4 +73,13 @@ verification_status: verified_via_secondary_and_primary_excerpts
 notes: >
   Primary text located and excerpted directly (IITK PDF); definition also cross-checked against
   Social Capital Research & Training summary for consistency.
+
+  **TASK_CLAUDE_0022 addendum (2026-08-15) — cross-verification, no correction.**
+  Independently re-confirmed via a ChatGPT Classic research dossier
+  (`CLASSIC_THEORY_DOSSIERS_EVIDENCE_AUDIT_v0.1.md`), which read the same primary
+  text through a different mirror (marxists.org HTML transcription vs. this card's
+  IITK PDF) and reports the same core definition and mobilization quote (page cited
+  as "around pp. 248-249" there vs. p. 249 here — immaterial difference). Two
+  independent primary-text readings now agree; confidence remains `high`, no
+  content change required.
 ```

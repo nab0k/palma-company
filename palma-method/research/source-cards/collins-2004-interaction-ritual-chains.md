@@ -9,6 +9,7 @@ url_or_identifier: "ISBN 9780691090276 / 9780691123899"
 date_accessed: "2026-07-17"
 research_track: "TASK_CLAUDE_0008 - Wave 2, Chapter 5 grounding"
 book_chapters:
+  - "Chapter 1 (Companies Speak. People Scroll.)"
   - "Chapter 5 (Events Are Not Infrastructure)"
 related_concepts:
   - ritual
@@ -84,4 +85,27 @@ notes: >
   independent secondary academic summaries; the exact page-level quotation was not confirmed
   against the original 2004 text in this pass and should be verified before a direct quote is used
   in manuscript prose.
+
+  **TASK_CLAUDE_0022 addendum (2026-08-15) — new supporting source, genuine
+  addition, not a correction.** A ChatGPT Classic research dossier
+  (`CLASSIC_THEORY_DOSSIERS_EVIDENCE_AUDIT_v0.1.md`) surfaced a directly relevant
+  peer-reviewed review not previously in this card: Wayne Baker (2019),
+  "Emotional Energy, Relational Energy, and Organizational Energy," *Annual Review
+  of Organizational Psychology and Organizational Behavior* 6.
+  DOI: https://doi.org/10.1146/annurev-orgpsych-012218-015047. Baker's review
+  concludes that Collins' emotional-energy construct remains theoretically richer
+  than its empirical operationalization — i.e., visible proxies (smiling, a
+  high-five, attendance, applause) do not by themselves establish that emotional
+  energy actually occurred; EE is a real, higher-order construct that current
+  measurement methods only partially capture. This sharpens this card's existing
+  limitation note and should be cited alongside Collins wherever the manuscript
+  claims to observe EE from behavioral signs alone.
+
+  **Sharper "cannot claim" list, per the same dossier** (consistent with, and
+  additive to, this card's existing `counterarguments`/`limitations` fields):
+  Collins' framework does not license claiming that (1) every event creates
+  solidarity; (2) synchrony guarantees friendship; (3) physical co-presence alone
+  is sufficient; (4) a branded ritual automatically creates community; (5) visible
+  enthusiasm measures network strength; (6) relations will persist once the
+  organizer or setting disappears.
 ```

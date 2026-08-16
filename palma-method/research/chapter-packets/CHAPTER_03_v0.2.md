@@ -4,10 +4,17 @@
 packet_id: PKT-03-v0.2
 chapter: "Chapter 3 — Reputation Is Not Access"
 version: "0.2"
-status: accepted
-editorial_scope: accepted_current_working_version
+status: superseded
+editorial_scope: superseded_by_author_collaboration_rebuild
 publication_status: not_final
 acceptance_reference: TASK_CODEX_0009
+superseded_by: "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+superseded_note: >
+  Superseded 2026-08-08 by a full author-collaboration rebuild in Russian (see
+  03-chapter-3-packet-v0.3.md), following the same process used for Chapters 1-2. This version's
+  academic five-construct synthesis and evidence mapping remain a valid reference (several of its
+  source cards - SC-025, SC-008 - carry directly into v0.3), but this file is no longer the
+  chapter's canonical current draft. Preserved unmodified below for the audit trail.
 owner: Claude (Research Synthesizer role)
 created_date: "2026-07-17"
 task_reference: TASK_CLAUDE_0009.md

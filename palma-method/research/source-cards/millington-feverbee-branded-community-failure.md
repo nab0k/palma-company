@@ -84,4 +84,14 @@ notes: >
   but the original FeverBee article's exact text, exact wording of the "digital death" quote, and
   publication date have not been independently confirmed against the primary source. Do not treat
   as fully checked or verified until that primary-source confirmation is obtained.
+
+  Checked further 2026-08-06 (WebSearch): Dell's Digital Nomads community launched in August 2008,
+  paired with a laptop product line, explicitly inviting members to help define the term "digital
+  nomad" and share tips - confirming the "domain existed, company supplied the content" half of
+  Millington's diagnosis. No independently confirmed date, cause, or figures for the community's
+  decline were found - one secondary source suggests 2009 recession-driven headcount cuts hit
+  Dell's social-media team, which may be related, but this is speculative and NOT confirmed as the
+  cause. Do not state a specific shutdown date, cause, or participation number in the manuscript -
+  only what's confirmed: the 2008 launch, its content-led structure, and Millington's own
+  after-the-fact diagnosis that member-to-member interaction never took over.
 ```

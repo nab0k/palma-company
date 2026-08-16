@@ -248,3 +248,248 @@ artifacts:
   - palma-method/governance/TASK_CODEX_0010_COMPLETION_REPORT.md
 reviewer: ChatGPT
 ```
+
+```yaml
+event_id: EVT-0020
+occurred_at: 2026-08-04
+actor: Claude
+event_type: policy_update
+title: Source-justification and idea-based cross-reference rules added to prose-quality policy
+status: delivered
+result: Two house-style rules added to POLICY_PROSE_QUALITY_0001 (section 2) with matching diagnostic-checklist items 11-12, requested directly by Serhii Nabok during a voice-editing trial on Chapter 10
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0021
+occurred_at: 2026-08-06
+actor: Claude
+event_type: policy_update
+title: "Introduce the question before the name" rule added to prose-quality policy
+status: delivered
+result: A third house-style rule added to POLICY_PROSE_QUALITY_0001 (section 2), with matching diagnostic-checklist item 13, requested directly by Serhii Nabok while line-editing Chapter 1's theory passage - every named scholar or practitioner must arrive after the question or gap they answer, never cold before it, without exception
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0022
+occurred_at: 2026-08-06
+actor: Claude
+event_type: chapter_lock_in
+title: Chapter 1 fully rebuilt and locked as v0.3; Introduction opening scene finalized
+status: delivered
+result: Chapter 1 rebuilt from scratch in Russian around a four-level theoretical architecture (Simmel, Durkheim, Collins/Pagis/Haidt/Holt, Spinks/Craig) directly continuous with the Introduction's Vipassana opening scene, after multiple structural critique passes and fact-checks across the session. Locked by Serhii Nabok ("Виправив, давай фіксувати") after confirming two final fixes: a restored plural antecedent for "Один из них" and an overclaiming-verb correction in Holt's paragraph ("нашёл" -> "описывает"). Two new source cards registered in the same pass (SC-072 United Airlines stock impact, SC-073 Patagonia Worn Wear scale, both previously used in-text without a formal card) and the Introduction's approved text in SC-054 synced to its final wording (added "затем"; removed a now-redundant closing line superseded by Chapter 1's own opening transition). English translation and manuscript commit remain open, tracked in the new packet's "Open before manuscript use" section.
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.3.md
+  - palma-method/research/source-cards/serhii-vipassana-retreat-story-intake.md
+  - palma-method/research/source-cards/united-airlines-2017-stock-impact.md
+  - palma-method/research/source-cards/patagonia-2026-worn-wear-repair-program.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0023
+occurred_at: 2026-08-06
+actor: Claude
+event_type: chapter_lock_in
+title: "Palma" naming insertion added to Chapter 1 (v0.4); Introduction opening further refined
+status: delivered
+result: Chapter 1 gained a two-paragraph insertion after the Craig transmission/constitutive paragraph, connecting that distinction to the book's own title. Grounded in a new source card (SC-074) capturing the real naming history - the 2008 Kyiv ad agency co-founded with student friends, Latin/pan-Romance etymology (corrected from an initial, wrong "Portuguese-specific" claim), and Serhii's current "Palmas" email sign-off. Two errors were caught and fixed before lock-in: a fabricated causal claim that the email sign-off predated and motivated the 2008 naming (it did not - Serhii corrected this directly), and an overclaiming physics line ("sound is the collision of two surfaces," stated as a general fact rather than specific to a clap). The "one hand clapping" image is deliberately named as a Zen koan (not mislabeled a "physical paradox," per Serhii's own catch) then answered literally as physics, per his direction to secularize rather than religious-frame it. Separately, the Introduction's opening scene (SC-054) was further refined by Serhii for immersion - reordered to open on sensory scene-setting before reflection, shifted to present tense for the morning-routine paragraph, and added two travel-companion details (Israeli acquaintances, a techno-DJ identified via "менора на обложке паспорта" rather than the opaque loanword "даркон"). Locked via "Давай вносить всё и коммитить."
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.4.md
+  - palma-method/research/source-cards/serhii-palma-name-origin-story-intake.md
+  - palma-method/research/source-cards/serhii-vipassana-retreat-story-intake.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0024
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_lock_in
+title: TAK.Shtab founding fact corrected in Chapter 1 (v0.5); source card substantially expanded while drafting Chapter 2
+status: delivered
+result: While developing Chapter 2's fuller telling of the TAK.Shtab story, the author gave a corrected account of the founding - the office belonged to him and his business partner only; a neighbour present in earlier drafts was not a co-founder but someone who ended up sheltering there during air-raid alerts and began helping afterward. Chapter 1's locked v0.4 text ("вместе с партнёркой и соседкой по дому") was corrected to plain "мы" in v0.5, per the author's own stated preference to describe the situation observationally rather than enumerate specific people or roles. SC-049 (serhii-tak-shtab-story-intake.md) was substantially expanded in the same session with verified new material: the basement/shelter origin story, sourcing difficulties (body armor via friends in Israel), at least four aid convoys to liberated Kyiv-region settlements including Bucha, a self-organizing decision-making group, and - verified directly via the organization's own Facebook page - a confirmed 2023 pivot from volunteer humanitarian aid to a formal EU-funded program (Taktion) and a recurring research study on Ukrainian mothers during the war, reserved for a later chapter.
+artifacts:
+  - palma-method/research/chapter-packets/01-chapter-1-packet-v0.5.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0025
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_lock_in
+title: Chapter 2 rebuilt from scratch and locked as v0.2 ("An Audience Is Not a Community")
+status: delivered
+result: Chapter 2 was rebuilt entirely in Russian, replacing v0.1's generic English draft (Wenger's domain/community/practice via Harley-Davidson/Dell only, no author material, no connection to Chapter 1's architecture). The new version opens with a brand-survives-business argument (Polaroid, Pan Am, Triumph Motorcycles - the latter two newly registered as SC-077 and SC-076), operationalizes Chapter 1's "отклик"/"форма связи" vocabulary into a testable audience-vs-community question, introduces Wenger's three ingredients as a diagnostic, and grounds the chapter's central case in extensive, heavily-verified author material developed across this session: a peacetime prequel (the author's own coworking office - publisher, bookstore built on a purchased library, gallery, café, and think tank, with neighbourhood partnerships) and the TAK.Shtab wartime activation of that same space, told in far more depth than Chapter 1's brief mention (a self-organizing decision group, at least four aid convoys including Bucha, growing partner coordination). Harley-Davidson is retained as compressed external corroboration; Dell/Millington as the explicitly practitioner-tier failure case; Coleman/Portes as a dark-side flag reserved for a later chapter. Several rounds of fact reconciliation happened during drafting - most notably a correction to Chapter 1 itself (see EVT-0024) - and multiple pieces of verified but out-of-scope material (the 2023 institutionalization arc, a wartime pizzeria restart, international press coverage) were deliberately reserved rather than force-fit into this chapter. Locked via "Ок, идём дальше" after extensive voice, structure, and accuracy passes.
+artifacts:
+  - palma-method/research/chapter-packets/02-chapter-2-packet-v0.2.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+  - palma-method/research/source-cards/pan-am-1991-brand-survival-licensing.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0026
+occurred_at: 2026-08-07
+actor: Claude
+event_type: policy_update
+title: No real names of the author's personal acquaintances rule added to prose-quality policy
+status: delivered
+result: A standing privacy rule added to POLICY_PROSE_QUALITY_0001's Privacy rule section, with matching diagnostic-checklist item 14, requested directly by Serhii Nabok after confirming Ksenia Bukshyna's identity as his business partner in SC-049 - no real first or last name of any personal acquaintance (friends, colleagues, business partners, neighbours) may appear anywhere in the manuscript, even when the underlying story is approved for use and even when the person's identity is independently verifiable via public documents. This is separate from and in addition to the existing story-approval privacy rule; approving a story does not separately approve naming anyone in it. Applies to every chapter going forward, not only the TAK.Shtab/TAK books material that prompted it.
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0027
+occurred_at: 2026-08-07
+actor: Claude
+event_type: policy_update
+title: "Self-chosen alias" exception added to the no-real-names rule; TAK.Shtab co-founder status revised
+status: delivered
+result: A narrow, explicitly documented exception was added to the "no real names" privacy rule (EVT-0026) - a self-chosen public alias the person themselves uses (not a name invented for the book) may be used with the author's explicit, case-by-case approval, illustrated by the first instance ("Рабинович," Chapter 2's TAK books material). Separately, while developing that same material, the author partially reversed an earlier 2026-08-07 correction to SC-049: the neighbour present at the TAK.Shtab office ("Polina," name withheld per the standing rule) is now confirmed as an actual co-founder, not merely someone who ended up sheltering there. Both the existing Chapter 1 (v0.5) and Chapter 2 (v0.2) manuscript text remain accurate through this change, since both use generic "мы" and never asserted a specific founding structure - only the research record (SC-049) needed correcting, and it now documents both the reversal and the connective story (Rabinovich introducing the author's circle, his vacated apartment later housing Polina) transparently, without erasing the prior, now-superseded version.
+artifacts:
+  - palma-method/governance/PROSE_QUALITY_POLICY_DRAFT.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0028
+occurred_at: 2026-08-07
+actor: Claude
+event_type: research_delivery
+title: Chapter 2 case material deepened and reconciled - Vozdvyzhenka square, Harley-Davidson detail, Google+ registered then dropped, wartime risk context verified
+status: delivered
+result: Several rounds of fact-checking and case development for Chapter 2. Registered SC-079 (the Vozdvyzhenka "Ploshcha Mystetstv" square community campaign, 2018-2023+, independently verified across three Ukrainian press outlets - the author was a participant/venue, not the campaign's originator, corrected accordingly). SC-021 (Harley-Davidson/HOG) substantially expanded with the 1973-1983 market-share collapse (78% to 23%), an honest confound (1983 Reagan-era tariffs also aided the turnaround - do not credit HOG alone), and the concrete mechanism of the company's actual contribution (dealer-network chartering, explicitly no chapter budget - member dues capped ~$35/year). SC-080 (Google+ engagement failure) was registered as a stronger replacement candidate for Dell Digital Nomads, then the author correctly flagged it as still a "stretched" case given how much conflicting material exists about a company that large - the paragraph was cut without replacement rather than force a citation. SC-081 registers officially-sourced confirmation that active enemy sabotage-reconnaissance groups were a real, documented risk in Kyiv Oblast in April 2022 (the time/place of TAK.Shtab's aid convoys), after the author supplied primary Ukrainian press sources in response to Claude flagging a wartime-danger detail as unverified speculation - the detail turned out to be well-grounded, not embellishment.
+artifacts:
+  - palma-method/research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md
+  - palma-method/research/source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md
+  - palma-method/research/source-cards/google-plus-2011-2019-engagement-failure.md
+  - palma-method/research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md
+  - palma-method/research/source-cards/serhii-tak-shtab-story-intake.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0029
+occurred_at: 2026-08-07
+actor: Claude
+event_type: chapter_delivery
+title: "Chapter 2 locked as v0.3 - John Bloor/Triumph investment detail, full critical pass, opening triad rewritten"
+status: delivered
+result: >
+  Closed out this session's Chapter 2 work by locking a new packet version. Added John Bloor's
+  actual Triumph investment (GBP 80m+ personally invested, 7 years to relaunch production, 17 years
+  to first profit in 2000) after the author supplied sourced research - resolved an earlier concern
+  that his current GBP 3.1B net worth (accumulated mostly in the 2010s, decades after 1983) would
+  wrongly imply he was already extremely wealthy when he bought Triumph's name; the investment/
+  timeline detail was used instead, since it directly supports rather than undermines the chapter's
+  "brand alone isn't enough - reviving it costs far more than buying the name" point. A full critical
+  re-read of the assembled chapter then caught and fixed five issues: the opening triad ("Бренд может
+  обанкротиться следом") contradicted the chapter's own evidence that brands routinely outlive
+  businesses by decades - rewritten twice, first to hedge correctly ("иногда на десятилетия"), then
+  again after the author flagged the third line ("Люди — остаются") as empty - it asserted people
+  merely exist rather than naming the chapter's actual subject, connections between people, which
+  may or may not survive; a false callback ("я уже описывал" pointing to content never actually
+  written earlier in the chapter); a reintroduced "не в одной поездке, а в серии" construction with
+  no established antecedent, already fixed once earlier this session and drifted back in; a leftover
+  "наши Так пятницы" inconsistent with the chapter's established generic "открытые пятницы"; and a
+  Triumph sentence that briefly conflated the 7-year relaunch milestone with the 17-year
+  profitability milestone as if they were the same event. All fixes applied and locked into
+  02-chapter-2-packet-v0.3.md, which supersedes v0.2 for review purposes (v0.2 preserved unmodified).
+artifacts:
+  - palma-method/research/chapter-packets/02-chapter-2-packet-v0.3.md
+  - palma-method/research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0030
+occurred_at: 2026-08-08
+actor: Claude
+event_type: chapter_delivery
+title: "Chapter 3 locked as v0.3 - full author-collaboration rebuild, five constructs freshly evidenced"
+status: delivered
+result: >
+  Rebuilt Chapter 3 ("Reputation Is Not Access") from the ground up in Russian, following the same
+  process used for Chapters 1-2, superseding CHAPTER_03_v0.2.md - a rigorous but purely academic
+  English synthesis (Codex-produced, TASK_CODEX_0009) that explicitly excluded personal material and
+  carried an unfilled case placeholder. The new draft opens with a personal scene (the author, as
+  editor-in-chief of a fading business publication in the late 2010s, secures an interview with a
+  former Ukrainian president through a near-stranger - a newly appointed airport director - who
+  turns out to have a real personal friendship with that president), introducing Suchman's legitimacy
+  construct as something recognized only in hindsight. A mid-session correction: the first full draft
+  stretched this single anecdote across all five constructs (awareness, reputation, legitimacy,
+  trust, access), which on reflection felt thin and repetitive - each of the other four constructs
+  was given its own fresh, independently verified illustration instead: Kevin Lane Keller (1993) for
+  awareness; Uber and Airbnb's early-years regulatory bans despite massive user love (SC-087) for the
+  reputation/legitimacy boundary; Mayer-Davis-Schoorman's trust model plus Airbnb's peer-review rate
+  vs. hotels and the Edelman Trust Barometer (SC-088, SC-014) for institutional-vs-relational trust;
+  venture-capital warm-intro-vs-cold-email conversion data (SC-083) for access. A full critical pass
+  then caught and fixed five real issues: a misattribution crediting Mayer-Davis-Schoorman with a
+  distinction their model doesn't actually make; an overclaim that awareness is the only
+  money-purchasable construct; an overclaim that all five constructs get conflated into "reputation"
+  specifically; a confused metaphor ("borrowing trust from yourself"); and a singular/plural
+  agreement error referring to two companies (Uber and Airbnb) as one. Separately, the author
+  disclosed that the unnamed "партнёр по изданию" in the opening scene is a Kyiv Military Lyceum
+  friend with whom he has repeatedly partnered across unrelated later career contexts (currently
+  colleagues again at a TV channel) - registered as SC-089, flagged as likely the strongest untapped
+  source of recurring-tie material for the Relationship Capital chapters (6-7), reserved for a future
+  dedicated intake session rather than folded into Chapter 3.
+artifacts:
+  - palma-method/research/chapter-packets/03-chapter-3-packet-v0.3.md
+  - palma-method/research/chapter-packets/CHAPTER_03_v0.2.md
+  - palma-method/research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md
+  - palma-method/research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md
+  - palma-method/research/source-cards/serhii-credential-legitimacy-pattern-intake.md
+  - palma-method/research/source-cards/keller-1993-customer-based-brand-equity.md
+  - palma-method/research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md
+  - palma-method/research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md
+  - palma-method/research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md
+  - palma-method/research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md
+reviewer: Serhii Nabok
+```
+
+```yaml
+event_id: EVT-0031
+occurred_at: 2026-08-08
+actor: Claude
+event_type: research_delivery
+title: "Timofey 26-year tie intake expanded; dormant-ties literature gap closed"
+status: delivered
+result: >
+  The author supplied a full, self-critical 23-section intake (conducted with a separate AI
+  collaborator, voice-based) on a 26-year friendship formed at the Kyiv Military Lyceum ("Тимофей" -
+  real name, plus his mother "Лариса Тимофеевна" and a contrast case "Игорь" - all recorded privately
+  only, per the standing no-real-names rule) that has recurred as a professional partnership across
+  at least three unrelated later career contexts. SC-089 rewritten from a thin stub into a full card
+  capturing the intake's central hypothesis (a three-part mechanism: shared past, contact
+  reproduction, and recurring new joint practice - none alone sufficient, tested via two
+  counterfactuals) and its own explicitly flagged research gap: this project's evidence base covered
+  tie strength/formation and structural position well, but nothing on tie persistence, dormancy, or
+  reactivation. Closed that gap by registering SC-090 (Levin, Walter & Murnighan 2011, "Dormant Ties:
+  The Value of Reconnecting" - the seminal finding that reconnected dormant ties can outperform
+  active ties, combining weak-tie novelty with strong-tie trust) and SC-091 (a 2023 follow-up,
+  registered at lower confidence pending a full read). Also reviewed and corrected a proposed small
+  Chapter 3 addition (from the author's separate AI collaborator) that would have mislabeled
+  willingness-to-act as "access" - exactly the conflation Chapter 3 exists to prevent; redirected the
+  fix toward Chapter 3's currently-abstract Relationship Capital paragraph instead, where a human
+  illustration is still missing, with corrected wording that keeps "access" (reachability) and
+  relationship capital (willingness once reached) properly separated. This edit has not yet been
+  applied to the locked Chapter 3 v0.3 text - reserved for the author's decision.
+artifacts:
+  - palma-method/research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md
+  - palma-method/research/source-cards/levin-walter-murnighan-2011-dormant-ties.md
+  - palma-method/research/source-cards/levin-walter-kudesia-2023-reconnection-process.md
+reviewer: Serhii Nabok
+```

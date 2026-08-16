@@ -34,6 +34,29 @@ hype. Prefer concrete mechanisms and observed consequences. Use Palma's approved
 definitions consistently. Keep technical terms when they carry precise meaning.
 Examples must clarify the mechanism and remain traceable or explicitly abstract.
 
+Name the reason for a source, not only the source. When a scholar or study is
+cited, one clause should say what earns its place in the argument: an original
+formulation of the idea, a finding replicated across unrelated domains, or a
+sourced biographical fact that plausibly shaped the researcher's angle on the
+material. A bare name and date is not sufficient justification for the weight
+a citation is asked to carry, and any such addition follows the same
+verification discipline as the claim it supports.
+
+Cross-reference by idea or example, not by chapter number. A reader does not
+remember chapter numbers. Recall a concept, mechanism, or a specific,
+recognizable example instead of writing "as Chapter 6 argued." A chapter
+number may sit in parentheses as a wayfinding aid; it must never be the sole
+content of the reference.
+
+Introduce the question before the name. Do not open a new source with the
+person's name and credentials — open with the question, gap, or tension the
+text has just raised, then say who answers it and why that person
+specifically. "For this, I turn to psychologist X, who spent years studying
+Y" earns the name; "Psychologist X argues..." dropped in cold does not,
+even if a reason follows later in the same sentence. This applies to every
+named scholar or practitioner without exception, not only the first one in
+a section.
+
 ### 3. Author voice
 
 Reserved. It may be documented only from samples the author explicitly approves
@@ -46,6 +69,35 @@ Personal stories from conversations are unavailable for manuscript or agent use
 unless the author explicitly approves them. Until then, use published evidence,
 an abstract non-identifying example, or an editorial placeholder. Approval must
 be traceable and specific to the intended use.
+
+No real first or last names of the author's personal acquaintances — friends,
+colleagues, business partners, neighbours, or anyone else from his private
+life — appear anywhere in the manuscript, with one narrow exception (below).
+This holds even
+when the underlying story or fact is approved for use, and even when the
+person's identity happens to be independently a matter of public record (a
+name on a public document, a company filing, a byline). Refer to such people
+generically by role or relationship — "партнёрка," "сосед," "друг," "коллега"
+— never by name. Approving a story's use does not separately approve naming
+anyone who appears in it; treat these as two different approvals. This rule
+does not apply to public figures written about in their public capacity
+(e.g., a government official's actions covered by the press), only to the
+author's personal acquaintances.
+
+**The one narrow exception:** a self-chosen public alias or persona that
+the person themselves uses to introduce themselves — not a name invented
+by the author or an editor for this book — may be used, but only with the
+author's explicit, case-by-case approval for that specific person and
+that specific text. This is not a general "pseudonyms are fine" license:
+default to generic reference (role/relationship) unless the author
+affirmatively confirms the alias is the person's own and approves its use.
+Even under this exception, flag for the author if surrounding detail
+(a specific credential, a specific project, a specific location) makes the
+person identifiable to people who know them despite the alias — that is a
+judgment call for the author to make knowingly, not something an editor
+should smooth over silently. First documented instance: "Рабинович" in
+Chapter 2's TAK books material (see
+`research/source-cards/serhii-tak-shtab-story-intake.md`).
 
 ## Diagnostic checklist
 
@@ -61,6 +113,10 @@ Before proposing a style edit, ask:
 8. Did the edit add opinion, anecdote, informality, or certainty not present in the source?
 9. Does any example reveal or derive from an unapproved personal story?
 10. Can the editor explain the change without appealing to an “AI score”?
+11. Does every named source state, even briefly, why it earns its place — originality, cross-domain replication, or a sourced biographical link?
+12. Does any inter-chapter reference name an idea or example, rather than resting on a chapter number alone?
+13. Does every named scholar or practitioner arrive after the question they answer, rather than cold before it?
+14. Does the text name any real acquaintance of the author's by first or last name — even one whose identity is independently verifiable — rather than referring to them generically by role or relationship?
 
 ## Editing protocol
 

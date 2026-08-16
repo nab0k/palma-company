@@ -3,23 +3,23 @@
   "generator_version": "1.1.0",
   "generated": true,
   "source_of_truth": "GitHub repository metadata",
-  "source_fingerprint": "80092dadf7e0543d1d6421727e87ad7f11dd2e3f8cf4ea8bccc1ceb7ba5aaf13",
+  "source_fingerprint": "dfc80ade61ae1906953f56e334755e0dc73029e7e50b6a06410f3d80b0e97b86",
   "classification": {
     "current": "canonical metadata, one explicitly accepted working chapter version, or a uniquely selected highest observed chapter version",
     "legacy": "accepted transition format or a superseded lower chapter version",
     "ambiguous": "missing/conflicting identity or version; no silent choice was made"
   },
   "summary": {
-    "records": 215,
+    "records": 269,
     "current": 84,
-    "legacy": 105,
+    "legacy": 159,
     "ambiguous": 26,
     "non_chapter_current": 61,
-    "non_chapter_legacy": 84,
+    "non_chapter_legacy": 132,
     "non_chapter_ambiguous": 0,
     "chapter_groups": 23,
     "validation_errors": 0,
-    "validation_warnings": 131
+    "validation_warnings": 189
   },
   "catalog": {
     "current": [
@@ -1867,27 +1867,6 @@
         }
       },
       {
-        "id": "SC-031",
-        "canonical_id": "SC-031",
-        "type": "source_card",
-        "status": "checked_via_hbr_listing_and_multiple_secondary_summaries_full_original_article_not_independently_re-read_in_this_pass",
-        "title": "Informal Networks: The Company Behind the Chart",
-        "path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md",
-        "metadata_format": "legacy_fenced_yaml",
-        "record_state": "legacy",
-        "owner": "research",
-        "created": "2026-07-17",
-        "privacy_level": "internal",
-        "source_id_format": "canonical",
-        "relationships": {
-          "related_to": [
-            "SC-005",
-            "SC-004",
-            "SC-002"
-          ]
-        }
-      },
-      {
         "id": "SC-032",
         "canonical_id": "SC-032",
         "type": "source_card",
@@ -2282,6 +2261,7 @@
         "source_id_format": "canonical",
         "relationships": {
           "affects": [
+            "CHAPTER_01",
             "CHAPTER_04",
             "CHAPTER_05",
             "CHAPTER_06",
@@ -2289,12 +2269,1195 @@
             "CHAPTER_09",
             "CHAPTER_11",
             "CHAPTER_16",
+            "CHAPTER_17",
             "CHAPTER_19"
           ],
           "related_to": [
             "SC-040",
             "SC-007",
             "SC-002"
+          ]
+        }
+      },
+      {
+        "id": "SC-050",
+        "canonical_id": "SC-050",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Contribution of Migration to Economic Development in Holland, 1570-1800",
+        "path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_07",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-004",
+            "SC-017"
+          ]
+        }
+      },
+      {
+        "id": "SC-051",
+        "canonical_id": "SC-051",
+        "type": "source_card",
+        "status": "review",
+        "title": "Evoking Equanimity: Silent Interaction Rituals in Vipassana Meditation Retreats",
+        "path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-052",
+            "SC-053"
+          ]
+        }
+      },
+      {
+        "id": "SC-052",
+        "canonical_id": "SC-052",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Ritual Process: Structure and Anti-Structure",
+        "path": "research/source-cards/turner-1969-ritual-process-communitas.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-002",
+            "SC-016"
+          ]
+        }
+      },
+      {
+        "id": "SC-053",
+        "canonical_id": "SC-053",
+        "type": "source_card",
+        "status": "review",
+        "title": "Synchrony and Cooperation",
+        "path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_05"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-052"
+          ]
+        }
+      },
+      {
+        "id": "SC-054",
+        "canonical_id": "SC-054",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — ten-day Vipassana retreat at Dhamma Sacca, Spain",
+        "path": "research/source-cards/serhii-vipassana-retreat-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_00",
+            "CHAPTER_02",
+            "CHAPTER_05",
+            "CHAPTER_08",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-052",
+            "SC-053",
+            "SC-055",
+            "SC-056",
+            "SC-057",
+            "SC-058",
+            "SC-059"
+          ]
+        }
+      },
+      {
+        "id": "SC-055",
+        "canonical_id": "SC-055",
+        "type": "source_card",
+        "status": "review",
+        "title": "When Are Social Judgments Made? Evidence for the Spontaneousness of Trait Inferences",
+        "path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-056",
+            "SC-057",
+            "SC-058"
+          ]
+        }
+      },
+      {
+        "id": "SC-056",
+        "canonical_id": "SC-056",
+        "type": "source_card",
+        "status": "review",
+        "title": "Thin Slices of Expressive Behavior as Predictors of Interpersonal Consequences: A Meta-Analysis",
+        "path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055",
+            "SC-057"
+          ]
+        }
+      },
+      {
+        "id": "SC-057",
+        "canonical_id": "SC-057",
+        "type": "source_card",
+        "status": "review",
+        "title": "A Room with a Cue: Personality Judgments Based on Offices and Bedrooms",
+        "path": "research/source-cards/gosling-2002-room-with-a-cue.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055",
+            "SC-056"
+          ]
+        }
+      },
+      {
+        "id": "SC-058",
+        "canonical_id": "SC-058",
+        "type": "source_card",
+        "status": "review",
+        "title": "An Experimental Study of Apparent Behavior",
+        "path": "research/source-cards/heider-simmel-1944-apparent-behavior.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-04",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_08"
+          ],
+          "related_to": [
+            "SC-054",
+            "SC-055"
+          ]
+        }
+      },
+      {
+        "id": "SC-059",
+        "canonical_id": "SC-059",
+        "type": "source_card",
+        "status": "review",
+        "title": "Asylums: Essays on the Social Situation of Mental Patients and Other Inmates",
+        "path": "research/source-cards/goffman-1961-asylums.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-05",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_05",
+            "CHAPTER_10"
+          ],
+          "related_to": [
+            "SC-052",
+            "SC-054",
+            "SC-048"
+          ]
+        }
+      },
+      {
+        "id": "SC-060",
+        "canonical_id": "SC-060",
+        "type": "source_card",
+        "status": "review",
+        "title": "2025 Imperva Bad Bot Report: The Rapid Rise of Bots and the Unseen Risk for Business",
+        "path": "research/source-cards/imperva-2025-bad-bot-report.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-061",
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-061",
+        "canonical_id": "SC-061",
+        "type": "source_card",
+        "status": "review",
+        "title": "Muse/Billion Dollar Boy consumer surveys on generative-AI content preference, 2023 vs. 2025",
+        "path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-060"
+          ]
+        }
+      },
+      {
+        "id": "SC-062",
+        "canonical_id": "SC-062",
+        "type": "source_card",
+        "status": "review",
+        "title": "Eventbrite Social Study 2026: Reset to Real (plus Live Nation 2026 ticket-sales data)",
+        "path": "research/source-cards/eventbrite-2026-reset-to-real.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-060",
+            "SC-061"
+          ]
+        }
+      },
+      {
+        "id": "SC-063",
+        "canonical_id": "SC-063",
+        "type": "source_card",
+        "status": "review",
+        "title": "Changes in peripheral oxytocin and vasopressin during a silent month-long Insight meditation retreat",
+        "path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_00",
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-051",
+            "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-064",
+        "canonical_id": "SC-064",
+        "type": "source_card",
+        "status": "review",
+        "title": "Communication Theory as a Field (transmission vs. constitutive models of communication)",
+        "path": "research/source-cards/craig-1999-constitutive-model-communication.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-065",
+        "canonical_id": "SC-065",
+        "type": "source_card",
+        "status": "review",
+        "title": "Cardboard protests following the dismissal of Defense Minister Mykhailo Fedorov",
+        "path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-064",
+            "SC-009"
+          ]
+        }
+      },
+      {
+        "id": "SC-066",
+        "canonical_id": "SC-066",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Elementary Forms of Religious Life",
+        "path": "research/source-cards/durkheim-1912-elementary-forms-religious-life.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-051"
+          ]
+        }
+      },
+      {
+        "id": "SC-067",
+        "canonical_id": "SC-067",
+        "type": "source_card",
+        "status": "review",
+        "title": "Soziologie (The Sociology of Georg Simmel)",
+        "path": "research/source-cards/simmel-1908-sociology-forms.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-068",
+        "canonical_id": "SC-068",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion (the 'hive switch')",
+        "path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027",
+            "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-069",
+        "canonical_id": "SC-069",
+        "type": "source_card",
+        "status": "review",
+        "title": "How Brands Become Icons: The Principles of Cultural Branding (cultural branding / crowdculture)",
+        "path": "research/source-cards/holt-2004-how-brands-become-icons.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-066",
+            "SC-062"
+          ]
+        }
+      },
+      {
+        "id": "SC-070",
+        "canonical_id": "SC-070",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Business of Belonging: How to Make Community your Competitive Advantage (SPACES model)",
+        "path": "research/source-cards/spinks-2021-business-of-belonging.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-027"
+          ]
+        }
+      },
+      {
+        "id": "SC-071",
+        "canonical_id": "SC-071",
+        "type": "source_card",
+        "status": "review",
+        "title": "Client attrition following account-lead departure in agency/professional-services businesses",
+        "path": "research/source-cards/agency-client-attrition-account-departure.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-067"
+          ]
+        }
+      },
+      {
+        "id": "SC-072",
+        "canonical_id": "SC-072",
+        "type": "source_card",
+        "status": "review",
+        "title": "United Airlines Flight 3411 (Dr. David Dao) - stock market impact, April 2017",
+        "path": "research/source-cards/united-airlines-2017-stock-impact.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-009"
+          ]
+        }
+      },
+      {
+        "id": "SC-073",
+        "canonical_id": "SC-073",
+        "type": "source_card",
+        "status": "review",
+        "title": "Patagonia Worn Wear - repair program scale",
+        "path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-069"
+          ]
+        }
+      },
+      {
+        "id": "SC-074",
+        "canonical_id": "SC-074",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — origin of the name 'Palma'",
+        "path": "research/source-cards/serhii-palma-name-origin-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-06",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_00",
+            "CHAPTER_01"
+          ],
+          "related_to": [
+            "SC-067",
+            "SC-064"
+          ]
+        }
+      },
+      {
+        "id": "SC-075",
+        "canonical_id": "SC-075",
+        "type": "source_card",
+        "status": "review",
+        "title": "Polaroid - brand survives corporate death and is revived by an unrelated company",
+        "path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-067"
+          ]
+        }
+      },
+      {
+        "id": "SC-076",
+        "canonical_id": "SC-076",
+        "type": "source_card",
+        "status": "review",
+        "title": "Triumph Motorcycles - full business liquidation, brand bought and rebuilt from nothing",
+        "path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-075"
+          ]
+        }
+      },
+      {
+        "id": "SC-077",
+        "canonical_id": "SC-077",
+        "type": "source_card",
+        "status": "review",
+        "title": "Pan Am - airline ceased operations 1991, brand survives purely as licensing/merchandise",
+        "path": "research/source-cards/pan-am-1991-brand-survival-licensing.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-075",
+            "SC-076"
+          ]
+        }
+      },
+      {
+        "id": "SC-078",
+        "canonical_id": "SC-078",
+        "type": "source_card",
+        "status": "review",
+        "title": "US business five-year survival rate (BLS data)",
+        "path": "research/source-cards/bls-2024-business-five-year-survival-rate.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-054"
+          ]
+        }
+      },
+      {
+        "id": "SC-079",
+        "canonical_id": "SC-079",
+        "type": "source_card",
+        "status": "review",
+        "title": "Vozdvyzhenka residents' campaign to save 'Ploshcha Mystetstv' (Arts Square), Kyiv, 2018-2023+",
+        "path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-049",
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-080",
+        "canonical_id": "SC-080",
+        "type": "source_card",
+        "status": "review",
+        "title": "Google+ (2011-2019) - massive scale, near-zero genuine engagement, official admission of failure",
+        "path": "research/source-cards/google-plus-2011-2019-engagement-failure.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-007"
+          ]
+        }
+      },
+      {
+        "id": "SC-081",
+        "canonical_id": "SC-081",
+        "type": "source_card",
+        "status": "review",
+        "title": "Kyiv and Kyiv Oblast, April 2022 - active enemy sabotage-reconnaissance groups (DRG), checkpoints retained for this reason",
+        "path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02"
+          ],
+          "related_to": [
+            "SC-049"
+          ]
+        }
+      },
+      {
+        "id": "SC-082",
+        "canonical_id": "SC-082",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake — institutional credentials as a recurring legitimacy signal",
+        "path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025",
+            "SC-048"
+          ]
+        }
+      },
+      {
+        "id": "SC-083",
+        "canonical_id": "SC-083",
+        "type": "source_card",
+        "status": "review",
+        "title": "Warm introductions vs. cold outreach - conversion rate gap in VC fundraising and B2B sales",
+        "path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-008",
+            "SC-024"
+          ]
+        }
+      },
+      {
+        "id": "SC-084",
+        "canonical_id": "SC-084",
+        "type": "source_card",
+        "status": "review",
+        "title": "Conceptualizing, Measuring, and Managing Customer-Based Brand Equity",
+        "path": "research/source-cards/keller-1993-customer-based-brand-equity.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025"
+          ]
+        }
+      },
+      {
+        "id": "SC-085",
+        "canonical_id": "SC-085",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - securing a former president's interview via a near-stranger and a borrowed credential",
+        "path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-082",
+            "SC-025",
+            "SC-008"
+          ]
+        }
+      },
+      {
+        "id": "SC-086",
+        "canonical_id": "SC-086",
+        "type": "source_card",
+        "status": "review",
+        "title": "Full author interview transcript - Pavlo Ryabikin (Boryspil airport director), ~2017",
+        "path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-07",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-085"
+          ]
+        }
+      },
+      {
+        "id": "SC-087",
+        "canonical_id": "SC-087",
+        "type": "source_card",
+        "status": "review",
+        "title": "Uber and Airbnb, early years - massive user reputation, contested legal legitimacy",
+        "path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-025",
+            "SC-088"
+          ]
+        }
+      },
+      {
+        "id": "SC-088",
+        "canonical_id": "SC-088",
+        "type": "source_card",
+        "status": "review",
+        "title": "Airbnb peer-to-peer review trust vs. traditional hotel brand trust",
+        "path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03"
+          ],
+          "related_to": [
+            "SC-008",
+            "SC-014",
+            "SC-087"
+          ]
+        }
+      },
+      {
+        "id": "SC-089",
+        "canonical_id": "SC-089",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - a 26-year friendship (Kyiv Military Lyceum) recurring as professional partnership: mechanism of tie persistence and reactivation",
+        "path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-08",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_03",
+            "CHAPTER_06",
+            "CHAPTER_07",
+            "CHAPTER_09"
+          ],
+          "related_to": [
+            "SC-048",
+            "SC-085",
+            "SC-046",
+            "SC-054",
+            "SC-090"
+          ]
+        }
+      },
+      {
+        "id": "SC-090",
+        "canonical_id": "SC-090",
+        "type": "source_card",
+        "status": "review",
+        "title": "Dormant Ties: The Value of Reconnecting",
+        "path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_06",
+            "CHAPTER_07"
+          ],
+          "related_to": [
+            "SC-004",
+            "SC-089",
+            "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-091",
+        "canonical_id": "SC-091",
+        "type": "source_card",
+        "status": "review",
+        "title": "The Reconnection Process: Mobilizing the Social Capital of Dormant Ties",
+        "path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_06",
+            "CHAPTER_07"
+          ],
+          "related_to": [
+            "SC-090",
+            "SC-089"
+          ]
+        }
+      },
+      {
+        "id": "SC-093",
+        "canonical_id": "SC-093",
+        "type": "source_card",
+        "status": "review",
+        "title": "Author story intake - Anton Nosik as half-brother, and the Israeli-friends body-armor connection",
+        "path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_09"
+          ],
+          "related_to": [
+            "SC-049",
+            "SC-005",
+            "SC-090"
+          ]
+        }
+      },
+      {
+        "id": "SC-094",
+        "canonical_id": "SC-094",
+        "type": "source_card",
+        "status": "review",
+        "title": "Informal Networks: The Company Behind the Chart",
+        "path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "claude",
+        "created": "2026-08-08",
+        "privacy_level": "public",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_09"
+          ],
+          "related_to": [
+            "SC-005",
+            "SC-002"
+          ]
+        }
+      },
+      {
+        "id": "SC-095",
+        "canonical_id": "SC-095",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (personal acquaintance) — 14 August 2026",
+        "path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-14",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-046",
+            "SC-049"
+          ]
+        }
+      },
+      {
+        "id": "SC-096",
+        "canonical_id": "SC-096",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (relocated, occasional attendee) — 14 August 2026",
+        "path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-14",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-095",
+            "SC-044",
+            "SC-090",
+            "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-097",
+        "canonical_id": "SC-097",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (Anya) — 15 August 2026",
+        "path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_03",
+            "CHAPTER_09",
+            "CHAPTER_10",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096"
+          ]
+        }
+      },
+      {
+        "id": "SC-098",
+        "canonical_id": "SC-098",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF member interview (Luciana, member number one) — 15 August 2026",
+        "path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_03",
+            "CHAPTER_09",
+            "CHAPTER_16"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096",
+            "SC-097",
+            "SC-090",
+            "SC-091"
+          ]
+        }
+      },
+      {
+        "id": "SC-099",
+        "canonical_id": "SC-099",
+        "type": "source_card",
+        "status": "review",
+        "title": "TCF non-connected member case (low-regularity attendee) — 15 August 2026",
+        "path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md",
+        "metadata_format": "legacy_fenced_yaml",
+        "record_state": "legacy",
+        "owner": "serhii_nabok",
+        "created": "2026-08-15",
+        "privacy_level": "restricted",
+        "source_id_format": "canonical",
+        "relationships": {
+          "affects": [
+            "CHAPTER_02",
+            "CHAPTER_11"
+          ],
+          "related_to": [
+            "SC-044",
+            "SC-095",
+            "SC-096",
+            "SC-097",
+            "SC-098"
           ]
         }
       },
@@ -2820,27 +3983,24 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
-          "id": "PKT-01-v0.2",
+          "id": "PKT-01-v0.5",
           "canonical_id": "CHAPTER_01",
           "type": "chapter",
-          "status": "draft_for_editorial_review",
-          "title": "Chapter Packet v0.2: Chapter 1 — Companies Speak. People Scroll.",
-          "path": "research/chapter-packets/01-chapter-1-packet-v0.2.md",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 1 Packet v0.5 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.5.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
-          "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-16",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-07",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.5",
           "chapter_number": 1,
-          "supersedes_declaration": "01-chapter-1-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "supersedes_declaration": "01-chapter-1-packet-v0.4.md (preserved unmodified, not deleted or overwritten); v0.1/v0.2/v0.3 remain superseded as noted in v0.3/v0.4",
           "relationships": {
             "supported_by": [
-              "SC-003",
-              "SC-009",
-              "SC-014",
-              "SC-021",
-              "SC-024"
+              "SC-054",
+              "SC-074"
             ]
           },
           "index_state": "current"
@@ -2870,6 +4030,93 @@
           "index_state": "legacy"
         },
         {
+          "id": "PKT-01-v0.2",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "draft_for_editorial_review",
+          "title": "Chapter Packet v0.2: Chapter 1 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-16",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-003",
+              "SC-009",
+              "SC-014",
+              "SC-021",
+              "SC-024"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-01-v0.3",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 1 Packet v0.3 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-06",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.1.md and 01-chapter-1-packet-v0.2.md (both preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-009",
+              "SC-027",
+              "SC-049",
+              "SC-051",
+              "SC-054",
+              "SC-060",
+              "SC-062",
+              "SC-064",
+              "SC-065",
+              "SC-066",
+              "SC-067",
+              "SC-068",
+              "SC-069",
+              "SC-070",
+              "SC-071",
+              "SC-072",
+              "SC-073"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-01-v0.4",
+          "canonical_id": "CHAPTER_01",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 1 Packet v0.4 — Companies Speak. People Scroll.",
+          "path": "research/chapter-packets/01-chapter-1-packet-v0.4.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-06",
+          "privacy_level": "internal",
+          "version": "0.4",
+          "chapter_number": 1,
+          "supersedes_declaration": "01-chapter-1-packet-v0.3.md (preserved unmodified, not deleted or overwritten); v0.1/v0.2 remain superseded as noted in v0.3",
+          "relationships": {
+            "supported_by": [
+              "SC-054",
+              "SC-074"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
           "id": "MANUSCRIPT_CHAPTER_01",
           "canonical_id": "CHAPTER_01",
           "type": "chapter",
@@ -2894,6 +4141,41 @@
       "selection_basis": "highest_observed_version",
       "records": [
         {
+          "id": "PKT-02-v0.3",
+          "canonical_id": "CHAPTER_02",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 2 Packet v0.3 — An Audience Is Not a Community",
+          "path": "research/chapter-packets/02-chapter-2-packet-v0.3.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-07",
+          "privacy_level": "internal",
+          "version": "0.3",
+          "chapter_number": 2,
+          "supersedes_declaration": "02-chapter-2-packet-v0.2.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-049",
+              "SC-054",
+              "SC-075",
+              "SC-076",
+              "SC-077",
+              "SC-078",
+              "SC-079",
+              "SC-080",
+              "SC-081"
+            ]
+          },
+          "index_state": "current"
+        },
+        {
           "id": "PKT-02",
           "canonical_id": "CHAPTER_02",
           "type": "chapter",
@@ -2915,7 +4197,38 @@
               "SC-021"
             ]
           },
-          "index_state": "current"
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-02-v0.2",
+          "canonical_id": "CHAPTER_02",
+          "type": "chapter",
+          "status": "locked_working_draft_russian",
+          "title": "Chapter 2 Packet v0.2 — An Audience Is Not a Community",
+          "path": "research/chapter-packets/02-chapter-2-packet-v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-07",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 2,
+          "supersedes_declaration": "02-chapter-2-packet-v0.1.md (preserved unmodified, not deleted or overwritten)",
+          "relationships": {
+            "supported_by": [
+              "SC-002",
+              "SC-007",
+              "SC-016",
+              "SC-021",
+              "SC-024",
+              "SC-049",
+              "SC-054",
+              "SC-075",
+              "SC-076",
+              "SC-077"
+            ]
+          },
+          "index_state": "legacy"
         },
         {
           "id": "MANUSCRIPT_CHAPTER_02",
@@ -2942,29 +4255,33 @@
       "selection_basis": "explicit_editorial_acceptance",
       "records": [
         {
-          "id": "PKT-03-v0.2",
+          "id": "PKT-03-v0.3",
           "canonical_id": "CHAPTER_03",
           "type": "chapter",
           "status": "accepted",
-          "title": "Chapter Packet v0.2: Chapter 3 — Reputation Is Not Access",
-          "path": "research/chapter-packets/CHAPTER_03_v0.2.md",
+          "title": "Chapter 3 Packet v0.3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/03-chapter-3-packet-v0.3.md",
           "metadata_format": "legacy_fenced_yaml",
           "record_state": "legacy",
-          "owner": "Claude (Research Synthesizer role)",
-          "created": "2026-07-17",
+          "owner": "Serhii Nabok (author) with Claude (editorial collaboration)",
+          "created": "2026-08-08",
           "privacy_level": "internal",
-          "version": "0.2",
+          "version": "0.3",
           "chapter_number": 3,
           "editorial_scope": "accepted_current_working_version",
-          "publication_status": "not_final",
-          "acceptance_reference": "TASK_CODEX_0009",
-          "supersedes_declaration": "CHAPTER_03_v0.1.md",
+          "supersedes_declaration": "CHAPTER_03_v0.2.md (preserved unmodified, not deleted or overwritten - see revision_type)",
           "relationships": {
             "supported_by": [
               "SC-008",
               "SC-014",
-              "SC-015",
-              "SC-025"
+              "SC-025",
+              "SC-083",
+              "SC-084",
+              "SC-085",
+              "SC-086",
+              "SC-087",
+              "SC-088",
+              "SC-089"
             ]
           },
           "index_state": "current"
@@ -2983,6 +4300,34 @@
           "privacy_level": "internal",
           "version": "0.1",
           "chapter_number": 3,
+          "relationships": {
+            "supported_by": [
+              "SC-008",
+              "SC-014",
+              "SC-015",
+              "SC-025"
+            ]
+          },
+          "index_state": "legacy"
+        },
+        {
+          "id": "PKT-03-v0.2",
+          "canonical_id": "CHAPTER_03",
+          "type": "chapter",
+          "status": "superseded",
+          "title": "Chapter Packet v0.2: Chapter 3 — Reputation Is Not Access",
+          "path": "research/chapter-packets/CHAPTER_03_v0.2.md",
+          "metadata_format": "legacy_fenced_yaml",
+          "record_state": "legacy",
+          "owner": "Claude (Research Synthesizer role)",
+          "created": "2026-07-17",
+          "privacy_level": "internal",
+          "version": "0.2",
+          "chapter_number": 3,
+          "editorial_scope": "superseded_by_author_collaboration_rebuild",
+          "publication_status": "not_final",
+          "acceptance_reference": "TASK_CODEX_0009",
+          "supersedes_declaration": "CHAPTER_03_v0.1.md",
           "relationships": {
             "supported_by": [
               "SC-008",
@@ -4832,6 +6177,12 @@
     {
       "from": "CHAPTER_01",
       "relation": "supported_by",
+      "to": "SC-009",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
       "to": "SC-014",
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.1.md"
     },
@@ -4860,10 +6211,142 @@
       "source_path": "research/chapter-packets/01-chapter-1-packet-v0.2.md"
     },
     {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-027",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-051",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.4.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.5.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-060",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-062",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-064",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-065",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-066",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-067",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-068",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-069",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-070",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-071",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-072",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-073",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-074",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.4.md"
+    },
+    {
+      "from": "CHAPTER_01",
+      "relation": "supported_by",
+      "to": "SC-074",
+      "source_path": "research/chapter-packets/01-chapter-1-packet-v0.5.md"
+    },
+    {
       "from": "CHAPTER_02",
       "relation": "supported_by",
       "to": "SC-002",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-002",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -4874,8 +6357,32 @@
     {
       "from": "CHAPTER_02",
       "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-007",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
       "to": "SC-016",
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-016",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_02",
@@ -4884,6 +6391,120 @@
       "source_path": "research/chapter-packets/02-chapter-2-packet-v0.1.md"
     },
     {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-021",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-024",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-049",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-054",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-075",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-075",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-076",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-076",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-077",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.2.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-077",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-078",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-079",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-080",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_02",
+      "relation": "supported_by",
+      "to": "SC-081",
+      "source_path": "research/chapter-packets/02-chapter-2-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-008",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
       "from": "CHAPTER_03",
       "relation": "supported_by",
       "to": "SC-008",
@@ -4894,6 +6515,12 @@
       "relation": "supported_by",
       "to": "SC-008",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-014",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_03",
@@ -4923,6 +6550,12 @@
       "from": "CHAPTER_03",
       "relation": "supported_by",
       "to": "SC-025",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.1.md"
     },
     {
@@ -4930,6 +6563,48 @@
       "relation": "supported_by",
       "to": "SC-025",
       "source_path": "research/chapter-packets/CHAPTER_03_v0.2.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-083",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-084",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-085",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-086",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-087",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-088",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
+    },
+    {
+      "from": "CHAPTER_03",
+      "relation": "supported_by",
+      "to": "SC-089",
+      "source_path": "research/chapter-packets/03-chapter-3-packet-v0.3.md"
     },
     {
       "from": "CHAPTER_04",
@@ -7680,24 +9355,6 @@
       "source_path": "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md"
     },
     {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-002",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-004",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
-      "from": "SC-031",
-      "relation": "related_to",
-      "to": "SC-005",
-      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
-    },
-    {
       "from": "SC-032",
       "relation": "related_to",
       "to": "SC-006",
@@ -8072,6 +9729,12 @@
     {
       "from": "SC-049",
       "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
       "to": "CHAPTER_04",
       "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
     },
@@ -8114,6 +9777,12 @@
     {
       "from": "SC-049",
       "relation": "affects",
+      "to": "CHAPTER_17",
+      "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-049",
+      "relation": "affects",
       "to": "CHAPTER_19",
       "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
     },
@@ -8134,6 +9803,1218 @@
       "relation": "related_to",
       "to": "SC-040",
       "source_path": "research/source-cards/serhii-tak-shtab-story-intake.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md"
+    },
+    {
+      "from": "SC-050",
+      "relation": "related_to",
+      "to": "SC-017",
+      "source_path": "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-051",
+      "relation": "related_to",
+      "to": "SC-053",
+      "source_path": "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-016",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-052",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/turner-1969-ritual-process-communitas.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-053",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_00",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-053",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-058",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-054",
+      "relation": "related_to",
+      "to": "SC-059",
+      "source_path": "research/source-cards/serhii-vipassana-retreat-story-intake.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-055",
+      "relation": "related_to",
+      "to": "SC-058",
+      "source_path": "research/source-cards/uleman-1984-spontaneous-trait-inference.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-056",
+      "relation": "related_to",
+      "to": "SC-057",
+      "source_path": "research/source-cards/ambady-rosenthal-1992-thin-slices.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-057",
+      "relation": "related_to",
+      "to": "SC-056",
+      "source_path": "research/source-cards/gosling-2002-room-with-a-cue.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "affects",
+      "to": "CHAPTER_08",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-058",
+      "relation": "related_to",
+      "to": "SC-055",
+      "source_path": "research/source-cards/heider-simmel-1944-apparent-behavior.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "affects",
+      "to": "CHAPTER_05",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-052",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-059",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/goffman-1961-asylums.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-060",
+      "relation": "related_to",
+      "to": "SC-061",
+      "source_path": "research/source-cards/imperva-2025-bad-bot-report.md"
+    },
+    {
+      "from": "SC-061",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md"
+    },
+    {
+      "from": "SC-061",
+      "relation": "related_to",
+      "to": "SC-060",
+      "source_path": "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "related_to",
+      "to": "SC-060",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-062",
+      "relation": "related_to",
+      "to": "SC-061",
+      "source_path": "research/source-cards/eventbrite-2026-reset-to-real.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "affects",
+      "to": "CHAPTER_00",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-063",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-064",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/craig-1999-constitutive-model-communication.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "related_to",
+      "to": "SC-009",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
+    },
+    {
+      "from": "SC-065",
+      "relation": "related_to",
+      "to": "SC-064",
+      "source_path": "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md"
+    },
+    {
+      "from": "SC-066",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/durkheim-1912-elementary-forms-religious-life.md"
+    },
+    {
+      "from": "SC-066",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/durkheim-1912-elementary-forms-religious-life.md"
+    },
+    {
+      "from": "SC-066",
+      "relation": "related_to",
+      "to": "SC-051",
+      "source_path": "research/source-cards/durkheim-1912-elementary-forms-religious-life.md"
+    },
+    {
+      "from": "SC-067",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/simmel-1908-sociology-forms.md"
+    },
+    {
+      "from": "SC-067",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/simmel-1908-sociology-forms.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-068",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/haidt-2012-righteous-mind-hive-switch.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "related_to",
+      "to": "SC-062",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-069",
+      "relation": "related_to",
+      "to": "SC-066",
+      "source_path": "research/source-cards/holt-2004-how-brands-become-icons.md"
+    },
+    {
+      "from": "SC-070",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/spinks-2021-business-of-belonging.md"
+    },
+    {
+      "from": "SC-070",
+      "relation": "related_to",
+      "to": "SC-027",
+      "source_path": "research/source-cards/spinks-2021-business-of-belonging.md"
+    },
+    {
+      "from": "SC-071",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/agency-client-attrition-account-departure.md"
+    },
+    {
+      "from": "SC-071",
+      "relation": "related_to",
+      "to": "SC-067",
+      "source_path": "research/source-cards/agency-client-attrition-account-departure.md"
+    },
+    {
+      "from": "SC-072",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/united-airlines-2017-stock-impact.md"
+    },
+    {
+      "from": "SC-072",
+      "relation": "related_to",
+      "to": "SC-009",
+      "source_path": "research/source-cards/united-airlines-2017-stock-impact.md"
+    },
+    {
+      "from": "SC-073",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md"
+    },
+    {
+      "from": "SC-073",
+      "relation": "related_to",
+      "to": "SC-069",
+      "source_path": "research/source-cards/patagonia-2026-worn-wear-repair-program.md"
+    },
+    {
+      "from": "SC-074",
+      "relation": "affects",
+      "to": "CHAPTER_00",
+      "source_path": "research/source-cards/serhii-palma-name-origin-story-intake.md"
+    },
+    {
+      "from": "SC-074",
+      "relation": "affects",
+      "to": "CHAPTER_01",
+      "source_path": "research/source-cards/serhii-palma-name-origin-story-intake.md"
+    },
+    {
+      "from": "SC-074",
+      "relation": "related_to",
+      "to": "SC-064",
+      "source_path": "research/source-cards/serhii-palma-name-origin-story-intake.md"
+    },
+    {
+      "from": "SC-074",
+      "relation": "related_to",
+      "to": "SC-067",
+      "source_path": "research/source-cards/serhii-palma-name-origin-story-intake.md"
+    },
+    {
+      "from": "SC-075",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md"
+    },
+    {
+      "from": "SC-075",
+      "relation": "related_to",
+      "to": "SC-067",
+      "source_path": "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md"
+    },
+    {
+      "from": "SC-076",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md"
+    },
+    {
+      "from": "SC-076",
+      "relation": "related_to",
+      "to": "SC-075",
+      "source_path": "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "related_to",
+      "to": "SC-075",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-077",
+      "relation": "related_to",
+      "to": "SC-076",
+      "source_path": "research/source-cards/pan-am-1991-brand-survival-licensing.md"
+    },
+    {
+      "from": "SC-078",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/bls-2024-business-five-year-survival-rate.md"
+    },
+    {
+      "from": "SC-078",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/bls-2024-business-five-year-survival-rate.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-079",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md"
+    },
+    {
+      "from": "SC-080",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/google-plus-2011-2019-engagement-failure.md"
+    },
+    {
+      "from": "SC-080",
+      "relation": "related_to",
+      "to": "SC-007",
+      "source_path": "research/source-cards/google-plus-2011-2019-engagement-failure.md"
+    },
+    {
+      "from": "SC-081",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md"
+    },
+    {
+      "from": "SC-081",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-082",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/serhii-credential-legitimacy-pattern-intake.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-083",
+      "relation": "related_to",
+      "to": "SC-024",
+      "source_path": "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md"
+    },
+    {
+      "from": "SC-084",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/keller-1993-customer-based-brand-equity.md"
+    },
+    {
+      "from": "SC-084",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/keller-1993-customer-based-brand-equity.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-085",
+      "relation": "related_to",
+      "to": "SC-082",
+      "source_path": "research/source-cards/serhii-boryspil-yushchenko-interview-story-intake.md"
+    },
+    {
+      "from": "SC-086",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md"
+    },
+    {
+      "from": "SC-086",
+      "relation": "related_to",
+      "to": "SC-085",
+      "source_path": "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "related_to",
+      "to": "SC-025",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-087",
+      "relation": "related_to",
+      "to": "SC-088",
+      "source_path": "research/source-cards/uber-airbnb-reputation-vs-legitimacy-early-years.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-008",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-014",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-088",
+      "relation": "related_to",
+      "to": "SC-087",
+      "source_path": "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-048",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-054",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-085",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-089",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-004",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-089",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-090",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "affects",
+      "to": "CHAPTER_06",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "affects",
+      "to": "CHAPTER_07",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "related_to",
+      "to": "SC-089",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-091",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-093",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/serhii-anton-nosik-half-brother-intake.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "related_to",
+      "to": "SC-002",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-094",
+      "relation": "related_to",
+      "to": "SC-005",
+      "source_path": "research/source-cards/krackhardt-hanson-1993-informal-networks.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-046",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-095",
+      "relation": "related_to",
+      "to": "SC-049",
+      "source_path": "research/source-cards/tcf-francisco-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-096",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-rami-member-interview-2026-08-14.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_10",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-097",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-anya-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_03",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_09",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "affects",
+      "to": "CHAPTER_16",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-090",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-091",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-098",
+      "relation": "related_to",
+      "to": "SC-097",
+      "source_path": "research/source-cards/tcf-luciana-member-interview-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "affects",
+      "to": "CHAPTER_02",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "affects",
+      "to": "CHAPTER_11",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-044",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-095",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-096",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-097",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
+    },
+    {
+      "from": "SC-099",
+      "relation": "related_to",
+      "to": "SC-098",
+      "source_path": "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md"
     },
     {
       "from": "SPEC_PALMA_METHOD_CANON_0001",
