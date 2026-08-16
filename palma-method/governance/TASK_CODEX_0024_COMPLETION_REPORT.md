@@ -1,17 +1,17 @@
 ---
-id: REPORT_TASK_CODEX_0023
+id: REPORT_TASK_CODEX_0024
 type: completion_report
 status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-16
 privacy_level: internal
-task_id: TASK_CODEX_0023
+task_id: TASK_CODEX_0024
 subject_refs:
-  - TASK_CODEX_0023
+  - TASK_CODEX_0024
 ---
 
-# TASK_CODEX_0023 — Completion report
+# TASK_CODEX_0024 — Completion report
 
 ## Delivery coordinates
 

@@ -1,5 +1,5 @@
 ---
-id: TASK_CODEX_0023
+id: TASK_CODEX_0024
 type: task
 status: delivered
 owner: codex
@@ -37,10 +37,10 @@ output_paths:
   - palma-strategic-communications-market-trends-2024-2026.md
   - palma-method/research/reports/UNCOMMITTED_WORK_RECOVERY_AUDIT_v0.1.md
   - palma-method/research/reports/RECOVERED_EDITORIAL_FRAGMENTS_QUEUE_v0.1.md
-  - palma-method/governance/TASK_CODEX_0023_COMPLETION_REPORT.md
+  - palma-method/governance/TASK_CODEX_0024_COMPLETION_REPORT.md
 ---
 
-# TASK_CODEX_0023 — Recover uncommitted Palma work
+# TASK_CODEX_0024 — Recover uncommitted Palma work
 
 ## Authorization
 

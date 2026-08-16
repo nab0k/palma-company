@@ -7,7 +7,7 @@ reviewer: chief_editor
 created: 2026-08-16
 privacy_level: internal
 subject_refs:
-  - TASK_CODEX_0023
+  - TASK_CODEX_0024
   - TASK_CODEX_0022
 change_scope: editorial-fragment-recovery
 ---

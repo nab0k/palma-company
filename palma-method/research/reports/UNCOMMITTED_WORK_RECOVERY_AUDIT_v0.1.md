@@ -7,7 +7,7 @@ reviewer: chief_editor
 created: 2026-08-16
 privacy_level: internal
 subject_refs:
-  - TASK_CODEX_0023
+  - TASK_CODEX_0024
   - TASK_CODEX_0022
 ---
 
@@ -82,7 +82,7 @@ state, are large, and are not canonical under the GitHub-to-Notion/Docs rule.
 ### Other uncommitted material
 
 CRM documents, contracts, K66 decks, Sempre Fixe material, LinkedIn outputs, general
-site assets, and presentation files were outside TASK_CODEX_0023. They remain
+site assets, and presentation files were outside TASK_CODEX_0024. They remain
 untouched. Visual Palma assets, a hero-film experiment, and an HTML prototype may be
 valuable, but require a separate product/brand preservation decision because this
 task did not audit provenance or publication rights.
