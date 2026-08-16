@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "600bca1266c2ff70c8118958b797917b4310f1874f55f0d08f815ca214ef0dcc",
+  "source_fingerprint": "ad9ad15e3246d27f4f7f7d93dbccffa5adbba55b1223ba6ea7bbcf3c45eaa19b",
   "source_card_count": 116,
   "parsed_source_card_count": 116,
   "unique_source_card_ids": 116,
@@ -212,7 +212,7 @@
     "research/source-cards/millington-feverbee-branded-community-failure.md": "1892bf037f99c7d2180ba696c32b67f0cacade1006e7dda76307aac940d55135",
     "research/source-cards/morrison-2014-employee-voice-and-silence.md": "a0385140da555ca58625be186165ad6347a3b41a52597d5cd866ad04098353d8",
     "research/source-cards/nahapiet-ghoshal-1998-organizational-advantage.md": "03c78842cd2a373bc3b815214a832a2b9feba40860652a1b59f91f77eb2bb7dc",
-    "research/source-cards/nour-2023-relationship-capital-trademark.md": "ebd955357ebfcde41bc2c42d0b1a7e6248948f6f4dab62f0b4acf86045c9c329",
+    "research/source-cards/nour-2023-relationship-capital-trademark.md": "e8003850d3627f7f614a7163a184499b5968875c290606d054d3bd42c9d74528",
     "research/source-cards/olson-1965-logic-of-collective-action.md": "d1f658bc5d8a9a185a56c54dcfab26e0a0bafe09d98e9d1418d2e7cba1f0ca49",
     "research/source-cards/ostrom-1990-governing-the-commons.md": "deab2720d44b5297cc4d54f1a216cb8909222acd697bf43e2d5ec5285095d009",
     "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md": "71326d5bcf136467ea50a74d21eae23796a045b80066a8200e04a5d1e3bbadb1",
