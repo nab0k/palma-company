@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local delivery testing. Never commit the real values.
+ZOHO_CLIENT_ID=
+ZOHO_CLIENT_SECRET=
+ZOHO_REFRESH_TOKEN=
+TURNSTILE_SECRET=

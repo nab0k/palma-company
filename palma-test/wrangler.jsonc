@@ -1,0 +1,58 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "palma-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "ai": {
+    "binding": "AI",
+    "remote": true
+  },
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  },
+  "triggers": {
+    "crons": ["17 3 * * *"]
+  },
+  "d1_databases": [
+    {
+      "binding": "READINGS_DB",
+      "database_name": "palma-test-readings",
+      "database_id": "538f5f28-cb7e-4dce-87ab-4b11d7713781",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "ANALYZE_RATE_LIMITER",
+      "namespace_id": "17001",
+      "simple": { "limit": 6, "period": 60 }
+    },
+    {
+      "name": "DELIVERY_RATE_LIMITER",
+      "namespace_id": "17002",
+      "simple": { "limit": 10, "period": 60 }
+    }
+  ],
+  "secrets": {
+    "required": [
+      "ZOHO_CLIENT_ID",
+      "ZOHO_CLIENT_SECRET",
+      "ZOHO_REFRESH_TOKEN"
+    ]
+  },
+  "vars": {
+    "ALLOWED_ORIGINS": "https://palma.company,https://www.palma.company,https://palma-test.nabokmanberstein.workers.dev,http://localhost:8787,http://127.0.0.1:8787,http://localhost:8790,http://127.0.0.1:8790",
+    "ZOHO_ACCOUNTS_BASE": "https://accounts.zoho.eu",
+    "ZOHO_MAIL_BASE": "https://mail.zoho.eu",
+    "ZOHO_ACCOUNT_ID": "1304451000000002002",
+    "MAIL_FROM_ADDRESS": "nabok@palma.company",
+    "MAIL_FROM_NAME": "Palma Test — Serhii Nabok",
+    "TURNSTILE_SITE_KEY": "",
+    "READING_TTL_DAYS": "7"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
