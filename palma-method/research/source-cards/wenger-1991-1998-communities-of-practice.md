@@ -68,5 +68,33 @@ potential_linkedin_post: >
   - usually just the domain."
 confidence_level: high
 verification_status: verified_via_primary_author_summary_and_secondary_sources
-notes: "Domain/community/practice framing cross-checked against Wenger's own theory page (ewenger.com) as reproduced in the UBC IT PDF."
+notes: >
+  Domain/community/practice framing cross-checked against Wenger's own theory
+  page (ewenger.com) as reproduced in the UBC IT PDF.
+
+
+  TASK_CLAUDE_0022 addendum (2026-08-15) - citation-chain upgrade and sharper
+  test discipline, no content correction. A ChatGPT Classic research dossier
+  cites both primary works directly through official Cambridge University Press
+  pages with DOIs - Lave and Wenger (1991), DOI
+  https://doi.org/10.1017/CBO9780511815355, ISBN 978-0-521-42374-8; Wenger (1998),
+  DOI https://doi.org/10.1017/CBO9780511803932, ISBN 978-0-521-66363-2 - a stronger
+  primary citation chain than this card's existing route (a secondary ewenger.com
+  summary reproduced in a UBC-hosted PDF). Recommend citing the CUP/DOI links
+  going forward; no change to the card's substantive content, which the dossier
+  independently confirms.
+
+
+  Sharper "is this actually a community of practice" test, per the same
+  dossier, useful alongside this card's existing domain/community/practice
+  triad: a recurring group is a genuine CoP only where members visibly exchange
+  know-how, build a shared repertoire, and help newcomers develop competence -
+  mere co-attendance plus friendliness is explicitly insufficient. Worked
+  examples the dossier gives: a training gym qualifies where shared
+  technique/know-how exchange is visible; a cafe's regulars do not qualify
+  merely by being regulars; a volunteer logistics team is plausible (shared
+  repertoire, learning-by-doing) but can dissolve before a stable practice
+  forms. This is a genericized, structural test, not a claim about any specific
+  named case in this project - see THEORY_EXPANSION_PLACEMENT_MAP_v0.1.md for
+  where it might sharpen the existing Chapter 2 discipline.
 ```

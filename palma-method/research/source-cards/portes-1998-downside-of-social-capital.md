@@ -68,5 +68,18 @@ potential_linkedin_post: >
   negligent, not neutral."
 confidence_level: high
 verification_status: verified_via_primary_source_pdf_and_secondary_summaries
-notes: "Foundational counterweight source for the entire anti-Palma track; should be cited wherever the book claims a community-design benefit without qualification."
+notes: >
+  Foundational counterweight source for the entire anti-Palma track; should be
+  cited wherever the book claims a community-design benefit without qualification.
+
+
+  TASK_CLAUDE_0022 addendum (2026-08-15) - cross-verification, no correction.
+  A ChatGPT Classic research dossier independently reports the same four-part
+  typology and the same "sociability cuts both ways" framing, at a comparable
+  verification tier (primary full-text copy inspected). No correction needed. The
+  dossier additionally frames Portes' contribution as conceptual discipline against
+  defining social capital by its good outcomes (a tautology risk) - this framing is
+  not currently stated explicitly in this card's core_claim field and is a useful
+  sharpening; see THEORY_EXPANSION_PLACEMENT_MAP_v0.1.md for where it might be
+  used.
 ```

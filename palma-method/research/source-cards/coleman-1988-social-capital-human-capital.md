@@ -75,5 +75,16 @@ potential_linkedin_post: >
   each other's kids. Relationship structure is infrastructure, not decoration."
 confidence_level: high
 verification_status: verified_via_primary_source_pdf
-notes: "Foundational rational-choice counterpart to Putnam's more communitarian framing."
+notes: >
+  Foundational rational-choice counterpart to Putnam's more communitarian framing.
+
+
+  TASK_CLAUDE_0022 addendum (2026-08-15) - cross-verification, no correction.
+  A ChatGPT Classic research dossier independently summarized this same source and
+  reports its own verification only at "official abstract/metadata" level (full
+  text not fully accessible in that session) - weaker than this card's own
+  verified_via_primary_source_pdf status. The dossier's summary (three forms;
+  closure; the dropout finding) matches this card's content exactly. No correction
+  needed; this card's existing verification is the stronger of the two and should
+  remain the reference.
 ```
