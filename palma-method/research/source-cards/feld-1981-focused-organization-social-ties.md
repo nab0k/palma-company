@@ -51,9 +51,13 @@ business_implication: >
   pattern) as a designed piece of social infrastructure, not a neutral logistics detail.
 palma_implication: >
   Directly supports Chapter 5's central move - reading a training schedule as "social architecture"
-  that organizes chances for contact - while requiring the chapter to keep the causality caveat
-  explicit (opportunity, not guarantee).
-potential_case_use: "Chapter 5 - genuine expansion opportunity, not yet cited (see correction note below); would name the mechanism the chapter's own 'schedule as social architecture' language currently gestures at without formal sourcing."
+  that organizes chances for contact. As of TASK_CLAUDE_0023's correction (see notes below), this
+  support is already realized in the manuscript: Chapter 5 names Feld explicitly, cites the 1981
+  American Journal of Sociology publication and the Detroit Area Study, uses the term "социальные
+  фокусы" (social foci), and states the causality caveat explicitly in its own words ("Социальный
+  фокус не создаёт дружбу. Он распределяет возможности для неё" - a focus does not create
+  friendship, it distributes opportunities for it).
+potential_case_use: "Chapter 5 - already in active use as of the authoritative manuscript snapshot (MANUSCRIPT_SNAPSHOT_2026-08-15.md, lines 147-149); see TASK_CLAUDE_0023 correction in notes below. No further citation work needed here."
 potential_linkedin_post: "Not cleared for public reuse."
 confidence_level: high
 verification_status: verified
@@ -71,6 +75,28 @@ notes: >
   interaction without citing the specific theory that explains why a schedule does that. This is a
   genuine, unfilled expansion opportunity, not a citation-upgrade task - see
   `THEORY_EXPANSION_PLACEMENT_MAP_v0.1.md` for the specific recommended insertion.
+
+
+  Correction (2026-08-16, TASK_CLAUDE_0023): the TASK_CLAUDE_0022 correction above
+  is itself retracted. It was based on reading `manuscript/part-1/05-events-are-
+  not-infrastructure.md`, an English-language chapter-packet file - not on
+  `palma-method/research/chapter-packets/MANUSCRIPT_SNAPSHOT_2026-08-15.md`, which
+  that snapshot file's own header explicitly names as the sole current, authoritative
+  manuscript text in this repository as of 2026-08-15 ("этот файл - единственный
+  актуальный полный текст рукописи"). Serhii flagged this directly: Scott Feld is
+  fully and explicitly present in the real Chapter 5 (Глава 5. Событие - не
+  инфраструктура), specifically at MANUSCRIPT_SNAPSHOT_2026-08-15.md lines 147-149,
+  where the text names Feld by name, cites the 1981 publication in American Journal
+  of Sociology, references the Detroit Area Study, and introduces the term
+  "социальные фокусы" (social foci) with the causality caveat already stated in the
+  author's own words. TASK_CLAUDE_0022's claim that Feld was absent from Chapter 5,
+  and the resulting Stream 3/4 recommendation to add roughly 850 words introducing
+  Feld to that chapter, were both incorrect. This does not affect this card's
+  underlying academic sourcing (publication details, Detroit Area Study, and
+  cross-verification against the ChatGPT Classic dossier all remain accurate and
+  unchanged) - only the claim about the source's relationship to manuscript content
+  was wrong, and only because the wrong manuscript file was checked. See
+  `THEORY_EXPANSION_PLACEMENT_MAP_v0.2.md` for the corrected placement decision.
 type: source_card
 status: review
 owner: claude

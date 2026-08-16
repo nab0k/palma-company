@@ -1,7 +1,7 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "95f651566f1a52a1ff55c26ad7ffff1b8ea54207b78405c1dd993d86ca05bb23",
+  "source_fingerprint": "600bca1266c2ff70c8118958b797917b4310f1874f55f0d08f815ca214ef0dcc",
   "source_card_count": 116,
   "parsed_source_card_count": 116,
   "unique_source_card_ids": 116,
@@ -178,7 +178,7 @@
     "research/source-cards/edelman-2026-trust-barometer.md": "01a71833647f179eaf8634f17c70ddd1c7289345beea238b004dd7512118e2b6",
     "research/source-cards/edmondson-1999-psychological-safety.md": "700cf43875f6874886608c444b581dee0f9c1e4674b5eac543af0cfceed3015f",
     "research/source-cards/eventbrite-2026-reset-to-real.md": "39ac56d354af587ce49f35638d7a5d9d6c0ed9b83c53175f72d38591358df7aa",
-    "research/source-cards/feld-1981-focused-organization-social-ties.md": "ae9a0ec58d893026659fa0c475aba84eff3b2d7b629983d2b99e5c0f58699410",
+    "research/source-cards/feld-1981-focused-organization-social-ties.md": "2faf461b03edd4b14f3167bb28e22ee133ea30b0e763a4bafa917d005eebaf1e",
     "research/source-cards/fine-1979-idioculture-little-league.md": "d694efb36562652907dfdc1a58f446f1c99fadd50511e03330133f9f859accea",
     "research/source-cards/fine-vandenscott-2011-wispy-communities.md": "839d258683b9056760cecd5b51664247094ec5eea252035ab18def9497e9bd39",
     "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md": "2ea587be4f7ee447cce5d6525c1b6d3450b6acbb212efb286eebd3ce20a905c2",

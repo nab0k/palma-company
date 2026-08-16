@@ -1,5 +1,35 @@
 # TASK_CLAUDE_0022 — Completion Report
 
+## Correction note (added 2026-08-16, TASK_CLAUDE_0023)
+
+This task was rejected after delivery. Streams 3 and 4 (the placement map and
+building blocks) were built by reading `manuscript/part-*` files, which are stale
+- the authoritative current manuscript text lives only in
+`palma-method/research/chapter-packets/MANUSCRIPT_SNAPSHOT_2026-08-15.md`, per that
+file's own header. Concretely: Scott Feld is fully and explicitly cited in the real
+Chapter 5 (lines 147-149 of the snapshot), directly contradicting the correction
+addendum this task added to SC-111 claiming Feld was absent from the manuscript.
+Rechecking all 11 concept placements against the real snapshot text found the same
+pattern repeated across several other items - the real manuscript is
+substantially more theory-dense than the stale files suggested.
+
+TASK_CLAUDE_0023 repaired this: it added a further, dated correction to SC-111
+(without deleting this task's own erroneous addendum), re-verified all 11
+placements against the snapshot, and published
+`THEORY_EXPANSION_PLACEMENT_MAP_v0.2.md` and
+`THEORY_EXPANSION_BUILDING_BLOCKS_v0.2.md` as corrected, non-destructive successors
+to this task's v0.1 reports. The honest recommended total fell from this task's
+already-reduced ~4,070 words to ~1,180 words once checked against real content -
+6 of the 11 concepts, not the originally-assumed few, turned out to already be
+fully resourced in the manuscript with no genuine gap.
+
+This task's Stream 1 evidence audit and Stream 2 source-card work (the addenda to
+Bourdieu/Coleman/Portes/Collins/Wenger and the 8 new source cards) were not
+affected - none of that work depended on manuscript content, only on the external
+academic sourcing, which remains accurate. Only the placement work (Streams 3-4)
+and the one manuscript-relationship claim on SC-111 were wrong, and both are now
+corrected. See `TASK_CLAUDE_0023_COMPLETION_REPORT.md` for the full repair record.
+
 ## Base and delivery
 
 - Base branch: `codex/prose-source-and-crossref-rules`
