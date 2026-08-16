@@ -73,3 +73,23 @@ current Method material actually depends on them - but they should be closed
 before any public claim of a comprehensive prior-art review, since "Palma
 compared itself against the nearest community-organizing and stakeholder-
 engagement traditions" would not currently be a defensible claim.
+
+---
+
+## Addendum (2026-08-16, TASK_CLAUDE_0026) — network-formation gap partially closed
+
+The "network formation and network interventions" row of this matrix (row 8,
+Infrastructure Canvas) and the founder-dependence gap named above were
+partially closed, not fully, by a targeted follow-up search - see
+`PALMA_TRANSITION_MODEL_PRIOR_ART_CLOSURE_v0.1.md` for the full record. That
+search checked relational event models (Butts 2008), stochastic actor-oriented
+models (Snijders et al. 2010), network interventions (Valente 2012), network
+governance (Provan & Kenis 2008), relational coordination (Gittell & Weiss
+2004), and shared leadership (Pearce & Conger 2003) against the candidate
+Palma Transition Model specifically (a separate, narrower object than this
+matrix's own component-level rows). No classification in this matrix's table
+above is changed by that search - it targeted a different, more specific
+question (an integrated causal sequence, not any single component) than this
+matrix's own component-by-component comparisons. This addendum exists to
+record that the gap was investigated, with what was and was not found, not to
+revise any row above. Nothing in this matrix's original text is altered.

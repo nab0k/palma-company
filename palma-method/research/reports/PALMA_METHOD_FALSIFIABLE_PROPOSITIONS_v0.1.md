@@ -329,3 +329,30 @@ Only changes achievable without new research:
 **This program is a set of proposed next steps, not a description of work
 already done.** No claim anywhere in this project's material should describe
 any part of this section as completed.
+
+---
+
+## Addendum (2026-08-16, TASK_CLAUDE_0026) — first exploratory pilot executed
+
+Proposition 1 ("participant-initiated actions... predict persistence better
+than attendance frequency, satisfaction, or emotional intensity alone")
+received its first exploratory, non-statistical check: see
+`TCF_TRANSITION_MODEL_EXPLORATORY_CODING_v0.1.md`, which coded four related
+variables (unscripted participant-initiated action; continued peer
+relationship outside scheduled training; organizer-contact strength;
+peer-contact strength) against the five TCF interviews existing as of
+2026-08-16 (SC-095 through SC-099). This was a single-coder, five-case,
+non-random, descriptive pass - explicitly not the "pilot study" or
+"instrument development" stage this document's own validation path describes
+as a future step, and it does not satisfy that stage's requirements (no
+second rater, no comparison group, no pre-registered sample beyond the five
+cases already collected for other purposes). It found the model's basic
+elements present in four of five cases and absent in the fifth (a
+deliberately selected contrast case), and separately exposed a genuine
+construct-clarity problem in the "continued peer relationship outside
+scheduled training" variable, which proved hard to separate cleanly from
+ordinary gym-adjacent contact in two of five interviews. Neither finding
+changes this document's original propositions or validation path above - both
+remain accurately described as untested. This addendum records that a first,
+small, exploratory step happened; it does not upgrade any proposition's
+status.
