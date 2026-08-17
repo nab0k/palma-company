@@ -1,3 +1,16 @@
+---
+id: REPORT_TASK_CLAUDE_0028
+type: completion_report
+status: delivered
+owner: claude
+reviewer: chief_editor
+created: 2026-08-17
+privacy_level: internal
+task_id: TASK_CLAUDE_0028
+subject_refs:
+  - TASK_CLAUDE_0028
+---
+
 # TASK_CLAUDE_0028 — Completion Report
 
 ## Base and delivery
