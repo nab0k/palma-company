@@ -8,8 +8,11 @@ privacy_level: internal
 task_id: TASK_CODEX_0029
 depends_on:
   - DECISION_0007
+  - DECISION_0008
   - TASK_CODEX_0028
   - TASK_CLAUDE_0029
+  - TASK_CLAUDE_0030
+  - TASK_CLAUDE_0031
 ---
 
 # Manuscript v0.5 transfer and evidence log
@@ -28,27 +31,29 @@ that the manuscript is publication-ready.
 - Current architecture: DECISION_0007, fifteen numbered chapters.
 - Method architecture: DECISION_0006, Diagnose → Design → Launch → Transfer;
   Facilitate / Advise is cross-cutting.
+- Infrastructure Canvas: DECISION_0008, four fields — paths, roles, rhythms,
+  memory; the former routes and channels are merged.
 - v0.4 remains unchanged.
 
 ## Initial structural transfer
 
 | v0.5 chapter | Main inherited material | Current status |
 |---|---|---|
-| 1. Vipassana | v0.4 Introduction; SC-054 | Structurally transferred; organizational expansion awaits checked source cards from the Goenka dossier. |
+| 1. Vipassana | v0.4 Introduction; SC-051, SC-054, SC-127 | Expanded with Pagis's silent sociality and the verified Goenka organizational sequence; felt unity is separated from durable ties and repeatable infrastructure. |
 | 2. One-hand clap | v0.4 Chapter 1 | Transferred; later theory/voice pass required. |
 | 3. Borrowed access | v0.4 Chapter 3 | Transferred; later theory/voice pass required. |
-| 4. What accumulates | v0.4 Chapter 6; SC-089 | Transferred; duplicate corporate case removed and bare chapter reference repaired. |
-| 5. TCF personal account | personal half of v0.4 Chapter 5; SC-046, SC-043, SC-044; founder additions recorded in DECISION_0007 | Separated from theory. Added workout mechanics, early/late presence, and the anonymous longitudinal apartment/Madrid sequence. |
+| 4. What accumulates | v0.4 Chapter 6; SC-009, SC-089, SC-128 | Expanded with the distinction between reciprocal behavior and the norm of reciprocity; transactive memory clarifies the group's distributed index of who knows what; duplicate corporate case removed. |
+| 5. TCF personal account | personal half of v0.4 Chapter 5; SC-046, SC-043, SC-044; founder additions recorded in DECISION_0007 | Separated from theory and expanded into the complete founder arc currently evidenced: depression context, attendance rhythm, low-threshold belonging, coffee role, relationships, apartment/Madrid sequence, and limits of the founder's central perspective. |
 | 6. Repeated encounters | analytical half of v0.4 Chapter 5; SC-111, SC-027 and TCF interview cards | Separated from personal baseline. Wodify remains a proposed analysis, not a completed study. |
 | 7. Kichkine | v0.4 Chapter 7; SC-047; founder details recorded in DECISION_0007 | Expanded with the kindergarten escape, electrician, warehouse, vocational-placement friend, and refuge scene. Teacher offer withheld pending exact public wording. |
-| 8. First users to community | Wenger and H.O.G. material from v0.4 Chapter 2; SC-007, SC-021, SC-080 | Rebuilt around the founder's product question: when an audience or set of first users actually benefits from participant-to-participant structure. Google+ and H.O.G. now form a bounded contrast rather than a list of corporate cases. |
-| 9. Whom community missed | v0.4 Chapter 10; SC-002, SC-016, SC-017, SC-099 and the TCF interview set | Rebuilt from two unequal TCF experiences into closure, exclusion, network homogeneity, power, gatekeeping and unpaid participation. The premature Anton material was removed to Chapter 10. |
-| 10. One point removed | v0.4 Chapters 4 and 9; SC-093 and the existing Granovetter/Burt/Barabási cards | Rebuilt as one argument about centrality: publishing-house failure contrasts with Anton relationships that survived the original broker. Duplicate reciprocity, retention and network-theory passages were removed. |
-| 11. TAK.Shtab | fragments from v0.4 Chapters 2, 14, 17, 18 and 21; SC-049, SC-079, SC-093, SC-110 | Rebuilt as one chronological case: pre-war office network, February 2022 mobilization, repeated logistics and roles, missions, and the 2023–2024 shift to Taktion, research and funded program delivery. Method-chapter material was removed from the case account. |
-| 12. Diagnose | diagnostic portion of v0.4 Chapter 17 | Structurally transferred; headquarters retelling must be reduced after Chapter 11 is finished. |
-| 13. Design | v0.4 Chapters 12 and 18 | Structurally assembled; Canvas field decision remains open. |
-| 14. Launch | v0.4 Chapters 15 and 19 | Structurally assembled; duplication and Response Signals examples require repair. |
-| 15. Transfer | non-Bombom Facilitate material and v0.4 Chapter 21 | Structurally assembled; final Handoff procedure and conclusion bridge require repair. |
+| 8. First users to community | Wenger and H.O.G. material from v0.4 Chapter 2; SC-007, SC-021, SC-080, SC-120, SC-121, SC-123 | Rebuilt around the founder's product question. Wenger, McMillan–Chavis and Muniz–O'Guinn now distinguish community of practice, sense of community and brand community; Google+ and H.O.G. provide one bounded contrast. |
+| 9. Whom community missed | v0.4 Chapter 10; SC-002, SC-013, SC-016, SC-017, SC-030, SC-099, SC-124 and the TCF interview set | Rebuilt from unequal TCF experiences into closure, homophily, silence, psychological safety, participation power, network concentration, gatekeeping and unpaid participation. |
+| 10. One point removed | v0.4 Chapters 4 and 9; SC-093 and the existing Granovetter/Burt/Barabási/Krackhardt-Hanson cards | Rebuilt as one argument about centrality: publishing-house failure contrasts with Anton relationships that survived the original broker. Informal-network mapping is tied to managerial function and privacy. |
+| 11. TAK.Shtab | fragments from v0.4 Chapters 2, 14, 17, 18 and 21; SC-049, SC-079, SC-093, SC-103, SC-110, SC-132 | Rebuilt as one chronological case. The Dynes–Quarantelli typology shows the mixed pre-existing/emergent starting condition; resource-mobilization theory explains why pre-existing organizations, skills, and ties matter without claiming organization from nothing. |
+| 12. Diagnose | diagnostic portion of v0.4 Chapter 17; Schein, Croskerry, IBM and informal-network sources already carded | Rebuilt around a five-part falsifiable diagnosis, a two-scale Relationship Map, multiple evidence sources and a worked founder/product example. |
+| 13. Design | v0.4 Chapters 12 and 18; Weiss, Lave-Wenger, Feld, Collins, SC-119, SC-127, SC-133 | Rebuilt around one explicit causal stake and a falsifiable Infrastructure Canvas. DECISION_0008 fixes the working tool at four fields after routes and channels failed the discriminant test. Valente supplies adjacent intervention vocabulary, not validation of Palma's developmental model. |
+| 14. Launch | v0.4 Chapters 15 and 19; Cynefin, Rogers, AMEC, SC-040 and TCF evidence | Rebuilt around observable Response Signals, baseline/comparison discipline, alternative explanations, privacy and bounded causal inference. |
+| 15. Transfer | non-Bombom Facilitate material and v0.4 Chapter 21; SC-122, SC-129 and existing Schein/Brehm/memory sources | Rebuilt around one-function Handoff Test, explicit authority/safety boundaries, organizational imprinting, multiple valid outcomes, repeated cycles and the provisional scientific status of the Method. |
 
 ## Founder-directed removals applied in the structural build
 
@@ -71,8 +76,8 @@ that the manuscript is publication-ready.
   historical evidence.
 - The Classic Vipassana dossier is discovery input. Its claims require primary or
   academic source cards before new factual prose is added.
-- Infrastructure Canvas remains theory-informed and unvalidated. The four-versus-
-  five-field choice is not resolved by this build.
+- Infrastructure Canvas remains theory-informed and unvalidated. DECISION_0008
+  resolves the field count at four and records why routes and channels were merged.
 - Google+ is used only for the broad, source-supported contrast between nominal
   account scale and adoption; disputed secondary engagement figures are omitted.
 - The two TCF counter-cases in Chapter 9 remain anonymized. Their derivative cards
@@ -88,10 +93,7 @@ that the manuscript is publication-ready.
 
 ## Remaining editorial sequence
 
-1. Review the checked theory-expansion package for Chapters 8–11 and add only
-   material that improves explanation or restores necessary depth.
-2. Rebuild Chapters 12–15 around bounded procedures rather than retrospective
-   claims of Method use.
-3. Integrate the checked theory package without adding scholars by quota.
-4. Perform the Nabok voice, internal-reference, repeated-contrast, evidence,
-   privacy, and public-safety passes.
+1. Review any new adjacent-discipline research packages and add only material
+   that closes a named explanatory gap; do not expand by scholar quota.
+2. Complete the final author-voice and evidence pass after the Canvas decision,
+   then prepare the author-review/Google Docs copy.

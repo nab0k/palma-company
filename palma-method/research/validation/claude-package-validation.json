@@ -1,13 +1,13 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "cdf60682c28de55ce96f1e608e5fdb06691d7429ca121df1c27a82e5221e3ab5",
-  "source_card_count": 116,
-  "parsed_source_card_count": 116,
-  "unique_source_card_ids": 116,
+  "source_fingerprint": "76b3e5c1e389f45f77064303a6898e4c5cd729a86b22a15cdb4491865c7b34ca",
+  "source_card_count": 136,
+  "parsed_source_card_count": 136,
+  "unique_source_card_ids": 136,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
-  "warning_count": 0,
+  "warning_count": 20,
   "status": "pass",
   "checks": {
     "yaml_parse": "completed",
@@ -27,7 +27,106 @@
 
   ],
   "warnings": [
-
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/apple-google-intel-adobe-2005-2009-no-poach-agreement.md",
+      "message": "related-card entry has no SC ID: coleman-1988-social-capital-human-capital.md / portes-1998-downside-of-social-capital.md (the enabling/coercive network-closure pair this case concretely instantiates at executive level)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/crossfit-affiliate-model-2000-2010s.md",
+      "message": "related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the contrastive case - centralized, company-built brand-community infrastructure versus CrossFit's cheap, decentralized licensing that lets each affiliate build its own local community from near-scratch)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/fonseca-pereira-esteves-2014-ukrainian-migration-portugal.md",
+      "message": "related-card entry has no SC ID: granovetter-1973-strength-of-weak-ties.md (the bridging-tie mechanism this study documents at population scale for one migration flow)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/fonseca-pereira-esteves-2014-ukrainian-migration-portugal.md",
+      "message": "related-card entry has no SC ID: coleman-1988-social-capital-human-capital.md / portes-1998-downside-of-social-capital.md (the enabling/coercive pairing this study's own positive-then-negative feedback finding directly instantiates)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/gittell-2002-relational-coordination.md",
+      "message": "related-card entry has no SC ID: krackhardt-hanson source card (network brokerage; Gittell's relational coordination is a complementary, content-of-tie account rather than a structure-of-network account)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/goenka-vipassana-organizational-system-2026.md",
+      "message": "related-card entry has no SC ID: pagis-2015-evoking-equanimity-vipassana.md (the academic silent-sociality finding this institutional card complements)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/goenka-vipassana-organizational-system-2026.md",
+      "message": "related-card entry has no SC ID: serhii-vipassana-retreat-story-intake.md (the author's own retreat account this card supplies organizational context for)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/goenka-vipassana-organizational-system-2026.md",
+      "message": "related-card entry has no SC ID: lave-wenger-1991-legitimate-peripheral-participation.md (the general newcomer-to-oldtimer mechanism this card's old-student pathway is a concrete instance of)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/kraut-resnick-kiesler-2012-building-online-communities.md",
+      "message": "related-card entry has no SC ID: ostrom source card (public-goods/commons theory, one of the core theoretical traditions this book translates into design claims)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/lave-wenger-1991-legitimate-peripheral-participation.md",
+      "message": "related-card entry has no SC ID: wenger-1991-1998-communities-of-practice.md (Wenger's later solo elaboration of the communities-of-practice frame this book already uses; this card is the earlier, co-authored origin of the newcomer-to-oldtimer mechanism specifically)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/mccarthy-zald-1977-resource-mobilization.md",
+      "message": "related-card entry has no SC ID: granovetter source card (weak ties; resource mobilization theory adds the organizational/resource layer on top of tie structure)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/mcmillan-chavis-1986-sense-of-community.md",
+      "message": "related-card entry has no SC ID: wenger-1991-1998-communities-of-practice.md (the book's other, practice-based community test; this card is a complementary, independently-developed psychological test, not a replacement)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md",
+      "message": "related-card entry has no SC ID: portes-1998-downside-of-social-capital.md (active exclusion; this card is the passive, structural counterpart)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md",
+      "message": "related-card entry has no SC ID: granovetter-1973-strength-of-weak-ties.md (weak ties as a partial counterforce to homophily's narrowing effect)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/muniz-oguinn-2001-brand-community.md",
+      "message": "related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the applied case this theory paper directly supports)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/muniz-oguinn-2001-brand-community.md",
+      "message": "related-card entry has no SC ID: wenger-1991-1998-communities-of-practice.md (a craft/profession-based community test; this paper's setting is product/brand-based specifically)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/pearce-conger-2003-shared-leadership.md",
+      "message": "related-card entry has no SC ID: selznick-institutionalization.md (a complementary lens on when an organization's form gains independent value)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/stinchcombe-1965-organizational-imprinting.md",
+      "message": "related-card entry has no SC ID: selznick source card (organizational institutionalization, if present in corpus - complementary process-level account of how founding character becomes structure)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/valente-2012-network-interventions.md",
+      "message": "related-card entry has no SC ID: rogers-1962-diffusion-of-innovations source card (Valente's framework is prescriptive/interventionist, complementing Rogers's descriptive diffusion curve rather than duplicating it)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/wikipedia-peer-production-oligarchy-2000s-2010s.md",
+      "message": "related-card entry has no SC ID: ostrom source card (commons governance; the independent Wikipedia studies draw on Ostrom's framework alongside Benkler's)"
+    }
   ],
   "source_card_ids": [
     "SC-001",
@@ -145,7 +244,27 @@
     "SC-115",
     "SC-116",
     "SC-117",
-    "SC-118"
+    "SC-118",
+    "SC-119",
+    "SC-120",
+    "SC-121",
+    "SC-122",
+    "SC-123",
+    "SC-124",
+    "SC-125",
+    "SC-126",
+    "SC-127",
+    "SC-128",
+    "SC-129",
+    "SC-130",
+    "SC-131",
+    "SC-132",
+    "SC-133",
+    "SC-134",
+    "SC-135",
+    "SC-136",
+    "SC-137",
+    "SC-138"
   ],
   "source_card_sha256": {
     "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "45285ecc2101b4fb41d83c2d4275b78347ee40036047440441610237f898601f",
@@ -153,8 +272,10 @@
     "research/source-cards/agency-client-attrition-account-departure.md": "304e33b907700d032210b3e443819bd294dc43606676bc10753c53af655e7b08",
     "research/source-cards/airbnb-peer-trust-vs-hotel-brand-trust.md": "4e08a6bc96c54d12ed169a4c03db82dadf403384de4713ae2ca1c5f73b8c38e4",
     "research/source-cards/albert-jeong-barabasi-2000-error-attack-tolerance.md": "970271b57ffd74ed22f4f2068943b1ec79ae472034baa9a2a6549a3ea1153bf8",
+    "research/source-cards/alcoholics-anonymous-decentralized-governance.md": "efbe431c802d5044e11a3e70c24c6d4258efbfd8d0687ae2208af6d483fb7620",
     "research/source-cards/ambady-rosenthal-1992-thin-slices.md": "bc8d465d9627e0ce95e2ad5b7440a5b05ab7e6a96dc1197708bc328f7c76d6cf",
     "research/source-cards/amec-2020-barcelona-principles.md": "167ddaabaee0b28fd0a91fe429e624257d8a27a2eb7edff2eab58ec262cb9d86",
+    "research/source-cards/apple-google-intel-adobe-2005-2009-no-poach-agreement.md": "3c24081f73de1a90670be007195050ccadfd452b3a42686838b9b6055bae00f5",
     "research/source-cards/arnstein-1969-ladder-of-citizen-participation.md": "04d3d04574d34ef65d29c4bcef24d0f5af9a1665e7b57252b725bef603ab3298",
     "research/source-cards/baehr-community-of-fate.md": "9369a0f70c8d79d195758307fb56d54207b8a72a2c70b5b4ee62f02fb8486938",
     "research/source-cards/baker-2019-emotional-relational-organizational-energy.md": "7d163c9398e574417a729bf9726f6dc27203e55b809f9b78ac014da428daf87c",
@@ -164,6 +285,7 @@
     "research/source-cards/billiondollarboy-2025-ai-content-preference-decline.md": "aa7b5d4883dc29e9d49bca0413fbaaedcbe6f47898be28e0b83aa385d156ef49",
     "research/source-cards/bls-2024-business-five-year-survival-rate.md": "8a54b02de2795323078038025afbfe8982b2c5776d9d685d0c596602b80ac503",
     "research/source-cards/bombom-founder-interview-2026-08-03.md": "d703597cc20c84b3195c102088b679951b2295f26bd6fce751a96cca7dfe60e3",
+    "research/source-cards/borkman-1976-experiential-knowledge.md": "1476dbc2ce637cc266f83b019a6253c8a06e504e446f800e8ae8bf9077b33caf",
     "research/source-cards/bourdieu-1986-forms-of-capital.md": "862726837f145fc9055b92d9111370e27bcd21f15facf717696f03fe607b485e",
     "research/source-cards/brehm-psychological-reactance.md": "1c914467d089505f4bb3cdeb938981c39d4a0390cdf2594befcdc729d77f0de6",
     "research/source-cards/broschak-manager-mobility-market-ties-2004-2020.md": "62ece9d5b6d916382cb1bb026cf575353f2ffded36d7cf0b5b4d10c8a34426aa",
@@ -172,6 +294,7 @@
     "research/source-cards/collins-2004-interaction-ritual-chains.md": "6f962756c2d2eee08ec1321209865f34a070e2f75b35006afc7a977f49cd678c",
     "research/source-cards/craig-1999-constitutive-model-communication.md": "dfa23feaba2db2b43ea8a02c58723674fe774369eafdeffaebda6249cf047f25",
     "research/source-cards/croskerry-premature-closure.md": "8e134baba8979dc0f6bee6d7be3032234cd0222cb96d9ac6e866d1661bad8f0c",
+    "research/source-cards/crossfit-affiliate-model-2000-2010s.md": "8d7816d1a6e2487a5a4164300bd26892e6743465ad75a79370e51609d0d1dab4",
     "research/source-cards/crowdstrike-outage-delta-response-2024.md": "99adcbee1e872a7f87fb5c4c1789e48ab6f963ad20460b15876be423deea204e",
     "research/source-cards/durkheim-1912-elementary-forms-religious-life.md": "f9ff3cfcd543627d537cc57c1056deb288867b313da74c421d855685bb592b44",
     "research/source-cards/dynes-quarantelli-emergent-groups-typology.md": "4fc6ae0a097b267fcd8d1a2d912b9904bd619f63ccb2a4ae07b6e8289bf63aa3",
@@ -182,9 +305,12 @@
     "research/source-cards/fine-1979-idioculture-little-league.md": "d694efb36562652907dfdc1a58f446f1c99fadd50511e03330133f9f859accea",
     "research/source-cards/fine-vandenscott-2011-wispy-communities.md": "839d258683b9056760cecd5b51664247094ec5eea252035ab18def9497e9bd39",
     "research/source-cards/foldvari-vanleeuwen-vanzanden-2013-migration-holland.md": "2ea587be4f7ee447cce5d6525c1b6d3450b6acbb212efb286eebd3ce20a905c2",
+    "research/source-cards/fonseca-pereira-esteves-2014-ukrainian-migration-portugal.md": "b8b70b7bd0ed68f9c93e0a0eb630974fc0fa3ab37f46b4808d7eb20281cc7b4c",
     "research/source-cards/freeman-1984-stakeholder-theory.md": "f385666980e7191f503920a2d032c92ea40c498ce2bd6c22cc4897884b75a5e3",
     "research/source-cards/frontiers-2024-oxytocin-silent-retreat.md": "2e61867345561433da2db0183d6440180e8b26055dc19a4f0fa613ec02a1e4c0",
     "research/source-cards/gerstner-ibm-1993-breakup-reversal.md": "9b58cc5cf4a21fac358dd6a9c3c3107550f6b2ee00916b3af00318c0365de0e6",
+    "research/source-cards/gittell-2002-relational-coordination.md": "76a9438cd0f787eaccf5acd3e06f4285c78c78debfb40e61f0713c39b6ed344e",
+    "research/source-cards/goenka-vipassana-organizational-system-2026.md": "a2c3f06f801cc780791b8a78e805fceb664a170a912ce2311a785f550aca2c69",
     "research/source-cards/goffman-1961-asylums.md": "269f8adb55259541666da43b52a63d87cfbec67b55e5ae010f8332713f43675b",
     "research/source-cards/goffman-1963-behavior-in-public-places.md": "422b9972a232da5029a4c8d7e53f7b1bee08c71ccbd7e0b2b719c086a61e1cde",
     "research/source-cards/google-plus-2011-2019-engagement-failure.md": "6e03b1eec711d3391e0266347882101e004aeb184baf768ffc2909f7fde33c60",
@@ -200,17 +326,23 @@
     "research/source-cards/kale-singh-perlmutter-2000-relational-capital-alliances.md": "7397c1db4a777d6d4c5c34bc7a3da39673e783bad253b97afdacde1905455e47",
     "research/source-cards/keller-1993-customer-based-brand-equity.md": "0e33be70bf4302f8a250b90a8a7389800eb9cc4b1a98f984b1633f82ac6b3f68",
     "research/source-cards/krackhardt-hanson-1993-informal-networks.md": "7e282b3cea1b6279d66333e7c0f097522452161faf1e1f5109003680571966d4",
+    "research/source-cards/kraut-resnick-kiesler-2012-building-online-communities.md": "375fc1c0853296de351f8bfa8d2d56a140bd9225b9652404685ec98610c39594",
     "research/source-cards/kyiv-independent-2026-fedorov-cardboard-protests.md": "0496488db04f82a452b58f0439e0b4f9dfbb8421ba67abdfdde2a0fdf29d90aa",
     "research/source-cards/kyiv-oblast-april-2022-sabotage-groups-checkpoints.md": "ffe4dfad7d9de19b342f6480f9fb6c8496462e83f0ae0d293501d613b84bb8ac",
     "research/source-cards/lamont-molnar-2002-study-of-boundaries.md": "65a1663edf34fcd28a6b239a238efe27225b795bc325993e1397955163eb52b1",
+    "research/source-cards/lave-wenger-1991-legitimate-peripheral-participation.md": "ab6f57ac3a8e272b6c2c8f56c93790acb3cbc91339eae193136a0b865388c233",
     "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md": "ddcff0c48fc6718f53ed0636b5b26492ec17c408d277f645bcc9b459a9e30f88",
     "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md": "50cf7f64e3f6c46ca8fdf04c8511b8a8aa6e23171c4aafaf66e4a4b08b1ced70",
     "research/source-cards/macnamara-2016-organizational-listening.md": "4394046b630ae6186521366521b4ee9239fb2bba0022def3807b45b9f6a39b3c",
     "research/source-cards/mayer-davis-schoorman-1995-organizational-trust.md": "089eca37f139151979b289dbea7fd89e082301acf4228fabab4e70584674d343",
     "research/source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md": "cf8c5fe2dc990d0012dd010065bdcd2ed3008820edccc385cfe6c6e37bc61810",
+    "research/source-cards/mccarthy-zald-1977-resource-mobilization.md": "36e95a5e18266b3fce6c322408f603df40384bacbb7ea2888b1f31684a1dbcbf",
     "research/source-cards/mckinsey-hbr-2024-2025-ceo-stakeholder-trust.md": "d1f4a20e15d93752ca78befa155aa7a6b982bdee3f45c6bf1f3cc5ad40ee8cb7",
+    "research/source-cards/mcmillan-chavis-1986-sense-of-community.md": "b1922eef9d6d144361005e883fba8a6c143e32bc2982df3f979c369e9be38acf",
+    "research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md": "04351e039e77493443f8ecc7ec449ca06f434fee1f986f12dc0c57a90b08189e",
     "research/source-cards/millington-feverbee-branded-community-failure.md": "1892bf037f99c7d2180ba696c32b67f0cacade1006e7dda76307aac940d55135",
     "research/source-cards/morrison-2014-employee-voice-and-silence.md": "a0385140da555ca58625be186165ad6347a3b41a52597d5cd866ad04098353d8",
+    "research/source-cards/muniz-oguinn-2001-brand-community.md": "44c0c28f4897752ba5efe7eb1d320df0787dfb5b914c564842dd58671bfd7c04",
     "research/source-cards/nahapiet-ghoshal-1998-organizational-advantage.md": "03c78842cd2a373bc3b815214a832a2b9feba40860652a1b59f91f77eb2bb7dc",
     "research/source-cards/nour-2023-relationship-capital-trademark.md": "e8003850d3627f7f614a7163a184499b5968875c290606d054d3bd42c9d74528",
     "research/source-cards/olson-1965-logic-of-collective-action.md": "d1f658bc5d8a9a185a56c54dcfab26e0a0bafe09d98e9d1418d2e7cba1f0ca49",
@@ -218,6 +350,7 @@
     "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md": "71326d5bcf136467ea50a74d21eae23796a045b80066a8200e04a5d1e3bbadb1",
     "research/source-cards/pan-am-1991-brand-survival-licensing.md": "1be1e2e628c632319db960c9e345f49aae285ae31e59052cff0015fa1e126df0",
     "research/source-cards/patagonia-2026-worn-wear-repair-program.md": "ab1bbb0f625e96225ad84a9ab9c088f7d658157af8c13b891dd2fa428ab4d4bb",
+    "research/source-cards/pearce-conger-2003-shared-leadership.md": "daf90780fcb552208b13d25cec460091f3475d90cd2196ea21deb63e3431f322",
     "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md": "c94bb44abb7ec2680d9e739e400560b07a6f5c97fe9e8405b617a50fd65fad9e",
     "research/source-cards/portes-1998-downside-of-social-capital.md": "ce95379d67471ad788b2d53861b0c4c098ad9d08da558422fb8ec5cfa20d0000",
     "research/source-cards/putnam-2000-bowling-alone.md": "3ccaa0e20faa6b24fa6fb57f0d312174a3ce4c41382225a9c655b6adcd7bf43b",
@@ -240,7 +373,9 @@
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/spinks-2021-business-of-belonging.md": "a7eb559f2b194f24d1c6f87c089f820861ca860f1f909186a418a423da79265f",
+    "research/source-cards/stinchcombe-1965-organizational-imprinting.md": "c8826ec7ae6fedd472d9f3f64c74615375202687d593ef7a55e6384754f0a113",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
+    "research/source-cards/swann-2012-identity-fusion.md": "9a19d70cbe104e6958217763daf763383b6a3df50eb0304f737a5e9cd027166f",
     "research/source-cards/tak-shtab-taktion-uleadeurope-institutionalization.md": "27de68c642f8f6b4834009d5e045ae4aa6525efa289f0d705f9f52678b8cb276",
     "research/source-cards/tcf-anya-member-interview-2026-08-15.md": "6837a82ac440361f2bc3a298ab11cd45e58c5d8050022c7ac519c0465df33d80",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
@@ -256,12 +391,16 @@
     "research/source-cards/united-airlines-2017-stock-impact.md": "b6c7e43a74dff787081577973efb118c015247d30d9f173b7dd25f114a83cab1",
     "research/source-cards/urry-2007-network-capital.md": "e2092310d4ff41cacabfb8844606444b153f9c298fee3e690ec3405244c3de84",
     "research/source-cards/uzzi-1997-paradox-of-embeddedness.md": "17097e67a488390b378c9fc5b193ec6b4844330ab1626fc911063e084519f7cc",
+    "research/source-cards/valente-2012-network-interventions.md": "71abfe4e09d9c3ae0e29432f77829837642a75043ced9c59e8b725e26f015940",
     "research/source-cards/vembu-zoho-2025-ceo-transition.md": "a0707c46e12b074c0d15078e665f13d16505edb86867ce5b665d1831cd5bd801",
     "research/source-cards/vozdvyzhenka-square-community-campaign-2018-2023.md": "f989ef84f9270050e5439d21ed7a3b84e31c282babb0d3c46cf26a183e08f9df",
+    "research/source-cards/walsh-ungson-1991-organizational-memory.md": "31e0562b1d972065e4dd71267ee61988003eaf80881a90947627e96b982be02a",
     "research/source-cards/warm-intro-vs-cold-outreach-vc-conversion-rates.md": "2b0a3d0e268ed43ecad84518e7e750a732c8ad892c84c463d2a029df566827bd",
+    "research/source-cards/wegner-1987-transactive-memory.md": "619e809d19cf3110beeb548501d553874dddd7f1a1bb9999d3320911e419a026",
     "research/source-cards/weick-mann-gulch-sensemaking-collapse.md": "e48e8b6b6da6ff249b92c5d69e0f5924ebe4e972947d14eae2744b87c7ea818a",
     "research/source-cards/weiss-1995-theory-of-change.md": "1aaad64029de71246902afabc1f113abb54a015ab22e9d1c5973961b35b2f84d",
     "research/source-cards/wenger-1991-1998-communities-of-practice.md": "d8d2231969fae63531a8950de72c6d0df8c67864edf37d2f2573dd39bc676631",
+    "research/source-cards/wikipedia-peer-production-oligarchy-2000s-2010s.md": "c917fedd944449923d907060c922744c89d32cd2c76ccfd23ab7b86a215b7d46",
     "research/source-cards/wiltermuth-heath-2009-synchrony-cooperation.md": "fb20bea90ab65c89e346905849e4e131b3689aa8de4fe1eca251e8e8c2b761bc",
     "research/source-cards/zak-2017-neuroscience-of-trust.md": "d0bd21fda7cd0b148dde1021b40b5899271ff3825f1c7c11aac81e103a7251ed"
   }

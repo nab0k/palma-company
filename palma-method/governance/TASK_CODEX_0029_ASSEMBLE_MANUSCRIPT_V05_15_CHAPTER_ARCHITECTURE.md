@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0029
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-17
@@ -17,9 +17,12 @@ depends_on:
   - DECISION_0003
   - DECISION_0006
   - DECISION_0007
+  - DECISION_0008
   - TASK_CODEX_0028
   - TASK_CLAUDE_0028
   - TASK_CLAUDE_0029
+  - TASK_CLAUDE_0030
+  - TASK_CLAUDE_0031
 base_branch: codex/manuscript-v05-edit-plan
 base_commit_sha: 70c4a382c907d1f4d414c2a61cdc6e89cc74d168
 working_branch: codex/manuscript-v05-15-chapter-restructure
@@ -34,11 +37,19 @@ input_paths:
   - palma-method/research/reports/INFRASTRUCTURE_CANVAS_INTERNAL_AUDIT_v0.1.md
   - palma-method/research/reports/INFRASTRUCTURE_CANVAS_CASE_STRESS_TEST_v0.1.md
   - palma-method/research/reports/INFRASTRUCTURE_CANVAS_SPEC_OPTIONS_v0.1.md
+  - palma-method/research/reports/FIFTEEN_CHAPTER_THEORY_ARCHITECTURE_v0.1.md
+  - palma-method/research/reports/THEORY_EXPANSION_BUILDING_BLOCKS_v0.3.md
+  - palma-method/research/reports/ADJACENT_DISCIPLINES_FOR_PALMA_v0.1.md
+  - palma-method/research/reports/PALMA_PRIOR_ART_AND_NOVELTY_STRESS_TEST_v0.2.md
 output_paths:
   - palma-method/governance/DECISION_0007_BOOK_15_CHAPTER_ARCHITECTURE.md
+  - palma-method/governance/DECISION_0008_PALMA_INFRASTRUCTURE_CANVAS_FOUR_FIELDS.md
+  - palma-method/governance/PALMA_METHOD_CANON_v1.1.md
   - palma-method/governance/TASK_CODEX_0029_ASSEMBLE_MANUSCRIPT_V05_15_CHAPTER_ARCHITECTURE.md
   - palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.5.md
   - palma-method/research/reports/MANUSCRIPT_V05_TRANSFER_AND_EVIDENCE_LOG_v0.1.md
+  - palma-method/research/validation/claude-package-validation.json
+  - palma-method/research/validation/claude-package-validation.md
   - palma-method/governance/TASK_CODEX_0029_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0029_COMPLETION_REPORT.md
 ---
@@ -76,8 +87,8 @@ observations, hypotheses, and proposed Palma procedures.
 ### Phase 3 — Method chapters and integrity pass
 
 - Keep Diagnose, Design, Launch, and Transfer consistent with DECISION_0006.
-- Do not freeze the Canvas field count before a founder decision on the two audited
-  options.
+- Apply the founder's four-field Canvas decision recorded in DECISION_0008 and
+  synchronize every reader-facing specification of the tool.
 - Remove claims that Palma was applied to TCF or formally tested through TAK.Shtab.
 - Complete evidence, privacy, public-safety, terminology, repetition, and voice
   review.
@@ -98,7 +109,7 @@ observations, hypotheses, and proposed Palma procedures.
   applied to TCF.
 - Do not infer third-party motives, identify private participants without
   permission, or expose operationally sensitive wartime details.
-- Do not silently choose a four- or five-field Infrastructure Canvas.
+- Do not alter the four-field Infrastructure Canvas without a later founder decision.
 - Do not synchronize to Notion or Google Docs and do not merge without founder
   approval.
 

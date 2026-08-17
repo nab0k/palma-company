@@ -76,11 +76,12 @@ intervention?
 Required result: an `if X, then Y` hypothesis, a minimum intervention, anticipated
 success and failure signals, ethical limits, and any genuinely necessary boundary.
 
-Tool: **Palma Infrastructure Canvas** — routes, roles, rhythms, channels, memory.
-These five fields are a narrow decision sheet. They do not erase Chapter 13's wider
-design vocabulary of channels, roles, rhythms, rituals, rules, and value exchange.
-Rituals, rules, and value exchange shape how the five fields work; memory records
-what the system can carry without fresh explanation.
+Tool: **Palma Infrastructure Canvas** — paths, roles, rhythms, memory.
+Under DECISION_0008, paths combine the former routes and channels fields because
+the audit could not distinguish them consistently in use. These four fields are a
+narrow decision sheet, not a validated scale or a definition of community. Rituals,
+rules, value exchange, power, privacy, resources, and participant costs shape how
+the fields work; memory records what the system can carry without fresh explanation.
 
 ### Stage 3 — Launch
 
@@ -176,9 +177,11 @@ propositions**. No Palma tool is a validated scale, psychometric instrument, tes
 causal model, or proof of effectiveness. No fixed transition probability or universal
 handoff window is known.
 
-TCF, TAK.Shtab, and Bombom are illustrations and hypothesis-generating cases. They
-are not controlled tests. TAK.Shtab's public record corroborates specified 2024
-institutional features; it does not show that a formal Handoff Test was conducted.
+TCF and TAK.Shtab are illustrations and hypothesis-generating cases. They are not
+controlled tests. Bombom remains an archived research case and is excluded from the
+current manuscript under DECISION_0007. TAK.Shtab's public record corroborates
+specified 2024 institutional features; it does not show that a formal Handoff Test
+was conducted.
 The TCF evidence update is a five-case, one-coder exploratory check with a selected
 contrast case, selection bias, and no comparison group. Its qualitative pattern is
 consistent with the basic model and does not confirm it. It also exposed a construct
