@@ -2,6 +2,15 @@
 
 This folder documents how the Palma Method begins in a real social environment in Portugal. It is not evidence of a complete organizational transformation.
 
+## Canonical interview entry point
+
+Start with
+[`TCF_INTERVIEW_CORPUS_REGISTER_v0.1.md`](../research/reports/TCF_INTERVIEW_CORPUS_REGISTER_v0.1.md).
+It lists every completed interview known as of 19 August 2026, points to the
+privacy-safe source card, and records the consent and verification boundary.
+Raw audio, full transcripts, participant names, and private attendance data are
+intentionally not stored in GitHub.
+
 ## Research purpose
 
 - Observe what is already alive.
