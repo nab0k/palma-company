@@ -3,7 +3,7 @@ id: TCF_INTERVIEW_FIRST_CODER_MATRIX_v0.1
 type: report
 status: review
 owner: codex
-task_id: TASK_CODEX_0030
+task_id: TASK_CODEX_0031
 created: 2026-08-19
 privacy_level: internal
 source_refs:
