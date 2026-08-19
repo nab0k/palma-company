@@ -37,7 +37,7 @@ reconstructed from context or added to manuscript prose without explicit clearan
 - Nine individual respondents.
 - Ten registered interview source units: three founder sessions, six individual
   member sources, and one joint former-member interview with two respondents.
-- Seven member perspectives plus the founder, counting the joint interview as two
+- Eight member perspectives plus the founder, counting the joint interview as two
   people.
 - Three additional people are planned but not yet interviewed.
 
