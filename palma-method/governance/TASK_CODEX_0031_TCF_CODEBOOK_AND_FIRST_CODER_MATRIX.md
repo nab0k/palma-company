@@ -1,5 +1,5 @@
 ---
-id: TASK_CODEX_0030
+id: TASK_CODEX_0031
 type: task
 status: delivered
 owner: codex
@@ -30,14 +30,14 @@ input_paths:
   - palma-method/research/source-cards/tcf-former-member-couple-interview-2026-08-16.md
   - palma-method/research/source-cards/tcf-high-regularity-member-interview-2026-08-19.md
 output_paths:
-  - palma-method/governance/TASK_CODEX_0030_TCF_CODEBOOK_AND_FIRST_CODER_MATRIX.md
-  - palma-method/governance/TASK_CODEX_0030_COMPLETION_REPORT.md
+  - palma-method/governance/TASK_CODEX_0031_TCF_CODEBOOK_AND_FIRST_CODER_MATRIX.md
+  - palma-method/governance/TASK_CODEX_0031_COMPLETION_REPORT.md
   - palma-method/research/reports/TCF_INTERVIEW_CODEBOOK_v0.1.md
   - palma-method/research/reports/TCF_INTERVIEW_FIRST_CODER_MATRIX_v0.1.md
   - palma-method/research/reports/TCF_INTERVIEW_CORPUS_REGISTER_v0.1.md
 ---
 
-# TASK_CODEX_0030 — TCF codebook and first-coder matrix
+# TASK_CODEX_0031 — TCF codebook and first-coder matrix
 
 ## Objective
 
@@ -84,4 +84,4 @@ revision.
 
 ## Completion report
 
-`palma-method/governance/TASK_CODEX_0030_COMPLETION_REPORT.md`
+`palma-method/governance/TASK_CODEX_0031_COMPLETION_REPORT.md`
