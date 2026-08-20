@@ -15,7 +15,7 @@ base_branch: codex/v08-editorial-decision-register
 base_commit_sha: b9b2b832ae843ae64dd30fbb6ffa9bf0e8e3c56c
 working_branch: codex/manuscript-v08-full-revision
 research_merge_commit_sha: 7d0b793
-final_commit_sha: pending
+final_commit_sha: 55257d5
 ---
 
 # TASK_CODEX_0034 completion report
@@ -149,4 +149,4 @@ interview transcripts, and Notion were not edited.
   would create a 20,000-line unrelated index rewrite, so the generated side
   effects were excluded from this task instead of silently widening scope.
 
-The final commit SHA will be filled after the exact staged-diff review.
+The manuscript delivery commit is `55257d5`.
