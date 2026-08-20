@@ -125,3 +125,25 @@ lived case (TCF) is itself structurally a CrossFit-style gym, and because it
 offers a genuine third structural option (cheap decentralized enablement)
 against the two mechanisms already active in the manuscript's Chapter 8
 (Harley-Davidson's centralized build, Google+'s absence of infrastructure).
+
+## Addendum (2026-08-19, TASK_CLAUDE_0032) — 2020 Glassman controversy, detailed
+
+This task's own brief specifically instructed treating founder controversy
+and affiliate departures as a separate governance question, not automatic
+proof of community independence. Detail added, independently corroborated
+across multiple converging news outlets (CNN, Forbes, CBS News, South China
+Morning Post): in early June 2020, founder Greg Glassman responded to a
+public-health body's tweet describing racism as a public-health issue with
+"It's FLOYD-19," and, on a private Zoom call with gym owners leaked the
+same day, was reported to have told them he and his staff were "not
+mourning" George Floyd's death. Reebok ended its sponsorship; numerous
+affiliates and athletes publicly cut ties over the following weeks.
+Glassman resigned as CEO on 8 June 2020 and sold the company shortly after
+to tech entrepreneur Eric Roza. This sequence is well-documented and
+should be described factually in any manuscript use - it is a governance/
+reputational-crisis event, not evidence one way or the other about whether
+individual local-gym communities persisted through the ownership change,
+which this project has not independently verified. Do not conflate the
+2020 controversy with the separate 2020s wave of affiliate business
+closures already noted above - the two are related in time but the
+causal share of each has not been disentangled by this project.
