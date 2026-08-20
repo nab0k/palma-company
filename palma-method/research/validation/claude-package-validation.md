@@ -1,16 +1,16 @@
 # Claude Research Package — Structural Validation
 
 Report ID: `VAL-CLAUDE-001`  
-Source fingerprint: `76b3e5c1e389f45f77064303a6898e4c5cd729a86b22a15cdb4491865c7b34ca`
+Source fingerprint: `fc65e6672d33da1049256ad276be55ba752a1fd73d6f34bc9f729cd70b8b98d2`
 Status: **PASS**
 
 ## Result
 
-- Source cards found: 136
-- Source cards parsed: 136
-- Unique source-card IDs: 136
+- Source cards found: 145
+- Source cards parsed: 145
+- Unique source-card IDs: 145
 - Errors: 0
-- Warnings: 20
+- Warnings: 24
 
 ## Checks completed
 
@@ -34,6 +34,7 @@ None.
 
 - `related_card_reference` — research/source-cards/apple-google-intel-adobe-2005-2009-no-poach-agreement.md: related-card entry has no SC ID: coleman-1988-social-capital-human-capital.md / portes-1998-downside-of-social-capital.md (the enabling/coercive network-closure pair this case concretely instantiates at executive level)
 - `related_card_reference` — research/source-cards/crossfit-affiliate-model-2000-2010s.md: related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the contrastive case - centralized, company-built brand-community infrastructure versus CrossFit's cheap, decentralized licensing that lets each affiliate build its own local community from near-scratch)
+- `related_card_reference` — research/source-cards/dewey-leboeuf-2012-bankruptcy-relationship-dependence.md: related-card entry has no SC ID: None yet - first card for this case in the corpus
 - `related_card_reference` — research/source-cards/fonseca-pereira-esteves-2014-ukrainian-migration-portugal.md: related-card entry has no SC ID: granovetter-1973-strength-of-weak-ties.md (the bridging-tie mechanism this study documents at population scale for one migration flow)
 - `related_card_reference` — research/source-cards/fonseca-pereira-esteves-2014-ukrainian-migration-portugal.md: related-card entry has no SC ID: coleman-1988-social-capital-human-capital.md / portes-1998-downside-of-social-capital.md (the enabling/coercive pairing this study's own positive-then-negative feedback finding directly instantiates)
 - `related_card_reference` — research/source-cards/gittell-2002-relational-coordination.md: related-card entry has no SC ID: krackhardt-hanson source card (network brokerage; Gittell's relational coordination is a complementary, content-of-tie account rather than a structure-of-network account)
@@ -46,9 +47,12 @@ None.
 - `related_card_reference` — research/source-cards/mcmillan-chavis-1986-sense-of-community.md: related-card entry has no SC ID: wenger-1991-1998-communities-of-practice.md (the book's other, practice-based community test; this card is a complementary, independently-developed psychological test, not a replacement)
 - `related_card_reference` — research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md: related-card entry has no SC ID: portes-1998-downside-of-social-capital.md (active exclusion; this card is the passive, structural counterpart)
 - `related_card_reference` — research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md: related-card entry has no SC ID: granovetter-1973-strength-of-weak-ties.md (weak ties as a partial counterforce to homophily's narrowing effect)
+- `related_card_reference` — research/source-cards/mondragon-cooperative-federation-governance.md: related-card entry has no SC ID: ostrom-1990-governing-the-commons.md (a different but related institutional-durability framework; Mondragon is a real-world case of durable, rule-bound collective governance at industrial scale)
 - `related_card_reference` — research/source-cards/muniz-oguinn-2001-brand-community.md: related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the applied case this theory paper directly supports)
 - `related_card_reference` — research/source-cards/muniz-oguinn-2001-brand-community.md: related-card entry has no SC ID: wenger-1991-1998-communities-of-practice.md (a craft/profession-based community test; this paper's setting is product/brand-based specifically)
+- `related_card_reference` — research/source-cards/occupy-sandy-2012-emergent-mutual-aid.md: related-card entry has no SC ID: dynes-quarantelli-emergent-groups-typology.md (the disaster-sociology typology Occupy Sandy is a textbook instance of - new structure, new personnel relative to the disaster)
 - `related_card_reference` — research/source-cards/pearce-conger-2003-shared-leadership.md: related-card entry has no SC ID: selznick-institutionalization.md (a complementary lens on when an organization's form gains independent value)
+- `related_card_reference` — research/source-cards/salesforce-trailblazer-community-governance.md: related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (a structurally similar hybrid: centralized brand infrastructure plus volunteer local leadership)
 - `related_card_reference` — research/source-cards/stinchcombe-1965-organizational-imprinting.md: related-card entry has no SC ID: selznick source card (organizational institutionalization, if present in corpus - complementary process-level account of how founding character becomes structure)
 - `related_card_reference` — research/source-cards/valente-2012-network-interventions.md: related-card entry has no SC ID: rogers-1962-diffusion-of-innovations source card (Valente's framework is prescriptive/interventionist, complementing Rogers's descriptive diffusion curve rather than duplicating it)
 - `related_card_reference` — research/source-cards/wikipedia-peer-production-oligarchy-2000s-2010s.md: related-card entry has no SC ID: ostrom source card (commons governance; the independent Wikipedia studies draw on Ostrom's framework alongside Benkler's)

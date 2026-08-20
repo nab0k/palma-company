@@ -1,13 +1,13 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "76b3e5c1e389f45f77064303a6898e4c5cd729a86b22a15cdb4491865c7b34ca",
-  "source_card_count": 136,
-  "parsed_source_card_count": 136,
-  "unique_source_card_ids": 136,
+  "source_fingerprint": "fc65e6672d33da1049256ad276be55ba752a1fd73d6f34bc9f729cd70b8b98d2",
+  "source_card_count": 145,
+  "parsed_source_card_count": 145,
+  "unique_source_card_ids": 145,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
-  "warning_count": 20,
+  "warning_count": 24,
   "status": "pass",
   "checks": {
     "yaml_parse": "completed",
@@ -36,6 +36,11 @@
       "check": "related_card_reference",
       "file": "research/source-cards/crossfit-affiliate-model-2000-2010s.md",
       "message": "related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the contrastive case - centralized, company-built brand-community infrastructure versus CrossFit's cheap, decentralized licensing that lets each affiliate build its own local community from near-scratch)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/dewey-leboeuf-2012-bankruptcy-relationship-dependence.md",
+      "message": "related-card entry has no SC ID: None yet - first card for this case in the corpus"
     },
     {
       "check": "related_card_reference",
@@ -99,6 +104,11 @@
     },
     {
       "check": "related_card_reference",
+      "file": "research/source-cards/mondragon-cooperative-federation-governance.md",
+      "message": "related-card entry has no SC ID: ostrom-1990-governing-the-commons.md (a different but related institutional-durability framework; Mondragon is a real-world case of durable, rule-bound collective governance at industrial scale)"
+    },
+    {
+      "check": "related_card_reference",
       "file": "research/source-cards/muniz-oguinn-2001-brand-community.md",
       "message": "related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (the applied case this theory paper directly supports)"
     },
@@ -109,8 +119,18 @@
     },
     {
       "check": "related_card_reference",
+      "file": "research/source-cards/occupy-sandy-2012-emergent-mutual-aid.md",
+      "message": "related-card entry has no SC ID: dynes-quarantelli-emergent-groups-typology.md (the disaster-sociology typology Occupy Sandy is a textbook instance of - new structure, new personnel relative to the disaster)"
+    },
+    {
+      "check": "related_card_reference",
       "file": "research/source-cards/pearce-conger-2003-shared-leadership.md",
       "message": "related-card entry has no SC ID: selznick-institutionalization.md (a complementary lens on when an organization's form gains independent value)"
+    },
+    {
+      "check": "related_card_reference",
+      "file": "research/source-cards/salesforce-trailblazer-community-governance.md",
+      "message": "related-card entry has no SC ID: mcalexander-hbr-2009-harley-davidson-brand-community.md (a structurally similar hybrid: centralized brand infrastructure plus volunteer local leadership)"
     },
     {
       "check": "related_card_reference",
@@ -264,7 +284,16 @@
     "SC-135",
     "SC-136",
     "SC-137",
-    "SC-138"
+    "SC-138",
+    "SC-142",
+    "SC-143",
+    "SC-144",
+    "SC-145",
+    "SC-146",
+    "SC-147",
+    "SC-148",
+    "SC-149",
+    "SC-150"
   ],
   "source_card_sha256": {
     "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "45285ecc2101b4fb41d83c2d4275b78347ee40036047440441610237f898601f",
@@ -294,8 +323,9 @@
     "research/source-cards/collins-2004-interaction-ritual-chains.md": "6f962756c2d2eee08ec1321209865f34a070e2f75b35006afc7a977f49cd678c",
     "research/source-cards/craig-1999-constitutive-model-communication.md": "dfa23feaba2db2b43ea8a02c58723674fe774369eafdeffaebda6249cf047f25",
     "research/source-cards/croskerry-premature-closure.md": "8e134baba8979dc0f6bee6d7be3032234cd0222cb96d9ac6e866d1661bad8f0c",
-    "research/source-cards/crossfit-affiliate-model-2000-2010s.md": "8d7816d1a6e2487a5a4164300bd26892e6743465ad75a79370e51609d0d1dab4",
+    "research/source-cards/crossfit-affiliate-model-2000-2010s.md": "67d07fa7428a2832d6d2703c25e0bf04010958da25c4eb55ad6997af3e6c4639",
     "research/source-cards/crowdstrike-outage-delta-response-2024.md": "99adcbee1e872a7f87fb5c4c1789e48ab6f963ad20460b15876be423deea204e",
+    "research/source-cards/dewey-leboeuf-2012-bankruptcy-relationship-dependence.md": "ffbcfc5be7773d11081ab4e7bab88a59a6ed11afcb5930b5476ac064d914e92a",
     "research/source-cards/durkheim-1912-elementary-forms-religious-life.md": "f9ff3cfcd543627d537cc57c1056deb288867b313da74c421d855685bb592b44",
     "research/source-cards/dynes-quarantelli-emergent-groups-typology.md": "4fc6ae0a097b267fcd8d1a2d912b9904bd619f63ccb2a4ae07b6e8289bf63aa3",
     "research/source-cards/edelman-2026-trust-barometer.md": "01a71833647f179eaf8634f17c70ddd1c7289345beea238b004dd7512118e2b6",
@@ -341,14 +371,17 @@
     "research/source-cards/mcmillan-chavis-1986-sense-of-community.md": "b1922eef9d6d144361005e883fba8a6c143e32bc2982df3f979c369e9be38acf",
     "research/source-cards/mcpherson-smith-lovin-cook-2001-homophily.md": "04351e039e77493443f8ecc7ec449ca06f434fee1f986f12dc0c57a90b08189e",
     "research/source-cards/millington-feverbee-branded-community-failure.md": "1892bf037f99c7d2180ba696c32b67f0cacade1006e7dda76307aac940d55135",
+    "research/source-cards/mondragon-cooperative-federation-governance.md": "d0227c45c1c43136af25931ad5cef84de829f6509ca9c821e9c11ab495b75750",
     "research/source-cards/morrison-2014-employee-voice-and-silence.md": "a0385140da555ca58625be186165ad6347a3b41a52597d5cd866ad04098353d8",
     "research/source-cards/muniz-oguinn-2001-brand-community.md": "44c0c28f4897752ba5efe7eb1d320df0787dfb5b914c564842dd58671bfd7c04",
     "research/source-cards/nahapiet-ghoshal-1998-organizational-advantage.md": "03c78842cd2a373bc3b815214a832a2b9feba40860652a1b59f91f77eb2bb7dc",
     "research/source-cards/nour-2023-relationship-capital-trademark.md": "e8003850d3627f7f614a7163a184499b5968875c290606d054d3bd42c9d74528",
+    "research/source-cards/occupy-sandy-2012-emergent-mutual-aid.md": "880193bb65fbee21e1ac1e4cb4186be466eb14a70954ceba42f256ce199f51ce",
     "research/source-cards/olson-1965-logic-of-collective-action.md": "d1f658bc5d8a9a185a56c54dcfab26e0a0bafe09d98e9d1418d2e7cba1f0ca49",
     "research/source-cards/ostrom-1990-governing-the-commons.md": "deab2720d44b5297cc4d54f1a216cb8909222acd697bf43e2d5ec5285095d009",
     "research/source-cards/pagis-2015-evoking-equanimity-vipassana.md": "71326d5bcf136467ea50a74d21eae23796a045b80066a8200e04a5d1e3bbadb1",
     "research/source-cards/pan-am-1991-brand-survival-licensing.md": "1be1e2e628c632319db960c9e345f49aae285ae31e59052cff0015fa1e126df0",
+    "research/source-cards/parkrun-volunteer-and-paid-staff-structure.md": "0127552b7a06c7c3024c238eb94fdb449dce8cfcae04c6be8427f64e39845853",
     "research/source-cards/patagonia-2026-worn-wear-repair-program.md": "ab1bbb0f625e96225ad84a9ab9c088f7d658157af8c13b891dd2fa428ab4d4bb",
     "research/source-cards/pearce-conger-2003-shared-leadership.md": "daf90780fcb552208b13d25cec460091f3475d90cd2196ea21deb63e3431f322",
     "research/source-cards/polaroid-2008-2017-brand-revival-after-bankruptcy.md": "c94bb44abb7ec2680d9e739e400560b07a6f5c97fe9e8405b617a50fd65fad9e",
@@ -356,6 +389,7 @@
     "research/source-cards/putnam-2000-bowling-alone.md": "3ccaa0e20faa6b24fa6fb57f0d312174a3ce4c41382225a9c655b6adcd7bf43b",
     "research/source-cards/reichheld-sasser-1990-zero-defections.md": "d407ecf8bbe007582f6cb497b7a189ff7b4e5dc82d384570b3214c5bf93acd19",
     "research/source-cards/rogers-1962-diffusion-of-innovations.md": "742e8c87fd473eed557bc700e51489fc2658169b5c8fa1fae2d79e7da08cf14c",
+    "research/source-cards/salesforce-trailblazer-community-governance.md": "5f1714c8a5b4d09106ca93a974df0db054c982a1ff58bd1adaa56b11e389f00b",
     "research/source-cards/sampson-raudenbush-earls-1997-collective-efficacy.md": "c240ff68a0cac3b9c0c766aea2ce9bdd54b1e76578e7ba23c40e755b5b8ec9dc",
     "research/source-cards/schein-process-consultation-and-humble-inquiry.md": "a2a03539f70e382b95cce2a102344ac18236a135a4df34a1f1f4016b49a8b142",
     "research/source-cards/selznick-institutionalization.md": "0c61c1cdd6f4631a04439542c98230d8de459ffc3567f37a4eeb767af7054932",
@@ -373,14 +407,18 @@
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
     "research/source-cards/snowden-boone-2007-cynefin.md": "050f7ac01cee554a8de28916280210592716f3883821dd15c3b7e8002fc22eec",
     "research/source-cards/spinks-2021-business-of-belonging.md": "a7eb559f2b194f24d1c6f87c089f820861ca860f1f909186a418a423da79265f",
+    "research/source-cards/stack-overflow-reputation-governance-decline.md": "f008f4843a4eb1ab4f70155f9a24da911a2bb4bd652c053b9dd2e9bbe8648980",
     "research/source-cards/stinchcombe-1965-organizational-imprinting.md": "c8826ec7ae6fedd472d9f3f64c74615375202687d593ef7a55e6384754f0a113",
     "research/source-cards/suchman-1995-managing-legitimacy.md": "3934b11b1c9caabc7058f970ee315dd5ac1d739ad0f085d7c2124b6457384cf2",
     "research/source-cards/swann-2012-identity-fusion.md": "9a19d70cbe104e6958217763daf763383b6a3df50eb0304f737a5e9cd027166f",
     "research/source-cards/tak-shtab-taktion-uleadeurope-institutionalization.md": "27de68c642f8f6b4834009d5e045ae4aa6525efa289f0d705f9f52678b8cb276",
     "research/source-cards/tcf-anya-member-interview-2026-08-15.md": "6837a82ac440361f2bc3a298ab11cd45e58c5d8050022c7ac519c0465df33d80",
+    "research/source-cards/tcf-former-member-couple-interview-2026-08-16.md": "6753acd999995dd9727c9e6f261fa847db14a49157f63885c104789d7e873781",
     "research/source-cards/tcf-founder-interview-2026-07-27.md": "4669ef87ff8df52c8e369f78cd3c2c72a8db85d78e781555e6c84418ff4d5297",
     "research/source-cards/tcf-founder-interview-2026-07-30.md": "8dc196d0064c874aeaf9462206d06c058d46b4f6f8c47b5ffb4e709a5036f375",
+    "research/source-cards/tcf-founder-interview-continuation-2026-08-05.md": "7535df128a002abe7e80047cf7a2bc7cf2dd0e6cafed99153e63bbe64d5f258b",
     "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "f96b6071925a6ff35b53819326db83d2d76c8ef6d9eece6dce34549030637609",
+    "research/source-cards/tcf-high-regularity-member-interview-2026-08-19.md": "63d9f4f2a60ee4b0c846d38e547728528b66d7e92583fca65e9d51343568ab37",
     "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "1792f532b2486c2761695c8bd2249dd62e1712855b8d5917508200bc2076b56a",
     "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "cbd4f33f1ba51e9cc330bdfe0f56895e3c4b83b852ba76cd17ad74c953da328d",
     "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "eb30569a1bdda1810c1cc6feeecff72bd2a501cc289304ff1d2ab12931fe7c9e",
