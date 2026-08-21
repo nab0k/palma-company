@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "fc65e6672d33da1049256ad276be55ba752a1fd73d6f34bc9f729cd70b8b98d2",
-  "source_card_count": 145,
-  "parsed_source_card_count": 145,
-  "unique_source_card_ids": 145,
+  "source_fingerprint": "6a4be810fb6411dcb0672d35f38dfedf87df2d905da8d81e153f18c9395e0897",
+  "source_card_count": 146,
+  "parsed_source_card_count": 146,
+  "unique_source_card_ids": 146,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 24,
@@ -293,7 +293,8 @@
     "SC-147",
     "SC-148",
     "SC-149",
-    "SC-150"
+    "SC-150",
+    "SC-151"
   ],
   "source_card_sha256": {
     "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "45285ecc2101b4fb41d83c2d4275b78347ee40036047440441610237f898601f",
@@ -364,6 +365,7 @@
     "research/source-cards/levin-walter-kudesia-2023-reconnection-process.md": "ddcff0c48fc6718f53ed0636b5b26492ec17c408d277f645bcc9b459a9e30f88",
     "research/source-cards/levin-walter-murnighan-2011-dormant-ties.md": "50cf7f64e3f6c46ca8fdf04c8511b8a8aa6e23171c4aafaf66e4a4b08b1ced70",
     "research/source-cards/macnamara-2016-organizational-listening.md": "4394046b630ae6186521366521b4ee9239fb2bba0022def3807b45b9f6a39b3c",
+    "research/source-cards/martim-torres-2026-miguel-crespo-training-for-life.md": "cce612f9aa3fe84cdb6fe2b8d4947dfa19f872d1ab25ab0af94694c739ec4b3c",
     "research/source-cards/mayer-davis-schoorman-1995-organizational-trust.md": "089eca37f139151979b289dbea7fd89e082301acf4228fabab4e70584674d343",
     "research/source-cards/mcalexander-hbr-2009-harley-davidson-brand-community.md": "cf8c5fe2dc990d0012dd010065bdcd2ed3008820edccc385cfe6c6e37bc61810",
     "research/source-cards/mccarthy-zald-1977-resource-mobilization.md": "36e95a5e18266b3fce6c322408f603df40384bacbb7ea2888b1f31684a1dbcbf",
