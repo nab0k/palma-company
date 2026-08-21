@@ -114,3 +114,27 @@ merits).
 ## Status
 
 `verified`
+
+## v0.10 primary-study addendum (TASK_CODEX_0036)
+
+The manuscript's intellectual-history entrance uses two primary studies in
+addition to the 1966 book:
+
+- Brehm, J. W. (1956). “Postdecision Changes in the Desirability of
+  Alternatives.” *Journal of Abnormal and Social Psychology*, 52(3), 384–389.
+  DOI: `10.1037/h0041006`. The study reports 225 female students evaluating
+  eight consumer products, choosing between similarly valued alternatives, and
+  then rating the chosen item more favorably relative to the rejected one. The
+  manuscript names only four illustrative products and preserves the historical
+  sample limitation.
+- Brehm, J. W., & Sensenig, J. (1966). “Social Influence as a Function of
+  Attempted and Implied Usurpation of Choice.” *Journal of Personality and
+  Social Psychology*, 4(6), 703–707. DOI: `10.1037/h0023992`. The experiment
+  contrasts another person's stated preference with a directive that attempts
+  to determine the participant's choice. The manuscript also retains the
+  reported failure of the authors' expectation that anticipated future attempts
+  at control would intensify reactance.
+
+These studies support a bounded claim about choice and attempted control. They
+do not support treating every refusal, disagreement, or failed handoff as
+reactance.

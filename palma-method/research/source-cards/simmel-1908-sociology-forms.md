@@ -73,3 +73,21 @@ chapter_refs:
 **Checked, not verified.** Foundational, correctly attributed. Not yet
 read directly. Useful mainly as the most general, least contestable
 starting point: a group is a reproduced form of interaction, not a list.
+
+## v0.10 primary-text verification addendum (TASK_CODEX_0036)
+
+The German primary text was inspected for the v0.10 introduction. The opening
+program of *Soziologie* supports the manuscript's account of sociology's
+distinct object and the separation of social forms from their changing
+contents. Simmel's geometry comparison is used as a paraphrase: just as
+geometry abstracts spatial form from material objects, sociology can examine
+recurring forms such as exchange, conflict, subordination, competition,
+distance, and closeness across different historical contents.
+
+Primary digital record reviewed:
+`https://commons.wikimedia.org/wiki/File:Soziologie._Untersuchungen_%C3%BCber_die_formen_der_vergesellschaftung_(IA_soziologieunters00simmrich).pdf`
+
+The manuscript does not claim that Simmel studied CRM systems, firms losing
+clients, or digital communities. Those are Palma applications of his change in
+the unit of observation. For the general form/content and geometry claims, the
+operational status is upgraded to `verified_via_primary_text`.
