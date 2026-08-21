@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0035
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-21
@@ -15,7 +15,7 @@ depends_on:
   - TASK_CODEX_0034
   - DECISION_0009
 base_branch: codex/manuscript-v08-full-revision
-base_commit_sha: 3fdd7e9c497e9c8a03cbfb28d94ae85139e4f45e
+base_commit_sha: 3fdd7e9b03d624a464c5e756697ed6404992dce8
 working_branch: codex/manuscript-v09-miguel-practices
 input_paths:
   - palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.8.md

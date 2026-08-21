@@ -8,8 +8,8 @@ status: revision
 owner: Codex
 created_date: "2026-08-21"
 task_reference: TASK_CODEX_0035
-source_snapshot: "PALMA_METHOD_MANUSCRIPT_v0.8.md at 3fdd7e9c497e9c8a03cbfb28d94ae85139e4f45e"
-evidence_base_commit: "3fdd7e9c497e9c8a03cbfb28d94ae85139e4f45e"
+source_snapshot: "PALMA_METHOD_MANUSCRIPT_v0.8.md at 3fdd7e9b03d624a464c5e756697ed6404992dce8"
+evidence_base_commit: "3fdd7e9b03d624a464c5e756697ed6404992dce8"
 architecture_decision: DECISION_0007
 canvas_decision: DECISION_0008
 editorial_scope_decision: DECISION_0009
@@ -18,7 +18,7 @@ personal_story_use: "Existing authorized prose plus the bounded founder approval
 
 Append-only редакторская сборка по TASK_CODEX_0035. Источник текста:
 `palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.8.md` на
-коммите `3fdd7e9c497e9c8a03cbfb28d94ae85139e4f45e`. Версия v0.8 не изменена.
+коммите `3fdd7e9b03d624a464c5e756697ed6404992dce8`. Версия v0.8 не изменена.
 В главу 5 точечно интегрирован публичный рассказ Мигеля Креспо об операционных
 решениях TCF. Он используется как свидетельство намерения основателя и описанной
 им практики, но не как независимое доказательство удержания или сообщества.
