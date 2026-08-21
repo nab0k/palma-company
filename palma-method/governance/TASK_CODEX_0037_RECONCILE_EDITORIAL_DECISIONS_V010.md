@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0037
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-21
@@ -36,6 +36,7 @@ output_paths:
   - palma-method/research/reports/V010_EDITORIAL_RECONCILIATION_LEDGER_v0.1.md
   - palma-method/governance/TASK_CODEX_0037_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0037_COMPLETION_REPORT.md
+final_commit_sha: d6cd066f2da2a59c69a67b3a973706631bb27af7
 ---
 
 # TASK_CODEX_0037 — Reconcile all editorial decisions against manuscript v0.10
