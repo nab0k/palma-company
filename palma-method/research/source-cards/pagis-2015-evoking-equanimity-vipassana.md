@@ -111,3 +111,22 @@ a retreat with a strong felt sense of connection to the group. Pagis gives
 the book real vocabulary for this - "silent interaction ritual," a
 "sociality of non-engagement" - instead of forcing the case to borrow
 loosely from theories built around ordinary conversation-based bonding.
+
+## v0.10 primary-text verification addendum (TASK_CODEX_0036)
+
+The author-uploaded primary article was read for the v0.10 scholar integration.
+It confirms the manuscript-level details used in Chapter 1: participant
+observation at ten Vipassana retreats in Israel and the United States; sixty
+in-depth interviews; field roles as both meditator and server; the ban on
+speech, gestures, and eye contact; the ticking-alarm-clock episode; and Pagis's
+term “sociality of non-engagement.” The paper also supports the manuscript's
+boundary: it explains the social cultivation of equanimity during retreats and
+does not establish durable post-retreat friendship, a continuing network, or a
+general community outcome.
+
+Primary copy reviewed:
+`https://www.researchgate.net/publication/273328464_Evoking_Equanimity_Silent_Interaction_Rituals_in_Vipassana_Meditation_Retreats`
+
+For the details above, the operational status is upgraded to
+`verified_via_primary_author_copy`. Direct quotations still require page-level
+checking against the publisher version; v0.10 uses paraphrase only.
