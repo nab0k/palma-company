@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "6a4be810fb6411dcb0672d35f38dfedf87df2d905da8d81e153f18c9395e0897",
-  "source_card_count": 146,
-  "parsed_source_card_count": 146,
-  "unique_source_card_ids": 146,
+  "source_fingerprint": "449d0feb9bc099fb7e2e40921d16995ddfec83168011d7a42552acf6ce3e3326",
+  "source_card_count": 147,
+  "parsed_source_card_count": 147,
+  "unique_source_card_ids": 147,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 24,
@@ -294,7 +294,8 @@
     "SC-148",
     "SC-149",
     "SC-150",
-    "SC-151"
+    "SC-151",
+    "SC-152"
   ],
   "source_card_sha256": {
     "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "45285ecc2101b4fb41d83c2d4275b78347ee40036047440441610237f898601f",
@@ -403,7 +404,7 @@
     "research/source-cards/serhii-palma-name-origin-story-intake.md": "e0f811bbf6c762fc4e533088b215f13dd04c4eb7da02db6e7c5261763ef558b8",
     "research/source-cards/serhii-ryabikin-boryspil-interview-full-transcript.md": "0ad259c06979a804176586f5a90b6550da7f510adf6853cf85548f65a0018f3e",
     "research/source-cards/serhii-tak-shtab-story-intake.md": "e1d3ab799dd19de2a31ff4f04547bfe791135140741dc96f9534b2a02c250f4b",
-    "research/source-cards/serhii-tcf-personal-story-intake.md": "6b41bd1003397a994edc5909bcc1c87d622bff1aa5e1f8c02f2261fef4001bf2",
+    "research/source-cards/serhii-tcf-personal-story-intake.md": "68e376c746ea63d01925678ffe8089b5824e6a25f798bd408cfab0a60a7adc6f",
     "research/source-cards/serhii-tymofiy-lyceum-friendship-recurring-partnership.md": "9bab091f7b14bbf256e09804b662468e76be97d8693786149688a46045fc87e9",
     "research/source-cards/serhii-vipassana-retreat-story-intake.md": "45cd67cc5f8ef6962e187f960e347b2493bc7218ad84a8dd6802a6d553829e93",
     "research/source-cards/simmel-1908-sociology-forms.md": "c5832b22f3d3376b75946a5b51cefa242f53c6107fd9930e0d86adf3ff4b43b5",
@@ -422,6 +423,7 @@
     "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "f96b6071925a6ff35b53819326db83d2d76c8ef6d9eece6dce34549030637609",
     "research/source-cards/tcf-high-regularity-member-interview-2026-08-19.md": "63d9f4f2a60ee4b0c846d38e547728528b66d7e92583fca65e9d51343568ab37",
     "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "1792f532b2486c2761695c8bd2249dd62e1712855b8d5917508200bc2076b56a",
+    "research/source-cards/tcf-lucas-member-interview-2026-08-21.md": "6d4df0c14748c122036f1961bfe16bdba993dc7446aa723125f1744cba7b0440",
     "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "cbd4f33f1ba51e9cc330bdfe0f56895e3c4b83b852ba76cd17ad74c953da328d",
     "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "eb30569a1bdda1810c1cc6feeecff72bd2a501cc289304ff1d2ab12931fe7c9e",
     "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md": "b1b84cd983e460ab7b0fc120e4303aae1354586911b6cf5787c3133d1de99ebe",
