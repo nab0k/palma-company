@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0036
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-21
@@ -33,7 +33,7 @@ output_paths:
   - palma-method/research/source-cards/simmel-1908-sociology-forms.md
   - palma-method/governance/TASK_CODEX_0036_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0036_COMPLETION_REPORT.md
-final_commit_sha: pending
+final_commit_sha: b92a61c
 ---
 
 # TASK_CODEX_0036 — Integrate scholar introductions into manuscript v0.10
