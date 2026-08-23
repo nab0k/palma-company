@@ -1,10 +1,10 @@
 {
   "report_id": "VAL-CLAUDE-001",
   "validator_version": "legacy-compatible-2",
-  "source_fingerprint": "449d0feb9bc099fb7e2e40921d16995ddfec83168011d7a42552acf6ce3e3326",
-  "source_card_count": 147,
-  "parsed_source_card_count": 147,
-  "unique_source_card_ids": 147,
+  "source_fingerprint": "29898efc0a88d4d6758b4607d69fc6e2e3b34271113f3124544e0f413d7e94a2",
+  "source_card_count": 148,
+  "parsed_source_card_count": 148,
+  "unique_source_card_ids": 148,
   "duplicate_source_identifiers": 0,
   "error_count": 0,
   "warning_count": 24,
@@ -295,7 +295,8 @@
     "SC-149",
     "SC-150",
     "SC-151",
-    "SC-152"
+    "SC-152",
+    "SC-153"
   ],
   "source_card_sha256": {
     "research/source-cards/abercrombie-fitch-fran-horowitz-narrowing.md": "45285ecc2101b4fb41d83c2d4275b78347ee40036047440441610237f898601f",
@@ -423,8 +424,9 @@
     "research/source-cards/tcf-francisco-member-interview-2026-08-14.md": "f96b6071925a6ff35b53819326db83d2d76c8ef6d9eece6dce34549030637609",
     "research/source-cards/tcf-high-regularity-member-interview-2026-08-19.md": "63d9f4f2a60ee4b0c846d38e547728528b66d7e92583fca65e9d51343568ab37",
     "research/source-cards/tcf-low-regularity-member-intake-2026-08-15.md": "1792f532b2486c2761695c8bd2249dd62e1712855b8d5917508200bc2076b56a",
-    "research/source-cards/tcf-lucas-member-interview-2026-08-21.md": "6d4df0c14748c122036f1961bfe16bdba993dc7446aa723125f1744cba7b0440",
+    "research/source-cards/tcf-lucas-member-interview-2026-08-21.md": "9a6ee5832a2abc2fccbd10783c6d79fb0b24618e4b5cc46ed449c21b8b78a231",
     "research/source-cards/tcf-luciana-member-interview-2026-08-15.md": "cbd4f33f1ba51e9cc330bdfe0f56895e3c4b83b852ba76cd17ad74c953da328d",
+    "research/source-cards/tcf-p10-established-participant-interview-2026-08-23.md": "0b8505ccde6b9498638c9b512d83f29268f07766523f08675568aa1ba0f76f81",
     "research/source-cards/tcf-rami-member-interview-2026-08-14.md": "eb30569a1bdda1810c1cc6feeecff72bd2a501cc289304ff1d2ab12931fe7c9e",
     "research/source-cards/triumph-motorcycles-1983-brand-revival-john-bloor.md": "b1b84cd983e460ab7b0fc120e4303aae1354586911b6cf5787c3133d1de99ebe",
     "research/source-cards/turner-1969-ritual-process-communitas.md": "e382705da0b085def272908a89d43a739a0648fbba6187ddcba2d48a44b88be6",
