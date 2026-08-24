@@ -45,6 +45,8 @@ This registry also governs the founder comments made after the Notion export:
    while preserving the SC-153 participant-approval gate;
 8. revise all fifteen chapters before asking the founder to resume a complete
    line read.
+9. remove the brother/Gala material and keep the transferable phenomenon rather
+   than building a chapter around either person.
 
 ## Recurring diagnoses
 
@@ -188,8 +190,8 @@ This registry also governs the founder comments made after the Notion export:
 
 ## Required closeout
 
-Before TASK_CODEX_0039 is delivered, all 104 rows must have final status and a
-v0.11 anchor or explicit blocker. Notion discussions are not resolved by this
+Before TASK_CODEX_0041 is delivered, all 104 rows must have a verified v0.12
+disposition or an explicit blocker. Notion discussions are not resolved by this
 task; resolution waits for founder acceptance of the GitHub manuscript.
 
 ## Inherited v0.11 closeout matrix — pending v0.12 recheck
@@ -209,7 +211,7 @@ Grouped rows share one local repair area; every discussion ID is enumerated.
 | N10-028, N10-029, N10-030, N10-031 | implemented | Chapter 10 opening and Dewey comparison: author’s publishing case is named; legal detour and repeated caveats compressed to the one structural comparison the chapter needs. |
 | N10-032, N10-033, N10-034, N10-035, N10-036, N10-037, N10-038 | implemented | Chapter 10, Barabási and Albert: people, question, web material, hub mechanism, failure mechanism, and limit for small organizations are now introduced in sequence; surplus coauthor name removed from running prose. |
 | N10-039, N10-040, N10-041, N10-042, N10-043, N10-044 | implemented | Chapter 10, Granovetter and Burt: both introductions rebuilt around memorable research questions and data; “дозвониться” modernized where it described present-day access; 2023 review adds the contemporary continuation. |
-| N10-045, N10-046, N10-047, N10-048 | implemented | Chapter 10, Anton: surname removed, punctuation repaired, death phrasing softened, premature TAK.Shtab callback removed. |
+| N10-045, N10-046, N10-047, N10-048 | superseded_by_later_founder_directive | The v0.11 edits retained Anton; the later instruction is stricter. v0.12 removes the brother material and preserves only the general distinction between dependency on a broker and relationships that survive one. |
 | N10-049 | implemented_with_research_limit | Chapter 10 and `CONTEMPORARY_RESEARCH_AND_KAHNEMAN_ASSESSMENT_v0.1.md`: contemporary weak-tie and network-intervention work added; further replacement of classic examples remains an editorial option, not an unsupported swap. |
 | N10-050, N10-051, N10-052, N10-053, N10-054 | implemented | Chapter 10 close and Chapter 11 transition: Krackhardt/Hanson and the hidden-company question are made concrete; duplicated opaque examples removed. |
 | N10-055, N10-056 | implemented | Chapter 11, Selznick and close: TVA material compressed to co-optation/goal drift; ritual “does not prove the Method” defense replaced by an authorial explanation of why the pre-Method case belongs. |
@@ -235,15 +237,16 @@ the inherited summary only after every chapter has been rechecked.
 
 | ID | Scope | Directive | v0.12 disposition |
 |---|---|---|---|
-| P12-001 | Whole book | Preserve `TAK.Shtab`; future English must never turn the proper name into `HQ`. | active_whole_book_rule |
-| P12-002 | Whole book | State the positive claim first; use `not X but Y` only for a real, established confusion. | active_whole_book_rule |
-| P12-003 | Whole book | Break abstract chains with a person, object, scene, decision, or worked example. | active_whole_book_rule |
-| P12-004 | Whole book | Remove omniscient consultant tone and unsupported claims about what founders or launches “usually” do. | active_whole_book_rule |
-| P12-005 | Chapters 13–14 | Rebuild logic and scholar entrances; Chapter 14 pilot supplies the accepted direction. | chapter_14_integrated; chapter_13_pending_recheck |
-| P12-006 | Whole book | Make the book an authorial research manifesto and an invitation to think, not a universal doctrine. | active_whole_book_rule |
-| P12-007 | Whole book | Use Kahneman selectively and name a bias only when the mechanism and evidence match. | active_research_rule |
-| P12-008 | Whole book | Recheck earlier comments instead of trusting the existence of a later version. | registry_reopened |
-| P12-009 | Whole book | Connect classic work to contemporary research where newer evidence changes the claim or boundary. | active_research_rule |
-| P12-010 | TCF | Introduce the gym physically and socially before the abbreviation becomes analytical shorthand. | pending_chapters_1_5_recheck |
-| P12-011 | Scholars | Give each substantial author or group a memorable entrance of at least the depth needed to teach the reader something useful. | pending_all_first_appearances |
+| P12-001 | Whole book | Preserve `TAK.Shtab`; future English must never turn the proper name into `HQ`. | implemented_and_scanned; generic `General Staff` and movement-organization uses remain distinct |
+| P12-002 | Whole book | State the positive claim first; use `not X but Y` only for a real, established confusion. | implemented_first_pass; final_copyedit_scan_complete |
+| P12-003 | Whole book | Break abstract chains with a person, object, scene, decision, or worked example. | implemented_first_pass |
+| P12-004 | Whole book | Remove omniscient consultant tone and unsupported claims about what founders or launches “usually” do. | implemented_first_pass; sourced frequency language retained where it reports data or a named model |
+| P12-005 | Chapters 13–14 | Rebuild logic and scholar entrances; Chapter 14 pilot supplies the accepted direction. | implemented_in_both_chapters |
+| P12-006 | Whole book | Make the book an authorial research manifesto and an invitation to think, not a universal doctrine. | implemented_in_chapter_1_conclusion_and_appendix_2 |
+| P12-007 | Whole book | Use Kahneman selectively and name a bias only when the mechanism and evidence match. | implemented_in_chapter_12; no decorative bias labels added |
+| P12-008 | Whole book | Recheck earlier comments instead of trusting the existence of a later version. | all_104_rows_reopened_and_rechecked; later_directives_control |
+| P12-009 | Whole book | Connect classic work to contemporary research where newer evidence changes the claim or boundary. | implemented_selectively; no date-only substitutions |
+| P12-010 | TCF | Introduce the gym physically and socially before the abbreviation becomes analytical shorthand. | implemented_short_orientation_in_chapter_1; full_scene_in_chapter_5 |
+| P12-011 | Scholars | Give each substantial author or group a memorable entrance of at least the depth needed to teach the reader something useful. | implemented_first_pass; anonymous_interview_clearance_remains_separate |
 | P12-012 | Chapter 14 | Replace the invented launch example with the real station-order scene and separate Response Signals from Palma Moment. | implemented_candidate; SC-153_clearance_pending |
+| P12-013 | Chapters 10–11 | Do not build prose around the founder's brother or Gala; retain the general phenomenon instead. | implemented; brother_material_removed; no_Gala_material_present |

@@ -25,17 +25,17 @@ that v0.11 contained no edit.
 | 2 — The Sound of One Hand Clapping | Response as the relational unit | Clarify Simmel and Craig; keep argument grounded in observable reply | first_pass_complete |
 | 3 — Borrowed Access | Distinguish reputation, legitimacy, trust, access | Give every distinction a person and consequence; verify scholar entrances | first_pass_complete |
 | 4 — What Accumulates in Relationships | Define Relationship Capital and its limits | Repair capital-history prose, Coleman/Bourdieu positioning, reciprocity, and concrete memory example | first_pass_complete |
-| 5 — The Collective Fitness | Full chronological TCF case | Introduce the place, Miguel's family business, street-to-gym scene, and chronology before analysis | pending |
-| 6 — Repeated Encounters | Attendance, repeated contact, ritual, limits of Wodify | Separate opportunity to meet from friendship and motive; use interviews to bound inference | pending |
-| 7 — Whom Can You Trust with a Child? | Kichkine and community definition | Keep South Coast environment concrete; protect sensitive teacher scene; clarify Coleman and migration evidence | pending |
-| 8 — From First Users to Community | Product/community timing and participation | Teach Lave/Wenger, McMillan/Chavis, Muñiz/O'Guinn through memorable material; keep selected cases distinct | pending |
-| 9 — Whom the Community Did Not Notice | Boundaries, exclusion, silence, over-cohesion | Simplify dense scholar sequence; preserve interview variation and power questions | pending |
-| 10 — If One Point Disappears | Publishing failure, Dewey, hubs, brokers | Remove repetition and abstraction; make network mechanisms memorable and bounded | pending |
-| 11 — TAK.Shtab | One chronological mobilization and institutionalization case | Protect name; keep collective authorship; improve modern relevance without case sprawl | pending |
-| 12 — Diagnose | Correct unit and rival explanation | Remove consultant omniscience; make Schein/Croskerry practical and concrete | pending |
-| 13 — Design | Testable intervention and four-field Canvas | Rebuild reader path; clarify Weiss, Valente, Lave/Wenger, and document-memory example | pending |
-| 14 — Launch | Bounded probe and observable response | Integrate reviewed opening, Cynefin/TCF scene, Response Signals, and evidence boundaries | integrated_from_pilot; full_book_rhythm_pending |
-| 15 — Transfer | Handoff Test and provisional synthesis | Finish Brehm rewrite in founder-approved style; clarify responsibility, autonomy, memory, and closing manifesto | pending |
+| 5 — The Collective Fitness | Full chronological TCF case | Introduce the place, Miguel's family business, street-to-gym scene, and chronology before analysis | first_pass_complete; participant_detail_permissions_recheck_pending |
+| 6 — Repeated Encounters | Attendance, repeated contact, ritual, limits of Wodify | Separate opportunity to meet from friendship and motive; use interviews to bound inference | first_pass_complete; private_episode_permissions_recheck_pending |
+| 7 — Whom Can You Trust with a Child? | Kichkine and community definition | Keep South Coast environment concrete; protect sensitive teacher scene; clarify Coleman and migration evidence | first_pass_complete; sensitive_scene_absent |
+| 8 — From First Users to Community | Product/community timing and participation | Teach Lave/Wenger, McMillan/Chavis, Muñiz/O'Guinn through memorable material; keep selected cases distinct | first_pass_complete |
+| 9 — Whom the Community Did Not Notice | Boundaries, exclusion, silence, over-cohesion | Simplify dense scholar sequence; preserve interview variation and power questions | first_pass_complete; SC-153_clearance_pending |
+| 10 — If One Point Disappears | Publishing failure, Dewey, hubs, brokers | Remove repetition and abstraction; make network mechanisms memorable and bounded | first_pass_complete; brother_material_removed_per_later_directive |
+| 11 — TAK.Shtab | One chronological mobilization and institutionalization case | Protect name; keep collective authorship; improve modern relevance without case sprawl | first_pass_complete; brother_reference_removed |
+| 12 — Diagnose | Correct unit and rival explanation | Remove consultant omniscience; make Schein/Croskerry practical and concrete | first_pass_complete |
+| 13 — Design | Testable intervention and four-field Canvas | Rebuild reader path; clarify Weiss, Valente, Lave/Wenger, and document-memory example | first_pass_complete |
+| 14 — Launch | Bounded probe and observable response | Integrate reviewed opening, Cynefin/TCF scene, Response Signals, and evidence boundaries | integrated_from_pilot; full_book_rhythm_complete; SC-153_clearance_pending |
+| 15 — Transfer | Handoff Test and provisional synthesis | Finish Brehm rewrite in founder-approved style; clarify responsibility, autonomy, memory, and closing manifesto | first_pass_complete |
 
 ## Whole-book completion tests
 
