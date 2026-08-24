@@ -16,6 +16,8 @@ related_concepts:
   - repeated-participation
   - belonging
   - contribution
+  - member-feedback
+  - merchandise-participation
 related_cards:
   - "SC-043 (TCF founder interview)"
   - "SC-044 (TCF founder continuation)"
@@ -93,3 +95,17 @@ The Founder clarified that the remaining stories are held in the Palma project
 chats. They were located in the ChatGPT project “Palma.company” and registered
 separately as SC-047, SC-048, and SC-049. General biographies, CRM pages, and
 company histories were not used to reconstruct them.
+
+## TASK_CODEX_0037 addendum — merchandise feedback (2026-08-21)
+
+Serhii states from direct observation that Miguel frequently asks participants what
+they think about TCF merchandise. This is an author observation, not a measured
+frequency and not a claim that members share governance. Read together with SC-152,
+it supports a narrower hypothesis: asking for an opinion, visibly considering it,
+and sometimes incorporating a suggestion can provide a low-stakes conversational
+opening and a small opportunity to participate in the place's presentation.
+
+Before manuscript use, establish a specific scene, date or product, who was asked,
+what changed, and whether the participant permits the episode to be described. Do
+not combine this general observation with the separate post-loss merchandise lead;
+that sequence has stricter consent and fact-check requirements.
