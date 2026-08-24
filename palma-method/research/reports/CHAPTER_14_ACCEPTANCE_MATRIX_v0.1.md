@@ -27,8 +27,9 @@ the prose became clearer.
 - **BEFORE:** “Поэтому задача запуска состоит не в том, чтобы добиться
   красивого первого дня, а в том, чтобы увидеть ответ и решить, что делать
   дальше.” (v0.11, Chapter 14, opening.)
-- **AFTER:** “Я смотрю на этот ответ и решаю, что стоит сохранить, изменить или
-  остановить.” (candidate line 12.)
+- **AFTER:** “Этот ответ становится материалом для следующего решения. Что люди
+  действительно сделали? Что продолжилось после первой встречи?” (candidate
+  line 14.)
 - **WHY:** The positive action is the claim. “Красивый первый день” was an
   imagined objection and made the author sound like he was correcting a naïve
   reader.
@@ -38,9 +39,9 @@ the prose became clearer.
 - **BEFORE:** Cynefin was followed by a new hypothetical coffee intervention,
   six signals, measurement rules, Wodify, Rogers, Weiss, and collective efficacy
   without one stable route through the chapter.
-- **AFTER:** One early-user episode is made concrete at lines 22–24; the
-  measurement rules use observable events at lines 41–53; TCF supplies the real
-  counterexample at lines 55–57.
+- **AFTER:** The conceptual distinction is carried by one real TCF station-order
+  scene at lines 28–63; the measurement rules then use observable events at
+  lines 65–77; Wodify supplies the counterexample at lines 79–81.
 - **WHY:** Every conceptual move now returns to an identifiable person, action,
   dataset, or decision.
 
@@ -49,8 +50,9 @@ the prose became clearer.
 - **BEFORE:** “Первый день запуска обычно выглядит убедительнее его
   последствий. Люди пришли, регистрация сработала, фотографии получились, чат
   наполнился приветствиями.” (v0.10, Chapter 14, paragraph 1.)
-- **AFTER:** “На старте я прежде всего замечаю то, что легко посчитать: сколько
-  людей пришло, сработала ли регистрация, ожил ли чат.” (candidate line 10.)
+- **AFTER:** “Что вообще считать результатом запуска? Проще всего назвать то,
+  что видно сразу: сколько людей пришло, сработала ли регистрация, ожил ли
+  чат.” (candidate line 10.)
 - **WHY:** The sentence now belongs to the author’s act of observation. It does
   not imply experience of a hundred launches or declare a universal pattern.
 
@@ -73,7 +75,7 @@ the prose became clearer.
   решений...” (v0.10, Chapter 14, closing section.)
 - **AFTER:** “После заранее выбранного окна я предлагаю зафиксировать одно из
   четырёх решений...” and “Для меня запуск — место, где Palma Method рискует
-  оказаться неверным.” (candidate lines 95–97.)
+  оказаться неверным.” (candidate lines 119–121.)
 - **WHY:** The author proposes a method and exposes it to contradiction. He does
   not announce an established managerial procedure.
 
@@ -81,7 +83,7 @@ the prose became clearer.
 
 - **BEFORE:** Chapter 14 contained no Kahneman block, although it repeatedly
   warned against choosing a convenient explanation after seeing the result.
-- **AFTER:** No Kahneman block was added. Candidate lines 43–53 state the
+- **AFTER:** No Kahneman block was added. Candidate lines 65–77 state the
   practical protections: baseline, event definition, separation of fact,
   participant explanation, and author interpretation.
 - **WHY:** Kahneman and Tversky already have a bounded role in Chapter 12.
@@ -91,7 +93,8 @@ the prose became clearer.
 ### G14-08 — Stop beginning from a negation
 
 - **BEFORE:** “Это не ступени взросления и не шкала ценности.” (v0.10, Signals.)
-- **AFTER:** “Сигналы описывают разные виды поведения.” (candidate line 35.)
+- **AFTER:** “Каждый сигнал фиксирует отдельное действие; список не образует
+  лестницу развития участника.” (candidate line 53.)
 - **WHY:** The chapter first states what the signals do. The narrower sentence
   about not ranking people appears only after the positive use is clear.
 
@@ -102,7 +105,7 @@ the prose became clearer.
   needed to understand what the Signals are supposed to observe.
 - **AFTER:** The collective-efficacy block now states its question on entry — a
   friendly district may still fail to act — and gives its use at candidate
-  lines 79–89.
+  lines 103–113.
 - **WHY:** The local entrance is repaired, but the block still comes late in the
   chapter. Moving or removing it would exceed the minimal pilot without founder
   agreement, so that architectural choice remains open.
@@ -142,8 +145,9 @@ the prose became clearer.
 ### N10-001 — Explain what Cynefin is
 
 - **BEFORE:** “Она показывает, зачем им понадобился Cynefin...” (v0.10.)
-- **AFTER:** “...Cynefin — рамка для принятия решений...” (candidate line 14),
-  followed by the concrete domain actions at lines 16–20.
+- **AFTER:** The Welsh name, the IBM knowledge problem, and the decision use are
+  explained at candidate lines 16–26 before the TCF scene applies the
+  distinction at lines 28–40.
 - **WHY:** The reader receives the generic category before the proper name and
   before the five domains.
 
@@ -151,8 +155,8 @@ the prose became clearer.
 
 - **BEFORE:** “В январе 1993 года вооружённый человек убил семерых посетителей
   ресторана в Палатине...” (v0.10.)
-- **AFTER:** The anecdote is absent. Cynefin begins as a decision framework at
-  candidate line 14.
+- **AFTER:** The anecdote is absent. Cynefin begins with its Welsh origin and
+  the knowledge-management question at candidate lines 16–22.
 - **WHY:** The violent story attracted more attention than the distinction it
   was meant to explain and depended on HBR’s narrative choice rather than the
   book’s own material.
@@ -161,8 +165,9 @@ the prose became clearer.
 
 - **BEFORE:** “Сноуден пришёл к Cynefin из практики систем поддержки решений и
   управления знаниями...” (v0.10.)
-- **AFTER:** The candidate introduces Cynefin as the difference between a
-  detailed plan and observation of an emerging response (candidate line 14).
+- **AFTER:** The candidate introduces Cynefin through Snowden's IBM knowledge
+  problem, then applies the framework to the TCF station-order scene (candidate
+  lines 20–40).
 - **WHY:** Biography is reduced to the part that explains the origin and use of
   the framework.
 
@@ -170,8 +175,8 @@ the prose became clearer.
 
 - **BEFORE:** “В версии статьи пять областей. В ясной ситуации причина и
   следствие очевидны...” (v0.10.)
-- **AFTER:** Candidate lines 16–20 give one action for each domain and then name
-  the mixed project: rules for schedule and safety, a probe for relationships.
+- **AFTER:** Candidate line 26 distinguishes instruction, expert analysis, and
+  a limited probe; lines 28–40 show the distinction in a TCF training session.
 - **WHY:** The reader can now reconstruct what changes in the decision, rather
   than memorizing a taxonomy.
 
@@ -179,8 +184,9 @@ the prose became clearer.
 
 - **BEFORE:** “Сборку оборудования можно поручить эксперту, который знает
   причинную цепочку.” (v0.10.)
-- **AFTER:** “Рядом остаются вполне расчётные задачи: расписание, безопасность
-  и доступ к помещению.” (candidate line 18.)
+- **AFTER:** The unrelated equipment example is absent. A real TCF scene
+  separates the written station order from the participants' emerging response
+  (candidate lines 28–40).
 - **WHY:** The contrast now uses tasks from the same launch instead of an
   unrelated factory example.
 
@@ -190,7 +196,7 @@ the prose became clearer.
   ни знакомство, ни квартиру, ни дружбу.” (v0.10.)
 - **AFTER:** “Продолжение связи я увидел в этой истории задним числом. Palma
   Method появился позже. Теперь этот эпизод помогает мне точнее назвать
-  поведение...” (candidate line 57.)
+  поведение...” (candidate line 81.)
 - **WHY:** The paragraph states the actual role of the story: source material
   for the author’s later concept, rather than a defensive non-claim.
 
@@ -200,7 +206,7 @@ the prose became clearer.
   через смартфоны и стартапы.” (v0.10.)
 - **AFTER:** “Один ответ ещё не означает распространения. Чтобы понять, как
   действие переходит от первых участников к следующим, полезно обратиться к
-  Эверетту Роджерсу.” (candidate line 59.)
+  Эверетту Роджерсу.” (candidate line 83.)
 - **WHY:** The preceding problem calls for Rogers before his name appears.
 
 ### N10-085 — The Iowa material still lacks connection
@@ -208,7 +214,7 @@ the prose became clearer.
 - **BEFORE:** “Его ранний мир состоял из фермеров Айовы...” (v0.10.)
 - **AFTER:** “Он начинал исследовать этот вопрос среди фермеров Айовы: почему
   новую сельскохозяйственную практику одни пробуют быстро, другие ждут соседей,
-  а третьи сохраняют прежний способ?” (candidate line 59.)
+  а третьи сохраняют прежний способ?” (candidate line 83.)
 - **WHY:** The farmers are research material for the chapter’s question about
   movement from one participant to the next.
 
@@ -216,7 +222,7 @@ the prose became clearer.
 
 - **BEFORE:** “...пятое издание появилось в 2003-м.” (v0.10.)
 - **AFTER:** “...Роджерс десятилетиями дополнял модель исследованиями из
-  медицины, образования, коммуникации и технологий.” (candidate line 61.)
+  медицины, образования, коммуникации и технологий.” (candidate line 85.)
 - **WHY:** The revision keeps intellectual development and removes a date that
   changes no inference.
 
@@ -226,7 +232,7 @@ the prose became clearer.
   человека в конвейер...” (v0.10.)
 - **AFTER:** “Этапы помогают увидеть разные причины остановки.
   Человек может заинтересоваться и отказаться от пробы; попробовать и
-  прекратить; вернуться после прежнего отказа.” (candidate line 63.)
+  прекратить; вернуться после прежнего отказа.” (candidate line 87.)
 - **WHY:** The concrete reversals explain the limit without a defensive
   metaphor.
 
@@ -237,7 +243,7 @@ the prose became clearer.
 - **AFTER:** “Для человека, запускающего новую практику, отсюда возникает
   несколько предметных вопросов. Может быть, новинку трудно понять, опасно
   тестировать или невозможно увидеть в действии у другого?” (candidate line
-  65.)
+  89.)
 - **WHY:** The sentence speaks to founders, organizers, researchers, and team
   members without pretending they occupy the same formal role.
 
@@ -245,7 +251,7 @@ the prose became clearer.
 
 - **BEFORE:** “Знаменитая кривая делит принимающих...” (v0.10.)
 - **AFTER:** “Самая известная схема Роджерса распределяет участников по времени
-  принятия...” (candidate line 67.)
+  принятия...” (candidate line 91.)
 - **WHY:** The noun now describes what is actually being represented; fame is
   secondary.
 
@@ -255,7 +261,7 @@ the prose became clearer.
   не в стерильном пространстве.” (v0.10.)
 - **AFTER:** “Кэрол Вайс, американская исследовательница оценки социальных
   программ, изучала именно такие ситуации: что можно заключить из неоднозначного
-  результата и как этот результат затем используют.” (candidate line 73.)
+  результата и как этот результат затем используют.” (candidate line 97.)
 - **WHY:** The chapter first produces an ambiguous result, then introduces the
   researcher whose work helps decide how it is used.
 
@@ -264,7 +270,7 @@ the prose became clearer.
 - **BEFORE:** “В аннотации статьи указаны 8 782 жителя; внутри текста приведены
   немного другие числа...” (v0.10.)
 - **AFTER:** “...они собрали ответы 8 782 жителей 343 районных кластеров и
-  сопоставили их с несколькими показателями насилия...” (candidate line 81.)
+  сопоставили их с несколькими показателями насилия...” (candidate line 105.)
 - **WHY:** The exact published sample remains; the source-audit aside no longer
   interrupts the reader’s introduction to collective efficacy.
 
@@ -273,7 +279,7 @@ the prose became clearer.
 - **BEFORE:** “Мы часто измеряем либо личные отношения, либо итог всей
   организации.” (v0.10.)
 - **AFTER:** “Между личной связью и итогом всей организации находится
-  разделяемое ожидание...” (candidate line 87.)
+  разделяемое ожидание...” (candidate line 111.)
 - **WHY:** The positive conceptual relation stands without inventing a
   professional collective called “we.”
 
@@ -282,7 +288,7 @@ the prose became clearer.
 - **BEFORE:** “Безопасность пробы тоже относительна.” (v0.10.)
 - **AFTER:** “Безопасность пробы нужно считать и со стороны участника.” followed
   by disclosure, time, public support, and refusal conditions. (candidate line
-  93.)
+  117.)
 - **WHY:** Safety becomes a concrete cost borne by a named side, not a general
   ethical slogan.
 
@@ -291,7 +297,7 @@ the prose became clearer.
 - **BEFORE:** “После заранее выбранного окна команда принимает одно из четырёх
   решений...” (v0.10.)
 - **AFTER:** “После заранее выбранного окна я предлагаю зафиксировать одно из
-  четырёх решений...” (candidate line 95.)
+  четырёх решений...” (candidate line 119.)
 - **WHY:** The statement is explicitly the author’s proposed procedure.
 
 ## C. Earlier voice comments that directly govern this pilot
@@ -301,7 +307,7 @@ the prose became clearer.
 - **BEFORE:** “Palma Method к нему не применялся. Мы не можем приписать Методу
   ни знакомство, ни квартиру, ни дружбу.” (v0.10.)
 - **AFTER:** “Palma Method появился позже. Теперь этот эпизод помогает мне
-  точнее назвать поведение...” (candidate line 57.)
+  точнее назвать поведение...” (candidate line 81.)
 - **WHY:** One chronological fact and one positive function replace ritual
   self-defense.
 
@@ -310,9 +316,9 @@ the prose became clearer.
 - **BEFORE:** Separate paragraphs repeatedly state that the probe is not a
   laboratory experiment, the episode is not proof, and the Chicago study cannot
   be transferred directly.
-- **AFTER:** Limits now sit beside the claims they constrain: Cynefin judgment
-  (line 20), Chicago causality and transfer (line 85), field comparison
-  (line 51).
+- **AFTER:** Limits now sit beside the claims they constrain: the bounded
+  Cynefin use (lines 26–40), Chicago causality and transfer (line 109), and
+  field comparison (line 75).
 - **WHY:** A qualification remains only where a reader could reasonably
   overgeneralize the preceding result.
 
@@ -321,14 +327,15 @@ the prose became clearer.
 - **BEFORE:** The wider manuscript repeatedly used `неудобный` as a prepared
   sign of honesty; Chapter 14 included “спрятать неудобную часть отчёта.”
 - **AFTER:** The adjective does not occur in the candidate. Weiss’s example now
-  says that a finding “мешает выбранному решению” (candidate line 73).
+  says that a finding “мешает выбранному решению” (candidate line 97).
 - **WHY:** The conflict is named directly; the adjective is unnecessary even
   where the political inconvenience is real.
 
 ### N10-097 — Remove “this is not X, it is Y” as a house style
 
 - **BEFORE:** “Это не ступени взросления и не шкала ценности.” (v0.10.)
-- **AFTER:** “Сигналы описывают разные виды поведения.” (candidate line 35.)
+- **AFTER:** “Каждый сигнал фиксирует отдельное действие; список не образует
+  лестницу развития участника.” (candidate line 53.)
 - **WHY:** Positive function first; the narrow anti-ranking boundary follows
   only after the use is established.
 
@@ -337,9 +344,9 @@ the prose became clearer.
 - **BEFORE:** “Решение не просто завершило сомнение. Оно немного переписало
   отношение к вариантам, чтобы с этим решением было удобнее жить.” (v0.10,
   Chapter 15; the founder supplied a more natural rewrite.)
-- **AFTER:** Chapter 14 uses the same principle in “Эпизод выглядит предметнее:
-  один пользователь сам написал другому, предложил обходной путь, а на следующий
-  день спросил, сработал ли он.” (candidate line 24.)
+- **AFTER:** Chapter 14 uses the same principle in the TCF scene: a participant
+  notices that the station order has broken, asks the coach, and makes the
+  group's confusion discussable (candidate lines 28–42.)
 - **WHY:** The sentence carries the reasoning through an action instead of
   announcing an abstract correction in two symmetrical clauses.
 
@@ -351,7 +358,7 @@ the prose became clearer.
 - **AFTER:** No framing label is added to Chapter 14. Its protection against a
   convenient reading is stated as a procedure: define the event before seeing
   the result and separate fact, participant explanation, and organizer
-  interpretation (candidate lines 45–49.)
+  interpretation (candidate lines 69–73.)
 - **WHY:** Kahneman is useful when the named mechanism adds understanding. Here
   a second theory name would duplicate a concrete safeguard and increase the
   chapter's already high scholar density.
@@ -360,9 +367,9 @@ the prose became clearer.
 
 - **BEFORE:** “Эксперимент не закончился удобной победой теории... Это
   ограничивает красивый вывод.” (v0.10, Chapter 15.)
-- **AFTER:** “Сам фреймворк тоже зависит от суждения” and “Но дизайн был
-  наблюдательным; сами авторы не заявляли доказанную причинность.” (candidate
-  lines 20 and 85.)
+- **AFTER:** Cynefin is given a bounded use through the TCF scene, while the
+  Chicago block says directly: “Но дизайн был наблюдательным; сами авторы не
+  заявляли доказанную причинность.” (candidate line 109.)
 - **WHY:** The candidate names the actual epistemic limit. It does not call a
   conclusion beautiful, convenient, uncomfortable, or disappointing on the
   reader's behalf.
@@ -374,7 +381,7 @@ the prose became clearer.
   15; the founder proposed a more conversational continuation.)
 - **AFTER:** “Для меня запуск — место, где Palma Method рискует оказаться
   неверным. Люди отвечают не так, как я ожидал, или не отвечают вовсе...”
-  (candidate line 97.)
+  (candidate line 121.)
 - **WHY:** The conclusion begins from the author's stake and then explains it
   through possible events. It avoids a polished binary definition that sounds
   prepared in advance.
@@ -393,7 +400,7 @@ the prose became clearer.
   осталось простым,” a phrase that announces importance instead of earning it.
 - **AFTER:** Chapter 14 ends with a concrete transition: “Пока организатор
   поддерживает каждый разговор... что продолжится, когда центр изменит
-  собственное поведение?” (candidate line 99.)
+  собственное поведение?” (candidate line 123.)
 - **WHY:** The chapter ends on the next test, without an aphoristic summary.
 
 ## Coverage statement

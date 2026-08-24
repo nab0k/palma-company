@@ -36,9 +36,10 @@ The package contains:
 ## Editing method
 
 The first exploratory rewrite exceeded the `nabok-editor` minimal-edit boundary
-and was discarded. The delivered candidate was rebuilt directly from v0.11. It
-retains 85.1% of the source words in sequence and changes or removes 28.7% of
-the source sentences.
+and was discarded. The delivered candidate was rebuilt directly from v0.11 and
+then revised during review. It retains 68.2% of the source lexical tokens in
+sequence and changes or removes 46.6% of the source sentences. This is a
+disclosed structural chapter revision, not a minimal copyedit.
 
 The resulting pilot:
 
@@ -46,8 +47,8 @@ The resulting pilot:
 - contains no house-formula sentence built as `это не X, а Y`;
 - introduces Cynefin, Rogers, Weiss, and collective efficacy through the
   chapter's question, research material, finding, use, and boundary;
-- uses a coherent early-user thought experiment, Wodify, an approved personal
-  TCF passage already present in v0.11, and concrete Chicago survey questions;
+- uses a real TCF station-order scene, Wodify, an approved personal TCF passage
+  already present in v0.11, and concrete Chicago survey questions;
 - frames Palma Method as the author's revisable synthesis rather than a
   universal doctrine.
 
@@ -80,7 +81,8 @@ The resulting pilot:
 
 1. Keep, move, or remove the collective-efficacy block.
 2. Keep all four scholar blocks or reduce the chapter's scholarly density.
-3. Accept the early-user hypothetical or replace it with an approved real case.
+3. Obtain participant approval for the exact anonymous paraphrase in the real
+   TCF station-order scene, as required by SC-153.
 4. Confirm the Madrid/apartment episode in this position and level of detail.
 5. Retain or remove the working term `Palma-момент`.
 6. Decide whether a modern empirical study should replace, rather than merely

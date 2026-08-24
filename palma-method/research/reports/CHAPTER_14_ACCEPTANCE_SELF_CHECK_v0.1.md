@@ -2,26 +2,30 @@
 
 ## Status
 
-**Limited pass — ready for founder review, not approved for manuscript use.**
+**Founder accepted the editorial direction; publication clearance remains
+limited.**
 
-The candidate satisfies the mechanical and voice criteria of the pilot. It
-still contains editorial choices that cannot honestly be settled without
-Serhii's judgment. No part of it may be propagated to other chapters before
-that judgment.
+The candidate satisfies the mechanical and voice criteria of the pilot. Serhii
+accepted the chapter as the model for the wider manuscript pass on 2026-08-24.
+The anonymous interview paraphrase still requires participant approval before
+publication.
 
 ## Edit-scope test
 
 - Source: `PALMA_METHOD_MANUSCRIPT_v0.11.md`, Chapter 14 only.
-- Source length: 2,094 words; candidate chapter length: 2,088 words.
-- Source words retained in sequence: 1,782 of 2,094 (**85.1%**).
-- Source sentences changed or removed: 47 of 164 (**28.7%**).
-- Invented authorial events: **0**. The early-user passage is explicitly marked
-  as a hypothetical; the TCF and personal passages already existed in v0.11.
+- Source length: 2,084 lexical tokens; candidate chapter length: 2,461 lexical
+  tokens.
+- Source tokens retained in sequence: 1,421 of 2,084 (**68.2%**).
+- Source sentences changed or removed: 76 of 163 (**46.6%**).
+- Invented authorial events: **0**. The replacement TCF scene combines Serhii's
+  direct observation with the bounded anonymous paraphrase in SC-153; the latter
+  still requires the participant's approval before publication.
 - Manuscript files changed: **0**.
 
-These figures keep the pilot within the `nabok-editor` default boundary: at
-least 70% of the source wording remains, and no more than 30% of the source
-sentences are changed or removed.
+The candidate exceeds both default `nabok-editor` boundaries. This is a
+disclosed, founder-directed structural revision of the opening, Cynefin scene,
+and Response Signals section, not a minimal copyedit. Serhii reviewed those
+changes in dialogue and accepted the direction for chapter development.
 
 ## Acceptance criteria
 
@@ -38,12 +42,13 @@ apply after acceptance is:
 ### 2. No unsupported “usually”
 
 **Pass.** The candidate contains neither `обычно` nor `как правило`. Its opening
-is an authorial observation: “На старте я прежде всего замечаю...” Research
-claims are attributed to named authors or to the stated TCF material.
+asks what should count as a launch result and identifies immediately visible
+data as a starting point. Research claims are attributed to named authors or to
+the stated TCF material.
 
 ### 3. No omniscient instructional tone
 
-**Pass, with one founder check.** The Method appears as the author's proposed
+**Pass.** The Method appears as the author's proposed
 way of looking: `я замечаю`, `я использую`, `я называю`, `я предлагаю`, `для
 меня`. The text does not claim that all launches follow one law. Procedural
 sentences remain where the chapter genuinely offers a test, measurement rule,
@@ -67,10 +72,10 @@ corrections of the reader.
 
 **Pass at paragraph level; chapter-level density remains open.**
 
-- **David Snowden and Mary Boone / Cynefin:** enter through the gap between a
-  detailed plan and an emerging response; the five domains and their decision
-  actions are described; the chapter takes the bounded `probe, sense, respond`
-  use; the text states that domain classification depends on judgment.
+- **Dave Snowden / Cynefin:** enters through the loss of context in IBM's
+  knowledge systems; the Welsh name, memorable origin, HBR publication, and
+  three relevant domains are explained; the TCF station-order scene shows the
+  bounded `probe, sense, respond` use without adding an unused coauthor's name.
 - **Everett Rogers:** enters when one observed response has to spread to other
   people; Iowa farmers supply the starting material; adoption stages and
   perceived qualities of an innovation supply the finding; pro-innovation bias,
@@ -89,7 +94,8 @@ corrections of the reader.
 
 **Pass.** The chapter gives the reader:
 
-- one early user answering another about a product workaround;
+- a real TCF station-order scene and one participant's anonymous explanation of
+  why she sometimes voices a question that others may hesitate to ask;
 - the observable difference between a message, an exchanged contact, and a
   later direct approach;
 - a coffee table after a training session;
@@ -106,34 +112,22 @@ launch as a place where the Method may prove wrong, separates observation from
 interpretation, and ends with a question for the next chapter. It does not claim
 a golden rule for communities or human relationships.
 
-## What cannot be fixed honestly without Serhii
+## What still cannot be fixed honestly without external clearance or later review
 
-1. **Keep, move, or remove the collective-efficacy block?** Its local logic is
-   now clear, but it arrives after Weiss. Moving it near the Signals could help
-   the definition of observable group action; removing it would make the
-   chapter lighter. This is an architectural choice, not a copyedit.
-2. **Are four scholar blocks too many for this chapter?** Cynefin, Rogers,
-   Weiss, and Sampson–Raudenbush–Earls each do a distinct job, yet together they
-   may still make the chapter feel like a literature review.
-3. **Does the hypothetical early-user episode belong to the book?** It is
-   internally coherent and clearly marked as imagined. A real approved case
-   would have more force, but none should be invented to replace it.
-4. **May the Madrid/apartment episode remain here in this form?** It already
-   exists in v0.11, but only Serhii can confirm that its level of personal detail
-   and its connection to the measurement argument are right.
-5. **Is `Palma-момент` a useful working term or excess branding?** The candidate
-   narrows and qualifies it, but the naming decision belongs to the founder.
-6. **Should one recent study replace part of the classic-theory material?** A
+1. **Does the participant approve the exact anonymous paraphrase?** SC-153
+   permits proposed anonymous paraphrase but requires her to review the final
+   wording before publication. Until then the scene remains a candidate.
+2. **Should one recent study replace part of the classic-theory material?** A
    2024/2026 source should be added only if it changes the chapter's inference,
    not merely to modernize the bibliography.
-7. **Is the closing sentence in Serhii's voice?** “Для меня запуск — место, где
-   Palma Method рискует оказаться неверным” establishes the intended manifesto
-   stance, but it should not be retained if Serhii would not naturally say it.
+3. **Does the complete-book pass expose a density problem?** Serhii accepted
+   this chapter's direction, but Cynefin, Rogers, Weiss, and collective efficacy
+   must still be judged in the rhythm of the complete v0.12 manuscript.
 
 ## Remaining voice risks
 
 1. Scholar density may still interrupt the author's path through the chapter.
-2. The early-user example is useful but generic until it is replaced by an
-   approved real episode or explicitly accepted as a thought experiment.
+2. The TCF example is grounded in observation and interview material, but the
+   interview layer remains unavailable for publication until participant review.
 3. `Palma-момент` may sound overnamed in a chapter that already introduces
    Response Signals and several research frameworks.
