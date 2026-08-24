@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0041
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: founder
 created: 2026-08-24
@@ -47,6 +47,7 @@ output_paths:
   - palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.12.md
   - palma-method/governance/TASK_CODEX_0041_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0041_COMPLETION_REPORT.md
+final_content_commit_sha: ca26be9
 ---
 
 # TASK_CODEX_0041 — Full-manuscript founder revision for v0.12
