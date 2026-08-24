@@ -250,3 +250,38 @@ the inherited summary only after every chapter has been rechecked.
 | P12-011 | Scholars | Give each substantial author or group a memorable entrance of at least the depth needed to teach the reader something useful. | implemented_first_pass; anonymous_interview_clearance_remains_separate |
 | P12-012 | Chapter 14 | Replace the invented launch example with the real station-order scene and separate Response Signals from Palma Moment. | implemented_candidate; SC-153_clearance_pending |
 | P12-013 | Chapters 10–11 | Do not build prose around the founder's brother or Gala; retain the general phenomenon instead. | implemented; brother_material_removed; no_Gala_material_present |
+
+## v0.12 final recheck matrix
+
+All anchors below refer to
+`palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.12.md`.
+They are phrase anchors rather than line numbers so that later copy formatting
+does not make the record stale.
+
+| Discussion IDs | v0.12 status | Exact chapter and phrase anchor |
+|---|---|---|
+| N10-001 | implemented | Chapter 14, `Название Cynefin сначала приходится учиться произносить` and the following TCF station-order scene. |
+| N10-002, N10-007, N10-008 | implemented | Chapter 7, `Джеймс Коулман всю жизнь занимался похожим переходом`; report, school sample, closure mechanism, and causal boundary follow. |
+| N10-003, N10-004 | implemented | Chapter 8, `Зачем продукту сообщество?`; the answer is divided into first users, interpreters, and audience before community is proposed. |
+| N10-005–N10-014 | implemented | Chapter 9, `Чтобы не строить картину TCF только из историй дружбы` and `Закрытая дверь бывает результатом привычных маршрутов`; interview variation and homophily are separated. |
+| N10-015–N10-019 | implemented_with_publication_gate | Chapter 9, `Следующая слепая зона возникает там, где человек мог сказать что-то важное и промолчал`; anonymous participant episode remains subject to SC-153 clearance. |
+| N10-020–N10-022, N10-051–N10-053 | implemented | Chapter 9, `Даже услышанный голос ещё не получает влияния`; Arnstein's planning work, ladder, power measure, use, and boundary follow. |
+| N10-023, N10-024 | implemented | Chapter 9, `Брайан Уцци искал предел близости в нью-йоркской швейной индустрии`; mixed ties and the one-industry boundary follow. |
+| N10-025–N10-027 | implemented | Chapter 9, `Разговор о невидимости был бы неполным без Пьера Бурдьё`; capital, distribution, and the author's gatekeeping position are made explicit. |
+| N10-028–N10-031 | implemented | Chapter 10, `В гораздо большем масштабе похожую уязвимость можно увидеть в истории американской юридической фирмы Dewey & LeBoeuf`; the publishing case and legal-firm case are compared only on portable client access. |
+| N10-032–N10-038 | implemented | Chapter 10, `В конце 1990-х физики Альберт-Ласло Барабаши и Река Альберт`; web growth, hubs, targeted failure, and the small-network limit follow; the surprise coauthor name is removed. |
+| N10-039–N10-044, N10-049 | implemented | Chapter 10, `Марк Грановеттер исследовал, что происходит на переходах` through `Через пятьдесят лет`; original finding, Burt's broker question, and a modern refinement are distinct. |
+| N10-045–N10-048 | superseded_and_removed | Chapter 10 now moves directly from Burt to `Посредничество расширяет сеть`; the later founder instruction removed the brother material rather than polishing it. |
+| N10-050, N10-054 | implemented | Chapter 10, `Дэвид Кракхардт и Джеффри Хэнсон назвали этот скрытый слой`; advice, trust, and communication receive a concrete failure example. |
+| N10-055, N10-056 | implemented | Chapter 11, `Организацию можно создать как инструмент`; Selznick enters through TAK.Shtab's change of task and is limited to the institutional question. |
+| N10-057–N10-060 | implemented | Chapter 12, `Когда я формулировал, в какой ситуации человеку может понадобиться эта книга`; the weapon queue stays in TAK.Shtab chronology and no longer serves as a synthetic diagnostic proof. |
+| N10-061–N10-065 | implemented | Chapter 12, `Эдгар Шейн занимался этой проблемой`; the reader is not presumed to hire a consultant, and process consultation is presented as one way to preserve the system's authorship. |
+| N10-066–N10-070 | implemented | Chapter 13, `После диагноза на столе остаётся вопрос` and `Кэрол Вайс много лет работала`; a parent-program chain replaces the unexplained arrow. |
+| N10-071–N10-073 | implemented | Chapter 13, `Антрополог Джин Лейв и исследователь обучения Этьен Венгер` and `Возьмём обычный документ`; Chapter 15, `В интервью я спрашивал участников TCF`, carries the Miguel-absence predictions to the transfer question. |
+| N10-074–N10-078 | implemented | Chapter 13, `Вернёмся к команде ранних пользователей` and `TAK.Shtab позволяет прочитать те же четыре поля ретроспективно`; the unsuitable TCF intervention is absent. |
+| N10-079–N10-083 | implemented | Chapter 14, `К этому вопросу Сноуден пришёл` through the TCF board-and-stations example; the murder/police detour is absent and Palma's use is stated. |
+| N10-084–N10-088 | implemented | Chapter 14, `Один ответ ещё не означает распространения`; Rogers enters through the next-participant question and the Iowa material. |
+| N10-089–N10-094 | implemented | Chapter 14, `В Palma Method я использую шесть Сигналов отклика`, `Кэрол Вайс`, and `Роберт Сэмпсон`; claims are attributed and tied to observable behavior. |
+| N10-095 | implemented | Chapter 11, `В соосновательском круге нас было трое`; `TAK.Shtab` is protected throughout and shared action uses `мы` where the record supports it. |
+| N10-096–N10-103 | implemented | Chapter 15, `Американский социальный психолог Джек Брем` through `И вот поэтому завершение цикла`; the reviewed goods, choice, reactance, limit, and handoff use are present without the rejected phrasing. |
+| N10-104 | implemented | Appendix 1, `Facilitate / Advise — сквозная позиция, а не отдельный этап последовательности`; Palma remains a four-stage method. |

@@ -49,3 +49,12 @@ that v0.11 contained no edit.
   returns by analogy.
 - TCF and TAK.Shtab are legible without bare references to another chapter.
 - Privacy and verification boundaries stay next to the claims they limit.
+
+## Second-pass readability result
+
+The source inherited several early chapters in which independent prose
+paragraphs were separated by a single newline. Markdown rendered those passages
+as blocks of 600–900 words. v0.12 restores paragraph boundaries throughout the
+body. After the formatting repair, no prose paragraph in the fifteen chapters,
+conclusion, or appendices exceeds 145 words. This is a presentation repair; it
+does not alter the argument or evidence status of the sentences it separates.
