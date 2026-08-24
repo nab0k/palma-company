@@ -1,7 +1,7 @@
 ---
 id: TASK_CODEX_0039
 type: task
-status: in_progress
+status: delivered
 owner: codex
 reviewer: chief_editor
 created: 2026-08-24
@@ -41,7 +41,12 @@ output_paths:
   - palma-method/research/reports/V011_FOUNDER_COMMENT_RECONCILIATION_MAP_v0.1.md
   - palma-method/research/reports/PALMA_AUTHORIAL_VOICE_AND_CLARITY_FRAME_v0.1.md
   - palma-method/research/reports/CONTEMPORARY_RESEARCH_AND_KAHNEMAN_ASSESSMENT_v0.1.md
+  - palma-method/research/reports/V011_READER_LOSS_AND_NEGATION_AUDIT_v0.1.md
   - palma-method/research/chapter-packets/PALMA_METHOD_MANUSCRIPT_v0.11.md
+  - palma-method/research/source-cards/tversky-kahneman-1974-heuristics-biases.md
+  - palma-method/research/source-cards/tversky-kahneman-1981-framing.md
+  - palma-method/research/source-cards/kim-fernandez-2023-what-makes-weak-ties-strong.md
+  - palma-method/research/source-cards/chinese-adolescent-network-intervention-2024.md
   - palma-method/governance/TASK_CODEX_0039_COMPLETION_REPORT.md
 completion_report: palma-method/governance/TASK_CODEX_0039_COMPLETION_REPORT.md
 ---
