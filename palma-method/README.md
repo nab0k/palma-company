@@ -23,6 +23,7 @@ The manuscript explains how organizations can turn one-way communication into re
 
 ## Repository map
 
+- `BOOK_REPOSITORY_GUIDE.md` — current orientation for editors and AI chats, including the fifteen-chapter v0.15 spine, source hierarchy, and the known mismatch with the legacy 21-chapter dashboard.
 - `HANDOFF.md` — project brief and canonical source reference.
 - `STATUS.md` — current sprint state and next actions.
 - `DECISIONS.md` — log of editorial and production decisions.
